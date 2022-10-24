@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd /home/petergriffin/Documents/dotfiles
 cp -R  /home/petergriffin/.config/swa* /home/petergriffin/Documents/dotfiles/config/
 cp -R /home/petergriffin/.config/waybar/ /home/petergriffin/Documents/dotfiles/config/
 cp -R /home/petergriffin/.config/kitty/ /home/petergriffin/Documents/dotfiles/config/
@@ -31,4 +31,4 @@ cp -R /home/petergriffin/'.local'/share/fonts /home/petergriffin/Documents/dotfi
 #Add and commit to github
 git add .
 git commit -m "auto-update"
-git push -u
+git push -u https://github.com/zoro11031/dotfiles
