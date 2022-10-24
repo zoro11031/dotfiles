@@ -23,7 +23,8 @@ cp -R /home/petergriffin/.config/pulse /home/petergriffin/Documents/dotfiles/hom
 cp -R /home/petergriffin/.config/spicetify /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
 cp -R /home/petergriffin/.config/fcitx5 /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
 
-cp -R /home/petergriffin/Pictures/Wallpapers/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Pictures/Screenshots
+cp -R /home/petergriffin/Pictures/Screenshots/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Pictures/Screenshots
+cp -R /home/petergriffin/Pictures/Wallpaper/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Pictures/Wallpaper
 cp -R /home/petergriffin/Documents/PFSense/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Documents/PFSense
 
 
