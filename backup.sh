@@ -31,4 +31,4 @@ cp -R /home/petergriffin/'.local'/share/fonts /home/petergriffin/Documents/dotfi
 #Add and commit to github
 git add .
 git commit -m "auto-update"
-git push git push -u
+git push -u
