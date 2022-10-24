@@ -1,0 +1,59 @@
+##Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
+#
+	exec ~/.azotebg
+##App Drawer
+#
+	exec_always nwg-drawer -r -fm nemo -term kitty -ovl
+	bindsym $mod+a exec nwg-drawer -ovl
+#
+##Notification Daemon
+	exec_always swaync
+#
+## Toggle control center
+	bindsym $mod+Shift+n exec swaync-client -t -sw
+#
+##Use Waybar
+	exec waybar
+#
+##Lock Screen
+	bindsym $mod+Mod1+l exec swaylock -C ~/.config/swaylock/config
+#
+##Open File Manager
+	bindsym $mod+e exec nemo
+#
+##Dock
+	exec_always  nwg-dock -d -nows -nolauncher
+#
+#Input Method Editor
+	#exec_always env --u WAYLAND_DISPLAY ibus-daemon -drxR
+	#exec_always ibus-daemon -drxR
+	#exec_always env --u WAYLAND_DISPLAY ibus
+	#exec --no-startup-id fcitx -d
+	exec_always --no-startup-id fcitx5 -d
+
+##Nightlight
+	exec gammastep-indicator
+#
+##Autotiling Script
+	exec_always /bin/autotiling.py
+#
+##Polkit (GUI authenticator)
+	#exec_always /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+        exec_always lxpolkit
+#
+##Task Manager
+	bindsym Control+Shift+Escape exec /bin/gnome-system-monitor
+#
+##Clipboard	
+	exec_always /home/petergriffin/.config/sway/scripts/clipboard.sh
+#
+##Bluetooth Applet
+	exec_always blueman-applet
+#
+##Screenshot
+         bindsym $mod+Shift+s exec /home/petergriffin/.config/sway/scripts/snipping.sh
+        bindsym Mod4+s  exec grimshot save screen
+        bindsym Mod4+Control+s  exec grimshot save window
+##Hide Mouse Cursor
+      exec_always  unclutter
+      exec  unclutter -idle 30
