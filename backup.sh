@@ -26,7 +26,6 @@ cp -R /home/petergriffin/.config/fcitx5 /home/petergriffin/Documents/dotfiles/ho
 cp -R /home/petergriffin/Pictures/Wallpapers/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Pictures/Screenshots
 cp -R /home/petergriffin/Documents/PFSense/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Documents/PFSense
 
-cp -R /etc/system/systemd/ /home/petergriffin/Documents/dotfiles/etc/system/systemd
 
 cp -R /home/petergriffin/'.local'/share/fonts /home/petergriffin/Documents/dotfiles/home/petergriffin/'local'/share/
 
