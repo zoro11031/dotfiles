@@ -27,7 +27,7 @@ cp -R /etc/systemd/system/backup-git.timer /home/petergriffin/Documents/dotfiles
 cp -R /etc/systemd/system/backup-git.service /home/petergriffin/Documents/dotfiles/etc/systemd/system
 
 cp -R /home/petergriffin/Pictures/Screenshots/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Pictures/Screenshots
-cp -R /home/petergriffin/Pictures/Wallpapers/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Pictures/Wallpaper
+cp -R /home/petergriffin/Pictures/Wallpapers/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Pictures/Wallpapers
 cp -R /home/petergriffin/Documents/PFSense/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Documents/PFSense
 
 
