@@ -16,7 +16,9 @@
 	exec waybar
 #
 ##Lock Screen
-	bindsym $mod+Mod1+l exec swaylock -C ~/.config/swaylock/config
+#	bindsym $mod+Mod1+l exec swaylock -C ~/.config/swaylock/config
+        exec_always light-locker
+        bindsym $mod+Mod1+l exec light-locker -command -l
 #
 ##Open File Manager
 	bindsym $mod+e exec nemo
