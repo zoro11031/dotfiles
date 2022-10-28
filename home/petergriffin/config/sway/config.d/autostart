@@ -24,7 +24,7 @@
 	bindsym $mod+e exec nemo
 #
 ##Dock
-	exec_always  nwg-dock -d -nows -nolauncher
+#	exec_always  nwg-dock -d -nows -nolauncher
 #
 #Input Method Editor
 	#exec_always env --u WAYLAND_DISPLAY ibus-daemon -drxR

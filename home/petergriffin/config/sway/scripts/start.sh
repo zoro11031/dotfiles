@@ -8,6 +8,6 @@ swaymsg 'exec flatpak run com.discordapp.DiscordCanary && move container to work
 
 swaymsg 'exec flatpak run com.spotify.Client && move container to workspace $ws2'
 
-swaymsg 'exec steam --silent && move container to workspace $ws5'
+swaymsg 'exec flatpak run com.valvesoftware.Steam --silent && move container to workspace $ws5'
 
 swaymsg 'workspace $ws1; exec firefox'
