@@ -54,8 +54,8 @@
 #
 ##Screenshot
          bindsym $mod+Shift+s exec /home/petergriffin/.config/sway/scripts/snipping.sh
-        bindsym Mod4+s  exec grimshot save screen
-        bindsym Mod4+Control+s  exec grimshot save window
+        bindsym Mod4+s exec grimshot save screen 
+        bindsym Mod4+Control+s exec grimshot save window
 ##Hide Mouse Cursor
       exec_always  unclutter
       exec  unclutter -idle 30
