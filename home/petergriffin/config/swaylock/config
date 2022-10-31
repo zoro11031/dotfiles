@@ -1,10 +1,15 @@
-image=/home/petergriffin/Pictures/Wallpapers/Y6vdnJ.jpg
-effect-blur=7x5
+screenshots
+indicator
+indicator-radius=50
+clock
+fade-in=0.2
+effect-blur=12x10
 ring-caps-lock-color=eed49f
 clear-color=6da95
 ring-ver-color=8aadf4
 ring-wrong-color=ed8796
-separator-color=24273a
+inside-color=363a4f
+separator-color=00000000
 text-color=1e2030
 ring-color=c6a0f6
 
