@@ -1,15 +1,18 @@
-screenshots
+image=/home/petergriffin/Pictures/Wallpapers/wallhaven-ey9mdl.jpg
 indicator
-indicator-radius=50
+indicator-radius=100
+indicator-thickness=5
+inside-color=24273a
 clock
-fade-in=0.2
-effect-blur=12x10
+timestr=%I:%M
+fade-in=0.35
+effect-blur=8x6
+ring-color=5b6078
+line-color=24273a
+text-color=f4dbd6
 ring-caps-lock-color=eed49f
 clear-color=6da95
 ring-ver-color=8aadf4
 ring-wrong-color=ed8796
-inside-color=363a4f
 separator-color=00000000
-text-color=1e2030
-ring-color=c6a0f6
 
