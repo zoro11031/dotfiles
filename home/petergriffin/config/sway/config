@@ -41,6 +41,12 @@ set $menu exec ~/.config/sway/scripts/fuzzel.sh
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
 
+#
+### Inhibit Idle When Gaming
+for_window [class="steam_app*"] inhibit_idle focus
+#
+
+
 ### Key bindings
 #
 # Basics:
