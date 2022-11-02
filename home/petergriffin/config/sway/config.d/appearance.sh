@@ -11,4 +11,4 @@ client.unfocused #c6a0f6 #ed879600  #cad3f5 #ed879600
 font pango:Roboto Mono Medium 8
 
 #Gaps
-gaps inner 5
+gaps inner 10
