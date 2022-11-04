@@ -22,7 +22,8 @@ cp -R /home/petergriffin/.config/nano /home/petergriffin/Documents/dotfiles/home
 cp -R /home/petergriffin/.config/pulse /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
 cp -R /home/petergriffin/.config/spicetify /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
 cp -R /home/petergriffin/.config/fcitx5 /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
-
+cp -R /home/petergriffin/.emacs.d /home/petergriffin/Documents/dotfiles/home/petergriffin/
+cp -R /home/petergriffin/.doom.d /home/petergriffin/Documents/dotfiles/home/petergriffin/
 cp -R /etc/systemd/system/backup-git.timer /home/petergriffin/Documents/dotfiles/etc/systemd/system
 cp -R /etc/systemd/system/backup-git.service /home/petergriffin/Documents/dotfiles/etc/systemd/system
 
