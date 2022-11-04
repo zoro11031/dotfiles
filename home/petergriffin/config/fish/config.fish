@@ -1,4 +1,5 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    neofetch  
+    neofetch 
+    set PATH $HOME/.emacs.d/bin $PATH
 end
