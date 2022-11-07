@@ -6,4 +6,3 @@ swaymsg 'exec /home/petergriffin/.config/Anki/anki.sh'
 
 swaymsg 'workspace $ws4; exec nemo'
 
-swaymsg 'workspace $ws5; exec steam'
