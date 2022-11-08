@@ -370,3 +370,68 @@ Gecko	org.winehq.Wine.gecko		stable-22.08	flathub	system
 Mono	org.winehq.Wine.mono		stable-21.08	flathub	system
 Mono	org.winehq.Wine.mono		stable-22.08	flathub	system
 Plex	tv.plex.PlexDesktop	1.56.2	stable	flathub	system
+Discord Canary	com.discordapp.DiscordCanary	0.0.143	beta	flathub-beta	system
+Protontricks	com.github.Matoking.protontricks	1.9.2	stable	flathub	system
+Flatseal	com.github.tchx84.Flatseal	1.8.1	stable	flathub	system
+Trilium Notes	com.github.zadam.trilium	0.56.2	stable	flathub	system
+Minecraft	com.mojang.Minecraft	1.0.1221	stable	flathub	system
+Nextcloud Desktop	com.nextcloud.desktopclient.nextcloud	3.6.1	stable	flathub	system
+OBS Studio	com.obsproject.Studio	28.1.2	stable	flathub	system
+Spotify	com.spotify.Client	1.1.84.716.gc5f8b819	stable	flathub	system
+Bottles	com.usebottles.bottles	2022.10.14.1	stable	flathub	system
+Steam	com.valvesoftware.Steam	1.0.0.75	stable	flathub	system
+Proton (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton	7.0-4	stable	flathub	system
+Proton experimental (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton-Exp	7.0-20221102	stable	flathub	system
+Proton-GE (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton-GE	7.36-1	stable	flathub	system
+gamescope	com.valvesoftware.Steam.Utility.gamescope	3.11.48	stable	flathub	system
+Atom	io.atom.Atom	1.60.0	stable	flathub	system
+Syncthing GTK	me.kozec.syncthingtk	v0.9.4.4.2	stable	flathub	system
+ProtonUp-Qt	net.davidotek.pupgui2	2.7.4	stable	flathub	system
+Lutris	net.lutris.Lutris	0.5.11	stable	flathub	system
+TAP-plugins	org.freedesktop.LinuxAudio.Plugins.TAP	1.0.1	21.08	flathub	system
+SWH	org.freedesktop.LinuxAudio.Plugins.swh	0.4.17	21.08	flathub	system
+Freedesktop Platform	org.freedesktop.Platform	21.08.16	21.08	flathub	system
+Freedesktop Platform	org.freedesktop.Platform	22.08.3	22.08	flathub	system
+i386	org.freedesktop.Platform.Compat.i386		22.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	22.1.7	22.08	flathub	system
+default	org.freedesktop.Platform.GL32.default		21.08	flathub	system
+Mesa	org.freedesktop.Platform.GL32.default	22.1.7	22.08	flathub	system
+MangoHud	org.freedesktop.Platform.VulkanLayer.MangoHud	0.6.8	22.08	flathub	system
+ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		21.08	flathub	system
+ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		22.08	flathub	system
+i386	org.freedesktop.Platform.ffmpeg_full.i386		21.08	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	flathub	system
+Freedesktop SDK	org.freedesktop.Sdk	22.08.3	22.08	flathub	system
+GNU Image Manipulation Program	org.gimp.GIMP	2.10.32	stable	flathub	system
+GNOME Application Platform version 42	org.gnome.Platform		42	flathub	system
+GNOME Application Platform version 43	org.gnome.Platform		43	flathub	system
+i386	org.gnome.Platform.Compat.i386		42	flathub	system
+i386	org.gnome.Platform.Compat.i386		43	flathub	system
+Text Editor	org.gnome.TextEditor	43.1	stable	flathub	system
+Disk Usage Analyzer	org.gnome.baobab	42.0	stable	flathub	system
+Image Viewer	org.gnome.eog	43.1	stable	flathub	system
+Adwaita dark GTK theme	org.gtk.Gtk3theme.Adwaita-dark		3.22	flathub	system
+Catppuccin (Mocha-Pink) Gtk Theme	org.gtk.Gtk3theme.Catppuccin-Mocha-Pink		3.22	flathub	system
+Adwaita theme	org.kde.KStyle.Adwaita		5.15-21.08	flathub	system
+KDE Application Platform	org.kde.Platform		5.15-21.08	flathub	system
+KDE Application Platform	org.kde.Platform		6.3	flathub	system
+QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		5.15-21.08	flathub	system
+QtSNI	org.kde.PlatformTheme.QtSNI		5.15-21.08	flathub	system
+QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		6.3	flathub	system
+Kdenlive	org.kde.kdenlive	22.08.3	stable	flathub	system
+LibreOffice	org.libreoffice.LibreOffice	7.4.2.3	stable	flathub	system
+ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	7.2.1	stable	flathub	system
+Helvum	org.pipewire.Helvum	0.3.4	stable	flathub	system
+PulseAudio Volume Control	org.pulseaudio.pavucontrol	5.0	stable	flathub	system
+Telegram Desktop	org.telegram.desktop	4.3.1	stable	flathub	system
+Telegram Desktop Webview Add-on	org.telegram.desktop.webview	2.38.2	stable	flathub	system
+Wine	org.winehq.Wine	7.0	stable-22.08	flathub	system
+DXVK	org.winehq.Wine.DLLs.dxvk	1.10.3	stable-21.08	flathub	system
+DXVK	org.winehq.Wine.DLLs.dxvk	1.10.3	stable-22.08	flathub	system
+Gecko	org.winehq.Wine.gecko		stable-21.08	flathub	system
+Gecko	org.winehq.Wine.gecko		stable-22.08	flathub	system
+Mono	org.winehq.Wine.mono		stable-21.08	flathub	system
+Mono	org.winehq.Wine.mono		stable-22.08	flathub	system
+Plex	tv.plex.PlexDesktop	1.56.2	stable	flathub	system

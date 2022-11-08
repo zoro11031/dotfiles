@@ -1,3 +1,7 @@
+##Export Environment Variables
+#
+	#exec_always ~/.config/sway/scripts/environments_variables.sh
+
 ##Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #
 	exec ~/.azotebg
