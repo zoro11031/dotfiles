@@ -1,4 +1,5 @@
-image=/home/petergriffin/Pictures/Wallpapers/wallhaven-ey9mdl.jpg
+image=/home/petergriffin/Pictures/Wallpapers/anime/68936009_p0.jpg
+scaling=fill
 indicator
 indicator-radius=100
 indicator-thickness=5
@@ -6,7 +7,7 @@ inside-color=24273a
 clock
 timestr=%I:%M
 fade-in=0.35
-effect-blur=8x6
+#effect-blur=8x6
 ring-color=5b6078
 line-color=24273a
 text-color=f4dbd6
