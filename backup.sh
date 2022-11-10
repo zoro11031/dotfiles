@@ -26,12 +26,11 @@ cp -R /home/petergriffin/.emacs.d /home/petergriffin/Documents/dotfiles/home/pet
 cp -R /home/petergriffin/.doom.d /home/petergriffin/Documents/dotfiles/home/petergriffin/
 cp -R /etc/systemd/system/backup-git.timer /home/petergriffin/Documents/dotfiles/etc/systemd/system
 cp -R /etc/systemd/system/backup-git.service /home/petergriffin/Documents/dotfiles/etc/systemd/system
-
+cp -R /home/petergriffin/.local/share/Anki2/addons21/Beautify_Anki 
 cp -R /home/petergriffin/Pictures/Screenshots/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Pictures/Screenshots
 cp -R /home/petergriffin/Pictures/Wallpapers/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Pictures/Wallpapers
 cp -R /home/petergriffin/Documents/PFSense/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Documents/PFSense
-
-
+cp -R /home/petergriffin/.local/share/Anki2/addons21/Beautify_Anki /home/petergriffin/Documents/dotfiles/beautify_anki
 cp -R /home/petergriffin/'.local'/share/fonts /home/petergriffin/Documents/dotfiles/home/petergriffin/'local'/share/
 
 #Add and commit to github
