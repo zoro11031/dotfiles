@@ -66,7 +66,7 @@
       
       exec swayidle -w \
           timeout 600 'swaylock -f -c 000000' \
-          timeout 1000 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+          timeout 1800 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
           before-sleep 'swaylock -f -c 000000'
 #
 # This will lock your screen after 600 seconds of inactivity, then turn off

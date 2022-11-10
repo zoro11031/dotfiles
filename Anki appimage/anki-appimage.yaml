@@ -1,0 +1,35 @@
+app: Anki
+
+ingredients:
+  script:
+    - wget 'https://github.com/ankitects/anki/releases/download/2.1.35/anki-2.1.35-linux-amd64.tar.bz2' -O anki-2.1.35-linux-amd64.tar.bz2
+    - tar xvf anki-2.1.35-linux-amd64.tar.bz2
+
+script:
+  - cat > anki.desktop <<EOF
+  - [Desktop Entry]
+  - Name=Anki
+  - Comment=An intelligent spaced-repetition memory training program
+  - GenericName=Flashcards
+  - Exec=env QTWEBENGINE_CHROMIUM_FLAGS="--no-sandbox" env WAYLAND_DISPLAY=u anki %f
+  - TryExec=anki
+  - Icon=anki
+  - Categories=Education;Languages;KDE;Qt;
+  - Terminal=false
+  - Type=Application
+  - Version=1.0
+  - MimeType=application/x-apkg;application/x-anki;application/x-ankiaddon;
+  - EOF
+  - PREFIX=usr/local
+  - mkdir -p ${PREFIX}/share/applications
+  - cp anki.desktop ${PREFIX}/share/applications
+  - rm -rf ${PREFIX}/share/anki
+  - mkdir -p ${PREFIX}/share/anki
+  - cp -av ../anki-2.1.35-linux-amd64/* ${PREFIX}/share/anki/
+  - mkdir -p ${PREFIX}/bin
+  - ln -sf ${PREFIX}/share/anki/bin/anki ${PREFIX}/bin/
+  - mkdir -p ${PREFIX}/share/pixmaps
+  - mkdir -p ${PREFIX}/share/man/man1
+  - mv ${PREFIX}/share/anki/anki.xpm ${PREFIX}/share/anki/anki.png ${PREFIX}/share/pixmaps
+  - cp ${PREFIX}/share/pixmaps/anki.png anki.png
+  - mv ${PREFIX}/share/anki/anki.1 ${PREFIX}/share/man/man1
