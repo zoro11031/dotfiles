@@ -32,6 +32,9 @@ cp -R /home/petergriffin/Pictures/Wallpapers/* /home/petergriffin/Documents/dotf
 cp -R /home/petergriffin/Documents/PFSense/* /home/petergriffin/Documents/dotfiles/home/petergriffin/Documents/PFSense
 cp -R /home/petergriffin/.local/share/Anki2/addons21/Beautify_Anki /home/petergriffin/Documents/dotfiles/beautify_anki
 cp -R /home/petergriffin/'.local'/share/fonts /home/petergriffin/Documents/dotfiles/home/petergriffin/'local'/share/
+cp -R /usr/share/wayland-sessions/* /home/petergriffin/Documents/dotfiles/wayland-sessions
+cp -R /home/petergriffin/'.local'/bin/wrappedhl /home/petergriffin/Documents/dotfiles/wrappers 
+cp -R /home/petergriffin/'.local'/bin/wrappedsway /home/petergriffin/Documents/dotfiles/wrappers 
 
 #Add and commit to github
 git add .
