@@ -1,0 +1,207 @@
+#startMessage {
+  z-index: 30;
+  transition: height 0.3s ease-out;
+  /* cursor: pointer; */
+  width: 600px;
+  text-align: center;
+  line-height: 300px;
+  font-size: 60px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.results {
+  max-height: 450px;
+  overflow: auto;
+  padding: 8px;
+  font-size: 24px;
+  line-height: calc(24px * 1.5);
+  width: calc(100vw - 8px - 8px);
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+#output, #translatedOutput {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+#similarKanjiTooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 0;
+  cursor: pointer;
+  
+  /* Position the tooltip */
+  position: fixed;
+  z-index: 999;
+}
+#logsContainer {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.logText {
+  opacity: 1;
+  transition: opacity 0.3s;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.logText:hover {
+  color: hotpink;
+}
+.hide {
+  opacity: 0 !important
+}
+.options {
+  padding-left: 10px;
+  grid-column-start: 6;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.container {
+  display: grid;
+  grid-template-columns: 100vw;
+}
+#gameToolbar {
+  width: 100vw;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+#outputToolbar {
+  width: 100vw;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+dialog {
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: block;
+  pointer-events: none;
+}
+dialog[open] {
+  opacity: 1;
+  pointer-events: auto;
+}
+.tab_section_label {
+  padding-left: 16px;
+  padding-top: 10px;
+  font-size: 16px;
+  color: rgb(63,81,181);
+}
+.tab_select_wrapper {
+  padding-left: 16px;
+}
+.field_value_select {
+  min-width: 200px;
+}
+video, canvas {
+  width: 100vw;
+  transition: height 0.3s ease-out;
+  /* border: 1px solid #999; */
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#cv1 {
+  cursor: crosshair;
+  z-index: 10;
+}
+.tippy-content {
+  padding: 0px;
+}
+.canvasContextMenu {
+  padding: 0px;
+  min-width: 280px;
+  background: rgba(28,28,28,0.9);
+}
+.canvasContextMenuItem {
+  color: #eee;
+  background: rgba(28,28,28,0.9);
+  cursor: pointer;
+}
+.canvasContextMenuItem:hover {
+  background: rgba(255,255,255,0.1)
+}
+.canvasContextMenuItem > .mdl-list__item-primary-content > .mdl-list__item-icon {
+  color: white;
+}
+.canvasContextSelectionImage {
+  width: 100%;
+  display: block;
+}
+.welcome-card-wide.mdl-card {
+  width: 100vw;
+}
+.welcome-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 40vw;
+  background: url("static/greeting.jpg") center / cover;
+}
+.welcome-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.dark-theme {
+  background-color: #121212;
+  color: white !important; 
+}
+.canvasContextMenu {
+/*   grid-template-areas:
+  'label select select select iconbutton'
+  'image image image image image'; */
+   padding: 10px;
+   grid-gap: 50px;
+}
+.canvasContextMenu > .profileSelect {
+   min-width: 220px; 
+}
+.canvasContextMenu > .profileSelectImport {
+  padding: 0;
+}
+.canvasContextMenu > .profileSelectLabel {
+  font-size: 16px;
+  padding-right: 15px;
+}
+.canvasContextMenu > .mdl-slider {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+ .canvasContextMenu > .binarizeSliderLabel {
+  font-size: 16px;
+}
+.canvasContextMenu > .blurSliderLabel { 
+  font-size: 16px;
+}
+.checkBoxContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.checkBoxContainer > .mdl-checkbox__label {
+  width: 30%;
+}
+.checkBoxContainer > .mdl-checkbox  {
+  width: 10%;
+  padding-top: 3px;
+}
+.canvasMenuActionsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.canvasMenuActionsContainer > mdl-button {
+  width: 30%;
+}
