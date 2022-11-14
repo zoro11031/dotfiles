@@ -1,0 +1,41 @@
+Discord Canary	com.discordapp.DiscordCanary	0.0.143	beta	flathub-beta	system
+Protontricks	com.github.Matoking.protontricks	1.9.2	stable	flathub	system
+Flatseal	com.github.tchx84.Flatseal	1.8.1	stable	flathub	system
+Trilium Notes	com.github.zadam.trilium	0.56.2	stable	flathub	system
+OBS Studio	com.obsproject.Studio	28.1.2	stable	flathub	system
+Bottles	com.usebottles.bottles	2022.10.14.1	stable	flathub	system
+Steam	com.valvesoftware.Steam	1.0.0.75	stable	flathub	system
+Proton-GE (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton-GE	7.36-1	stable	flathub	system
+MangoHud	com.valvesoftware.Steam.Utility.MangoHud	0.6.5	stable	flathub	system
+gamescope	com.valvesoftware.Steam.Utility.gamescope	3.11.48	stable	flathub	system
+protontricks	com.valvesoftware.Steam.Utility.protontricks	1.6.0	stable	flathub	system
+TAP-plugins	org.freedesktop.LinuxAudio.Plugins.TAP	1.0.1	21.08	flathub	system
+SWH	org.freedesktop.LinuxAudio.Plugins.swh	0.4.17	21.08	flathub	system
+Freedesktop Platform	org.freedesktop.Platform	21.08.16	21.08	flathub	system
+Freedesktop Platform	org.freedesktop.Platform	22.08.3	22.08	flathub	system
+i386	org.freedesktop.Platform.Compat.i386		22.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	22.1.7	22.08	flathub	system
+Mesa	org.freedesktop.Platform.GL32.default	22.1.7	22.08	flathub	system
+MangoHud	org.freedesktop.Platform.VulkanLayer.MangoHud	0.6.8	21.08	flathub	system
+ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		22.08	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	flathub	system
+GNU Image Manipulation Program	org.gimp.GIMP	2.10.32	stable	flathub	system
+Cheese	org.gnome.Cheese	3.38.0	stable	flathub	system
+GNOME Application Platform version 42	org.gnome.Platform		42	flathub	system
+GNOME Application Platform version 43	org.gnome.Platform		43	flathub	system
+i386	org.gnome.Platform.Compat.i386		43	flathub	system
+Text Editor	org.gnome.TextEditor	43.1	stable	flathub	system
+Disk Usage Analyzer	org.gnome.baobab	42.0	stable	flathub	system
+Image Viewer	org.gnome.eog	43.1	stable	flathub	system
+Fonts	org.gnome.font-viewer	43.0	stable	flathub	system
+Adwaita dark GTK theme	org.gtk.Gtk3theme.Adwaita-dark		3.22	flathub	system
+KDE Application Platform	org.kde.Platform		5.15-21.08	flathub	system
+KDE Application Platform	org.kde.Platform		6.3	flathub	system
+Kdenlive	org.kde.kdenlive	22.08.3	stable	flathub	system
+ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	7.2.1	stable	flathub	system
+PulseAudio Volume Control	org.pulseaudio.pavucontrol	5.0	stable	flathub	system
+DXVK	org.winehq.Wine.DLLs.dxvk	1.10.3	stable-22.08	flathub	system
+Gecko	org.winehq.Wine.gecko		stable-22.08	flathub	system
+Mono	org.winehq.Wine.mono		stable-22.08	flathub	system
