@@ -316,6 +316,8 @@ local/gnome-epub-thumbnailer 1.7-1
     Thumbnailer for EPub and MOBI books
 local/gnome-keyring 1:42.1-2 (gnome)
     Stores passwords and encryption keys
+local/gnome-system-monitor 42.0-1 (gnome)
+    View current processes and monitor system state
 local/gnome-themes-extra 3.28+r6+g45b1d457-1
     Extra Themes for GNOME Applications
 local/gnu-free-fonts 20120503-8
@@ -642,6 +644,8 @@ local/libgpg-error 1.46-1
     Support library for libgcrypt
 local/libgsf 1.14.50-1
     An extensible I/O abstraction library for dealing with structured file formats
+local/libgtop 2.40.0+2+g31db82ef-2
+    A library for collecting system monitoring data
 local/libgudev 237-2
     GObject bindings for libudev
 local/libhandy 1.8.0-1
@@ -952,6 +956,8 @@ local/lm_sensors 1:3.6.0.r41.g31d1f125-1
     Collection of user space tools for general SMBus access and hardware monitoring
 local/lsb-release 2.0.r48.3cf5103-1
     LSB version query program
+local/lsp-plugins 1.2.3-1 (ladspa-plugins lv2-plugins pro-audio vst-plugins)
+    Collection of free plugins compatible with LADSPA, LV2 and LinuxVST
 local/lua 5.4.4-2
     Powerful lightweight programming language designed for extending applications
 local/luajit 2.1.0.beta3.r449.gdad04f17-1

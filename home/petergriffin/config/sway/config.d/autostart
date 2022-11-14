@@ -54,7 +54,13 @@ exec_always  nwg-dock -d -nows
           timeout 600 'swaylock -f -c 000000' \
           timeout 1800 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
           before-sleep 'swaylock -f -c 000000'
-#
-# This will lock your screen after 600 seconds of inactivity, then turn off
-# your displays after another 1800 seconds, and turn your screens back on when
-# resumed. It will also lock your screen before your computer goes to sleep.
+
+##Audio Equalizer
+
+exec_always easyeffects --gapplication-service
+
+#Bitwarden
+
+exec_always flatpak run com.bitwarden.desktop
+
+for_window [class="Bitwarden"] mark "passwords", floating enable, move scratchpad

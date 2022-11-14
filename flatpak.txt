@@ -1,3 +1,4 @@
+Bitwarden	com.bitwarden.desktop	2022.10.1	stable	flathub	system
 Discord Canary	com.discordapp.DiscordCanary	0.0.143	beta	flathub-beta	system
 Protontricks	com.github.Matoking.protontricks	1.9.2	stable	flathub	system
 Flatseal	com.github.tchx84.Flatseal	1.8.1	stable	flathub	system
