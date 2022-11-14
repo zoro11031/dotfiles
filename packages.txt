@@ -44,6 +44,8 @@ local/amd-ucode 20221109.60310c2-1
     Microcode update image for AMD CPUs
 local/aom 3.5.0-1
     Alliance for Open Media video codec
+local/appimagelauncher 2.2.0-6
+    A Helper application for running and integrating AppImages.
 local/appstream 0.15.5-1
     Provides a standard for creating app stores across distributions
 local/archlinux-keyring 20221110-1 (base-devel)
@@ -120,6 +122,8 @@ local/catppuccin-macchiato-grub-theme-git r32.81e6894-1
     Soothing pastel theme for GRUB2 -- Macchiato colorscheme
 local/cblas 3.11-1
     C interface to BLAS
+local/celluloid 0.24-1
+    Simple GTK+ frontend for mpv
 local/chrono-date 3.0.1-3
     A date and time library based on the C++11/14/17 <chrono> header
 local/cinnamon-desktop 5.4.2-1
@@ -192,6 +196,8 @@ local/efivar 38-2
     Tools and libraries to work with EFI variables
 local/ell 0.53-1
     Embedded Linux library
+local/emacs 28.2-1
+    The extensible, customizable, self-documenting real-time display editor
 local/enchant 2.3.3-2
     A wrapper library for generic spell checking
 local/exempi 2.6.2-1
@@ -202,6 +208,14 @@ local/fakeroot 1.30.1-1 (base-devel)
     Tool for simulating superuser privileges
 local/fcft 3.1.5-2
     Simple library for font loading and glyph rasterization
+local/fcitx5 5.0.19-1 (fcitx5-im)
+    Next generation of fcitx
+local/fcitx5-gtk 5.0.19-1 (fcitx5-im)
+    Fcitx5 gtk im module and glib based dbus client library
+local/fcitx5-mozc 2.26.4632.102.g4d2e3bd-2
+    Fcitx5 Module of A Japanese Input Method for Chromium OS, Windows, Mac and Linux (the Open Source Edition of Google Japanese Input)
+local/fcitx5-qt 5.0.15-1 (fcitx5-im)
+    Fcitx5 Qt Library
 local/ffmpeg 2:5.1.2-1
     Complete solution to record, convert and stream audio and video
 local/ffmpeg-audio-thumbnailer 1.1.1-2
@@ -230,14 +244,14 @@ local/fmt 9.1.0-2
     Open-source formatting library for C++
 local/fontconfig 2:2.14.1-2
     Library for configuring and customizing font access
-local/foot 1.13.1-2
-    Fast, lightweight, and minimalistic Wayland terminal emulator
 local/freetype2 2.12.1-1
     Font rasterization library
 local/fribidi 1.0.12-1
     A Free Implementation of the Unicode Bidirectional Algorithm
 local/fuse-common 3.12.0-1
     Common files for fuse2/3 packages
+local/fuse2 2.9.9-4
+    A library that makes it possible to implement a filesystem in a userspace program.
 local/fuse3 3.12.0-1
     A library that makes it possible to implement a filesystem in a userspace program.
 local/fuzzel 1.8.2-1
@@ -260,6 +274,8 @@ local/gcr 3.41.1-3
     A library for bits of crypto UI and parsing
 local/gcr-4 4.0.0-1
     A library for bits of crypto UI and parsing
+local/gd 2.3.3-5
+    Library for the dynamic creation of images by programmers
 local/gdbm 1.23-1
     GNU database library
 local/gdk-pixbuf2 2.42.10-1
@@ -510,6 +526,8 @@ local/libadwaita 1:1.2.0-1
     Building blocks for modern adaptive GNOME applications
 local/libaio 0.3.113-1
     The Linux-native asynchronous I/O facility (aio) library
+local/libappimage 1.0.4.5-3
+    Reference implementation of the AppImage specification
 local/libappindicator-gtk3 12.10.0.r298-1
     Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library)
 local/libarchive 3.6.1-5
@@ -524,6 +542,8 @@ local/libatasmart 0.19-5
     ATA S.M.A.R.T. Reading and Parsing Library
 local/libavc1394 0.5.4-4
     A library to control A/V devices using the 1394ta AV/C commands.
+local/libavif 0.11.1-1
+    Library for encoding and decoding .avif files
 local/libb2 0.98.1-2
     C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
 local/libblockdev 2.28-1
@@ -568,6 +588,8 @@ local/libdbusmenu-glib 16.04.0-5
     Library for passing menus over DBus
 local/libdbusmenu-gtk3 16.04.0-5
     Library for passing menus over DBus (GTK+ 3 library)
+local/libde265 1.0.9-1
+    Open h.265 video codec implementation
 local/libdrm 2.4.114-1
     Userspace interface to kernel DRM services
 local/libdvdnav 6.1.1-1
@@ -614,6 +636,8 @@ local/libgudev 237-2
     GObject bindings for libudev
 local/libhandy 1.8.0-1
     Library full of GTK+ widgets for mobile phones
+local/libheif 1.13.0-2
+    HEIF file format decoder and encoder
 local/libical 3.0.16-2
     An open source reference implementation of the icalendar data type and serialization format
 local/libice 1.0.10-4
@@ -694,6 +718,8 @@ local/libogg 1.3.5-1
     Ogg bitstream and framing library
 local/libomxil-bellagio 0.9.3-3
     An opensource implementation of the OpenMAX Integration Layer API
+local/libotf 0.9.16-3
+    OpenType Font library
 local/libp11-kit 0.24.1-1
     Loads and enumerates PKCS#11 modules (library)
 local/libpcap 1.10.1-2
@@ -820,6 +846,8 @@ local/libx11 1.8.2-1
     X11 client-side library
 local/libxau 1.0.10-1
     X11 authorisation library
+local/libxaw 1.0.14-1
+    X11 Athena Widget library
 local/libxcb 1.15-1
     X11 client-side library
 local/libxcomposite 0.4.5-4
@@ -860,6 +888,8 @@ local/libxmlb 0.3.10-1
     Library to help create and query binary XML blobs
 local/libxmu 1.1.4-1
     X11 miscellaneous micro-utility library
+local/libxpm 3.5.13-3
+    X11 pixmap library
 local/libxrandr 1.5.2-4
     X11 RandR extension library
 local/libxrender 0.9.11-1
@@ -880,6 +910,10 @@ local/libxxf86vm 1.1.5-1
     X11 XFree86 video mode extension library
 local/libyaml 0.2.5-1
     YAML 1.1 library
+local/libyuv r2322+3aebf69d-1
+    Library for YUV scaling
+local/libzip 1.9.2-1
+    A C library for reading, creating, and modifying zip archives
 local/licenses 20220125-1
     A set of common license files
 local/light 1.2.2-3
@@ -914,6 +948,10 @@ local/lz4 1:1.9.4-1
     Extremely fast compression algorithm
 local/lzo 2.10-3
     Portable lossless data compression library
+local/m17n-db 1.8.0-3
+    Multilingual text processing library (database)
+local/m17n-lib 1.8.0-13
+    Multilingual text processing library (runtimes)
 local/m4 1.4.19-1 (base-devel)
     The GNU macro processor
 local/mailcap 2.1.53-1
@@ -924,6 +962,12 @@ local/md4c 0.4.8-1
     C Markdown parser
 local/mdadm 4.2-2
     A tool for managing/monitoring Linux md device arrays, also known as Software RAID
+local/mecab 0.996-6
+    Yet another part-of-speech and morphological analyzer.
+local/mecab-ipadic 2.7.0_20070801-3
+    IPA dictionary for mecab.
+local/memento 0.5.6-0
+    An mpv-based video player for studying Japanese.
 local/mesa 22.2.3-1
     An open-source implementation of the OpenGL specification
 local/mkinitcpio 32-2
@@ -1244,8 +1288,12 @@ local/python-yaml 6.0-1
     Python bindings for YAML, using fast libYAML library
 local/qt5-base 5.15.7+kde+r173-1 (qt qt5)
     A cross-platform application and UI framework
+local/qt5-svg 5.15.7+kde+r9-1 (qt qt5)
+    Classes for displaying the contents of SVG files
 local/qt5-translations 5.15.7-1 (qt qt5)
     A cross-platform application and UI framework (Translations)
+local/qt5-x11extras 5.15.7-1 (qt qt5)
+    Provides platform-specific APIs for X11
 local/qt6-base 6.4.0-3 (qt6)
     A cross-platform application and UI framework
 local/qt6-declarative 6.4.0-2 (qt6)
@@ -1314,6 +1362,8 @@ local/spotify 1:1.1.84.716-2
     A proprietary music streaming service
 local/sqlite 3.39.4-1
     A C library that implements an SQL database engine
+local/squashfuse 0.1.105-1
+    FUSE filesystem to mount squashfs archives
 local/sratom 0.6.14-1
     An LV2 Atom RDF serialisation library
 local/srt 1.5.1-3
@@ -1348,6 +1398,8 @@ local/tar 1.34-1
     Utility used to store, backup, and transport files
 local/tbb 2021.5.0-2
     High level abstract threading library
+local/tcl 8.6.12-3
+    Powerful, easy-to-learn dynamic programming language
 local/tdb 1.4.7-1
     Trivial Database similar to GDBM but allows simultaneous commits
 local/terminus-font 4.49.1-2
@@ -1364,6 +1416,8 @@ local/timeshift-autosnap 0.9-1
     Timeshift auto-snapshot script which runs before package upgrade using Pacman hook.
 local/timeshift-systemd-timer 0.0.1-1
     Add systemd support for timeshift
+local/tk 8.6.12-1
+    A windowing toolkit for use with tcl
 local/tpm2-tss 3.2.0-3
     Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 local/tracker3 3.4.1-1
@@ -1522,6 +1576,8 @@ local/unclutter 1:1.6-2
     A small program for hiding the mouse cursor
 local/unibilium 2.1.1-1
     A terminfo parsing library
+local/unicode-cldr-annotations 41.0-1
+    Unicode Common Locale Data Repository (annotations only)
 local/unzip 6.0-19
     For extracting and viewing files in .zip archives
 local/upower 1.90.0-1
@@ -1554,10 +1610,14 @@ local/vulkan-icd-loader 1.3.226-1
     Vulkan Installable Client Driver (ICD) Loader
 local/vulkan-radeon 22.2.3-1
     Radeon's Vulkan mesa driver
+local/vulkan-validation-layers 1.3.224.1-1 (vulkan-devel)
+    Vulkan Validation Layers
 local/waybar 0.9.15-2
     Highly customizable Wayland bar for Sway and Wlroots based compositors
 local/wayland 1.21.0-1
     A computer display server protocol
+local/wayland-protocols 1.28-1
+    Specifications of extended Wayland protocols
 local/webkit2gtk 2.38.2-1
     Web content engine for GTK
 local/webrtc-audio-processing 0.3.1-3
@@ -1596,6 +1656,8 @@ local/x265 3.5-3
     Open Source H265/HEVC video encoder
 local/xapp 2.2.15-1
     Common library for X-Apps project
+local/xcb-imdkit-git 1.0.3.r1.g0562bab-1
+    Input method development support for xcb
 local/xcb-proto 1.15.2-1
     XML-XCB protocol descriptions
 local/xcb-util 0.4.0-4
