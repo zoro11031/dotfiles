@@ -1,5 +1,7 @@
 #!/bin/bash
 cd /home/petergriffin/Documents/dotfiles
+rm -rf packages.txt
+rm -rf flatpak.txt
 cp -R  /home/petergriffin/.config/swa* /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
 cp -R /home/petergriffin/.config/waybar/ /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
 cp -R /home/petergriffin/.config/kitty/ /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
