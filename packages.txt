@@ -32,7 +32,7 @@ local/adobe-source-serif-fonts 4.004-2
     Serif typeface designed to complement Source Sans
 local/adwaita-icon-theme 43-1
     GNOME standard icons
-local/alsa-card-profiles 1:0.3.59-5
+local/alsa-card-profiles 1:0.3.60-1
     Low-latency audio/video router and processor - ALSA card profiles
 local/alsa-lib 1.2.8-1
     An alternative implementation of Linux sound support
@@ -122,7 +122,7 @@ local/catppuccin-macchiato-grub-theme-git r32.81e6894-1
     Soothing pastel theme for GRUB2 -- Macchiato colorscheme
 local/cblas 3.11-1
     C interface to BLAS
-local/celluloid 0.24-1
+local/celluloid 0.24-2
     Simple GTK+ frontend for mpv
 local/chrono-date 3.0.1-3
     A date and time library based on the C++11/14/17 <chrono> header
@@ -220,6 +220,8 @@ local/ffmpeg 2:5.1.2-1
     Complete solution to record, convert and stream audio and video
 local/ffmpeg-audio-thumbnailer 1.1.1-2
     A minimal audio file thumbnailer for file managers, such as nautilus, dolphin, thunar, and nemo.
+local/ffmpegthumbnailer 2.2.2-4
+    Lightweight video thumbnailer that can be used by file managers
 local/fftw 3.3.10-3
     A library for computing the discrete Fourier transform (DFT)
 local/file 5.43-1 (base-devel)
@@ -260,6 +262,8 @@ local/game-devices-udev 0.18-1
     Udev rules for controllers
 local/gamemode 1.7-1
     A daemon/lib combo that allows games to request a set of optimisations be temporarily applied to the host OS
+local/gamescope 3.11.48-1
+    SteamOS session compositing window manager
 local/gammastep 2.0.9-1
     Adjust the color temperature of your screen according to your surroundings.
 local/gawk 5.2.0-3 (base-devel)
@@ -308,6 +312,8 @@ local/gnome-desktop-4 1:43-1
     Library with common API for various GNOME modules (GTK4)
 local/gnome-desktop-common 1:43-1
     Library with common API for various GNOME modules (common files)
+local/gnome-epub-thumbnailer 1.7-1
+    Thumbnailer for EPub and MOBI books
 local/gnome-keyring 1:42.1-2 (gnome)
     Stores passwords and encryption keys
 local/gnome-themes-extra 3.28+r6+g45b1d457-1
@@ -346,6 +352,8 @@ local/grep 3.8-2 (base-devel)
     A string search utility
 local/grim 1.4.0-2
     Screenshot utility for Wayland
+local/grimshot 1.6.1-1
+    A helper for screenshots within sway.
 local/groff 1.22.4-7 (base-devel)
     GNU troff text-formatting system
 local/grub 2:2.06.r334.g340377470-1
@@ -510,7 +518,7 @@ local/lib32-pam 1.5.2-1
     Pluggable Authentication Modules
 local/lib32-pcre2 10.40-3
     A library that implements Perl 5-style regular expressions. 2nd version (32-bit)
-local/lib32-pipewire 1:0.3.59-2
+local/lib32-pipewire 1:0.3.60-1
     Low-latency audio/video router and processor - 32-bit client library
 local/lib32-systemd 252.1-1
     system and service manager (32-bit)
@@ -632,6 +640,8 @@ local/libgnomekbd 1:3.28.1-1
     Keyboard management library
 local/libgpg-error 1.46-1
     Support library for libgcrypt
+local/libgsf 1.14.50-1
+    An extensible I/O abstraction library for dealing with structured file formats
 local/libgudev 237-2
     GObject bindings for libudev
 local/libhandy 1.8.0-1
@@ -666,6 +676,8 @@ local/libldac 2.0.2.3-1
     LDAC Bluetooth encoder library
 local/libldap 2.6.3-2
     Lightweight Directory Access Protocol (LDAP) client libraries
+local/libliftoff 0.3.0-1
+    Lightweight KMS plane library
 local/liblqr 0.4.2-3
     A seam-carving C/C++ library called Liquid Rescale
 local/libluv 1.44.2_1-2
@@ -890,10 +902,14 @@ local/libxmu 1.1.4-1
     X11 miscellaneous micro-utility library
 local/libxpm 3.5.13-3
     X11 pixmap library
+local/libxpresent 1.0.1-1
+    X Present Extension library
 local/libxrandr 1.5.2-4
     X11 RandR extension library
 local/libxrender 0.9.11-1
     X Rendering Extension client library
+local/libxres 1.2.1-1
+    X11 Resource extension library
 local/libxshmfence 1.3.1-1
     a library that exposes a event API on top of Linux futexes
 local/libxslt 1.1.37-2
@@ -958,6 +974,10 @@ local/mailcap 2.1.53-1
     Helper application and MIME type associations for file types
 local/make 4.3-5 (base-devel)
     GNU make utility to maintain groups of programs
+local/mangohud 0.6.8-2
+    A Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more.
+local/mangohud-common 0.6.8-2
+    Common files for MangoHud
 local/md4c 0.4.8-1
     C Markdown parser
 local/mdadm 4.2-2
@@ -978,7 +998,7 @@ local/mobile-broadband-provider-info 20221107-1
     Network Management daemon
 local/mpfr 4.1.0.p13-3
     Multiple-precision floating-point library
-local/mpv 1:0.34.1-5
+local/mpv 1:0.35.0-2
     a free, open source, and cross-platform media player
 local/msgpack-c 4.0.0-1
     An efficient object serialization library
@@ -1008,7 +1028,7 @@ local/neofetch 7.1.0-2
     A CLI system information tool written in BASH that supports displaying images.
 local/neon 0.32.4-2
     HTTP and WebDAV client library with a C interface
-local/neovim 0.8.0-3
+local/neovim 0.8.1-1
     Fork of Vim aiming to improve user experience, plugins, and GUIs
 local/nettle 3.8.1-1
     A low-level cryptographic library
@@ -1148,15 +1168,15 @@ local/perl-timedate 2.33-4
     Date formating subroutines
 local/pinentry 1.2.1-1
     Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
-local/pipewire 1:0.3.59-5
+local/pipewire 1:0.3.60-1
     Low-latency audio/video router and processor
-local/pipewire-alsa 1:0.3.59-5
+local/pipewire-alsa 1:0.3.60-1
     Low-latency audio/video router and processor - ALSA configuration
-local/pipewire-audio 1:0.3.59-5
+local/pipewire-audio 1:0.3.60-1
     Low-latency audio/video router and processor - Audio support
-local/pipewire-jack 1:0.3.59-5
+local/pipewire-jack 1:0.3.60-1
     Low-latency audio/video router and processor - JACK support
-local/pipewire-pulse 1:0.3.59-5
+local/pipewire-pulse 1:0.3.60-1
     Low-latency audio/video router and processor - PulseAudio replacement
 local/pixman 0.42.2-1
     The pixel-manipulation library for X and cairo
@@ -1566,6 +1586,8 @@ local/ttf-ubuntu-font-family 0.83-8
     Ubuntu font family
 local/ttf-vlgothic 20200720-1
     Japanese TrueType fonts from Vine Linux
+local/tumbler 4.16.1-3 (xfce4)
+    D-Bus service for applications to request thumbnails
 local/tzdata 2022f-1
     Sources for time zone and daylight saving time data
 local/uchardet 0.0.7-1
@@ -1620,6 +1642,8 @@ local/wayland-protocols 1.28-1
     Specifications of extended Wayland protocols
 local/webkit2gtk 2.38.2-1
     Web content engine for GTK
+local/webp-pixbuf-loader 0.0.7-1
+    WebM GDK Pixbuf Loader library
 local/webrtc-audio-processing 0.3.1-3
     AudioProcessing library based on Google's implementation of WebRTC
 local/wget 1.21.3-1
