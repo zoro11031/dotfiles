@@ -1,10 +1,13 @@
+##Gnome-Keyring
+
+exec /home/petergriffin/.config/sway/scripts/keyring.sh 
 
 ##Wallpaper
 
 	exec ~/.azotebg
 ##nwg-drawer autostart and stay in background
 
-	exec_always nwg-drawer -r -fm nemo -term kitty -ovl
+	exec_always nwg-drawer -r -fm thunar -term kitty -ovl
 
 ##Notification Daemon
 	exec_always swaync
@@ -64,3 +67,5 @@ exec_always easyeffects --gapplication-service
 exec_always flatpak run com.bitwarden.desktop
 
 for_window [class="Bitwarden"] mark "passwords", floating enable, move scratchpad
+
+

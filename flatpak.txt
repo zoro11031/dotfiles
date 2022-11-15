@@ -3,6 +3,7 @@ Discord Canary	com.discordapp.DiscordCanary	0.0.143	beta	flathub-beta	system
 Protontricks	com.github.Matoking.protontricks	1.9.2	stable	flathub	system
 Flatseal	com.github.tchx84.Flatseal	1.8.1	stable	flathub	system
 Trilium Notes	com.github.zadam.trilium	0.56.2	stable	flathub	system
+Minecraft	com.mojang.Minecraft	1.0.1221	stable	flathub	system
 OBS Studio	com.obsproject.Studio	28.1.2	stable	flathub	system
 Bottles	com.usebottles.bottles	2022.11.14	stable	flathub	system
 Steam	com.valvesoftware.Steam	1.0.0.75	stable	flathub	system
