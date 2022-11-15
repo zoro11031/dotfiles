@@ -32,6 +32,8 @@ local/adobe-source-serif-fonts 4.004-2
     Serif typeface designed to complement Source Sans
 local/adwaita-icon-theme 43-1
     GNOME standard icons
+local/adwaita-qt6 1.4.2-1
+    A style to bend Qt6 applications to look like they belong into GNOME Shell
 local/alsa-card-profiles 1:0.3.60-1
     Low-latency audio/video router and processor - ALSA card profiles
 local/alsa-lib 1.2.8-1
@@ -398,8 +400,8 @@ local/gtk-update-icon-cache 1:4.8.2-1
     GTK icon cache updater
 local/gtk2 2.24.33-2
     GObject-based multi-platform GUI toolkit (legacy)
-local/gtk3 1:3.24.34+r156+g812b3930d0-1
-    GObject-based multi-platform GUI toolkit
+local/gtk3-classic 3.24.34-2
+    GTK3 patched to provide a more classic experience
 local/gtk4 1:4.8.2-1
     GObject-based multi-platform GUI toolkit
 local/gtkimageview 1.6.4-7
@@ -1316,6 +1318,8 @@ local/python-xlib 0.31-3
     A fully functional X client library for Python programs
 local/python-yaml 6.0-1
     Python bindings for YAML, using fast libYAML library
+local/qgnomeplatform-qt6 0.9.0-4
+    QPlatformTheme for a better Qt6 application inclusion in GNOME
 local/qt5-base 5.15.7+kde+r174-1 (qt qt5)
     A cross-platform application and UI framework
 local/qt5-svg 5.15.7+kde+r9-1 (qt qt5)
@@ -1332,6 +1336,8 @@ local/qt6-tools 6.4.0-1 (qt6)
     A cross-platform application and UI framework (Development Tools, QtHelp)
 local/qt6-translations 6.4.0-1 (qt6)
     A cross-platform application and UI framework (Translations)
+local/qt6-wayland 6.4.0-1 (qt6)
+    Provides APIs for Wayland
 local/ragel 6.10-3
     Compiles finite state machines from regular languages into executable C, C++, Objective-C, or D code.
 local/ranger 1.9.3-4

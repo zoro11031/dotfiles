@@ -7,7 +7,7 @@
      "margin-right": 2, //  Waybar right margin
    // "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["sway/workspaces", "custom/separator", "sway/window"],
+    "modules-left": ["custom/separator2", "sway/workspaces", "custom/separator", "sway/window"],
     "modules-center": ["clock"],
     "modules-right": ["idle_inhibitor", "gamemode", "tray", "custom/spotify", "pulseaudio", "network", "cpu", "memory", "temperature", "keyboard-state", "custom/power"],
     // Modules configuration
