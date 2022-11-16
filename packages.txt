@@ -34,7 +34,7 @@ local/adwaita-icon-theme 43-1
     GNOME standard icons
 local/adwaita-qt6 1.4.2-1
     A style to bend Qt6 applications to look like they belong into GNOME Shell
-local/alsa-card-profiles 1:0.3.60-1
+local/alsa-card-profiles 1:0.3.60-2
     Low-latency audio/video router and processor - ALSA card profiles
 local/alsa-lib 1.2.8-1
     An alternative implementation of Linux sound support
@@ -128,7 +128,7 @@ local/cblas 3.11-1
     C interface to BLAS
 local/celluloid 0.24-2
     Simple GTK+ frontend for mpv
-local/cfitsio 1:4.1.0-1
+local/cfitsio 1:4.2.0-1
     A library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
 local/chrono-date 3.0.1-3
     A date and time library based on the C++11/14/17 <chrono> header
@@ -232,7 +232,7 @@ local/filesystem 2022.10.18-1
     Base Arch Linux files
 local/findutils 4.9.0-1 (base-devel)
     GNU utilities to locate files
-local/firefox 106.0.5-1
+local/firefox 107.0-1
     Standalone web browser from mozilla.org
 local/fish 3.5.1-1
     Smart and user friendly shell intended mostly for interactive use
@@ -298,7 +298,7 @@ local/gettext 0.21.1-2 (base-devel)
     GNU internationalization library
 local/giflib 5.2.1-2
     Library for reading and writing gif images
-local/gimp-nufraw 0.43.3-4
+local/gimp-nufraw 0.43.3-5
     Converter for raw files; utility and GIMP plugin
 local/git 2.38.1-2
     the fast distributed version control system
@@ -416,7 +416,7 @@ local/gtklock-userinfo-module 2.0.0-1
     gtklock module adding user info to the lockscreen
 local/gtkmm3 3.24.7-1
     C++ bindings for GTK+ 3
-local/guile 3.0.8-2
+local/guile 3.0.8-3
     Portable, embeddable Scheme implementation written in C
 local/gvfs 1.50.2-1 (gnome)
     Virtual filesystem implementation for GIO
@@ -532,7 +532,7 @@ local/lib32-pam 1.5.2-1
     Pluggable Authentication Modules
 local/lib32-pcre2 10.40-3
     A library that implements Perl 5-style regular expressions. 2nd version (32-bit)
-local/lib32-pipewire 1:0.3.60-1
+local/lib32-pipewire 1:0.3.60-2
     Low-latency audio/video router and processor - 32-bit client library
 local/lib32-systemd 252.1-1
     system and service manager (32-bit)
@@ -668,7 +668,7 @@ local/libgweather-4 4.2.0-1
     Location and timezone database and weather-lookup library
 local/libhandy 1.8.0-1
     Library full of GTK+ widgets for mobile phones
-local/libheif 1.13.0-2
+local/libheif 1.14.0-1
     HEIF file format decoder and encoder
 local/libical 3.0.16-2
     An open source reference implementation of the icalendar data type and serialization format
@@ -710,7 +710,7 @@ local/libmd 1.0.4-1
     Message Digest functions from BSD systems
 local/libmfx 22.4.4-1
     Intel Media SDK dispatcher library
-local/libmm-glib 1.20.0-1
+local/libmm-glib 1.20.2-1
     ModemManager library
 local/libmnl 1.0.5-1
     Minimalistic user-space library oriented to Netlink developers.
@@ -776,7 +776,7 @@ local/libraqm 0.9.0-1
     A library that encapsulates the logic for complex text layout
 local/libraw1394 2.1.2-3
     Provides an API to the Linux IEEE1394 (FireWire) driver
-local/librevenge 0.0.4-4
+local/librevenge 0.0.4-5
     library for REVerses ENGineered formats filters
 local/librsvg 2:2.55.1-1
     SVG rendering library
@@ -864,9 +864,9 @@ local/libwacom 2.5.0-1
     Library to identify Wacom tablets and their features
 local/libwebp 1.2.4-1
     WebP library and conversion tools
-local/libwpd 0.10.3-3
+local/libwpd 0.10.3-4
     Library for importing WordPerfect (tm) documents
-local/libwpg 0.3.3-3
+local/libwpg 0.3.3-4
     Library for importing and converting Corel WordPerfect(tm) Graphics images.
 local/libx11 1.8.2-1
     X11 client-side library
@@ -1176,21 +1176,21 @@ local/perl-timedate 2.33-4
     Date formating subroutines
 local/pinentry 1.2.1-1
     Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
-local/pipewire 1:0.3.60-1
+local/pipewire 1:0.3.60-2
     Low-latency audio/video router and processor
-local/pipewire-alsa 1:0.3.60-1
+local/pipewire-alsa 1:0.3.60-2
     Low-latency audio/video router and processor - ALSA configuration
-local/pipewire-audio 1:0.3.60-1
+local/pipewire-audio 1:0.3.60-2
     Low-latency audio/video router and processor - Audio support
-local/pipewire-jack 1:0.3.60-1
+local/pipewire-jack 1:0.3.60-2
     Low-latency audio/video router and processor - JACK support
-local/pipewire-pulse 1:0.3.60-1
+local/pipewire-pulse 1:0.3.60-2
     Low-latency audio/video router and processor - PulseAudio replacement
 local/pixman 0.42.2-1
     The pixel-manipulation library for X and cairo
 local/pkgconf 1.8.0-1 (base-devel)
     Package compiler and linker metadata toolkit
-local/playerctl 2.4.1-2
+local/playerctl 2.4.1-3
     mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
 local/polkit 122-1
     Application development toolkit for controlling system-wide privileges
@@ -1236,7 +1236,7 @@ local/python-distro 1.8.0-1
     Linux OS platform information API
 local/python-geographiclib 2.0-2
     Python implementation of the geodesic routines in GeographicLib
-local/python-geopy 2.2.0-4
+local/python-geopy 2.3.0-1
     Geocoding library for Python
 local/python-gobject 3.42.2-1
     Python Bindings for GLib/GObject/GIO/GTK+
@@ -1696,6 +1696,8 @@ local/wlroots 0.15.1-6
     Modular Wayland compositor library
 local/wlsunset 0.2.0-2
     Day/night gamma adjustments for Wayland compositors
+local/wofi 1.3-2
+    launcher for wlroots-based wayland compositors
 local/wpa_supplicant 2:2.10-7
     A utility providing key negotiation for WPA wireless networks
 local/wqy-bitmapfont 1.0.0RC1-5
@@ -1766,9 +1768,9 @@ local/xone-dkms-git 0.3.r0.g8311a25-2
     Modern Linux driver for Xbox One and Xbox Series X|S controllers
 local/xone-dongle-firmware 0.1-8
     Xbox Wireless Controller Adapter firmware
-local/xorg-fonts-100dpi 1.0.3-7 (xorg)
+local/xorg-fonts-100dpi 1.0.3-8 (xorg)
     X.org 100dpi fonts
-local/xorg-fonts-75dpi 1.0.3-7 (xorg)
+local/xorg-fonts-75dpi 1.0.3-8 (xorg)
     X.org 75dpi fonts
 local/xorg-fonts-alias-100dpi 1.0.4-1
     X.org font alias files - 100dpi font familiy
@@ -1778,13 +1780,13 @@ local/xorg-fonts-alias-cyrillic 1.0.4-1
     X.org font alias files - cyrillic font familiy
 local/xorg-fonts-alias-misc 1.0.4-1
     X.org font alias files - misc font familiy
-local/xorg-fonts-cyrillic 1.0.3-6
+local/xorg-fonts-cyrillic 1.0.3-7
     X.org cyrillic fonts
 local/xorg-fonts-encodings 1.0.6-1 (xorg-fonts xorg)
     X.org font encoding files
 local/xorg-fonts-misc 1.0.3-10
     X.org misc fonts
-local/xorg-fonts-type1 7.7-6
+local/xorg-fonts-type1 7.7-7
     X.org Type1 fonts
 local/xorg-mkfontscale 1.2.2-1 (xorg-apps xorg)
     Create an index of scalable font files for X
@@ -1822,7 +1824,7 @@ local/xxhash 0.8.1-2
     Extremely fast non-cryptographic hash algorithm
 local/xz 5.2.7-1
     Library and command line tools for XZ and LZMA compressed files
-local/yay 11.3.0-1
+local/yay 11.3.1-1
     Yet another yogurt. Pacman wrapper and AUR helper written in go.
 local/zeitgeist 1.0.4-1
     Service logging user activities and events

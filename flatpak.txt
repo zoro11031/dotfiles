@@ -8,9 +8,11 @@ OBS Studio	com.obsproject.Studio	28.1.2	stable	flathub	system
 Bottles	com.usebottles.bottles	2022.11.14	stable	flathub	system
 Steam	com.valvesoftware.Steam	1.0.0.75	stable	flathub	system
 Proton (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton	7.0-4	stable	flathub	system
-Proton experimental (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton-Exp	7.0-20221102	stable	flathub	system
+Proton experimental (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton-Exp	7.0-20221115	stable	flathub	system
 Proton-GE (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton-GE	7.36-1	stable	flathub	system
 gamescope	com.valvesoftware.Steam.Utility.gamescope	3.11.48	stable	flathub	system
+Chromium Web Browser	org.chromium.Chromium	107.0.5304.110	stable	flathub	system
+Codecs	org.chromium.Chromium.Codecs		stable	flathub	system
 TAP-plugins	org.freedesktop.LinuxAudio.Plugins.TAP	1.0.1	21.08	flathub	system
 SWH	org.freedesktop.LinuxAudio.Plugins.swh	0.4.17	21.08	flathub	system
 Freedesktop Platform	org.freedesktop.Platform	21.08.16	21.08	flathub	system
