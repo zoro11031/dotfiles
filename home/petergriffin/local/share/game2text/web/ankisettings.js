@@ -1,29 +1,37 @@
-const deckSelector = document.getElementById('deck_selector');
-const cardModelSelector = document.getElementById('card_model_selector');
+// const deckSelector = document.getElementById('deck_selector');
+const deckSelector = document.getElementById('decks');
+// const cardModelSelector = document.getElementById('card_model_selector');
+const cardModelSelector = document.getElementById('card_models');
 
 async function initDecks() {
     const deckNames = await eel.invoke_anki('deckNames')();
-    deckNames.forEach(deckName => {
-        const deckOption = document.createElement("li");
-        deckOption.classList.add("mdl-menu__item")
-        deckOption.data_val = deckName.replace(' ', '_');
-        deckOption.innerHTML = deckName;
-        deckSelector.append(deckOption);
-    });
-    getmdlSelect.init('#deck_select_container');
+    if (typeof deckNames === 'string') { 
+        // Failed to connect to Anki
+        return []
+    }
+    if (deckNames.length > 0) {
+        deckNames.forEach(deckName => {
+            const deckOption = document.createElement("option");
+            deckOption.value = deckName;
+            deckSelector.append(deckOption);
+        });
+    }
     return deckNames;
 }
 
 async function initCardModels() {
     const cardModelNames = await eel.invoke_anki('modelNames')();
-    cardModelNames.forEach(cardModelName => {
-        const cardModelOption = document.createElement("li");
-        cardModelOption.classList.add("mdl-menu__item")
-        cardModelOption.data_val = cardModelName.replace(' ', '_');
-        cardModelOption.innerHTML = cardModelName;
-        cardModelSelector.append(cardModelOption);
-    });  
-    getmdlSelect.init('#card_model_select_container');
+    if (typeof cardModelNames === 'string') {
+        // Failed to connect to Anki
+        return []
+    }
+    if (cardModelNames.length > 0) {
+        cardModelNames.forEach(cardModelName => {
+            const cardModelOption = document.createElement("option");
+            cardModelOption.value = cardModelName;
+            cardModelSelector.append(cardModelOption);
+        });  
+    }
     return cardModelNames;
 }
 
@@ -32,8 +40,8 @@ async function getFieldNamesForModel(modelName) {
 }
 
 function updateFieldValuesTable(fieldValues) {
-    if (fieldValues) {
-        const fieldValuesTable = document.getElementById('field_values_table');
+    const fieldValuesTable = document.getElementById('field_values_table');
+    if (Object.keys(fieldValues).length) {
         const fieldValuesTableBody = fieldValuesTable.getElementsByTagName('tbody')[0];
         const tupleTemplate = document.getElementById('field_values_tuple_template');
         fieldValuesTableBody.innerHTML = '';
@@ -46,13 +54,18 @@ function updateFieldValuesTable(fieldValues) {
             const fieldValueSelect = tupleClone.getElementsByClassName('field_value_select')[0];
             fieldValueSelect.innerHTML = `<option></option>
             <option>Selected Text</option>
+            <option>Reading</option>
+            <option>Glossary</option>
             <option>Sentence</option>
             <option>Screenshot</option>
-            <option>Audio</option>`;
+            <option>Audio</option>
+            <option>Word Audio</option>`;
             tupleClone.hidden = false;
             fieldValuesTableBody.append(tupleClone);
         })
         fieldValuesTable.hidden = false;
+    } else {
+        fieldValuesTable.hidden = true;
     }
 }
 function applyFieldAndValuesToTable(fieldValueMap) {
@@ -70,9 +83,12 @@ function applyFieldAndValuesToTable(fieldValueMap) {
             const fieldValueSelect = tupleClone.getElementsByClassName('field_value_select')[0];
             fieldValueSelect.innerHTML = `<option></option>
             <option>Selected Text</option>
+            <option>Reading</option>
+            <option>Glossary</option>
             <option>Sentence</option>
             <option>Screenshot</option>
-            <option>Audio</option>`;
+            <option>Audio</option>
+            <option>Word Audio</option>`;
             fieldValueSelect.value = fieldValueMap[field];
             tupleClone.hidden = false;
             fieldValuesTableBody.append(tupleClone);

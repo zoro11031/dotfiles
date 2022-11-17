@@ -11,8 +11,6 @@ Proton (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton	7.0-4	
 Proton experimental (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton-Exp	7.0-20221115	stable	flathub	system
 Proton-GE (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton-GE	7.36-1	stable	flathub	system
 gamescope	com.valvesoftware.Steam.Utility.gamescope	3.11.48	stable	flathub	system
-Chromium Web Browser	org.chromium.Chromium	107.0.5304.110	stable	flathub	system
-Codecs	org.chromium.Chromium.Codecs		stable	flathub	system
 TAP-plugins	org.freedesktop.LinuxAudio.Plugins.TAP	1.0.1	21.08	flathub	system
 SWH	org.freedesktop.LinuxAudio.Plugins.swh	0.4.17	21.08	flathub	system
 Freedesktop Platform	org.freedesktop.Platform	21.08.16	21.08	flathub	system
@@ -27,6 +25,7 @@ ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		22.08	flathub	system
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	flathub	system
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	flathub	system
 GNU Image Manipulation Program	org.gimp.GIMP	2.10.32	stable	flathub	system
+Calculator	org.gnome.Calculator	43.0.1	stable	flathub	system
 Cheese	org.gnome.Cheese	3.38.0	stable	flathub	system
 GNOME Application Platform version 42	org.gnome.Platform		42	flathub	system
 GNOME Application Platform version 43	org.gnome.Platform		43	flathub	system

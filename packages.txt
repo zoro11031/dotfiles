@@ -108,6 +108,8 @@ local/bubblewrap 0.7.0-1
     Unprivileged sandboxing tool
 local/bzip2 1.0.8-4
     A high-quality data compression program
+local/c-ares 1.18.1-1
+    A C library for asynchronous DNS requests
 local/ca-certificates 20220905-1
     Common CA certificates (default providers)
 local/ca-certificates-mozilla 3.85-1
@@ -172,6 +174,8 @@ local/diffutils 3.8-1
     Utility programs used for creating patch files
 local/dina-font 2.92-10
     A monospace bitmap font, primarily aimed at programmers
+local/djvulibre 3.5.28-3
+    Suite to create, manipulate and view DjVu ('déjà vu') documents
 local/dkms 3.0.8-1
     Dynamic Kernel Modules System
 local/dmenu 5.2-1
@@ -200,6 +204,8 @@ local/emacs 28.2-1
     The extensible, customizable, self-documenting real-time display editor
 local/enchant 2.3.3-2
     A wrapper library for generic spell checking
+local/evince 43.1-1 (gnome)
+    Document viewer (PDF, PostScript, XPS, djvu, dvi, tiff, cbr, cbz, cb7, cbt)
 local/exiv2 0.27.5-3
     Exif, Iptc and XMP metadata manipulation library and tools
 local/exo 4.16.4-1 (xfce4)
@@ -296,6 +302,8 @@ local/geocode-glib-common 3.26.4-2
     Helper library for geocoding services (common files)
 local/gettext 0.21.1-2 (base-devel)
     GNU internationalization library
+local/ghostscript 10.0.0-2
+    An interpreter for the PostScript language
 local/giflib 5.2.1-2
     Library for reading and writing gif images
 local/gimp-nufraw 0.43.3-5
@@ -314,6 +322,8 @@ local/glslang 11.11.0-1
     OpenGL and OpenGL ES shader front end and validator
 local/gmp 6.2.1-2
     A free library for arbitrary precision arithmetic
+local/gn 0.2050.9ef32177-1
+    Meta-build system that generates build files for Ninja
 local/gnome-bluetooth 3.34.5-4
     GNOME Bluetooth Subsystem (legacy)
 local/gnome-desktop 1:43-1
@@ -348,6 +358,8 @@ local/gobject-introspection-runtime 1.74.0-1
     Introspection system for GObject-based libraries (runtime library)
 local/gopsuinfo 0.1.2-1
     A gopsutil-based command to display customizable system info, intended for nwg-panel or Tint2
+local/gperf 3.1-3
+    Perfect hash function generator
 local/gpgme 1.18.0-1
     A C wrapper library for GnuPG
 local/gpm 1.20.7.r38.ge82d1a6-4
@@ -440,6 +452,8 @@ local/iana-etc 20221107-1
     /etc/protocols and /etc/services provided by IANA
 local/icu 72.1-1
     International Components for Unicode library
+local/ijs 0.35-5
+    a library which implements a protocol for transmission of raster page images
 local/imagemagick 7.1.0.52-1
     An image viewing/manipulation program
 local/iniparser 4.1-4
@@ -460,8 +474,14 @@ local/iwd 1.30-1
     Internet Wireless Daemon
 local/jansson 2.14-2
     C library for encoding, decoding and manipulating JSON data
+local/java-runtime-common 3-3
+    Common files for Java Runtime Environments
+local/jbig2dec 0.19-1
+    Decoder implementation of the JBIG2 image compression format
 local/jq 1.6-4
     Command-line JSON processor
+local/jre-openjdk-headless 19.0.1.u10-3
+    OpenJDK Java 19 headless runtime environment
 local/json-c 0.16-1
     A JSON implementation in C
 local/json-glib 1.6.6-2
@@ -494,6 +514,8 @@ local/ldns 1.8.3-2
     Fast DNS library supporting recent RFCs
 local/lensfun 1:0.3.3-1
     Database of photographic lenses and a library that allows advanced access to the database
+local/leptonica 1.82.0-2
+    Software that is broadly useful for image processing and image analysis applications
 local/less 1:608-1
     A terminal based program for viewing text files
 local/lib2geom 1.2-2
@@ -668,6 +690,8 @@ local/libgusb 0.4.2-1
     GObject wrapper for libusb1
 local/libgweather-4 4.2.0-1
     Location and timezone database and weather-lookup library
+local/libgxps 0.3.2-2
+    XPS Documents library
 local/libhandy 1.8.0-1
     Library full of GTK+ widgets for mobile phones
 local/libheif 1.14.0-1
@@ -676,6 +700,8 @@ local/libical 3.0.16-2
     An open source reference implementation of the icalendar data type and serialization format
 local/libice 1.0.10-4
     X11 Inter-Client Exchange library
+local/libidn 1.41-1
+    Implementation of the Stringprep, Punycode and IDNA specifications
 local/libidn2 2.3.4-3
     Free software implementation of IDNA2008, Punycode and TR46
 local/libiec61883 1.2.0-6
@@ -724,6 +750,8 @@ local/libmpdclient 2.20-2
     C library to implement a MPD client
 local/libndp 1.8-1
     Library for Neighbor Discovery Protocol
+local/libnet 1:1.1.6-1
+    A library which provides API for commonly used low-level net functions
 local/libnetfilter_conntrack 1.0.9-1
     Library providing an API to the in-kernel connection tracking state table
 local/libnewt 0.52.21-8
@@ -754,6 +782,8 @@ local/libotf 0.9.16-3
     OpenType Font library
 local/libp11-kit 0.24.1-1
     Loads and enumerates PKCS#11 modules (library)
+local/libpaper 1.1.28-2
+    Library for handling paper characteristics
 local/libpcap 1.10.1-2
     A system-independent interface for user-level packet capture
 local/libpciaccess 0.17-1
@@ -808,12 +838,16 @@ local/libsoup3 3.2.2-1
     HTTP client/server library for GNOME
 local/libsoxr 0.1.3-2
     The SoX Resampler library that aims to give fast and high quality results for any constant resampling ratio
+local/libspectre 0.2.11-1
+    Small library for rendering Postscript documents
 local/libssh 0.10.4-3
     Library for accessing ssh client services through C libraries
 local/libssh2 1.10.0-3
     A library implementing the SSH2 protocol as defined by Internet Drafts
 local/libstemmer 2.2.0-2
     Stemming library supporting several languages
+local/libsynctex 2022.62885-3
+    Library for synchronization between TeX files and resulting file
 local/libsysprof-capture 3.46.0-1
     Kernel based performance profiler - capture library
 local/libtasn1 4.19.0-1
@@ -964,6 +998,8 @@ local/linux-firmware-whence 20221109.60310c2-1
     Firmware files for Linux - contains the WHENCE license file which documents the vendor license details
 local/linux-zen 6.0.8.zen1-1
     The Linux ZEN kernel and modules
+local/lld 14.0.6-1
+    Linker from the LLVM project
 local/llvm 14.0.6-3
     Compiler infrastructure
 local/llvm-libs 14.0.6-3
@@ -1014,6 +1050,8 @@ local/memento 0.5.6-0
     An mpv-based video player for studying Japanese.
 local/mesa 22.2.3-1
     An open-source implementation of the OpenGL specification
+local/minizip 1:1.2.13-1
+    Mini zip and unzip based on zlib
 local/mkinitcpio 32-2
     Modular initramfs image creation utility
 local/mkinitcpio-busybox 1.35.0-1
@@ -1048,8 +1086,12 @@ local/network-manager-applet 1.30.0-1
     Applet for managing network connections
 local/networkmanager 1.40.2-1
     Network connection manager and user applications
+local/ninja 1.11.1-2
+    Small build system with a focus on speed
 local/nm-connection-editor 1.30.0-1
     NetworkManager GUI connection editor and widgets
+local/nodejs 19.1.0-1
+    Evented I/O for V8 javascript
 local/noto-fonts 20220810-1
     Google Noto TTF fonts
 local/noto-fonts-cjk 20220126-1
@@ -1202,10 +1244,14 @@ local/polkit-gnome 0.105-9
     Legacy polkit authentication agent for GNOME
 local/poppler 22.11.0-1
     PDF rendering library based on xpdf 3.0
+local/poppler-data 0.4.11-3
+    Encoding data for the poppler PDF rendering library
 local/poppler-glib 22.11.0-1
     Poppler glib bindings
 local/popt 1.19-1
     A commandline option parser
+local/portaudio 1:19.7.0-1
+    A free, cross-platform, open source, audio I/O library.
 local/potrace 1.16-2
     Utility for tracing a bitmap (input: PBM,PGM,PPM,BMP; output: EPS,PS,PDF,SVG,DXF,PGM,Gimppath,XFig)
 local/powerline-common 2.8.3-1
@@ -1224,14 +1270,20 @@ local/python 3.10.8-3
     Next generation of the python high-level scripting language
 local/python-appdirs 1.4.4-7
     A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir".
+local/python-attrs 22.1.0-1
+    Attributes without boilerplate.
 local/python-autocommand 2.2.1-1
     A library to create a command-line program from a function
 local/python-cachetools 5.2.0-1
     Extensible memoizing collections and decorators
 local/python-cairo 1.21.0-1
     Python bindings for the cairo graphics library
+local/python-cffi 1.15.1-1
+    Foreign Function Interface for Python calling C code
 local/python-chardet 5.0.0-1
     Python3 module for character encoding auto-detection
+local/python-cryptography 38.0.3-1
+    A package designed to expose cryptographic recipes and primitives to Python developers
 local/python-cssselect 1.2.0-1
     A Python3 library that parses CSS3 Selectors and translates them to XPath 1.0
 local/python-dasbus 1.6-1
@@ -1280,12 +1332,20 @@ local/python-pexpect 4.8.0-6
     For controlling and automating applications
 local/python-pillow 9.3.0-1
     Python Imaging Library (PIL) fork
+local/python-pip 22.3.1-1
+    The PyPA recommended tool for installing Python packages
+local/python-ply 3.11-10
+    Implementation of lex and yacc parsing tools
 local/python-psutil 5.9.4-1
     A cross-platform process and system utilities module for Python
 local/python-ptyprocess 0.7.0-4
     Run a subprocess in a pseudo terminal
 local/python-pyaml 21.10.1-1
     PyYAML-based module to produce pretty and readable YAML-serialized data
+local/python-pyaudio 0.2.12-1
+    Python bindings for PortAudio
+local/python-pycparser 2.21-3
+    C parser and AST generator written in Python
 local/python-pycryptodomex 3.12.0-1
     A self-contained Python package of low-level cryptographic primitives
 local/python-pydantic 1.10.2-1
@@ -1318,6 +1378,8 @@ local/python-validate-pyproject 0.10.1-1
     Validation library and CLI tool for checking on 'pyproject.toml' files using JSON Schema
 local/python-vdf 3.4-2
     Library for working with Valve's VDF text format
+local/python-wheel 0.38.3-1
+    A built-package format for Python
 local/python-xlib 0.31-3
     A fully functional X client library for Python programs
 local/python-yaml 6.0-1
@@ -1348,8 +1410,12 @@ local/ragel 6.10-3
     Compiles finite state machines from regular languages into executable C, C++, Objective-C, or D code.
 local/ranger 1.9.3-4
     Simple, vim-like file manager
+local/rate-mirrors 0.11.1-1
+    Everyday-use client-side map-aware mirror ranking tool
 local/rav1e 0.5.1-2
     An AV1 encoder focused on speed and safety
+local/re2 1:20220601-1
+    Fast, safe, thread-friendly regular expression engine
 local/readline 8.2.001-1
     GNU readline library
 local/reflector 2021.11-5
@@ -1390,6 +1456,8 @@ local/slurp 1.3.2-3
     Select a region in a Wayland compositor
 local/smartmontools 7.3-1
     Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
+local/snappy 1.1.9-2
+    A fast compressor/decompressor library
 local/sndio 1.9.0-1
     A small audio and MIDI framework part of the OpenBSD project
 local/sord 0.16.14-1
@@ -1460,6 +1528,262 @@ local/telepathy-glib 0.24.2-2
     GLib bindings for the Telepathy D-Bus protocol
 local/terminus-font 4.49.1-2
     Monospace bitmap font (for X11 and console)
+local/tesseract 5.2.0-2
+    An OCR program
+local/tesseract-data-afr 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (afr)
+local/tesseract-data-amh 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (amh)
+local/tesseract-data-ara 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ara)
+local/tesseract-data-asm 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (asm)
+local/tesseract-data-aze 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (aze)
+local/tesseract-data-aze_cyrl 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (aze_cyrl)
+local/tesseract-data-bel 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (bel)
+local/tesseract-data-ben 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ben)
+local/tesseract-data-bod 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (bod)
+local/tesseract-data-bos 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (bos)
+local/tesseract-data-bre 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (bre)
+local/tesseract-data-bul 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (bul)
+local/tesseract-data-cat 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (cat)
+local/tesseract-data-ceb 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ceb)
+local/tesseract-data-ces 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ces)
+local/tesseract-data-chi_sim 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (chi_sim)
+local/tesseract-data-chi_tra 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (chi_tra)
+local/tesseract-data-chr 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (chr)
+local/tesseract-data-cos 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (cos)
+local/tesseract-data-cym 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (cym)
+local/tesseract-data-dan 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (dan)
+local/tesseract-data-dan_frak 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (dan_frak)
+local/tesseract-data-deu 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (deu)
+local/tesseract-data-deu_frak 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (deu_frak)
+local/tesseract-data-div 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (div)
+local/tesseract-data-dzo 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (dzo)
+local/tesseract-data-ell 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ell)
+local/tesseract-data-eng 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (eng)
+local/tesseract-data-enm 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (enm)
+local/tesseract-data-epo 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (epo)
+local/tesseract-data-equ 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (equ)
+local/tesseract-data-est 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (est)
+local/tesseract-data-eus 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (eus)
+local/tesseract-data-fao 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (fao)
+local/tesseract-data-fas 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (fas)
+local/tesseract-data-fil 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (fil)
+local/tesseract-data-fin 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (fin)
+local/tesseract-data-fra 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (fra)
+local/tesseract-data-frk 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (frk)
+local/tesseract-data-frm 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (frm)
+local/tesseract-data-fry 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (fry)
+local/tesseract-data-gla 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (gla)
+local/tesseract-data-gle 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (gle)
+local/tesseract-data-glg 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (glg)
+local/tesseract-data-grc 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (grc)
+local/tesseract-data-guj 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (guj)
+local/tesseract-data-hat 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (hat)
+local/tesseract-data-heb 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (heb)
+local/tesseract-data-hin 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (hin)
+local/tesseract-data-hrv 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (hrv)
+local/tesseract-data-hun 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (hun)
+local/tesseract-data-hye 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (hye)
+local/tesseract-data-iku 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (iku)
+local/tesseract-data-ind 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ind)
+local/tesseract-data-isl 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (isl)
+local/tesseract-data-ita 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ita)
+local/tesseract-data-ita_old 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ita_old)
+local/tesseract-data-jav 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (jav)
+local/tesseract-data-jpn 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (jpn)
+local/tesseract-data-jpn_vert 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (jpn_vert)
+local/tesseract-data-kan 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (kan)
+local/tesseract-data-kat 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (kat)
+local/tesseract-data-kat_old 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (kat_old)
+local/tesseract-data-kaz 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (kaz)
+local/tesseract-data-khm 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (khm)
+local/tesseract-data-kir 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (kir)
+local/tesseract-data-kmr 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (kmr)
+local/tesseract-data-kor 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (kor)
+local/tesseract-data-kor_vert 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (kor_vert)
+local/tesseract-data-lao 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (lao)
+local/tesseract-data-lat 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (lat)
+local/tesseract-data-lav 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (lav)
+local/tesseract-data-lit 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (lit)
+local/tesseract-data-ltz 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ltz)
+local/tesseract-data-mal 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (mal)
+local/tesseract-data-mar 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (mar)
+local/tesseract-data-mkd 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (mkd)
+local/tesseract-data-mlt 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (mlt)
+local/tesseract-data-mon 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (mon)
+local/tesseract-data-mri 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (mri)
+local/tesseract-data-msa 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (msa)
+local/tesseract-data-mya 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (mya)
+local/tesseract-data-nep 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (nep)
+local/tesseract-data-nld 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (nld)
+local/tesseract-data-nor 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (nor)
+local/tesseract-data-oci 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (oci)
+local/tesseract-data-ori 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ori)
+local/tesseract-data-osd 2:4.1.0-3
+    Tesseract OCR data (osd)
+local/tesseract-data-pan 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (pan)
+local/tesseract-data-pol 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (pol)
+local/tesseract-data-por 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (por)
+local/tesseract-data-pus 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (pus)
+local/tesseract-data-que 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (que)
+local/tesseract-data-ron 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ron)
+local/tesseract-data-rus 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (rus)
+local/tesseract-data-san 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (san)
+local/tesseract-data-sin 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (sin)
+local/tesseract-data-slk 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (slk)
+local/tesseract-data-slk_frak 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (slk_frak)
+local/tesseract-data-slv 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (slv)
+local/tesseract-data-snd 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (snd)
+local/tesseract-data-spa 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (spa)
+local/tesseract-data-spa_old 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (spa_old)
+local/tesseract-data-sqi 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (sqi)
+local/tesseract-data-srp 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (srp)
+local/tesseract-data-srp_latn 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (srp_latn)
+local/tesseract-data-sun 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (sun)
+local/tesseract-data-swa 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (swa)
+local/tesseract-data-swe 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (swe)
+local/tesseract-data-syr 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (syr)
+local/tesseract-data-tam 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (tam)
+local/tesseract-data-tat 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (tat)
+local/tesseract-data-tel 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (tel)
+local/tesseract-data-tgk 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (tgk)
+local/tesseract-data-tgl 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (tgl)
+local/tesseract-data-tha 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (tha)
+local/tesseract-data-tir 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (tir)
+local/tesseract-data-ton 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ton)
+local/tesseract-data-tur 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (tur)
+local/tesseract-data-uig 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (uig)
+local/tesseract-data-ukr 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (ukr)
+local/tesseract-data-urd 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (urd)
+local/tesseract-data-uzb 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (uzb)
+local/tesseract-data-uzb_cyrl 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (uzb_cyrl)
+local/tesseract-data-vie 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (vie)
+local/tesseract-data-yid 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (yid)
+local/tesseract-data-yor 2:4.1.0-3 (tesseract-data)
+    Tesseract OCR data (yor)
 local/tex-gyre-fonts 2.501-2
     Substitute PostScript fonts in OpenType format
 local/texinfo 7.0-1 (base-devel)
@@ -1644,6 +1968,8 @@ local/ufraw-thumbnailer 0.2-2
     Provides thumbnailer definition to generate thumbnails for RAW images in file managers like Nautilus or Nemo
 local/unclutter 1:1.6-2
     A small program for hiding the mouse cursor
+local/ungoogled-chromium-bin 107.0.5304.110-1
+    A lightweight approach to removing Google web service dependency
 local/unibilium 2.1.1-1
     A terminfo parsing library
 local/unicode-cldr-annotations 41.0-1
@@ -1704,6 +2030,8 @@ local/wlroots 0.15.1-6
     Modular Wayland compositor library
 local/wlsunset 0.2.0-2
     Day/night gamma adjustments for Wayland compositors
+local/woff2 1.0.2-4
+    Web Open Font Format 2 reference implementation
 local/wofi 1.3-2
     launcher for wlroots-based wayland compositors
 local/wpa_supplicant 2:2.10-7

@@ -4,11 +4,12 @@ let autoMode = false;
 let logMode = false, logImages = false, logAudio = false;
 let selectionMode = 'ocr';
 let selectionLineWidth = 1, selectionColor = 'red';
+let showStartMessage = true;
 let OCRrequests = 0;
 let showSelection = true;
 let clipboardMode = false;
 let outputToClipboard = false;
-let OCREngine = "Tesseract", verticalText = false;
+let OCREngine = "Tesseract Default", verticalText = false;
 let translationService;
 let translation = {
   sourceText : '',
@@ -25,8 +26,13 @@ const displayMediaOptions = {
 let dialogWindow, autoModeTimer, croppedVideoTimer, currentText;
 let audioSources, audioDeviceIndex;
 
+let previousText = '';
+let currentTextLogId = ''; 
+
 // Temporary screenshot cache before log window is launched
 let cachedScreenshots = {}, isCacheScreenshots = true;
+let cachedScreenshotNumber = 0;
+let logSessionMaxLogSize = 20;
 
 // Preprocessing Filters
 let imageProfiles = []
@@ -39,6 +45,15 @@ let blurImageRadius = 0;
 let ankiModelFieldMap = {}, fieldValueMap = {};
 let savedAnkiCardModels = [];
 let ankiDecks, ankiModels, ankitags, selectedDeck, selectedModel;
+let modelFieldsNeedLoad = false;
+let isResizeScreenshot = false;
+let resizeScreenshotMaxWidth = 1280;
+let resizeScreenshotMaxHeight = 720;
+
+// Texthooker
+let isRemoveRepeatedSentences = false
+let isRemoveDuplicateCharacters = false
+let isRemoveWhiteSpaces = false
 
 const videoElement = document.getElementById("video");
 // const myImg = document.getElementById("my_img");
@@ -76,7 +91,7 @@ async function startCapture(){
   try {
     videoElement.srcObject = await navigator.mediaDevices.getDisplayMedia(displayMediaOptions);
     if (settingsDialog.open) {
-      settingsDialog.close();
+      closeSettings();
     }
   }catch(err) {
     console.error("Error" + err)
@@ -87,8 +102,9 @@ function videoOnLoad(element) {
   videoLoaded = true;
   resizeCanvas(element);
   startMessage.hidden = true;
+  showStartMessage = false;
   minimizeButton.disabled = false;
-  updateText(output, 'Drag and encircle the text portion of the game.');
+  // updateText(output, 'Drag and encircle the text portion of the game.');
   showSelectionButton.disabled = false;
   settingsButton.disabled = false;
   autoModeButton.disabled = false;
@@ -181,6 +197,9 @@ function toggleCollapseVideo() {
   [videoElement, cv1, previewCanvas, croppedVideoCanvas].forEach(element=>toggleCollapse(element));
   minimizeButton.hidden = !minimizeButton.hidden;
   maximizeButton.hidden = !maximizeButton.hidden;
+  if (showStartMessage) {
+    startMessage.hidden = !startMessage.hidden;
+  }
 }
 
 function toggleShowSelection() {
@@ -253,10 +272,34 @@ function updateText(element, text) {
 
 /* Update result with possible translation */
 eel.expose(updateOutput)
-function updateOutput(text) {
+function updateOutput(text, logging=true) {
+  // prevent duplicate output
+  if (text.trim() === previousText.trim()) {
+    return
+  } 
+  previousText = text;
   updateText(output, text);
+  if (logging) {
+    eel.log_output(text)((logId) => {
+      currentTextLogId = logId;
+      if (isCacheScreenshots) {
+        const imageData = getVideoImage();
+        cacheScreenshot(imageData, logId);
+      }
+    })
+  }
+  if (outputToClipboard && !clipboardMode) {
+    eel.copy_text_to_clipboard(text)();
+  }
   if (showTranslation) {
     translate(text)
+  }
+}
+
+function changeOutputText(outputElement) {
+  const newText = outputElement.innerText;
+  if (currentTextLogId) {
+    eel.update_log_window_text(currentTextLogId, newText)();
   }
 }
 
@@ -268,14 +311,17 @@ function updateOutput(text) {
 
 cv1.addEventListener("mouseup", function (e) {
   mousedown = false;
-  const isRightClick = e.button === 0;
-  if (hasSelection() && !clipboardMode && isRightClick) {
-    // Invert selection if selection is from bottom right to top left
-    if (rect.width < 0 && rect.height < 0) {
-      rect.x += rect.width;
+  const isLeftClick = e.button === 0;
+  if (hasSelection() && !clipboardMode && isLeftClick) {
+    // Invert selection if selection is from  top left
+    if (rect.height < 0) {
       rect.y += rect.height;
-      rect.width *= -1;
       rect.height *= -1;
+    }
+    // invert selection if selection is from bottom right
+    if (rect.width < 0) {
+       rect.x += rect.width;
+       rect.width *= -1;
     }
     refreshOCR();
 
@@ -292,11 +338,14 @@ cv1.addEventListener("mouseup", function (e) {
 cv1.addEventListener("mousedown", function (e) {
   // find correct position if scrolled down
   // there is no need for scrollXoffset because the video is always resized to 100% the width of the window
-  const scrollYOffset  = window.pageYOffset || document.documentElement.scrollTop;
+  const isLeftClick = e.button === 0;
 
-  last_mousex = parseInt(e.clientX-canvasx);
-	last_mousey = parseInt(e.clientY-canvasy+scrollYOffset);
-  mousedown = true;
+  if (isLeftClick) {
+      const scrollYOffset = window.pageYOffset || document.documentElement.scrollTop;
+      last_mousex = parseInt(e.clientX-canvasx);
+      last_mousey = parseInt(e.clientY-canvasy+scrollYOffset);
+      mousedown = true;
+  }
 }, false);
 
 cv1.addEventListener("mousemove", function (e) {
@@ -361,10 +410,18 @@ function removeCachedScreenshot(key) {
   delete cachedScreenshots[key]; 
 }
 
-eel.expose(stopCachingScreenshots)
-function stopCachingScreenshots() {
-  cachedScreenshots = {}
-  isCacheScreenshots = false;
+function cacheScreenshot(imageData, logId) {
+  cachedScreenshotNumber += 1;
+  cachedScreenshots[logId] = {'base64ImageString': imageData, 'imageType': logImageType, 'number': cachedScreenshotNumber};
+  if (Object.keys(cachedScreenshots).length > logSessionMaxLogSize) {
+    let earliestProperty = Object.keys(cachedScreenshots)[0];
+    for (const property in cachedScreenshots) {
+      if (cachedScreenshots[property] < cachedScreenshots[earliestProperty]) {
+        earliestProperty = property;
+      }
+    }
+    delete cachedScreenshots[earliestProperty];
+  }
 }
 
 function toggleAutoMode() {
@@ -372,7 +429,10 @@ function toggleAutoMode() {
   if (autoMode) {
     refreshButton.disabled = true;
     autoModeTimer = setInterval(()=>{
-      if (rect.width > 0 && OCRrequests === 0) {
+      // Updating the OCR scrolls the page down to show it, which becomes
+      // very obnoxious when you're trying to position a box over the right text.
+      // To fix this, we just don't update when we're dragging a selection.
+      if (rect.width > 0 && OCRrequests === 0 && !mousedown) {
         showStuff(rect);
       }
     }, autoModeSpeed);
@@ -385,12 +445,71 @@ function toggleAutoMode() {
 }
 
 function openSettings() {
-  settingsDialog.showModal();
+  settingsDialog.hidden = false;
+  if (!settingsDialog.showModal) {
+    dialogPolyfill.registerDialog(settingsDialog);
+  }
+  setTimeout(()=>settingsDialog.showModal(), 300);
 }
 
 function closeSettings() {
   settingsDialog.close();
+  setTimeout(()=>settingsDialog.hidden = true, 300);
 }
+
+function openAnkiSettingsDialog() {
+  ankiSettingsDialog.hidden = false;
+  if (!ankiSettingsDialog.showModal) {
+    dialogPolyfill.registerDialog(ankiSettingsDialog);
+  }
+  setTimeout(()=>ankiSettingsDialog.showModal(), 300);
+}
+
+function closeAnkiSettingsDialog() {
+  ankiSettingsDialog.close();
+  setTimeout(()=>ankiSettingsDialog.hidden = true, 300);
+}
+
+function openClipboardSettings() {
+  clipboardDialog.hidden = false;
+  if (!clipboardDialog.showModal) {
+    dialogPolyfill.registerDialog(clipboardDialog);
+  }
+  setTimeout(()=>clipboardDialog.showModal(), 300);
+}
+
+function closeClipboardSettingsDialog() {
+  clipboardDialog.close();
+  setTimeout(()=>clipboardDialog.hidden = true, 300);
+}
+
+function openTexthookerSettings() {
+  texthookerSettingsDialog.hidden = false;
+  if (!texthookerSettingsDialog.showModal) {
+    dialogPolyfill.registerDialog(texthookerSettingsDialog);
+  }
+  setTimeout(()=>texthookerSettingsDialog.showModal(), 300);
+}
+
+function closeTexthookerSettingsDialog() {
+  texthookerSettingsDialog.close();
+  setTimeout(()=>texthookerSettingsDialog.hidden = true, 300);
+}
+
+document.addEventListener("keydown", function(event) {
+  const key = event.key; // Or const {key} = event; in ES6+
+  if (key === "Escape") {
+    if (!settingsDialog.hidden) {
+      setTimeout(()=>settingsDialog.hidden = true, 300);
+    }
+    if (!texthookerSettingsDialog.hidden) {
+      setTimeout(()=>texthookerSettingsDialog.hidden = true, 300);
+    }
+    if (!ankiSettingsDialog.hidden) {
+      setTimeout(()=>ankiSettingsDialog.hidden = true, 300);
+    }
+  }
+});
 
 function createCanvasWithSelection({width, height, x, y}) {
   aspectRatioY = videoElement.videoHeight / cv1.height;
@@ -437,26 +556,31 @@ function getVideoImage() {
   cv3.width = videoElement.videoWidth;
   cv3.height = videoElement.videoHeight;
   var ctx3 = cv3.getContext('2d');
-  ctx3.drawImage(videoElement, 0, 0, cv3.width, cv3.height);
-  fullImageDataURL = cv3.toDataURL(`image/${logImageType === 'jpg' ? 'jpeg' : logImageType}`, logImageQuality);
-  fullImageb64 = fullImageDataURL.slice(fullImageDataURL.indexOf(',') + 1)
+  if (isResizeScreenshot) {
+    cv3 = resizeCanvasImage(cv3, videoElement, resizeScreenshotMaxWidth, resizeScreenshotMaxHeight)
+  } else {
+    ctx3.drawImage(videoElement, 0, 0, cv3.width, cv3.height);
+  }
+  let fullImageDataURL = cv3.toDataURL(`image/${logImageType === 'jpg' ? 'jpeg' : logImageType}`, logImageQuality);
+  const fullImageb64 = fullImageDataURL.slice(fullImageDataURL.indexOf(',') + 1)
   return fullImageb64
 }
 
 function recognize_image(image) {
   OCRrequests += 1; // counter for auto-mode
   (async() => {
-    const textOrientation = verticalText && (OCREngine === 'Tesseract') ? 'vertical' : 'horizontal';
+    const textOrientation = verticalText && (OCREngine.includes('Tesseract')) ? 'vertical' : 'horizontal';
     const imageData = isCacheScreenshots ? getVideoImage() : '';
     let response = await eel.recognize_image(OCREngine, image, textOrientation)();
     if (response.result) {
       OCRrequests -= 1; // counter for auto-mode
+      currentTextLogId = response.id;
 
       updateText(output, response.result);
 
       // Temporary fix: Cache screenshots before log window is opened. To remove in the future
       if (isCacheScreenshots) {
-        cachedScreenshots[response.id] = {'base64ImageString': imageData, 'imageType': logImageType};
+        cacheScreenshot(imageData, currentTextLogId);
       }
   
       if (outputToClipboard) {
@@ -700,8 +824,10 @@ async function loadAnki() {
         fieldValueMap =  {...savedAnkiCardModels[existingModelIndex]}; // get obj value
         delete fieldValueMap['model']; // remove model name from object
         applyFieldAndValuesToTable(fieldValueMap);
+      } else if (cardModel) {
+        modelFieldsNeedLoad = true;
       }
-    }
+    } 
     // python backend will send the result to setAnkiFields()
     eel.fetch_anki_fields_by_modals(ankiModels)();
     return true
@@ -712,6 +838,10 @@ async function loadAnki() {
 eel.expose(setAnkiFields);
 function setAnkiFields(modelName, fieldNames) {
   ankiModelFieldMap[modelName] = fieldNames;
+  if (modelFieldsNeedLoad && modelName === cardModel) {
+    updateFieldValuesTable(ankiModelFieldMap[cardModel]);
+    modelFieldsNeedLoad = false;
+  }
 }
 
 async function reloadAnki() {
@@ -724,6 +854,29 @@ async function reloadAnki() {
 eel.expose(getFieldValueMap)
 function getFieldValueMap() {
   return fieldValueMap;
+}
+
+/**
+ * Send selected word to log when user highlights words in result
+ * 
+ */
+ document.addEventListener('mouseup', event => {  
+  sendTextIfSelected();
+})
+
+setInterval(()=>sendTextIfSelected(), 1000)
+
+function sendTextIfSelected() {
+  if (window.getSelection) {
+    if (window.getSelection().toString() === '') {
+      return
+    }
+      if (window.getSelection().anchorNode.parentNode.id === 'output') {
+        // Selected Text in Output
+        const selectedText = window.getSelection().toString();
+        eel.highlight_text_in_logs(selectedText)();
+      } 
+  }
 }
 
 /*

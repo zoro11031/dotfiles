@@ -27,7 +27,6 @@ numpy
 opencv-python
 pefile
 Pillow
-PyAudio
 pycparser
 pydub
 pyinstaller
