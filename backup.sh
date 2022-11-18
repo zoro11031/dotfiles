@@ -21,6 +21,8 @@ cp -R /home/petergriffin/.config/mpv/input.conf /home/petergriffin/Documents/dot
 cp -R /home/petergriffin/.config/mpv/mpv.conf /home/petergriffin/Documents/dotfiles/home/petergriffin/config/mpv/
 cp -R /home/petergriffin/.config/memento/memento.conf /home/petergriffin/Documents/dotfiles/home/petergriffin/config/memento/
 cp -R /home/petergriffin/.config/Trolltech.conf /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
+cp -R /home/petergriffin/.config/btop /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
+cp -R /home/petergriffin/.config/easyeffects /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
 cp -R /home/petergriffin/.config/micro /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
 cp -R /home/petergriffin/.config/nano /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
 cp -R /home/petergriffin/.config/pulse /home/petergriffin/Documents/dotfiles/home/petergriffin/config/
