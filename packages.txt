@@ -362,6 +362,8 @@ local/gobject-introspection-runtime 1.74.0-1
     Introspection system for GObject-based libraries (runtime library)
 local/gopsuinfo 0.1.2-1
     A gopsutil-based command to display customizable system info, intended for nwg-panel or Tint2
+local/goverlay-bin 0.9-1
+    A GUI to help manage Vulkan/OpenGL overlays
 local/gperf 3.1-3
     Perfect hash function generator
 local/gpgme 1.18.0-1
@@ -1384,7 +1386,7 @@ local/python-validate-pyproject 0.10.1-1
     Validation library and CLI tool for checking on 'pyproject.toml' files using JSON Schema
 local/python-vdf 3.4-2
     Library for working with Valve's VDF text format
-local/python-wheel 0.38.3-1
+local/python-wheel 0.38.4-1
     A built-package format for Python
 local/python-xlib 0.31-3
     A fully functional X client library for Python programs
@@ -1402,6 +1404,8 @@ local/qt5-translations 5.15.7-1 (qt qt5)
     A cross-platform application and UI framework (Translations)
 local/qt5-x11extras 5.15.7-1 (qt qt5)
     Provides platform-specific APIs for X11
+local/qt5pas 2.6.2.2.0-2
+    Free Pascal Qt5 binding library updated by lazarus IDE
 local/qt6-base 6.4.1-1 (qt6)
     A cross-platform application and UI framework
 local/qt6-declarative 6.4.1-1 (qt6)
