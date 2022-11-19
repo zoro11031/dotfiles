@@ -6,11 +6,11 @@ Trilium Notes	com.github.zadam.trilium	0.56.2	stable	flathub	system
 Minecraft	com.mojang.Minecraft	1.0.1221	stable	flathub	system
 OBS Studio	com.obsproject.Studio	28.1.2	stable	flathub	system
 Bottles	com.usebottles.bottles	2022.11.14	stable	flathub	system
+bottles translations	com.usebottles.bottles.Locale		beta	flathub-beta	system
 Steam	com.valvesoftware.Steam	1.0.0.75	stable	flathub	system
 Proton (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton	7.0-4	stable	flathub	system
 Proton experimental (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton-Exp	7.0-20221115	stable	flathub	system
 Proton-GE (community build)	com.valvesoftware.Steam.CompatibilityTool.Proton-GE	7.36-1	stable	flathub	system
-gamescope	com.valvesoftware.Steam.Utility.gamescope	3.11.49	stable	flathub	system
 Lutris	net.lutris.Lutris	0.5.11	stable	flathub	system
 TAP-plugins	org.freedesktop.LinuxAudio.Plugins.TAP	1.0.1	21.08	flathub	system
 SWH	org.freedesktop.LinuxAudio.Plugins.swh	0.4.17	21.08	flathub	system

@@ -44,6 +44,8 @@ local/alsa-ucm-conf 1.2.8-1
     ALSA Use Case Manager configuration (and topologies)
 local/amd-ucode 20221109.60310c2-1
     Microcode update image for AMD CPUs
+local/amf-headers 1.4.26-1
+    Header files for AMD Advanced Media Framework
 local/aom 3.5.0-1
     Alliance for Open Media video codec
 local/appimagelauncher 2.2.0-6
@@ -72,6 +74,8 @@ local/autotiling 1.8-1
     Script for sway and i3 to automatically switch the horizontal / vertical window split orientation
 local/avahi 0.8+22+gfd482a7-3
     Service Discovery for Linux using mDNS/DNS-SD -- compatible with Bonjour
+local/avisynthplus 3.7.2-1
+    An improved version of the AviSynth frameserver
 local/awesome-terminal-fonts 1.1.0-4
     fonts/icons for powerlines
 local/azote 1.9.7-1
@@ -138,6 +142,10 @@ local/chrono-date 3.0.1-3
     A date and time library based on the C++11/14/17 <chrono> header
 local/clang 14.0.6-3
     C language family frontend for LLVM
+local/cmake 3.24.3-1
+    A cross-platform open-source make system
+local/cmocka 1.1.5-2
+    Elegant unit testing framework for C with support for mock objects
 local/colord 1.4.6-1
     System daemon for managing color devices
 local/compiler-rt 14.0.6-1
@@ -232,6 +240,8 @@ local/ffmpeg-audio-thumbnailer 1.1.1-2
     A minimal audio file thumbnailer for file managers, such as nautilus, dolphin, thunar, and nemo.
 local/ffmpegthumbnailer 2.2.2-4
     Lightweight video thumbnailer that can be used by file managers
+local/ffnvcodec-headers 11.1.5.2-1
+    FFmpeg version of headers required to interface with Nvidias codec APIs
 local/fftw 3.3.10-3
     A library for computing the discrete Fourier transform (DFT)
 local/file 5.43-1 (base-devel)
@@ -460,6 +470,8 @@ local/ijs 0.35-5
     a library which implements a protocol for transmission of raster page images
 local/imagemagick 7.1.0.52-1
     An image viewing/manipulation program
+local/imlib2 1.9.1-2
+    Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
 local/iniparser 4.1-4
     A free stand-alone ini file parsing library written in portable ANSI C
 local/inkscape 1.2.1-8
@@ -508,6 +520,8 @@ local/krb5 1.20-3
     The Kerberos network authentication system
 local/l-smash 2.14.5-2
     MP4 muxer and other tools
+local/ladspa 1.17-1
+    Linux Audio Developer's Simple Plugin API (LADSPA)
 local/lame 3.100-4
     A high quality MPEG Audio Layer III (MP3) encoder
 local/lapack 3.11.0-1
@@ -608,6 +622,8 @@ local/libbsd 0.11.7-1
     Provides useful functions commonly found on BSD systems like strlcpy()
 local/libbytesize 2.7-1
     A tiny library providing a C "class" for working with arbitrary big sizes in bytes
+local/libcaca 0.99.beta20-1
+    Color AsCii Art library
 local/libcamera 0.0.1-3
     A complex camera support library for Linux, Android, and ChromeOS
 local/libcanberra 1:0.30+r2+gc0620e4-2
@@ -768,7 +784,7 @@ local/libnghttp2 1.51.0-1
     Framing layer of HTTP/2 is implemented as a reusable C library
 local/libnl 3.7.0-1
     Library for applications dealing with netlink sockets
-local/libnm 1.40.2-1
+local/libnm 1.40.4-1
     NetworkManager client library
 local/libnma 1.10.4-3
     NetworkManager GUI client library (GTK3)
@@ -834,6 +850,8 @@ local/libsigc++ 2.10.8-1
     Callback Framework for C++
 local/libsigc++-3.0 3.2.0-1
     Callback Framework for C++
+local/libsixel 1.10.3-5
+    Provides a codec for DEC SIXEL graphics and some converter programs
 local/libsm 1.2.3-3
     X11 Session Management library
 local/libsndfile 1.1.0-3
@@ -1004,7 +1022,7 @@ local/linux-firmware 20221109.60310c2-1
     Firmware files for Linux
 local/linux-firmware-whence 20221109.60310c2-1
     Firmware files for Linux - contains the WHENCE license file which documents the vendor license details
-local/linux-zen 6.0.8.zen1-1
+local/linux-zen 6.0.9.zen1-1
     The Linux ZEN kernel and modules
 local/lld 14.0.6-1
     Linker from the LLVM project
@@ -1019,6 +1037,8 @@ local/lsb-release 2.0.r48.3cf5103-1
 local/lsp-plugins 1.2.3-1 (ladspa-plugins lv2-plugins pro-audio vst-plugins)
     Collection of free plugins compatible with LADSPA, LV2 and LinuxVST
 local/lua 5.4.4-2
+    Powerful lightweight programming language designed for extending applications
+local/lua52 5.2.4-5
     Powerful lightweight programming language designed for extending applications
 local/luajit 2.1.0.beta3.r449.gdad04f17-1
     Just-in-time compiler and drop-in replacement for Lua 5.1
@@ -1080,6 +1100,8 @@ local/mujs 1.3.1-1
     An embeddable Javascript interpreter in C
 local/nano 7.0-1
     Pico editor clone with enhancements
+local/nasm 2.15.05-1
+    80x86 assembler designed for portability and modularity
 local/ncurses 6.3-3
     System V Release 4.0 curses emulation library
 local/ndctl 74-1
@@ -1092,7 +1114,7 @@ local/nettle 3.8.1-1
     A low-level cryptographic library
 local/network-manager-applet 1.30.0-1
     Applet for managing network connections
-local/networkmanager 1.40.2-1
+local/networkmanager 1.40.4-1
     Network connection manager and user applications
 local/ninja 1.11.1-2
     Small build system with a focus on speed
@@ -1140,6 +1162,8 @@ local/ocl-icd 2.3.1-1
     OpenCL ICD Bindings
 local/oniguruma 6.9.8-1
     a regular expressions library
+local/openal 1.22.2-1
+    Cross-platform 3D audio library, software implementation
 local/opencore-amr 0.1.6-1
     Open source implementation of the Adaptive Multi Rate (AMR) speech codec
 local/opendesktop-fonts 1.4.2-6
@@ -1298,6 +1322,8 @@ local/python-dasbus 1.6-1
     DBus library in Python 3
 local/python-distro 1.8.0-1
     Linux OS platform information API
+local/python-docutils 1:0.19-2
+    Set of tools for processing plaintext docs into formats such as HTML, XML, or LaTeX
 local/python-geographiclib 2.0-2
     Python implementation of the geodesic routines in GeographicLib
 local/python-geopy 2.3.0-1
@@ -1368,7 +1394,7 @@ local/python-send2trash 1.8.0-3
     Send file to trash natively
 local/python-setproctitle 1.3.1-1
     Allows a python process to change its process title
-local/python-setuptools 1:65.4.0-1
+local/python-setuptools 1:65.4.1-1
     Easily download, build, install, upgrade, and uninstall Python packages
 local/python-six 1.16.0-6
     Python 2 and 3 compatibility utilities
@@ -1430,6 +1456,8 @@ local/readline 8.2.001-1
     GNU readline library
 local/reflector 2021.11-5
     A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+local/rhash 1.4.3-1
+    Utility for verifying hash sums of files
 local/rnnoise 0.4.1-1
     A noise suppression library based on a recurrent neural network
 local/rsync 3.2.7-2
@@ -1996,6 +2024,8 @@ local/util-linux-libs 2.38.1-1
     util-linux runtime libraries
 local/v4l-utils 1.22.1-1
     Userspace tools and conversion library for Video 4 Linux
+local/vapoursynth R60-1
+    A video processing framework with the future in mind
 local/vid.stab 1.1-3
     Video stabilization library
 local/vim 9.0.0814-1
@@ -2112,7 +2142,7 @@ local/xfsprogs 5.19.0-2
     XFS filesystem utilities
 local/xkeyboard-config 2.37-1
     X keyboard configuration files
-local/xone-dkms-git 0.3.r0.g8311a25-2
+local/xone-dkms 0.3-3
     Modern Linux driver for Xbox One and Xbox Series X|S controllers
 local/xone-dongle-firmware 0.1-8
     Xbox Wireless Controller Adapter firmware
