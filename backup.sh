@@ -48,3 +48,7 @@ cp -R /home/petergriffin/'.local'/bin/wrappedsway /home/petergriffin/Documents/d
 git add .
 git commit -m "auto-update"
 git push -u https://github.com/zoro11031/dotfiles
+
+#Send notification to notification center
+
+notify-send "Daily backup complete"

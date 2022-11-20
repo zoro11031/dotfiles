@@ -3,11 +3,11 @@ import urllib.request
 import eel
 import yaml
 from pathlib import Path
-from mimetypes import guess_extension
-from logger import AUDIO_LOG_PATH, IMAGE_LOG_PATH, get_base64_image_with_log
+from logger import AUDIO_LOG_PATH
 from config import r_config, ANKI_CONFIG
+from dictionary import get_jpod_audio_base64
+from tools import bundle_dir 
 
-SCRIPT_DIR = Path(__file__).parent
 ANKI_MODELS_FILENAME = 'ankimodels.yaml'
 
 NOTE_SCREENSHOT = 'screenshot'
@@ -34,7 +34,7 @@ def invoke(action, params):
 
 
 def get_anki_models():
-    filename = str(Path(SCRIPT_DIR, 'anki', ANKI_MODELS_FILENAME))
+    filename = str(Path(bundle_dir, 'anki', ANKI_MODELS_FILENAME))
     ankiModels = []
     with open(filename, 'r') as stream:
         try:
@@ -47,7 +47,7 @@ def get_anki_models():
 
 def update_anki_models(ankiModels):
     # save ankimodels
-    with open(str(Path(SCRIPT_DIR, 'anki', ANKI_MODELS_FILENAME)), 'w') as outfile:
+    with open(str(Path(bundle_dir, 'anki', ANKI_MODELS_FILENAME)), 'w') as outfile:
         yaml.dump(ankiModels, outfile, sort_keys=False, default_flow_style=False)
         return outfile.name
 
@@ -56,11 +56,12 @@ def fetch_anki_fields(model_names):
         field_names = invoke('modelFieldNames', {'modelName': model_name})
         eel.setAnkiFields(model_name, field_names)()
 
-def createAnkiNote(note_data):
+def create_anki_note(note_data):
     field_value_map = eel.getFieldValueMap()()
     fields = {}
     picture_fields = []
     audio_fields = []
+    word_audio_fields = []
     for field in field_value_map:
         value = field_value_map[field].replace(' ', '').lower()
         if value in note_data:
@@ -68,6 +69,8 @@ def createAnkiNote(note_data):
                 picture_fields.append(field)
             elif (value == 'audio'):
                 audio_fields.append(field)
+            elif (value == 'wordaudio'):
+                word_audio_fields.append(field)
             else:
                 fields[field] = note_data[value]
     note_params = {
@@ -93,9 +96,21 @@ def createAnkiNote(note_data):
         audio_params = {
             'filename': note_data['audio'],
             'fields': audio_fields,
-            'path':  str(Path(AUDIO_LOG_PATH, note_data['folder'], note_data['audio'])),
+            'path':  str(Path(AUDIO_LOG_PATH, note_data['folder'], note_data['audio']))
         }
         note_params['note']['audio'] = [audio_params]
+    if (word_audio_fields):
+        word_audio_url = note_data['wordaudio']
+        kana = word_audio_url.split('kana=')[1]
+        word_audio_params = {
+            'filename': kana + '_' + note_data['filename'] + '.mp3',
+            'fields': word_audio_fields,
+            'data': get_jpod_audio_base64(word_audio_url)
+        }
+        if 'audio' in note_params['note']:
+            note_params['note']['audio'].append(word_audio_params)
+        else:
+            note_params['note']['audio'] = [word_audio_params]
     result = invoke('addNote', note_params)
     print(result)
     return result

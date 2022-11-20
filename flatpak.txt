@@ -31,6 +31,7 @@ openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	flathub	system
 GNU Image Manipulation Program	org.gimp.GIMP	2.10.32	stable	flathub	system
 Calculator	org.gnome.Calculator	43.0.1	stable	flathub	system
 Cheese	org.gnome.Cheese	3.38.0	stable	flathub	system
+Document Viewer	org.gnome.Evince	43.1	stable	flathub	system
 GNOME Application Platform version 42	org.gnome.Platform		42	flathub	system
 GNOME Application Platform version 43	org.gnome.Platform		43	flathub	system
 i386	org.gnome.Platform.Compat.i386		42	flathub	system

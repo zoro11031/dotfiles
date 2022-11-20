@@ -1,52 +1,75 @@
 # Game2Text
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) 
+![image](https://user-images.githubusercontent.com/13146030/117099796-b3efa180-ada4-11eb-8c68-431dfa0acdb5.png)
 
-![Game2Text Preview](https://game2text.com/images/header-software-app.png)
+[Game2Text](https://www.game2text.com) is an all-in-one application that helps you learn languages from the games you play.
 
-[Game2Text](https://www.game2text.com) is an all-in-one application that helps you learn language from games.
+## Platforms
+- Windows 10
+- Mac OSX Mojave, Catalina
 
+## Text Extraction Modes
+- Classic OCR with Tesseract, Tesseract Legacy, or OCR Space.
+- OCR-assisted game script matching. You can find game scripts in [this repository](https://github.com/mathewthe2/Game2Text-GameScripts). 
+- Text hooking for Visual Novels
+- Clipboard to Game2Text
 
 ## Features
-- Dictionary lookup with browser dictionaries like Yomichan
-- Translation - DeepL, Papago, and Google
-- Create image and audio flashcards via Anki and AnkiConnect
+- Dictionary lookup with browser dictionaries like Yomichan and Rikaichan
+- Translation tools including DeepL, Papago, and Google Translate.
+- Create game flashcards with screenshot and game audio via Anki and AnkiConnect
 
 ## Download 
-You can find downloads on [Releases](https://github.com/mathewthe2/Game2Text/releases).
+[Download Game2Text](https://game2text.com/download/) 
 
-## Prerequisite: Tesseract
+## User Guide
+[Read User Guide](https://game2text.com/user-guide/quick-start/)
 
-Windows/Mac: Tesseract is bundled with the application.
+## FAQ
+[Read FAQ](https://game2text.com/faq/switch-browser/)
 
-Linux: Follow installation instructions [here](https://tesseract-ocr.github.io/tessdoc/Home.html).
+## Development
 
-## Custom Config 
+Create a venv and activate it.
 
-Update *config.ini* file for the following configurations:
-
-- **browser**: Browser to launch Game2Text
-- **logimagetype**: file type to save logged images
-- **refresh**: hotkey to execute OCR
-
-## Image Filter Profiles 
-
-You can import and export image filter profiles to improve the accuracy of the OCR result. Image filtering controls can be accessed by right clicking on the game/video stream.    
-
-
-## Getting Started
-
-Create a venv, then once activated install requirements:
+```bash
+virtualenv venv --python=python3.7.4
+source venv/bin/activate
 ```
+
+Install requirements:
+
+```bash
 pip install -r requirements.txt
 python game2text.py
 ```
 
+## Extra Packages for Windows Development
+
+1. Install [C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+
+2. Install *pyaudio_portaudio* through wheel. This package includes **as_loopback** as an option to record system audio through *Windows WASAPI*. 
+```
+pip uninstall pyaudio
+pip install https://github.com/intxcc/pyaudio_portaudio/releases/download/1.1.1/PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
+```
+
+3. Install the wexpect library for running the text hooker program.
+```
+pip install wexpect==4.0.0
+```
+
+## Extra Packages for Linux Development
+
+Install Tesseract by following the installation instructions [here](https://tesseract-ocr.github.io/tessdoc/Home.html).
+
 ## Distribution
+
+Unzip *resources/sudachidict_small.zip* into the same directory.
 
 Windows: 
 
-```python -m eel game2text.py web --windowed --icon "icon.ico" --add-data "logs;logs/" --add-data "profiles;profiles/" --add-data "anki;anki/" --add-data "win;win/" --add-data "config.ini;."```
+```build.bat```
 
 Mac:
 
@@ -54,18 +77,24 @@ Mac:
 
 Temporary fix for all read/write operations using *os.path* on Mac builds with pyinstaller: create a wrapper file that runs the Game2Text executable inside the package
 
-## FAQ
+## Acknowledgement
 
-Q. Why is my application not showing in screen share?
-- 
-On MacOS, make sure you have allowed screen recording for your browser in **Security & Privacy** settings.
+#### Tools
 
-<img src="https://user-images.githubusercontent.com/13146030/113811992-d7243280-979f-11eb-8bdf-bcea6bd4e9bd.png" width="500" height="439">
+| Tool | Description | Version |
+| :---: | :---: | :---: |
+| [Python Eel](https://github.com/ChrisKnott/Eel)  | Electron-like Library for Python | 0.14.0 |
+| [Tesseract](https://github.com/tesseract-ocr/tesseract)  | OCR Tool | 4.1.1 |
+| [AnkiConnect](https://github.com/FooSoft/anki-connect) |  Anki Remote API Extension | / |
+| [SudachiPy](https://github.com/WorksApplications/SudachiPy)  |  Japanese Morphological Analyzer | 0.5.2 |
+| [Textractor](https://github.com/Artikash/Textractor) |  Texthooker | 4.16.1 |
+| [FFmpeg](https://www.ffmpeg.org/) |  Audio Converter | 4.4 |
 
 
-Q. How do I use Game2Text without Chrome?
-- 
-Modify *config.ini* and update the value of browser to edge, chromium, or firefox. 
 
-<img src="https://user-images.githubusercontent.com/13146030/113812636-02f3e800-97a1-11eb-8435-5f2c0e7b0339.png" width="400" height="504">
+#### Resources
+
+Jun Mako (Game Scripts)
+
+Unboxious (Game Scripts)
 

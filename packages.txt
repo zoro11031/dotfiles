@@ -4,26 +4,12 @@ local/acl 2.3.1-2
     Access control list utilities, libraries and headers
 local/adobe-source-code-pro-fonts 2.038ro+1.058it+1.018var-1
     Monospaced font family for user interface and coding environments
-local/adobe-source-han-sans-cn-fonts 2.004-1
-    Adobe Source Han Sans Subset OTF - Simplified Chinese OpenType/CFF fonts
-local/adobe-source-han-sans-hk-fonts 2.004-1
-    Adobe Source Han Sans Subset OTF - Traditional Chinese (Hong Kong) OpenType/CFF fonts
 local/adobe-source-han-sans-jp-fonts 2.004-1
     Adobe Source Han Sans Subset OTF - Japanese OpenType/CFF fonts
-local/adobe-source-han-sans-kr-fonts 2.004-1
-    Adobe Source Han Sans Subset OTF - Korean OpenType/CFF fonts
-local/adobe-source-han-sans-otc-fonts 2.004-1
-    Adobe Source Han Sans - Pan-CJK OpenType/CFF Collection fonts
 local/adobe-source-han-sans-tw-fonts 2.004-1
     Adobe Source Han Sans Subset OTF - Traditional Chinese (Taiwan) OpenType/CFF fonts
-local/adobe-source-han-serif-cn-fonts 2.001-2
-    Adobe Source Han Serif Subset OTF - Simplified Chinese OpenType/CFF fonts
 local/adobe-source-han-serif-jp-fonts 2.001-2
     Adobe Source Han Serif Subset OTF - Japanese OpenType/CFF fonts
-local/adobe-source-han-serif-kr-fonts 2.001-2
-    Adobe Source Han Serif Subset OTF - Korean OpenType/CFF fonts
-local/adobe-source-han-serif-otc-fonts 2.001-2
-    Adobe Source Han Serif - Pan-CJK OpenType/CFF Collection fonts
 local/adobe-source-han-serif-tw-fonts 2.001-2
     Adobe Source Han Serif Subset OTF - Traditional Chinese (Taiwan) OpenType/CFF fonts
 local/adobe-source-sans-fonts 3.046-1
@@ -44,6 +30,8 @@ local/alsa-ucm-conf 1.2.8-1
     ALSA Use Case Manager configuration (and topologies)
 local/amd-ucode 20221109.60310c2-1
     Microcode update image for AMD CPUs
+local/amf-amdgpu-pro-fix 22.20.3_1462318-1 (Radeon_Software_for_Linux)
+    AMDGPU Pro Advanced Multimedia Framework, patched version to enable AMF on RX 6000 series cards
 local/amf-headers 1.4.26-1
     Header files for AMD Advanced Media Framework
 local/aom 3.5.0-1
@@ -76,8 +64,6 @@ local/avahi 0.8+22+gfd482a7-3
     Service Discovery for Linux using mDNS/DNS-SD -- compatible with Bonjour
 local/avisynthplus 3.7.2-1
     An improved version of the AviSynth frameserver
-local/awesome-terminal-fonts 1.1.0-4
-    fonts/icons for powerlines
 local/azote 1.9.7-1
     Wallpaper & color manager for Sway, i3 and other WMs
 local/base 3-1
@@ -138,14 +124,12 @@ local/celluloid 0.24-2
     Simple GTK+ frontend for mpv
 local/cfitsio 1:4.2.0-1
     A library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
+local/chromium 107.0.5304.110-1
+    A web browser built for speed, simplicity, and security
 local/chrono-date 3.0.1-3
     A date and time library based on the C++11/14/17 <chrono> header
-local/clang 14.0.6-3
+local/clang 14.0.6-4
     C language family frontend for LLVM
-local/cmake 3.24.3-1
-    A cross-platform open-source make system
-local/cmocka 1.1.5-2
-    Elegant unit testing framework for C with support for mock objects
 local/colord 1.4.6-1
     System daemon for managing color devices
 local/compiler-rt 14.0.6-1
@@ -208,7 +192,7 @@ local/efibootmgr 18-1
     Linux user-space application to modify the EFI Boot Manager
 local/efivar 38-2
     Tools and libraries to work with EFI variables
-local/ell 0.53-1
+local/ell 0.54-1
     Embedded Linux library
 local/emacs 28.2-1
     The extensible, customizable, self-documenting real-time display editor
@@ -228,20 +212,22 @@ local/fcft 3.1.5-2
     Simple library for font loading and glyph rasterization
 local/fcitx5 5.0.19-1 (fcitx5-im)
     Next generation of fcitx
+local/fcitx5-configtool 5.0.15-1 (fcitx5-im)
+    Configuration Tool for Fcitx5
 local/fcitx5-gtk 5.0.19-1 (fcitx5-im)
     Fcitx5 gtk im module and glib based dbus client library
 local/fcitx5-mozc 2.26.4632.102.g4d2e3bd-2
     Fcitx5 Module of A Japanese Input Method for Chromium OS, Windows, Mac and Linux (the Open Source Edition of Google Japanese Input)
 local/fcitx5-qt 5.0.15-1 (fcitx5-im)
     Fcitx5 Qt Library
+local/feh 3.9.1-2
+    Fast and light imlib2-based image viewer
 local/ffmpeg 2:5.1.2-1
     Complete solution to record, convert and stream audio and video
 local/ffmpeg-audio-thumbnailer 1.1.1-2
     A minimal audio file thumbnailer for file managers, such as nautilus, dolphin, thunar, and nemo.
 local/ffmpegthumbnailer 2.2.2-4
     Lightweight video thumbnailer that can be used by file managers
-local/ffnvcodec-headers 11.1.5.2-1
-    FFmpeg version of headers required to interface with Nvidias codec APIs
 local/fftw 3.3.10-3
     A library for computing the discrete Fourier transform (DFT)
 local/file 5.43-1 (base-devel)
@@ -336,7 +322,7 @@ local/glslang 11.11.0-1
     OpenGL and OpenGL ES shader front end and validator
 local/gmp 6.2.1-2
     A free library for arbitrary precision arithmetic
-local/gn 0.2050.9ef32177-1
+local/gn 0.2072.1c4151ff-1
     Meta-build system that generates build files for Ninja
 local/gnome-bluetooth 3.34.5-4
     GNOME Bluetooth Subsystem (legacy)
@@ -486,7 +472,7 @@ local/iputils 20211215-1
     Network monitoring tools, including ping
 local/iso-codes 4.12.0-1
     Lists of the country, language, and currency names
-local/iwd 1.30-1
+local/iwd 2.0-1
     Internet Wireless Daemon
 local/jansson 2.14-2
     C library for encoding, decoding and manipulating JSON data
@@ -494,6 +480,8 @@ local/java-runtime-common 3-3
     Common files for Java Runtime Environments
 local/jbig2dec 0.19-1
     Decoder implementation of the JBIG2 image compression format
+local/jp2a 1.1.1-1
+    A small utility for converting JPG images to ASCII
 local/jq 1.6-4
     Command-line JSON processor
 local/jre-openjdk-headless 19.0.1.u10-3
@@ -508,6 +496,8 @@ local/kbd 2.5.1-1
     Keytable files and keyboard utilities
 local/keyutils 1.6.3-1
     Linux Key Management Utilities
+local/kitemviews 5.100.0-1 (kf5)
+    Widget addons for Qt Model/View
 local/kitty 0.26.5-1
     A modern, hackable, featureful, OpenGL-based terminal emulator
 local/kitty-shell-integration 0.26.5-1
@@ -518,6 +508,8 @@ local/kmod 30-3
     Linux kernel module management tools and library
 local/krb5 1.20-3
     The Kerberos network authentication system
+local/kwidgetsaddons 5.100.0-1 (kf5)
+    Addons to QtWidgets
 local/l-smash 2.14.5-2
     MP4 muxer and other tools
 local/ladspa 1.17-1
@@ -734,7 +726,7 @@ local/libindicator-gtk3 12.10.1-10
     Set of symbols and convenience functions for Ayatana indicators (GTK+ 3 library)
 local/libinih 56-1
     A simple .INI file parser written in C
-local/libinput 1.21.0-1
+local/libinput 1.22.0-1
     Input device management and event handling library
 local/libisl 0.25-1
     Library for manipulating sets and relations of integer points bounded by linear constraints
@@ -826,7 +818,7 @@ local/libpsl 0.21.1-3
     Public Suffix List library
 local/libpulse 16.1-3
     A featureful, general-purpose sound server (client library)
-local/libpwquality 1.4.4-5
+local/libpwquality 1.4.5-1
     Library for password quality checking and generating random passwords
 local/libraqm 0.9.0-1
     A library that encapsulates the logic for complex text layout
@@ -948,7 +940,7 @@ local/libxcvt 0.1.2-1
     library providing a standalone version of the X server implementation of the VESA CVT standard timing modelines generator
 local/libxdamage 1.1.5-5
     X11 damaged region extension library
-local/libxdmcp 1.1.3-5
+local/libxdmcp 1.1.4-1
     X11 Display Manager Control Protocol library
 local/libxext 1.3.5-1
     X11 miscellaneous extensions library
@@ -980,7 +972,7 @@ local/libxmlb 0.3.10-1
     Library to help create and query binary XML blobs
 local/libxmu 1.1.4-1
     X11 miscellaneous micro-utility library
-local/libxpm 3.5.13-3
+local/libxpm 3.5.14-1
     X11 pixmap library
 local/libxpresent 1.0.1-1
     X Present Extension library
@@ -1024,6 +1016,8 @@ local/linux-firmware-whence 20221109.60310c2-1
     Firmware files for Linux - contains the WHENCE license file which documents the vendor license details
 local/linux-zen 6.0.9.zen1-1
     The Linux ZEN kernel and modules
+local/linux-zen-headers 6.0.9.zen1-1
+    Headers and scripts for building modules for the Linux ZEN kernel
 local/lld 14.0.6-1
     Linker from the LLVM project
 local/llvm 14.0.6-4
@@ -1034,6 +1028,8 @@ local/lm_sensors 1:3.6.0.r41.g31d1f125-2
     Collection of user space tools for general SMBus access and hardware monitoring
 local/lsb-release 2.0.r48.3cf5103-1
     LSB version query program
+local/lsof 4.96.4-1
+    Lists open files for running Unix processes
 local/lsp-plugins 1.2.3-1 (ladspa-plugins lv2-plugins pro-audio vst-plugins)
     Collection of free plugins compatible with LADSPA, LV2 and LinuxVST
 local/lua 5.4.4-2
@@ -1108,7 +1104,7 @@ local/ndctl 74-1
     Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel
 local/neofetch 7.1.0-2
     A CLI system information tool written in BASH that supports displaying images.
-local/neovim 0.8.1-1
+local/neovim 0.8.1-2
     Fork of Vim aiming to improve user experience, plugins, and GUIs
 local/nettle 3.8.1-1
     A low-level cryptographic library
@@ -1196,7 +1192,7 @@ local/otf-fira-mono 2:3.206-4
     Mozilla's monospace typeface designed for Firefox OS
 local/otf-fira-sans 1:4.301-2
     Mozilla's sans-serif typeface designed for Firefox OS
-local/otf-font-awesome 6.2.0-1
+local/otf-font-awesome 6.2.1-1
     Iconic font designed for Bootstrap
 local/otf-font-awesome-4 4.7.0-5
     100% free version of font awesome.
@@ -1220,13 +1216,15 @@ local/pacman-contrib 1.8.0-1
     Contributed scripts and tools for pacman systems
 local/pacman-mirrorlist 20221016-1
     Arch Linux mirror list for use by pacman
+local/pahole 1:1.24-1
+    Pahole and other DWARF utils
 local/pam 1.5.2-1
     PAM (Pluggable Authentication Modules) library
 local/pambase 20221020-1
     Base PAM configuration for services
 local/pamixer 1.6-2
     Pulseaudio command-line mixer like amixer
-local/pango 1:1.50.11-1
+local/pango 1:1.50.12-1
     A library for layout and rendering of text
 local/pangomm 2.46.3-1
     C++ bindings for Pango
@@ -1394,7 +1392,7 @@ local/python-send2trash 1.8.0-3
     Send file to trash natively
 local/python-setproctitle 1.3.1-1
     Allows a python process to change its process title
-local/python-setuptools 1:65.4.1-1
+local/python-setuptools 1:65.5.0-1
     Easily download, build, install, upgrade, and uninstall Python packages
 local/python-six 1.16.0-6
     Python 2 and 3 compatibility utilities
@@ -1456,8 +1454,6 @@ local/readline 8.2.001-1
     GNU readline library
 local/reflector 2021.11-5
     A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
-local/rhash 1.4.3-1
-    Utility for verifying hash sums of files
 local/rnnoise 0.4.1-1
     A noise suppression library based on a recurrent neural network
 local/rsync 3.2.7-2
@@ -1502,6 +1498,8 @@ local/sord 0.16.14-1
     A lightweight C library for storing RDF data in memory
 local/sound-theme-freedesktop 0.8-5
     Freedesktop sound theme
+local/sov 0.74-1
+    An overview application for sway
 local/spdlog 1.11.0-1
     Very fast, header-only/compiled, C++ logging library
 local/speex 1.2.1-1
@@ -1528,7 +1526,7 @@ local/sudo 1.9.12.p1-1 (base-devel)
     Give certain users the ability to run some commands as root
 local/svt-av1 1.3.0-1
     Scalable Video Technology AV1 encoder and decoder
-local/swappy 1.4.0-2
+local/swappy 1.5.0-1
     A Wayland native snapshot editing tool
 local/swaybg 1.1.1-1
     Wallpaper tool for Wayland compositors
@@ -1570,258 +1568,14 @@ local/tesseract 5.2.0-2
     An OCR program
 local/tesseract-data-afr 2:4.1.0-3 (tesseract-data)
     Tesseract OCR data (afr)
-local/tesseract-data-amh 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (amh)
-local/tesseract-data-ara 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ara)
-local/tesseract-data-asm 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (asm)
-local/tesseract-data-aze 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (aze)
-local/tesseract-data-aze_cyrl 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (aze_cyrl)
-local/tesseract-data-bel 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (bel)
-local/tesseract-data-ben 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ben)
-local/tesseract-data-bod 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (bod)
-local/tesseract-data-bos 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (bos)
-local/tesseract-data-bre 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (bre)
-local/tesseract-data-bul 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (bul)
-local/tesseract-data-cat 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (cat)
-local/tesseract-data-ceb 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ceb)
-local/tesseract-data-ces 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ces)
-local/tesseract-data-chi_sim 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (chi_sim)
-local/tesseract-data-chi_tra 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (chi_tra)
-local/tesseract-data-chr 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (chr)
-local/tesseract-data-cos 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (cos)
-local/tesseract-data-cym 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (cym)
-local/tesseract-data-dan 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (dan)
-local/tesseract-data-dan_frak 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (dan_frak)
-local/tesseract-data-deu 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (deu)
-local/tesseract-data-deu_frak 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (deu_frak)
-local/tesseract-data-div 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (div)
-local/tesseract-data-dzo 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (dzo)
-local/tesseract-data-ell 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ell)
 local/tesseract-data-eng 2:4.1.0-3 (tesseract-data)
     Tesseract OCR data (eng)
-local/tesseract-data-enm 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (enm)
-local/tesseract-data-epo 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (epo)
-local/tesseract-data-equ 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (equ)
-local/tesseract-data-est 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (est)
-local/tesseract-data-eus 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (eus)
-local/tesseract-data-fao 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (fao)
-local/tesseract-data-fas 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (fas)
-local/tesseract-data-fil 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (fil)
-local/tesseract-data-fin 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (fin)
-local/tesseract-data-fra 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (fra)
-local/tesseract-data-frk 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (frk)
-local/tesseract-data-frm 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (frm)
-local/tesseract-data-fry 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (fry)
-local/tesseract-data-gla 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (gla)
-local/tesseract-data-gle 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (gle)
-local/tesseract-data-glg 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (glg)
-local/tesseract-data-grc 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (grc)
-local/tesseract-data-guj 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (guj)
-local/tesseract-data-hat 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (hat)
-local/tesseract-data-heb 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (heb)
-local/tesseract-data-hin 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (hin)
-local/tesseract-data-hrv 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (hrv)
-local/tesseract-data-hun 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (hun)
-local/tesseract-data-hye 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (hye)
-local/tesseract-data-iku 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (iku)
-local/tesseract-data-ind 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ind)
-local/tesseract-data-isl 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (isl)
-local/tesseract-data-ita 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ita)
-local/tesseract-data-ita_old 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ita_old)
-local/tesseract-data-jav 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (jav)
 local/tesseract-data-jpn 2:4.1.0-3 (tesseract-data)
     Tesseract OCR data (jpn)
 local/tesseract-data-jpn_vert 2:4.1.0-3 (tesseract-data)
     Tesseract OCR data (jpn_vert)
-local/tesseract-data-kan 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (kan)
-local/tesseract-data-kat 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (kat)
-local/tesseract-data-kat_old 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (kat_old)
-local/tesseract-data-kaz 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (kaz)
-local/tesseract-data-khm 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (khm)
-local/tesseract-data-kir 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (kir)
-local/tesseract-data-kmr 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (kmr)
-local/tesseract-data-kor 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (kor)
-local/tesseract-data-kor_vert 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (kor_vert)
-local/tesseract-data-lao 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (lao)
-local/tesseract-data-lat 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (lat)
-local/tesseract-data-lav 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (lav)
-local/tesseract-data-lit 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (lit)
-local/tesseract-data-ltz 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ltz)
-local/tesseract-data-mal 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (mal)
-local/tesseract-data-mar 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (mar)
-local/tesseract-data-mkd 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (mkd)
-local/tesseract-data-mlt 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (mlt)
-local/tesseract-data-mon 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (mon)
-local/tesseract-data-mri 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (mri)
-local/tesseract-data-msa 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (msa)
-local/tesseract-data-mya 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (mya)
-local/tesseract-data-nep 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (nep)
-local/tesseract-data-nld 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (nld)
-local/tesseract-data-nor 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (nor)
-local/tesseract-data-oci 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (oci)
-local/tesseract-data-ori 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ori)
 local/tesseract-data-osd 2:4.1.0-3
     Tesseract OCR data (osd)
-local/tesseract-data-pan 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (pan)
-local/tesseract-data-pol 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (pol)
-local/tesseract-data-por 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (por)
-local/tesseract-data-pus 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (pus)
-local/tesseract-data-que 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (que)
-local/tesseract-data-ron 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ron)
-local/tesseract-data-rus 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (rus)
-local/tesseract-data-san 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (san)
-local/tesseract-data-sin 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (sin)
-local/tesseract-data-slk 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (slk)
-local/tesseract-data-slk_frak 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (slk_frak)
-local/tesseract-data-slv 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (slv)
-local/tesseract-data-snd 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (snd)
-local/tesseract-data-spa 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (spa)
-local/tesseract-data-spa_old 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (spa_old)
-local/tesseract-data-sqi 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (sqi)
-local/tesseract-data-srp 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (srp)
-local/tesseract-data-srp_latn 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (srp_latn)
-local/tesseract-data-sun 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (sun)
-local/tesseract-data-swa 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (swa)
-local/tesseract-data-swe 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (swe)
-local/tesseract-data-syr 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (syr)
-local/tesseract-data-tam 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (tam)
-local/tesseract-data-tat 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (tat)
-local/tesseract-data-tel 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (tel)
-local/tesseract-data-tgk 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (tgk)
-local/tesseract-data-tgl 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (tgl)
-local/tesseract-data-tha 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (tha)
-local/tesseract-data-tir 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (tir)
-local/tesseract-data-ton 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ton)
-local/tesseract-data-tur 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (tur)
-local/tesseract-data-uig 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (uig)
-local/tesseract-data-ukr 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (ukr)
-local/tesseract-data-urd 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (urd)
-local/tesseract-data-uzb 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (uzb)
-local/tesseract-data-uzb_cyrl 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (uzb_cyrl)
-local/tesseract-data-vie 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (vie)
-local/tesseract-data-yid 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (yid)
-local/tesseract-data-yor 2:4.1.0-3 (tesseract-data)
-    Tesseract OCR data (yor)
 local/tex-gyre-fonts 2.501-2
     Substitute PostScript fonts in OpenType format
 local/texinfo 7.0-1 (base-devel)
@@ -1852,54 +1606,6 @@ local/tree-sitter 0.20.7-1
     An incremental parsing system for programming tools
 local/tslib 1.22-1
     Touchscreen Access Library
-local/ttc-iosevka 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents.
-local/ttc-iosevka-aile 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Aile variant)
-local/ttc-iosevka-curly 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Curly variant)
-local/ttc-iosevka-curly-slab 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Curly Slab variant)
-local/ttc-iosevka-etoile 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Etoile variant)
-local/ttc-iosevka-slab 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Slab variant)
-local/ttc-iosevka-ss01 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss01 variant)
-local/ttc-iosevka-ss02 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss02 variant)
-local/ttc-iosevka-ss03 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss03 variant)
-local/ttc-iosevka-ss04 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss04 variant)
-local/ttc-iosevka-ss05 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss05 variant)
-local/ttc-iosevka-ss06 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss06 variant)
-local/ttc-iosevka-ss07 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss07 variant)
-local/ttc-iosevka-ss08 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss08 variant)
-local/ttc-iosevka-ss09 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss09 variant)
-local/ttc-iosevka-ss10 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss10 variant)
-local/ttc-iosevka-ss11 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss11 variant)
-local/ttc-iosevka-ss12 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss12 variant)
-local/ttc-iosevka-ss13 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss13 variant)
-local/ttc-iosevka-ss14 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss14 variant)
-local/ttc-iosevka-ss15 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss15 variant)
-local/ttc-iosevka-ss16 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss16 variant)
-local/ttc-iosevka-ss17 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss17 variant)
-local/ttc-iosevka-ss18 16.3.6-1
-    Typeface family designed for coding, terminal use and technical documents. (Ss18 variant)
 local/ttf-anonymous-pro 1.003-7
     A family of four fixed-width fonts designed especially with coding in mind
 local/ttf-arphic-ukai 0.2.20080216.2-1
@@ -1924,8 +1630,6 @@ local/ttf-dejavu 2.37+18+g9b5d1b2f-3
     Font family based on the Bitstream Vera Fonts with a wider range of characters
 local/ttf-droid 20121017-10
     General-purpose fonts released by Google as part of Android
-local/ttf-eurof 1.0-2
-    The original eurofurence font designed for headlines, signs, badges, inscriptions, et al.
 local/ttf-fantasque-sans-mono 1.8.0-2
     Font family with a great monospaced variant for programmers
 local/ttf-fira-code 6.2-2
@@ -1954,8 +1658,6 @@ local/ttf-joypixels 7.0.0-1
     Emoji as a Service (formerly EmojiOne)
 local/ttf-junicode 1.003-2
     Junius-Unicode: Font for Medievalists
-local/ttf-khmer 5.0-7
-    Fonts for Khmer and Latin alphabets
 local/ttf-koruri 20180915-2
     Japanese TrueType font obtained by mixing M+ and Open Sans
 local/ttf-lato 2.015-4
@@ -1980,14 +1682,10 @@ local/ttf-roboto 2.138-4
     Google's signature family of fonts
 local/ttf-roboto-mono 3.000-1
     A monospaced addition to the Roboto type family.
-local/ttf-sarasa-gothic 0.37.4-1
-    A CJK programming font based on Iosevka and Source Han Sans. (TTC)
 local/ttf-sazanami 20040629-11
     Japanese fonts
 local/ttf-sourcecodepro-nerd 2.2.2-1
     Patched font Source Code Pro from nerd-fonts library
-local/ttf-tibetan-machine 1.901-11
-    Open-type unicode font for Tibetan
 local/ttf-ubuntu-font-family 0.83-8
     Ubuntu font family
 local/ttf-vlgothic 20200720-1
@@ -2006,8 +1704,6 @@ local/ufraw-thumbnailer 0.2-2
     Provides thumbnailer definition to generate thumbnails for RAW images in file managers like Nautilus or Nemo
 local/unclutter 1:1.6-2
     A small program for hiding the mouse cursor
-local/ungoogled-chromium-bin 107.0.5304.110-1
-    A lightweight approach to removing Google web service dependency
 local/unibilium 2.1.1-1
     A terminfo parsing library
 local/unicode-cldr-annotations 41.0-1
@@ -2028,9 +1724,9 @@ local/vapoursynth R60-1
     A video processing framework with the future in mind
 local/vid.stab 1.1-3
     Video stabilization library
-local/vim 9.0.0814-1
+local/vim 9.0.0910-1
     Vi Improved, a highly configurable, improved version of the vi text editor
-local/vim-runtime 9.0.0814-1
+local/vim-runtime 9.0.0910-1
     Vi Improved, a highly configurable, improved version of the vi text editor (shared runtime)
 local/vmaf 2.3.1-1
     Perceptual video quality assessment algorithm based on multi-method fusion
@@ -2040,14 +1736,14 @@ local/vte-common 0.70.1-1
     Virtual Terminal Emulator widget (common files)
 local/vte3 0.70.1-1
     Virtual Terminal Emulator widget (GTK3)
-local/vulkan-headers 1:1.3.227-1 (vulkan-devel)
+local/vulkan-amdgpu-pro-fix 22.20.3_1462318-1 (Radeon_Software_for_Linux)
+    AMDGPU Pro Vulkan driver, patched version to enable AMF on RX 6000 series cards
+local/vulkan-headers 1:1.3.235-1 (vulkan-devel)
     Vulkan header files
-local/vulkan-icd-loader 1.3.226-1
+local/vulkan-icd-loader 1.3.235-1
     Vulkan Installable Client Driver (ICD) Loader
 local/vulkan-radeon 22.2.3-1
     Radeon's Vulkan mesa driver
-local/vulkan-validation-layers 1.3.224.1-1 (vulkan-devel)
-    Vulkan Validation Layers
 local/waybar 0.9.15-2
     Highly customizable Wayland bar for Sway and Wlroots based compositors
 local/wayland 1.21.0-1
@@ -2078,21 +1774,13 @@ local/wofi 1.3-2
     launcher for wlroots-based wayland compositors
 local/wpa_supplicant 2:2.10-7
     A utility providing key negotiation for WPA wireless networks
-local/wqy-bitmapfont 1.0.0RC1-5
-    A bitmapped Song Ti (serif) Chinese font
-local/wqy-microhei 0.2.0_beta-11
-    A Sans-Serif style high quality CJK outline font
-local/wqy-microhei-lite 0.2.0_beta-10
-    The "Light" face of WenQuanYi Micro Hei font family
-local/wqy-zenhei 0.9.45-9
-    A Hei Ti Style (sans-serif) Chinese Outline Font.
 local/x264 3:0.164.r3095.baee400-4
     Open Source H264/AVC video encoder
 local/x265 3.5-3
     Open Source H265/HEVC video encoder
 local/xapian-core 1:1.4.21-1
     Open source search engine library.
-local/xapp 2.2.15-1
+local/xapp 2.4.1-1
     Common library for X-Apps project
 local/xcb-imdkit-git 1.0.3.r1.g0562bab-1
     Input method development support for xcb
@@ -2138,11 +1826,11 @@ local/xfce4-settings 4.16.5-1 (xfce4)
     Settings manager of the Xfce desktop
 local/xfconf 4.16.0-2 (xfce4)
     Flexible, easy-to-use configuration management system
-local/xfsprogs 5.19.0-2
+local/xfsprogs 6.0.0-1
     XFS filesystem utilities
 local/xkeyboard-config 2.37-1
     X keyboard configuration files
-local/xone-dkms 0.3-3
+local/xone-dkms-git 0.3.r0.g8311a25-2
     Modern Linux driver for Xbox One and Xbox Series X|S controllers
 local/xone-dongle-firmware 0.1-8
     Xbox Wireless Controller Adapter firmware
