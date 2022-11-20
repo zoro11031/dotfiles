@@ -51,4 +51,4 @@ git push -u https://github.com/zoro11031/dotfiles
 
 #Send notification to notification center
 
-notify-send "Daily backup complete"
+#notify-send "Daily backup complete"
