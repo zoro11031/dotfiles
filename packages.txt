@@ -1420,7 +1420,7 @@ local/qgnomeplatform-qt6 0.9.0-5
     QPlatformTheme for a better Qt6 application inclusion in GNOME
 local/qpwgraph-qt5 0.3.7-1
     a pipewire graph using qt(qt5 version)
-local/qt5-base 5.15.7+kde+r174-1 (qt qt5)
+local/qt5-base 5.15.7+kde+r175-1 (qt qt5)
     A cross-platform application and UI framework
 local/qt5-svg 5.15.7+kde+r9-1 (qt qt5)
     Classes for displaying the contents of SVG files
