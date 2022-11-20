@@ -7,3 +7,5 @@ for_window [class="Bitwarden"] floating enable, mark "passwords"
 for_window [title="Logs"] floating enable, resize set 500 1000
 for_window [title="http:\/\/localhost:55193 is sharing a window."] move scratchpad
 for_window [title="Game2Text"] floating enable, resize set 1260 1420
+for_window [title="Browse (0 cards shown; 0 selected)"] floating enable, resize set 1260 1420
+

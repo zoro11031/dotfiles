@@ -16,7 +16,7 @@ exec /home/petergriffin/.config/sway/scripts/keyring.sh
 	exec_always waybar
 
 ##Lock Screen
-	bindsym $mod+Mod1+l exec swaylock -C ~/.config/swaylock/config
+	bindsym $mod+Mod1+l exec swaylockd -C ~/.config/swaylock/config
        # exec_always light-locker
        # bindsym $mod+Mod1+l exec light-locker -command -l
 
@@ -54,9 +54,9 @@ exec_always  nwg-dock -d -nows
       
 ##Idle Timer      
       exec swayidle -w \
-          timeout 1800 'swaylock -f -c 000000' \
+          timeout 1800 'swaylockd -f -c 000000' \
           timeout 2200 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
-          before-sleep 'swaylock -f -c 000000'
+          before-sleep 'swaylockd -f -c 000000'
 
 ##Audio Equalizer
 
