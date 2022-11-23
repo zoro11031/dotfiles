@@ -1274,7 +1274,7 @@ local/patch 2.7.6-8 (base-devel)
     A utility to apply patch files to original sources
 local/pavucontrol 1:5.0+r61+gee77d86-2
     PulseAudio Volume Control
-local/pciutils 3.8.0-2
+local/pciutils 3.9.0-1
     PCI bus configuration space access library and tools
 local/pcre 8.45-3
     A library that implements Perl 5-style regular expressions
