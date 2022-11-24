@@ -1,3 +1,3 @@
-function cd --wraps=z --description 'alias cd=cd'
- builtin cd $argv; 
+function cd --wraps=z --description 'alias cd=z'
+  z $argv; 
 end
