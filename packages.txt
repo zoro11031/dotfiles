@@ -236,7 +236,7 @@ local/fcitx5 5.0.21-1 (fcitx5-im)
     Next generation of fcitx
 local/fcitx5-configtool 5.0.16-1 (fcitx5-im)
     Configuration Tool for Fcitx5
-local/fcitx5-gtk 5.0.20-1 (fcitx5-im)
+local/fcitx5-gtk 5.0.21-1 (fcitx5-im)
     Fcitx5 gtk im module and glib based dbus client library
 local/fcitx5-mozc 2.26.4632.102.g4d2e3bd-2
     Fcitx5 Module of A Japanese Input Method for Chromium OS, Windows, Mac and Linux (the Open Source Edition of Google Japanese Input)
@@ -1528,7 +1528,7 @@ local/python-inflect 6.0.2-1
     Correctly generate plurals, singular nouns, ordinals, indefinite articles
 local/python-inputs 0.5.0-1
     Cross-platform Python support for keyboards, mice and gamepads
-local/python-jaraco.context 4.1.2-1
+local/python-jaraco.context 4.2.0-1
     Context managers by jaraco
 local/python-jaraco.functools 3.5.2-1
     Functools like those found in stdlib
@@ -2014,7 +2014,7 @@ local/vulkan-radeon 22.2.3-1
     Radeon's Vulkan mesa driver
 local/wavpack 5.5.0-1
     Audio compression format with lossless, lossy and hybrid compression modes
-local/waybar 0.9.15-2
+local/waybar 0.9.16-1
     Highly customizable Wayland bar for Sway and Wlroots based compositors
 local/wayland 1.21.0-1
     A computer display server protocol
