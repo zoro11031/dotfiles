@@ -14,7 +14,6 @@ SWH	org.freedesktop.LinuxAudio.Plugins.swh	0.4.17	21.08	flathub	system
 Freedesktop Platform	org.freedesktop.Platform	21.08.16	21.08	flathub	system
 Freedesktop Platform	org.freedesktop.Platform	22.08.3	22.08	flathub	system
 i386	org.freedesktop.Platform.Compat.i386		22.08	flathub	system
-Mesa	org.freedesktop.Platform.GL.default	21.1.8	20.08	flathub	system
 Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	flathub	system
 Mesa	org.freedesktop.Platform.GL.default	22.1.7	22.08	flathub	system
 default	org.freedesktop.Platform.GL32.default		21.08	flathub	system
