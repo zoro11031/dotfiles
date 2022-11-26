@@ -44,6 +44,8 @@ local/apr-util 1.6.1-10
     The Apache Portable Runtime
 local/arch-install-scripts 28-1
     Scripts to aid in installing Arch Linux
+local/archiso-persistent-git v67.r8.gf439e5f-1
+    Tools for creating Arch Linux live and install iso images (persistent drive support).
 local/archlinux-keyring 20221123-1 (base-devel)
     Arch Linux PGP keyring
 local/archlinux-tweak-tool-git r899.c3a86e7-1
@@ -62,6 +64,8 @@ local/audit 3.0.8-1
     Userspace components of the audit framework
 local/autoconf 2.71-1 (base-devel)
     A GNU tool for automatically configuring source code
+local/autogen 5.18.16-5
+    A tool designed to simplify the creation and maintenance of programs that contain large amounts of repetitious text
 local/automake 1.16.5-1 (base-devel)
     A GNU tool for automatically creating Makefiles
 local/autotiling 1.8-1
@@ -78,6 +82,8 @@ local/bash 5.1.016-1
     The GNU Bourne Again shell
 local/bat 0.22.1-1
     Cat clone with syntax highlighting and git integration
+local/bc 1.07.1-4
+    An arbitrary precision calculator language
 local/binutils 2.39-3 (base-devel)
     A set of programs to assemble and manipulate binary and object files
 local/bison 3.8.2-4 (base-devel)
@@ -156,7 +162,7 @@ local/cracklib 2.9.8-1
     Password Checking Library
 local/cronie 1.6.1-1
     Daemon that runs specified programs at scheduled times and related tools
-local/cryptsetup 2.5.0-4
+local/cryptsetup-nested-cryptkey 2.4.3-4
     Userspace setup tool for transparent encryption of block devices using dm-crypt
 local/curl 7.86.0-4
     An URL retrieval utility and library
@@ -198,6 +204,8 @@ local/dosfstools 4.2-2
     DOS filesystem utilities
 local/double-conversion 3.2.1-1
     Binary-decimal and decimal-binary routines for IEEE doubles
+local/doxygen 1.9.5-1
+    Documentation system for C++, C, Java, IDL and PHP
 local/dtc 1.6.1-4
     Device Tree Compiler
 local/duktape 2.7.0-4
@@ -218,6 +226,8 @@ local/emacs 28.2-1
     The extensible, customizable, self-documenting real-time display editor
 local/enchant 2.3.3-2
     A wrapper library for generic spell checking
+local/erofs-utils 1.5-2
+    Userspace utilities for linux-erofs file system
 local/evince 43.1-1 (gnome)
     Document viewer (PDF, PostScript, XPS, djvu, dvi, tiff, cbr, cbz, cb7, cbt)
 local/exiv2 0.27.5-3
@@ -322,6 +332,8 @@ local/geocode-glib-common 3.26.4-2
     Helper library for geocoding services (common files)
 local/gettext 0.21.1-2 (base-devel)
     GNU internationalization library
+local/ghc-libs 9.0.2-1
+    The Glasgow Haskell Compiler - Dynamic Libraries
 local/ghostscript 10.0.0-2
     An interpreter for the PostScript language
 local/giflib 5.2.1-2
@@ -472,6 +484,92 @@ local/harfbuzz 5.3.1-3
     OpenType text shaping engine
 local/harfbuzz-icu 5.3.1-3
     OpenType text shaping engine - ICU integration
+local/haskell-aeson 2.1.1.0-2
+    A JSON parsing and encoding library optimized for ease of use and high performance
+local/haskell-assoc 1.0.2-168
+    swap and assoc: Symmetric and Semigroupy Bifunctors
+local/haskell-attoparsec 0.14.4-42
+    Fast combinator parsing for bytestrings and text
+local/haskell-base-compat 0.12.2-1
+    A compatibility layer for base
+local/haskell-base-compat-batteries 0.12.2-22
+    base-compat with extra batteries
+local/haskell-base-orphans 0.8.7-29
+    Backwards-compatible orphan instances for base
+local/haskell-bifunctors 5.5.13-10
+    Bifunctors
+local/haskell-comonad 5.0.8-170
+    Comonads
+local/haskell-contravariant 1.5.5-3
+    Contravariant functors
+local/haskell-data-fix 0.3.2-70
+    Fixpoint data types
+local/haskell-diff 0.4.1-43
+    O(ND) diff algorithm in haskell
+local/haskell-distributive 0.6.2.1-173
+    Distributive functors -- Dual to Traversable
+local/haskell-dlist 1.0-193
+    Differences lists
+local/haskell-erf 2.0.0.0-24
+    The error function, erf, and related functions.
+local/haskell-generically 0.1-1
+    Generically newtype to use with DerivingVia
+local/haskell-ghc-bignum-orphans 0.1.1-1
+    Backwards-compatible orphan instances for ghc-bignum
+local/haskell-hashable 1.4.1.0-34
+    A class for types that can be converted to a hash value
+local/haskell-indexed-traversable 0.1.2-2
+    FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
+local/haskell-indexed-traversable-instances 0.1.1.1-21
+    More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
+local/haskell-integer-logarithms 1.0.3.1-6
+    Integer logarithms
+local/haskell-onetuple 0.3.1-43
+    Singleton Tuple
+local/haskell-primitive 0.7.4.0-47
+    Wrappers for primitive operations
+local/haskell-quickcheck 2.14.2-376
+    Automatic testing of Haskell programs
+local/haskell-random 1.2.1.1-74
+    Pseudo-random number generation
+local/haskell-regex-base 0.94.0.2-2
+    Common "Text.Regex.*" API for Regex matching
+local/haskell-regex-tdfa 1.3.2-20
+    Pure Haskell Tagged DFA Backend for Text.Regex (regex-base)
+local/haskell-scientific 0.3.7.0-81
+    Numbers represented using scientific notation
+local/haskell-semialign 1.2.0.1-88
+    Align and Zip type-classes from the common Semialign ancestor.
+local/haskell-semigroupoids 5.3.7-72
+    Semigroupoids: Category sans id
+local/haskell-splitmix 0.1.0.4-112
+    Fast Splittable PRNG
+local/haskell-statevar 1.2.2-2
+    State variables
+local/haskell-strict 0.4.0.1-142
+    Strict data types and String IO
+local/haskell-tagged 0.8.6.1-5
+    Haskell 98 phantom types to avoid unsafely passing dummy arguments
+local/haskell-text-short 0.1.5-47
+    Memory-efficient representation of Unicode text strings
+local/haskell-th-abstraction 0.4.5.0-1
+    Nicer interface for reified information about data types
+local/haskell-these 1.1.1.1-169
+    An either-or-both data type
+local/haskell-time-compat 1.9.6.1-65
+    Compatibility package for time
+local/haskell-transformers-compat 0.7.2-1
+    A small compatibility shim exposing the new types from transformers 0.3 to older Haskell platforms.
+local/haskell-unordered-containers 0.2.19.1-45
+    Efficient hashing-based container types
+local/haskell-uuid-types 1.0.5-85
+    Type definitions for Universally Unique Identifiers
+local/haskell-vector 0.13.0.0-14
+    Efficient Arrays
+local/haskell-vector-stream 0.1.0.0-1
+    Efficient Streams
+local/haskell-witherable 0.4.2-29
+    filterable traversable
 local/helvum 0.3.4-1
     GTK patchbay for PipeWire
 local/hicolor-icon-theme 0.17-2
@@ -1288,6 +1386,8 @@ local/msgpack-c 4.0.0-1
     An efficient object serialization library
 local/mtdev 1.1.6-2
     A stand-alone library which transforms all variants of kernel MT events to the slotted type B protocol
+local/mtools 1:4.0.42-1
+    A collection of utilities to access MS-DOS disks
 local/mujs 1.3.1-1
     An embeddable Javascript interpreter in C
 local/multipath-tools 0.9.3-1
@@ -1742,8 +1842,12 @@ local/rubberband 3.1.1-1
     Time-stretching and pitch-shifting audio library and utility
 local/run-parts 5.5-1
     run scripts or programs in a directory
+local/rust 1:1.65.0-1
+    Systems programming language focused on safety, speed and concurrency
 local/sbc 2.0-1
     Bluetooth Subband Codec (SBC) library
+local/scdoc 1.11.2-4
+    Tool for generating roff manual pages
 local/sdl2 2.26.0-1
     A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard (Version 2)
 local/sdl2_image 2.6.2-2
@@ -1766,6 +1870,8 @@ local/shadow 4.12.3-2
     Password and account management tool suite with support for shadow files and PAM
 local/shared-mime-info 2.0+155+gf4e7cbc-1
     Freedesktop.org Shared MIME Info
+local/shellcheck 0.8.0-241
+    Shell script analysis tool
 local/shiboken6 6.4.1-1
     Generates bindings for C++ libraries using CPython source code
 local/slang 2.3.3-1
@@ -1802,6 +1908,8 @@ local/spotify 1:1.1.84.716-2
     A proprietary music streaming service
 local/sqlite 3.40.0-1
     A C library that implements an SQL database engine
+local/squashfs-tools 4.5.1-2
+    Tools for squashfs, a highly compressed read-only filesystem for Linux
 local/squashfuse 0.1.105-1
     FUSE filesystem to mount squashfs archives
 local/sratom 0.6.14-1
