@@ -48,7 +48,7 @@ local/archiso-persistent-git v67.r8.gf439e5f-1
     Tools for creating Arch Linux live and install iso images (persistent drive support).
 local/archlinux-keyring 20221123-1 (base-devel)
     Arch Linux PGP keyring
-local/archlinux-tweak-tool-git r899.c3a86e7-1
+local/archlinux-tweak-tool-git r901.bf499d3-1
     Arch Linux Tweak Tool or ATT
 local/argon2 20190702-4
     A password-hashing function (reference C implementation)
@@ -90,7 +90,7 @@ local/bison 3.8.2-4 (base-devel)
     The GNU general-purpose parser generator
 local/blas 3.11.0-1
     Basic Linear Algebra Subprograms
-local/blueman 2.3.4-1
+local/blueman 2.3.5-1
     GTK+ Bluetooth Manager
 local/bluez 5.66-1
     Daemons for the bluetooth protocol stack
@@ -144,7 +144,7 @@ local/celluloid 0.24-2
     Simple GTK+ frontend for mpv
 local/cfitsio 1:4.2.0-1
     A library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
-local/chromium 107.0.5304.110-1
+local/chromium 107.0.5304.121-1
     A web browser built for speed, simplicity, and security
 local/chrono-date 3.0.1-3
     A date and time library based on the C++11/14/17 <chrono> header
@@ -306,7 +306,7 @@ local/gammastep 2.0.9-1
     Adjust the color temperature of your screen according to your surroundings.
 local/garcon 4.16.1-1 (xfce4)
     Implementation of the freedesktop.org menu specification
-local/gawk 5.2.0-3 (base-devel)
+local/gawk 5.2.1-1 (base-devel)
     GNU version of awk
 local/gc 8.2.2-1
     A garbage collector for C and C++
@@ -818,7 +818,7 @@ local/lib32-sdl2 2.24.2-1
     A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard
 local/lib32-sqlite 3.40.0-1
     A C library that implements an SQL database engine (32-bit)
-local/lib32-systemd 252.1-1
+local/lib32-systemd 252.2-1
     system and service manager (32-bit)
 local/lib32-util-linux 2.38.1-1
     Miscellaneous system utilities for Linux (32-bit)
@@ -1304,9 +1304,9 @@ local/linux-firmware 20221109.60310c2-2
     Firmware files for Linux
 local/linux-firmware-whence 20221109.60310c2-2
     Firmware files for Linux - contains the WHENCE license file which documents the vendor license details
-local/linux-zen 6.0.9.zen1-1
+local/linux-zen 6.0.10.zen2-1
     The Linux ZEN kernel and modules
-local/linux-zen-headers 6.0.9.zen1-1
+local/linux-zen-headers 6.0.10.zen2-1
     Headers and scripts for building modules for the Linux ZEN kernel
 local/llvm 14.0.6-4
     Compiler infrastructure
@@ -1584,7 +1584,7 @@ local/protonup-qt 2.7.6-1
     Install and manage Proton-GE and Luxtorpeda for Steam and Wine-GE for Lutris
 local/psmisc 23.5-1
     Miscellaneous procfs tools
-local/pyside6 6.4.1-1
+local/pyside6 6.4.1-2
     Enables the use of Qt6 APIs in Python applications
 local/python 3.10.8-3
     Next generation of the python high-level scripting language
@@ -1648,7 +1648,7 @@ local/python-more-itertools 9.0.0-1
     More routines for operating on iterables, beyond itertools
 local/python-netifaces 0.11.0-3
     Portable module to access network interface information in Python
-local/python-numpy 1.23.4-1
+local/python-numpy 1.23.5-1
     Scientific tools for Python
 local/python-ordered-set 4.1.0-1
     A MutableSet that remembers its order, so that every entry has an index
@@ -1686,7 +1686,7 @@ local/python-requests 2.28.1-1
     Python HTTP for Humans
 local/python-send2trash 1.8.0-3
     Send file to trash natively
-local/python-setuptools 1:65.6.0-1
+local/python-setuptools 1:65.6.1-1
     Easily download, build, install, upgrade, and uninstall Python packages
 local/python-six 1.16.0-6
     Python 2 and 3 compatibility utilities
@@ -1872,7 +1872,7 @@ local/shared-mime-info 2.0+155+gf4e7cbc-1
     Freedesktop.org Shared MIME Info
 local/shellcheck 0.8.0-241
     Shell script analysis tool
-local/shiboken6 6.4.1-1
+local/shiboken6 6.4.1-2
     Generates bindings for C++ libraries using CPython source code
 local/slang 2.3.3-1
     S-Lang is a powerful interpreted language
@@ -1944,11 +1944,11 @@ local/swaync 0.7.2-1
     A simple notificaion daemon with a GTK panel for checking previous notifications like other DEs
 local/sysfsutils 2.1.1-1
     System Utilities Based on Sysfs
-local/systemd 252.1-2
+local/systemd 252.2-1
     system and service manager
-local/systemd-libs 252.1-2
+local/systemd-libs 252.2-1
     systemd client libraries
-local/systemd-sysvcompat 252.1-2
+local/systemd-sysvcompat 252.2-1
     sysvinit compat for systemd
 local/taglib 1.13-1
     A Library for reading and editing the meta-data of several popular audio formats
