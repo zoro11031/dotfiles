@@ -212,8 +212,6 @@ local/duktape 2.7.0-4
     Embeddable Javascript engine
 local/e2fsprogs 1.46.5-4
     Ext2/3/4 filesystem utilities
-local/easyeffects 7.0.0-1
-    Audio Effects for Pipewire applications
 local/edk2-ovmf 202208-3
     Firmware for Virtual Machines (x86_64, i686)
 local/efibootmgr 18-1
@@ -612,6 +610,8 @@ local/iso-codes 4.12.0-1
     Lists of the country, language, and currency names
 local/iwd 2.0-1
     Internet Wireless Daemon
+local/jamesdsp 2.4-1
+    An audio effect processor for PipeWire clients
 local/jansson 2.14-2
     C library for encoding, decoding and manipulating JSON data
 local/java-runtime-common 3-3
@@ -916,8 +916,6 @@ local/libdvdnav 6.1.1-1
     The library for xine-dvdnav plugin.
 local/libdvdread 6.1.3-1
     Provides a simple foundation for reading DVD video disks
-local/libebur128 1.2.6-1
-    A library that implements the EBU R 128 standard for loudness normalisation.
 local/libedit 20210910_3.1-2
     Command line editor library providing generic line editing, history, and tokenization functions
 local/libelf 0.187-2
@@ -1115,8 +1113,6 @@ local/libsecret 0.20.5-2
 local/libshout 1:2.4.6-2
     Library for accessing a shoutcast/icecast server
 local/libsigc++ 2.10.8-1
-    Callback Framework for C++
-local/libsigc++-3.0 3.2.0-1
     Callback Framework for C++
 local/libslirp 4.7.0-1
     General purpose TCP-IP emulator
@@ -1832,8 +1828,6 @@ local/readline 8.2.001-1
     GNU readline library
 local/reflector 2021.11-5
     A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
-local/rnnoise 0.4.1-1
-    A noise suppression library based on a recurrent neural network
 local/rsync 3.2.7-2
     A fast and versatile file copying tool for remote and local files
 local/rtkit 0.13-2
@@ -1954,8 +1948,6 @@ local/taglib 1.13-1
     A Library for reading and editing the meta-data of several popular audio formats
 local/tar 1.34-1
     Utility used to store, backup, and transport files
-local/tbb 2021.5.0-2
-    High level abstract threading library
 local/tcl 8.6.13-1
     Powerful, easy-to-learn dynamic programming language
 local/tdb 1.4.7-1
@@ -2294,8 +2286,6 @@ local/zimg 3.0.4-1
     Scaling, colorspace conversion, and dithering library
 local/zip 3.0-10
     Compressor/archiver for creating and modifying zipfiles
-local/zita-convolver 4.0.3-2
-    A fast, partitioned convolution engine library.
 local/zlib 1:1.2.13-2
     Compression library implementing the deflate compression method found in gzip and PKZIP
 local/zoxide 0.8.3-1
