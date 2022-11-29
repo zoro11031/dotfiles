@@ -44,6 +44,7 @@ Adwaita theme	org.kde.KStyle.Adwaita		5.15-22.08	flathub	system
 KDE Application Platform	org.kde.Platform		5.15-21.08	flathub	system
 KDE Application Platform	org.kde.Platform		6.3	flathub	system
 Kdenlive	org.kde.kdenlive	22.08.3	stable	flathub	system
+LibreOffice	org.libreoffice.LibreOffice	7.4.3.2	stable	flathub	system
 ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	7.2.1	stable	flathub	system
 Wine	org.winehq.Wine	7.0	stable-22.08	flathub	system
 DXVK	org.winehq.Wine.DLLs.dxvk	1.10.3	stable-21.08	flathub	system
