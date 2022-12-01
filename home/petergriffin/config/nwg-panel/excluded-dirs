@@ -1,6 +1,14 @@
 # exclude
 avahi
+qt5
+VNC
+Avahi
+QT
+SSH
 qt
 pulseaudio
 ranger
 calf
+/home/petergriffin/Documents/dotfiles
+/home/petergriffin/Documents/dotfiles-public
+/home/petergriffin/Games/

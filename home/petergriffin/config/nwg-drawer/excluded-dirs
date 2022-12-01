@@ -1,5 +1,10 @@
 # exclude
 avahi
+qt5
+VNC
+Avahi
+QT
+SSH
 qt
 pulseaudio
 ranger
