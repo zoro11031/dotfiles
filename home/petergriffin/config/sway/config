@@ -18,7 +18,7 @@ set $menu exec nwg-drawer -nofs -fm thunar -term kitty -ovl
 ### Output configuration
 ###
 
-seat seat0 xcursor_theme Catppuccin-Macchiato-Rosewater 24
+seat seat0 xcursor_theme Catppuccin-Macchiato-Rosewater-Cursors 24
 
    
    output DP-1 resolution 2560x1440@165hz position 0,0 adaptive_sync on
