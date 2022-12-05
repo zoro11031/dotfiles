@@ -4,7 +4,7 @@ swaymsg 'workspace $ws3; exec kitty'
 
 swaymsg 'workspace $ws3; exec thunar'
 
-swaymsg 'exec flatpak run com.discordapp.DiscordCanary && move container to workspace $ws2'
+swaymsg 'exec /home/petergriffin/.config/sway/scripts/discord.sh && move container to workspace $ws2'
 
 swaymsg 'exec steam-runtime --silent && move container to workspace $ws5'
 

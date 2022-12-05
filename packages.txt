@@ -204,13 +204,15 @@ local/diffstat 1.65-1
     Display a histogram of diff changes
 local/diffutils 3.8-1
     Utility programs used for creating patch files
+local/discord 0.0.21-2
+    All-in-one voice and text chat for gamers
 local/djvulibre 3.5.28-3
     Suite to create, manipulate and view DjVu ('déjà vu') documents
 local/dkms 3.0.8-1
     Dynamic Kernel Modules System
 local/dmraid 1.0.0.rc16.3-14
     Device mapper RAID interface
-local/dnsmasq 2.87-3
+local/dnsmasq 2.88-1
     Lightweight, easy to configure DNS forwarder and DHCP server
 local/dnssec-anchors 20190629-3
     DNSSEC trust anchors for the root zone
@@ -252,6 +254,8 @@ local/exo 4.16.4-1 (xfce4)
     Application library for Xfce
 local/expat 2.5.0-1
     An XML parser library
+local/extra-cmake-modules 5.100.0-1 (kf5)
+    Extra modules and scripts for CMake
 local/fakeroot 1.30.1-1 (base-devel)
     Tool for simulating superuser privileges
 local/faudio 22.12-1
@@ -428,7 +432,7 @@ local/graphicsmagick 1.3.38-5
     Image processing system
 local/graphite 1:1.3.14-2
     reimplementation of the SIL Graphite text processing engine
-local/graphviz 7.0.3-1
+local/graphviz 7.0.4-1
     Graph visualization software
 local/greetd 0.8.0-1
     Generic greeter daemon
@@ -620,7 +624,7 @@ local/icu 72.1-2
     International Components for Unicode library
 local/ijs 0.35-5
     a library which implements a protocol for transmission of raster page images
-local/imagemagick 7.1.0.52-1
+local/imagemagick 7.1.0.53-1
     An image viewing/manipulation program
 local/imath 3.1.6-1
     A C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics
@@ -628,7 +632,7 @@ local/imlib2 1.9.1-2
     Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
 local/iniparser 4.1-4
     A free stand-alone ini file parsing library written in portable ANSI C
-local/inkscape 1.2.1-8
+local/inkscape 1.2.2-2
     Professional vector graphics editor
 local/iproute2 6.0.0-1
     IP Routing Utilities
@@ -704,7 +708,7 @@ local/leptonica 1.82.0-2
     Software that is broadly useful for image processing and image analysis applications
 local/less 1:608-1
     A terminal based program for viewing text files
-local/lib2geom 1.2-2
+local/lib2geom 1.2.2-1
     Easy to use 2D geometry library in C++
 local/lib32-acl 2.3.1-1
     Access control list libraries (32-bit)
@@ -922,7 +926,7 @@ local/libappindicator-gtk3 12.10.0.r298-1
     Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library)
 local/libarchive 3.6.1-5
     Multi-format archive and compression library
-local/libass 0.16.0-1
+local/libass 0.17.0-1
     A portable library for SSA/ASS subtitles rendering
 local/libassuan 2.5.5-1
     IPC library used by some GnuPG related software
@@ -938,7 +942,7 @@ local/libb2 0.98.1-2
     C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp hash functions
 local/libblockdev 2.28-1
     A library for manipulating block devices
-local/libbluray 1.3.3-1
+local/libbluray 1.3.4-1
     Library to access Blu-Ray disks for video playback
 local/libbpf 1.0.1-1
     Library for loading eBPF programs and reading and manipulating eBPF objects from user-space
@@ -1048,7 +1052,7 @@ local/libheif 1.14.0-1
     HEIF file format decoder and encoder
 local/libical 3.0.16-2
     An open source reference implementation of the icalendar data type and serialization format
-local/libice 1.0.10-4
+local/libice 1.1.0-1
     X11 Inter-Client Exchange library
 local/libidn 1.41-1
     Implementation of the Stringprep, Punycode and IDNA specifications
@@ -1300,7 +1304,7 @@ local/libxaw 1.0.14-1
     X11 Athena Widget library
 local/libxcb 1.15-2
     X11 client-side library
-local/libxcomposite 0.4.5-4
+local/libxcomposite 0.4.6-1
     X11 Composite extension library
 local/libxcrypt 4.4.33-1
     Modern library for one-way hashing of passwords
@@ -1308,7 +1312,7 @@ local/libxcursor 1.2.1-3
     X cursor management library
 local/libxcvt 0.1.2-1
     library providing a standalone version of the X server implementation of the VESA CVT standard timing modelines generator
-local/libxdamage 1.1.5-5
+local/libxdamage 1.1.6-1
     X11 damaged region extension library
 local/libxdmcp 1.1.4-1
     X11 Display Manager Control Protocol library
@@ -1352,7 +1356,7 @@ local/libxrandr 1.5.3-1
     X11 RandR extension library
 local/libxrender 0.9.11-1
     X Rendering Extension client library
-local/libxres 1.2.1-1
+local/libxres 1.2.2-1
     X11 Resource extension library
 local/libxshmfence 1.3.1-1
     a library that exposes a event API on top of Linux futexes
@@ -1364,7 +1368,7 @@ local/libxt 1.2.1-1
     X11 toolkit intrinsics library
 local/libxtst 1.2.4-1
     X11 Testing -- Resource extension library
-local/libxv 1.0.11-5
+local/libxv 1.0.12-1
     X11 Video extension library
 local/libxxf86vm 1.1.5-1
     X11 XFree86 video mode extension library
@@ -1592,7 +1596,7 @@ local/pacman 6.0.2-5 (base-devel)
     A library-based package manager with dependency support
 local/pacman-contrib 1.8.0-1
     Contributed scripts and tools for pacman systems
-local/pacman-mirrorlist 20221016-1
+local/pacman-mirrorlist 20221204-1
     Arch Linux mirror list for use by pacman
 local/pahole 1:1.24-1
     Pahole and other DWARF utils
@@ -1656,11 +1660,11 @@ local/polkit 122-1
     Application development toolkit for controlling system-wide privileges
 local/polkit-gnome 0.105-9
     Legacy polkit authentication agent for GNOME
-local/poppler 22.11.0-1
+local/poppler 22.12.0-1
     PDF rendering library based on xpdf 3.0
 local/poppler-data 0.4.11-3
     Encoding data for the poppler PDF rendering library
-local/poppler-glib 22.11.0-1
+local/poppler-glib 22.12.0-1
     Poppler glib bindings
 local/popt 1.19-1
     A commandline option parser
@@ -1746,7 +1750,7 @@ local/python-ordered-set 4.1.0-1
     A MutableSet that remembers its order, so that every entry has an index
 local/python-packaging 21.3-1
     Core utilities for Python packages
-local/python-patiencediff 0.2.8-1
+local/python-patiencediff 0.2.10-1
     Patiencediff Python and C implementations
 local/python-pexpect 4.8.0-6
     For controlling and automating applications
@@ -1956,7 +1960,7 @@ local/sbc 2.0-1
     Bluetooth Subband Codec (SBC) library
 local/scdoc 1.11.2-4
     Tool for generating roff manual pages
-local/sdl2 2.26.0-1
+local/sdl2 2.26.1-1
     A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard (Version 2)
 local/sdl2_image 2.6.2-2
     A simple library to load images of various formats as SDL surfaces (Version 2)
@@ -2008,7 +2012,7 @@ local/spice 0.15.1-1
     SPICE server
 local/spice-gtk 0.41-5
     GTK+ client library for SPICE
-local/spicetify-cli-git 2.14.3.r3.g447f93b-1
+local/spicetify-cli-git 2.14.3.r4.gb2ee835-1
     Command-line tool to customize Spotify client - Git master branch
 local/spirv-tools 2022.1-1 (vulkan-devel)
     API and commands for processing SPIR-V modules
@@ -2028,13 +2032,13 @@ local/startup-notification 0.12-7
     Monitor and display application startup
 local/steam 1.0.0.75-1
     Valve's digital software delivery system
-local/steamtinkerlaunch-git 11.11.r150.g385fd73-1
+local/steamtinkerlaunch-git 11.11.r151.ga5fa414-1
     Wrapper script for Steam custom launch options
 local/subversion 1.14.2-1
     A Modern Concurrent Version Control System
 local/sudo 1.9.12.p1-1 (base-devel)
     Give certain users the ability to run some commands as root
-local/svt-av1 1.3.0-1
+local/svt-av1 1.4.0-1
     Scalable Video Technology AV1 encoder and decoder
 local/swappy 1.5.1-1
     A Wayland native snapshot editing tool
@@ -2052,11 +2056,11 @@ local/swaync 0.7.3-1
     A simple notificaion daemon with a GTK panel for checking previous notifications like other DEs
 local/sysfsutils 2.1.1-1
     System Utilities Based on Sysfs
-local/systemd 252.2-2
+local/systemd 252.2-3
     system and service manager
-local/systemd-libs 252.2-2
+local/systemd-libs 252.2-3
     systemd client libraries
-local/systemd-sysvcompat 252.2-2
+local/systemd-sysvcompat 252.2-3
     sysvinit compat for systemd
 local/taglib 1.13-1
     A Library for reading and editing the meta-data of several popular audio formats
@@ -2280,7 +2284,7 @@ local/xapian-core 1:1.4.21-1
     Open source search engine library.
 local/xapp 2.4.2-1
     Common library for X-Apps project
-local/xcb-imdkit-git 1.0.3.r1.g0562bab-1
+local/xcb-imdkit-git 1.0.4.r2.gd4e9aff-1
     Input method development support for xcb
 local/xcb-proto 1.15.2-2
     XML-XCB protocol descriptions
@@ -2360,7 +2364,7 @@ local/xorg-xauth 1.1.2-1 (xorg-apps xorg)
     X.Org authorization settings program
 local/xorg-xhost 1.0.8-3 (xorg-apps xorg)
     Server access control program for X
-local/xorg-xinit 1.4.1-3
+local/xorg-xinit 1.4.2-1
     X.Org initialisation program
 local/xorg-xkbcomp 1.4.5-1 (xorg-apps xorg)
     X Keyboard description compiler
@@ -2368,13 +2372,13 @@ local/xorg-xmessage 1.0.6-1
     Display a message or query in a window
 local/xorg-xmodmap 1.0.11-1 (xorg-apps xorg)
     Utility for modifying keymaps and button mappings
-local/xorg-xprop 1.2.5-1 (xorg-apps xorg)
+local/xorg-xprop 1.2.6-1 (xorg-apps xorg)
     Property displayer for X
-local/xorg-xrandr 1.5.1-2 (xorg-apps xorg)
+local/xorg-xrandr 1.5.2-1 (xorg-apps xorg)
     Primitive command line interface to RandR extension
 local/xorg-xrdb 1.2.1-1 (xorg-apps xorg)
     X server resource database utility
-local/xorg-xset 1.2.4-3 (xorg-apps xorg)
+local/xorg-xset 1.2.5-1 (xorg-apps xorg)
     User preference utility for X
 local/xorg-xwayland 22.1.5-1 (xorg)
     run X clients under wayland
