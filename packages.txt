@@ -1934,7 +1934,7 @@ local/ranger 1.9.3-4
     Simple, vim-like file manager
 local/rate-mirrors 0.11.1-1
     Everyday-use client-side map-aware mirror ranking tool
-local/rav1e 0.5.1-2
+local/rav1e 0.6.1-1
     An AV1 encoder focused on speed and safety
 local/re2 1:20220601-1
     Fast, safe, thread-friendly regular expression engine
@@ -2106,7 +2106,7 @@ local/tk 8.6.13-1
     A windowing toolkit for use with tcl
 local/tpm2-tss 3.2.0-3
     Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
-local/tracker3 3.4.1-1
+local/tracker3 3.4.2-1
     Desktop-neutral user information store, search tool and indexer
 local/tree-sitter 0.20.7-1
     An incremental parsing system for programming tools

@@ -236,6 +236,7 @@ audio/AMR=mpv.desktop;
 audio/x-adpcm=mpv.desktop;
 audio/m3u=mpv.desktop;
 image/heif=org.gnome.eog.desktop;xnviewmp.desktop;
+application/x-java-archive=org.gnome.FileRoller.desktop;
 
 [Default Applications]
 inode/directory=thunar.desktop
