@@ -1,57 +1,48 @@
-Bitwarden	com.bitwarden.desktop	2022.11.0	stable	flathub	system
-Protontricks	com.github.Matoking.protontricks	1.10.0	stable	flathub	system
-Drawing	com.github.maoschanz.drawing	1.0.1	stable	flathub	system
-Flatseal	com.github.tchx84.Flatseal	1.8.1	stable	flathub	system
-Trilium Notes	com.github.zadam.trilium	0.57.3	stable	flathub	system
-Minecraft	com.mojang.Minecraft	1.0.1221	stable	flathub	system
-OBS Studio	com.obsproject.Studio	28.1.2	stable	flathub	system
-Bottles	com.usebottles.bottles	2022.11.14	stable	flathub	system
-bottles translations	com.usebottles.bottles.Locale		beta	flathub-beta	system
-Lutris	net.lutris.Lutris	0.5.11	stable	flathub	system
-DuckStation	org.duckstation.DuckStation	nightly	stable	flathub	system
-TAP-plugins	org.freedesktop.LinuxAudio.Plugins.TAP	1.0.1	21.08	flathub	system
-SWH	org.freedesktop.LinuxAudio.Plugins.swh	0.4.17	21.08	flathub	system
-Freedesktop Platform	org.freedesktop.Platform	21.08.16	21.08	flathub	system
-Freedesktop Platform	org.freedesktop.Platform	22.08.3	22.08	flathub	system
-i386	org.freedesktop.Platform.Compat.i386		22.08	flathub	system
-Mesa	org.freedesktop.Platform.GL.default	21.1.8	20.08	flathub	system
-Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	flathub	system
-Mesa	org.freedesktop.Platform.GL.default	22.1.7	22.08	flathub	system
-default	org.freedesktop.Platform.GL32.default		21.08	flathub	system
-Mesa	org.freedesktop.Platform.GL32.default	22.1.7	22.08	flathub	system
-MangoHud	org.freedesktop.Platform.VulkanLayer.MangoHud	0.6.8	21.08	flathub	system
-MangoHud	org.freedesktop.Platform.VulkanLayer.MangoHud	0.6.8	22.08	flathub	system
-ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		21.08	flathub	system
-ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		22.08	flathub	system
-i386	org.freedesktop.Platform.ffmpeg_full.i386		21.08	flathub	system
-openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	flathub	system
-openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	flathub	system
-OpenJDK 17 SDK Extension	org.freedesktop.Sdk.Extension.openjdk17		21.08	flathub	system
-OpenJdk 8 Sdk extension	org.freedesktop.Sdk.Extension.openjdk8		20.08	flathub	system
-GNU Image Manipulation Program	org.gimp.GIMP	2.10.32	stable	flathub	system
-Calculator	org.gnome.Calculator	43.0.1	stable	flathub	system
-Cheese	org.gnome.Cheese	41.1	stable	flathub	system
-Document Viewer	org.gnome.Evince	43.1	stable	flathub	system
-GNOME Application Platform version 3.38	org.gnome.Platform		3.38	flathub	system
-GNOME Application Platform version 42	org.gnome.Platform		42	flathub	system
-GNOME Application Platform version 43	org.gnome.Platform		43	flathub	system
-i386	org.gnome.Platform.Compat.i386		42	flathub	system
-i386	org.gnome.Platform.Compat.i386		43	flathub	system
-Text Editor	org.gnome.TextEditor	43.1	stable	flathub	system
-Disk Usage Analyzer	org.gnome.baobab	42.0	stable	flathub	system
-Image Viewer	org.gnome.eog	43.1	stable	flathub	system
-Fonts	org.gnome.font-viewer	43.0	stable	flathub	system
-Adwaita dark GTK theme	org.gtk.Gtk3theme.Adwaita-dark		3.22	flathub	system
-Adwaita theme	org.kde.KStyle.Adwaita		5.15-22.08	flathub	system
-KDE Application Platform	org.kde.Platform		5.15-21.08	flathub	system
-KDE Application Platform	org.kde.Platform		6.3	flathub	system
-Kdenlive	org.kde.kdenlive	22.08.3	stable	flathub	system
-LibreOffice	org.libreoffice.LibreOffice	7.4.3.2	stable	flathub	system
-ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	7.2.1	stable	flathub	system
-Wine	org.winehq.Wine	7.0	stable-22.08	flathub	system
-DXVK	org.winehq.Wine.DLLs.dxvk	1.10.3	stable-21.08	flathub	system
-DXVK	org.winehq.Wine.DLLs.dxvk	1.10.3	stable-22.08	flathub	system
-Gecko	org.winehq.Wine.gecko		stable-21.08	flathub	system
-Gecko	org.winehq.Wine.gecko		stable-22.08	flathub	system
-Mono	org.winehq.Wine.mono		stable-21.08	flathub	system
-Mono	org.winehq.Wine.mono		stable-22.08	flathub	system
+Bitwarden	com.bitwarden.desktop	2022.11.0	stable	system
+Protontricks	com.github.Matoking.protontricks	1.10.0	stable	system
+Drawing	com.github.maoschanz.drawing	1.0.1	stable	system
+Flatseal	com.github.tchx84.Flatseal	1.8.1	stable	system
+Trilium Notes	com.github.zadam.trilium	0.57.3	stable	system
+Minecraft	com.mojang.Minecraft	1.0.1221	stable	system
+OBS Studio	com.obsproject.Studio	28.1.2	stable	system
+Bottles	com.usebottles.bottles	2022.11.14	stable	system
+Lutris	net.lutris.Lutris	0.5.12	stable	system
+DuckStation	org.duckstation.DuckStation	nightly	stable	system
+TAP-plugins	org.freedesktop.LinuxAudio.Plugins.TAP	1.0.1	21.08	system
+SWH	org.freedesktop.LinuxAudio.Plugins.swh	0.4.17	21.08	system
+Freedesktop Platform	org.freedesktop.Platform	21.08.16	21.08	system
+Freedesktop Platform	org.freedesktop.Platform	22.08.4	22.08	system
+i386	org.freedesktop.Platform.Compat.i386		22.08	system
+Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	system
+Mesa	org.freedesktop.Platform.GL.default	22.2.4	22.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	22.2.4	22.08-extra	system
+Mesa	org.freedesktop.Platform.GL32.default	22.2.4	22.08	system
+MangoHud	org.freedesktop.Platform.VulkanLayer.MangoHud	0.6.8	21.08	system
+MangoHud	org.freedesktop.Platform.VulkanLayer.MangoHud	0.6.8	22.08	system
+ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		22.08	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	system
+OpenJDK 17 SDK Extension	org.freedesktop.Sdk.Extension.openjdk17		21.08	system
+OpenJdk 8 Sdk extension	org.freedesktop.Sdk.Extension.openjdk8		20.08	system
+GNU Image Manipulation Program	org.gimp.GIMP	2.10.32	stable	system
+Calculator	org.gnome.Calculator	43.0.1	stable	system
+Cheese	org.gnome.Cheese	41.1	stable	system
+Document Viewer	org.gnome.Evince	43.1	stable	system
+GNOME Application Platform version 42	org.gnome.Platform		42	system
+GNOME Application Platform version 43	org.gnome.Platform		43	system
+i386	org.gnome.Platform.Compat.i386		43	system
+Text Editor	org.gnome.TextEditor	43.1	stable	system
+Disk Usage Analyzer	org.gnome.baobab	42.0	stable	system
+Image Viewer	org.gnome.eog	43.1	stable	system
+Fonts	org.gnome.font-viewer	43.0	stable	system
+Adwaita dark GTK theme	org.gtk.Gtk3theme.Adwaita-dark		3.22	system
+Adwaita theme	org.kde.KStyle.Adwaita		5.15-22.08	system
+KDE Application Platform	org.kde.Platform		5.15-21.08	system
+KDE Application Platform	org.kde.Platform		6.3	system
+Kdenlive	org.kde.kdenlive	22.08.3	stable	system
+LibreOffice	org.libreoffice.LibreOffice	7.4.3.2	stable	system
+ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	7.2.1	stable	system
+Wine	org.winehq.Wine	7.0	stable-22.08	system
+DXVK	org.winehq.Wine.DLLs.dxvk	1.10.3	stable-22.08	system
+Gecko	org.winehq.Wine.gecko		stable-22.08	system
+Mono	org.winehq.Wine.mono		stable-22.08	system
