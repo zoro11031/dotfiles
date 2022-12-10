@@ -32,7 +32,7 @@ GNOME Application Platform version 42	org.gnome.Platform		42	system
 GNOME Application Platform version 43	org.gnome.Platform		43	system
 i386	org.gnome.Platform.Compat.i386		43	system
 Text Editor	org.gnome.TextEditor	43.1	stable	system
-Disk Usage Analyzer	org.gnome.baobab	42.0	stable	system
+Disk Usage Analyzer	org.gnome.baobab	43.0	stable	system
 Image Viewer	org.gnome.eog	43.1	stable	system
 Fonts	org.gnome.font-viewer	43.0	stable	system
 Adwaita dark GTK theme	org.gtk.Gtk3theme.Adwaita-dark		3.22	system
