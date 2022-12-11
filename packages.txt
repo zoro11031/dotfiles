@@ -52,7 +52,7 @@ local/archiso-persistent-git v67.r8.gf439e5f-1
     Tools for creating Arch Linux live and install iso images (persistent drive support).
 local/archlinux-keyring 20221123-1 (base-devel)
     Arch Linux PGP keyring
-local/archlinux-tweak-tool-git r904.5a45f5a-1
+local/archlinux-tweak-tool-git r906.476d9db-1
     Arch Linux Tweak Tool or ATT
 local/argon2 20190702-4
     A password-hashing function (reference C implementation)
@@ -206,7 +206,7 @@ local/diffstat 1.65-1
     Display a histogram of diff changes
 local/diffutils 3.8-1
     Utility programs used for creating patch files
-local/discord 0.0.21-2
+local/discord 0.0.22-1
     All-in-one voice and text chat for gamers
 local/djvulibre 3.5.28-3
     Suite to create, manipulate and view DjVu ('déjà vu') documents
@@ -1394,9 +1394,9 @@ local/linux-firmware 20221109.60310c2-2
     Firmware files for Linux
 local/linux-firmware-whence 20221109.60310c2-2
     Firmware files for Linux - contains the WHENCE license file which documents the vendor license details
-local/linux-zen 6.0.11.zen1-1
+local/linux-zen 6.0.12.zen1-1
     The Linux ZEN kernel and modules
-local/linux-zen-headers 6.0.11.zen1-1
+local/linux-zen-headers 6.0.12.zen1-1
     Headers and scripts for building modules for the Linux ZEN kernel
 local/llvm 14.0.6-4
     Compiler infrastructure
@@ -1542,7 +1542,7 @@ local/nwg-look-bin 0.1.4-1
     GTK3 settings editor adapted to work in the sway/wlroots environment (binary package)
 local/nwg-menu-bin 0.1.1-1
     MenuStart for sway and other wlroots-based compositors
-local/nwg-panel 0.7.14-1
+local/nwg-panel 0.7.15-1
     GTK3-based panel for sway window manager
 local/nwg-shell 0.3.9-1
     nwg-shell meta-package, installer and updater

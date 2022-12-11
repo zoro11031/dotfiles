@@ -1,5 +1,5 @@
 Bitwarden	com.bitwarden.desktop	2022.11.0	stable	system
-Protontricks	com.github.Matoking.protontricks	1.10.0	stable	system
+Protontricks	com.github.Matoking.protontricks	1.10.1	stable	system
 Drawing	com.github.maoschanz.drawing	1.0.1	stable	system
 Flatseal	com.github.tchx84.Flatseal	1.8.1	stable	system
 Trilium Notes	com.github.zadam.trilium	0.57.3	stable	system
@@ -42,7 +42,7 @@ KDE Application Platform	org.kde.Platform		6.3	system
 Kdenlive	org.kde.kdenlive	22.08.3	stable	system
 LibreOffice	org.libreoffice.LibreOffice	7.4.3.2	stable	system
 ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	7.2.1	stable	system
-Wine	org.winehq.Wine	7.0	stable-22.08	system
+Wine	org.winehq.Wine	7.0.1	stable-22.08	system
 DXVK	org.winehq.Wine.DLLs.dxvk	1.10.3	stable-22.08	system
 Gecko	org.winehq.Wine.gecko		stable-22.08	system
 Mono	org.winehq.Wine.mono		stable-22.08	system
