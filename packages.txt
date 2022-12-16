@@ -640,6 +640,8 @@ local/iniparser 4.1-4
     A free stand-alone ini file parsing library written in portable ANSI C
 local/inkscape 1.2.2-2
     Professional vector graphics editor
+local/intltool 0.51.0-6
+    The internationalization tool collection
 local/iproute2 6.0.0-1
     IP Routing Utilities
 local/iptables-nft 1:1.8.8-2
@@ -1296,6 +1298,8 @@ local/libwebp 1.2.4-1
     WebP library and conversion tools
 local/libwireplumber 0.4.13-1
     Session / policy manager implementation for PipeWire - client library
+local/libwnck3 43.0-3
+    Library to manage X windows and workspaces (via pagers, tasklists, etc.)
 local/libwpd 0.10.3-4
     Library for importing WordPerfect (tm) documents
 local/libwpe 1.14.0-1
@@ -1422,6 +1426,8 @@ local/lv2 1.18.10-1
     Plugin standard for audio systems
 local/lvm2 2.03.17-1
     Logical Volume Manager 2 utilities
+local/lxappearance 0.6.3-4 (lxde)
+    Feature-rich GTK+ theme switcher of the LXDE Desktop
 local/lz4 1:1.9.4-1
     Extremely fast compression algorithm
 local/lzo 2.10-4
@@ -1634,12 +1640,48 @@ local/pcre2 10.40-3
     A library that implements Perl 5-style regular expressions. 2nd version
 local/perl 5.36.0-1
     A highly capable, feature-rich programming language
+local/perl-clone 0.45-4
+    Recursive copy of nested objects.
+local/perl-encode-locale 1.05-9
+    Determine the locale encoding
 local/perl-error 0.17029-4
     Perl/CPAN Error module - Error/exception handling in an OO-ish way
+local/perl-file-listing 6.15-2
+    parse directory listing
+local/perl-html-parser 3.80-1
+    Perl HTML parser class
+local/perl-html-tagset 3.20-12
+    Data tables useful in parsing HTML
+local/perl-http-cookies 6.10-3
+    HTTP cookie jars
+local/perl-http-daemon 6.14-2
+    Simple http server class
+local/perl-http-date 6.05-5
+    Date conversion routines
+local/perl-http-message 6.44-1
+    HTTP style messages
+local/perl-http-negotiate 6.01-10
+    Choose a variant to serve
+local/perl-io-html 1.004-3
+    Open an HTML file with automatic charset detection
+local/perl-libwww 6.67-1
+    The World-Wide Web library for Perl
+local/perl-lwp-mediatypes 6.04-2
+    Guess the media type of a file or a URL
 local/perl-mailtools 2.21-6
     Various e-mail related modules
+local/perl-net-http 6.22-2
+    Low-level HTTP connection (client)
 local/perl-timedate 2.33-4
     Date formating subroutines
+local/perl-try-tiny 0.31-2
+    Minimal try/catch with proper localization of $@
+local/perl-uri 5.17-1
+    Uniform Resource Identifiers (absolute and relative)
+local/perl-www-robotrules 6.02-10
+    Database of robots.txt-derived permissions
+local/perl-xml-parser 2.46-4
+    Expat-based XML parser module for perl
 local/pev 0.81-1
     Command line based tool for Windows portable executable PE32+ file analysis
 local/phodav 3.0-1
@@ -2338,12 +2380,38 @@ local/xf86-video-amdgpu 22.0.0-1 (xorg-drivers)
     X.org amdgpu video driver
 local/xf86-video-ati 1:19.1.0.r15.g7a6a34af-1 (xorg-drivers)
     X.org ati video driver
+local/xfce4-appfinder 4.18.0-1 (xfce4)
+    Application launcher and finder
+local/xfce4-dev-tools 4.18.0-1
+    Xfce developer tools
+local/xfce4-docklike-plugin 0.4.0-2
+    A modern, docklike, minimalist taskbar for XFCE
+local/xfce4-notifyd 0.6.4-2 (xfce4-goodies)
+    Notification daemon for the Xfce desktop
+local/xfce4-panel 4.18.0-1 (xfce4)
+    Panel for the Xfce desktop environment
+local/xfce4-power-manager 4.18.0-1 (xfce4)
+    Power Manager for Xfce
+local/xfce4-session 4.18.0-1 (xfce4)
+    Xfce's session manager
 local/xfce4-settings 4.18.0-1 (xfce4)
     Xfce's Configuration System
+local/xfce4-statusnotifier-plugin 0.2.2-1
+    Plugin to status notifier indicators in the Xfce4 panel
+local/xfce4-terminal 1.0.4-1 (xfce4)
+    A modern terminal emulator primarily for the Xfce desktop environment
+local/xfce4-whiskermenu-plugin 2.7.1-1 (xfce4-goodies)
+    Menu for Xfce4
 local/xfconf 4.18.0-1 (xfce4)
     D-Bus-based configuration storage system
+local/xfdesktop 4.18.0-1 (xfce4)
+    Xfce's desktop manager
 local/xfsprogs 6.0.0-1
     XFS filesystem utilities
+local/xfwm4 4.18.0-1 (xfce4)
+    Xfce's window manager
+local/xfwm4-themes 4.10.0-4 (xfce4)
+    A set of additional themes for the Xfce window manager
 local/xkeyboard-config 2.37-1
     X keyboard configuration files
 local/xone-dkms-git 0.3.r0.g8311a25-2
@@ -2364,6 +2432,8 @@ local/xorg-fonts-encodings 1.0.6-1 (xorg-fonts xorg)
     X.org font encoding files
 local/xorg-fonts-misc 1.0.3-10
     X.org misc fonts
+local/xorg-iceauth 1.0.9-1 (xorg-apps xorg)
+    ICE authority file utility
 local/xorg-mkfontscale 1.2.2-1 (xorg-apps xorg)
     Create an index of scalable font files for X
 local/xorg-server 21.1.5-1 (xorg)
