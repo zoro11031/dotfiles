@@ -42,6 +42,8 @@ local/appimagelauncher 2.2.0-6
     A Helper application for running and integrating AppImages.
 local/appstream 0.15.5-1
     Provides a standard for creating app stores across distributions
+local/appstream-glib 0.8.2-1
+    Objects and methods for reading and writing AppStream metadata
 local/apr 1.7.0-3
     The Apache Portable Runtime
 local/apr-util 1.6.1-11
@@ -50,12 +52,16 @@ local/arch-install-scripts 28-1
     Scripts to aid in installing Arch Linux
 local/archiso-persistent-git v67.r8.gf439e5f-1
     Tools for creating Arch Linux live and install iso images (persistent drive support).
+local/archlinux-appstream-data-pamac 1:20221210-1
+    Arch Linux application database for AppStream-based software centers (Fixed for pamac-aur and pamac-all packages)
 local/archlinux-keyring 20221213-1 (base-devel)
     Arch Linux PGP keyring
 local/archlinux-tweak-tool-git r907.f1f87c4-1
     Arch Linux Tweak Tool or ATT
 local/argon2 20190702-4
     A password-hashing function (reference C implementation)
+local/asciidoc 10.2.0-2
+    Text document format for short documents, articles, books and UNIX man pages
 local/asp 8-1
     Arch Linux build source file management tool
 local/at-spi2-core 2.46.0-2
@@ -338,6 +344,8 @@ local/gawk 5.2.1-1 (base-devel)
     GNU version of awk
 local/gc 8.2.2-1
     A garbage collector for C and C++
+local/gcab 1.5-1
+    A GObject library to create cabinet files
 local/gcc 12.2.0-1 (base-devel)
     The GNU Compiler Collection - C and C++ frontends
 local/gcc-libs 12.2.0-1
@@ -402,6 +410,8 @@ local/gnome-epub-thumbnailer 1.7-1
     Thumbnailer for EPub and MOBI books
 local/gnome-keyring 1:42.1-2 (gnome)
     Stores passwords and encryption keys
+local/gnome-packagekit 43.0-1
+    Collection of graphical tools for PackageKit to be used in the GNOME desktop
 local/gnome-settings-daemon 43.0-2 (gnome)
     GNOME Settings Daemon
 local/gnome-system-monitor 42.0-1 (gnome)
@@ -652,6 +662,8 @@ local/iputils 20221126-1
     Network monitoring tools, including ping
 local/iso-codes 4.12.0-1
     Lists of the country, language, and currency names
+local/itstool 1:2.0.7-1
+    XML to PO and back again
 local/iwd 2.0-1
     Internet Wireless Daemon
 local/jamesdsp 2.4-1
@@ -1160,6 +1172,10 @@ local/libotf 0.9.16-3
     OpenType Font library
 local/libp11-kit 0.24.1-1
     Loads and enumerates PKCS#11 modules (library)
+local/libpackagekit-glib 1.2.6-1
+    GLib library for accessing PackageKit
+local/libpamac-flatpak 11.4.1-1
+    Library for Pamac package manager based on libalpm - flatpak and support enabled
 local/libpaper 1.1.28-2
     Library for handling paper characteristics
 local/libpcap 1.10.1-2
@@ -1608,6 +1624,8 @@ local/p11-kit 0.24.1-1
     Loads and enumerates PKCS#11 modules
 local/p7zip 1:17.04-3
     Command-line file archiver with high compression ratio
+local/packagekit 1.2.6-1
+    A system designed to make installation and updates of packages easier
 local/pacman 6.0.2-5 (base-devel)
     A library-based package manager with dependency support
 local/pacman-contrib 1.8.0-1
@@ -1618,6 +1636,8 @@ local/pahole 1:1.24-1
     Pahole and other DWARF utils
 local/pam 1.5.2-1
     PAM (Pluggable Authentication Modules) library
+local/pamac-flatpak 10.4.3-1
+    A Gtk3 frontend for libalpm (with AUR, Flatpak and AppIndicator support)
 local/pambase 20221020-1
     Base PAM configuration for services
 local/pamixer 1.6-2
@@ -2264,7 +2284,7 @@ local/vim 9.0.1046-1
     Vi Improved, a highly configurable, improved version of the vi text editor
 local/vim-runtime 9.0.1046-1
     Vi Improved, a highly configurable, improved version of the vi text editor (shared runtime)
-local/virglrenderer 0.10.3-1
+local/virglrenderer 0.10.3-2
     A virtual 3D GPU library, that allows the guest operating system to use the host GPU to accelerate 3D rendering
 local/virt-install 4.1.0-1
     Command line tool for creating new KVM , Xen, or Linux container guests using the libvirt hypervisor

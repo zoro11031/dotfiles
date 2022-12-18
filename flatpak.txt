@@ -5,7 +5,7 @@ Flatseal	com.github.tchx84.Flatseal	1.8.1	stable	system
 Trilium Notes	com.github.zadam.trilium	0.57.5	stable	system
 Minecraft	com.mojang.Minecraft	1.0.1221	stable	system
 OBS Studio	com.obsproject.Studio	28.1.2	stable	system
-Bottles	com.usebottles.bottles	2022.12.14	stable	system
+Bottles	com.usebottles.bottles	2022.12.14.1	stable	system
 Lutris	net.lutris.Lutris	0.5.12	stable	system
 DuckStation	org.duckstation.DuckStation	nightly	stable	system
 TAP-plugins	org.freedesktop.LinuxAudio.Plugins.TAP	1.0.1	21.08	system
@@ -36,7 +36,9 @@ Disk Usage Analyzer	org.gnome.baobab	43.0	stable	system
 Image Viewer	org.gnome.eog	43.1	stable	system
 Fonts	org.gnome.font-viewer	43.0	stable	system
 Adwaita dark GTK theme	org.gtk.Gtk3theme.Adwaita-dark		3.22	system
+Adwaita theme	org.kde.KStyle.Adwaita		5.15-21.08	system
 Adwaita theme	org.kde.KStyle.Adwaita		5.15-22.08	system
+Adwaita theme	org.kde.KStyle.Adwaita		6.3	system
 KDE Application Platform	org.kde.Platform		5.15-21.08	system
 KDE Application Platform	org.kde.Platform		6.3	system
 Kdenlive	org.kde.kdenlive	22.12.0	stable	system
@@ -46,3 +48,4 @@ Wine	org.winehq.Wine	7.0.1	stable-22.08	system
 DXVK	org.winehq.Wine.DLLs.dxvk	1.10.3	stable-22.08	system
 Gecko	org.winehq.Wine.gecko		stable-22.08	system
 Mono	org.winehq.Wine.mono		stable-22.08	system
+Plex	tv.plex.PlexDesktop	1.59.1	stable	system
