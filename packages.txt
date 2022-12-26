@@ -30,7 +30,7 @@ local/alsa-ucm-conf 1.2.8-1
     ALSA Use Case Manager configuration (and topologies)
 local/alsa-utils 1.2.8-1
     Advanced Linux Sound Architecture - Utilities
-local/amd-ucode 20221109.60310c2-2
+local/amd-ucode 20221214.f3c283e-1
     Microcode update image for AMD CPUs
 local/amf-amdgpu-pro-fix 22.20.3_1462318-1 (Radeon_Software_for_Linux)
     AMDGPU Pro Advanced Multimedia Framework, patched version to enable AMF on RX 6000 series cards
@@ -40,7 +40,7 @@ local/aom 3.5.0-1
     Alliance for Open Media video codec
 local/appimagelauncher 2.2.0-6
     A Helper application for running and integrating AppImages.
-local/appstream 0.15.5-1
+local/appstream 0.15.6-1
     Provides a standard for creating app stores across distributions
 local/appstream-glib 0.8.2-1
     Objects and methods for reading and writing AppStream metadata
@@ -54,9 +54,9 @@ local/archiso-persistent-git v67.r8.gf439e5f-1
     Tools for creating Arch Linux live and install iso images (persistent drive support).
 local/archlinux-appstream-data-pamac 1:20221210-1
     Arch Linux application database for AppStream-based software centers (Fixed for pamac-aur and pamac-all packages)
-local/archlinux-keyring 20221213-1 (base-devel)
+local/archlinux-keyring 20221220-1 (base-devel)
     Arch Linux PGP keyring
-local/archlinux-tweak-tool-git r907.f1f87c4-1
+local/archlinux-tweak-tool-git r909.35d90dd-1
     Arch Linux Tweak Tool or ATT
 local/argon2 20190702-4
     A password-hashing function (reference C implementation)
@@ -84,7 +84,7 @@ local/avahi 0.8+22+gfd482a7-3
     Service Discovery for Linux using mDNS/DNS-SD -- compatible with Bonjour
 local/avisynthplus 3.7.2-1
     An improved version of the AviSynth frameserver
-local/azote 1.9.7-1
+local/azote 1.9.7-2
     Wallpaper & color manager for Sway, i3 and other WMs
 local/base 3-1
     Minimal package set to define a basic Arch Linux installation
@@ -130,6 +130,8 @@ local/bubblewrap 0.7.0-1
     Unprivileged sandboxing tool
 local/bzip2 1.0.8-5
     A high-quality data compression program
+local/c-ares 1.18.1-1
+    A C library for asynchronous DNS requests
 local/ca-certificates 20220905-1
     Common CA certificates (default providers)
 local/ca-certificates-mozilla 3.86-1
@@ -182,7 +184,7 @@ local/cronie 1.6.1-1
     Daemon that runs specified programs at scheduled times and related tools
 local/cryptsetup-nested-cryptkey 2.4.3-4
     Userspace setup tool for transparent encryption of block devices using dm-crypt
-local/curl 7.86.0-4
+local/curl 7.87.0-1
     An URL retrieval utility and library
 local/cython 0.29.32-2
     C-Extensions for Python
@@ -202,7 +204,7 @@ local/dconf 0.40.0-2
     Configuration database system
 local/debugedit 5.0-4 (base-devel)
     Tool to mangle source locations in .debug files
-local/default-cursors 1-1
+local/default-cursors 2-1
     Default cursor set
 local/desktop-file-utils 0.26-2
     Command line utilities for working with desktop entries
@@ -252,7 +254,7 @@ local/efivar 38-2
     Tools and libraries to work with EFI variables
 local/elementary-icon-theme 7.1.0-1 (pantheon)
     Named, vector icons for elementary OS
-local/ell 0.54-1
+local/ell 0.55-1
     Embedded Linux library
 local/emacs 28.2-1
     The extensible, customizable, self-documenting real-time display editor
@@ -384,9 +386,9 @@ local/glfw-x11 3.3.8-1
     A free, open source, portable framework for graphical application development (x11)
 local/glib-networking 1:2.74.0-1
     Network extensions for GLib
-local/glib2 2.74.3-1
+local/glib2 2.74.4-1
     Low level core library
-local/glib2-docs 2.74.3-1
+local/glib2-docs 2.74.4-1
     Documentation for GLib
 local/glibc 2.36-6
     GNU C Library
@@ -434,7 +436,7 @@ local/gobject-introspection-runtime 1.74.0-1
     Introspection system for GObject-based libraries (runtime library)
 local/gopsuinfo 0.1.2-1
     A gopsutil-based command to display customizable system info, intended for nwg-panel or Tint2
-local/goverlay-bin 0.9-1
+local/goverlay-bin 0.9.1-2
     A GUI to help manage Vulkan/OpenGL overlays
 local/gperftools 2.10-1
     Fast, multi-threaded malloc and nifty performance analysis tools
@@ -478,17 +480,17 @@ local/gsm 1.0.22-1
     Shared libraries for GSM 06.10 lossy speech compression
 local/gspell 1.12.0-2
     Spell-checking library for GTK applications
-local/gst-libav 1.20.4-3
+local/gst-libav 1.20.5-1
     Multimedia graph framework - libav plugin
-local/gst-plugins-bad-libs 1.20.4-3
+local/gst-plugins-bad-libs 1.20.5-1
     Multimedia graph framework - bad
-local/gst-plugins-base 1.20.4-3
+local/gst-plugins-base 1.20.5-1
     Multimedia graph framework - base plugins
-local/gst-plugins-base-libs 1.20.4-3
+local/gst-plugins-base-libs 1.20.5-1
     Multimedia graph framework - base
-local/gst-plugins-good 1.20.4-3
+local/gst-plugins-good 1.20.5-1
     Multimedia graph framework - good plugins
-local/gstreamer 1.20.4-3
+local/gstreamer 1.20.5-1
     Multimedia graph framework - core
 local/gtest 1.12.1-1
     Google Test - C++ testing utility
@@ -496,15 +498,15 @@ local/gtk-doc 1.33.2-1
     Documentation tool for public library API
 local/gtk-layer-shell 0.8.0-1
     Library to create Wayland desktop components using the Layer Shell protocol
-local/gtk-update-icon-cache 1:4.8.2-1
+local/gtk-update-icon-cache 1:4.8.3-1
     GTK icon cache updater
 local/gtk-vnc 1.3.1-1
     VNC viewer widget for GTK
 local/gtk2 2.24.33-2
     GObject-based multi-platform GUI toolkit (legacy)
-local/gtk3-classic 3.24.35-1
+local/gtk3-classic 3.24.36-1
     GTK3 patched to provide a more classic experience
-local/gtk4 1:4.8.2-1
+local/gtk4 1:4.8.3-1
     GObject-based multi-platform GUI toolkit
 local/gtkimageview 1.6.4-7
     Simple image viewer widget for GTK2
@@ -530,35 +532,35 @@ local/gvfs 1.50.2-1 (gnome)
     Virtual filesystem implementation for GIO
 local/gzip 1.12-1 (base-devel)
     GNU compression utility
-local/harfbuzz 5.3.1-3
+local/harfbuzz 6.0.0-1
     OpenType text shaping engine
-local/harfbuzz-icu 5.3.1-3
+local/harfbuzz-icu 6.0.0-1
     OpenType text shaping engine - ICU integration
-local/haskell-aeson 2.1.1.0-3
+local/haskell-aeson 2.1.1.0-5
     A JSON parsing and encoding library optimized for ease of use and high performance
-local/haskell-assoc 1.0.2-169
+local/haskell-assoc 1.0.2-170
     swap and assoc: Symmetric and Semigroupy Bifunctors
-local/haskell-attoparsec 0.14.4-42
+local/haskell-attoparsec 0.14.4-43
     Fast combinator parsing for bytestrings and text
 local/haskell-base-compat 0.12.2-1
     A compatibility layer for base
-local/haskell-base-compat-batteries 0.12.2-22
+local/haskell-base-compat-batteries 0.12.2-24
     base-compat with extra batteries
-local/haskell-base-orphans 0.8.7-29
+local/haskell-base-orphans 0.8.7-31
     Backwards-compatible orphan instances for base
-local/haskell-bifunctors 5.5.14-1
+local/haskell-bifunctors 5.5.14-2
     Bifunctors
-local/haskell-comonad 5.0.8-170
+local/haskell-comonad 5.0.8-171
     Comonads
 local/haskell-contravariant 1.5.5-3
     Contravariant functors
-local/haskell-data-fix 0.3.2-70
+local/haskell-data-fix 0.3.2-71
     Fixpoint data types
-local/haskell-diff 0.4.1-43
+local/haskell-diff 0.4.1-44
     O(ND) diff algorithm in haskell
-local/haskell-distributive 0.6.2.1-173
+local/haskell-distributive 0.6.2.1-174
     Distributive functors -- Dual to Traversable
-local/haskell-dlist 1.0-193
+local/haskell-dlist 1.0-194
     Differences lists
 local/haskell-erf 2.0.0.0-24
     The error function, erf, and related functions.
@@ -566,59 +568,59 @@ local/haskell-generically 0.1-1
     Generically newtype to use with DerivingVia
 local/haskell-ghc-bignum-orphans 0.1.1-1
     Backwards-compatible orphan instances for ghc-bignum
-local/haskell-hashable 1.4.1.0-34
+local/haskell-hashable 1.4.1.0-36
     A class for types that can be converted to a hash value
 local/haskell-indexed-traversable 0.1.2-2
     FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
-local/haskell-indexed-traversable-instances 0.1.1.1-22
+local/haskell-indexed-traversable-instances 0.1.1.1-24
     More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
 local/haskell-integer-logarithms 1.0.3.1-6
     Integer logarithms
-local/haskell-onetuple 0.3.1-43
+local/haskell-onetuple 0.3.1-44
     Singleton Tuple
-local/haskell-primitive 0.7.4.0-47
+local/haskell-primitive 0.7.4.0-49
     Wrappers for primitive operations
-local/haskell-quickcheck 2.14.2-376
+local/haskell-quickcheck 2.14.2-379
     Automatic testing of Haskell programs
-local/haskell-random 1.2.1.1-74
+local/haskell-random 1.2.1.1-77
     Pseudo-random number generation
 local/haskell-regex-base 0.94.0.2-2
     Common "Text.Regex.*" API for Regex matching
-local/haskell-regex-tdfa 1.3.2-21
+local/haskell-regex-tdfa 1.3.2-23
     Pure Haskell Tagged DFA Backend for Text.Regex (regex-base)
-local/haskell-scientific 0.3.7.0-81
+local/haskell-scientific 0.3.7.0-82
     Numbers represented using scientific notation
-local/haskell-semialign 1.2.0.1-89
+local/haskell-semialign 1.2.0.1-91
     Align and Zip type-classes from the common Semialign ancestor.
-local/haskell-semigroupoids 5.3.7-73
+local/haskell-semigroupoids 5.3.7-75
     Semigroupoids: Category sans id
-local/haskell-splitmix 0.1.0.4-112
+local/haskell-splitmix 0.1.0.4-114
     Fast Splittable PRNG
 local/haskell-statevar 1.2.2-2
     State variables
-local/haskell-strict 0.4.0.1-143
+local/haskell-strict 0.4.0.1-144
     Strict data types and String IO
 local/haskell-tagged 0.8.6.1-5
     Haskell 98 phantom types to avoid unsafely passing dummy arguments
-local/haskell-text-short 0.1.5-47
+local/haskell-text-short 0.1.5-48
     Memory-efficient representation of Unicode text strings
 local/haskell-th-abstraction 0.4.5.0-1
     Nicer interface for reified information about data types
-local/haskell-these 1.1.1.1-170
+local/haskell-these 1.1.1.1-171
     An either-or-both data type
-local/haskell-time-compat 1.9.6.1-65
+local/haskell-time-compat 1.9.6.1-66
     Compatibility package for time
 local/haskell-transformers-compat 0.7.2-1
     A small compatibility shim exposing the new types from transformers 0.3 to older Haskell platforms.
-local/haskell-unordered-containers 0.2.19.1-45
+local/haskell-unordered-containers 0.2.19.1-47
     Efficient hashing-based container types
-local/haskell-uuid-types 1.0.5-85
+local/haskell-uuid-types 1.0.5-86
     Type definitions for Universally Unique Identifiers
-local/haskell-vector 0.13.0.0-14
+local/haskell-vector 0.13.0.0-17
     Efficient Arrays
 local/haskell-vector-stream 0.1.0.0-1
     Efficient Streams
-local/haskell-witherable 0.4.2-30
+local/haskell-witherable 0.4.2-32
     filterable traversable
 local/helvum 0.3.4-1
     GTK patchbay for PipeWire
@@ -636,17 +638,17 @@ local/hwloc 2.8.0-1
     Portable Hardware Locality is a portable abstraction of hierarchical architectures
 local/hyphen 2.8.8-5
     library for high quality hyphenation and justification
-local/iana-etc 20221107-1
+local/iana-etc 20221215-1
     /etc/protocols and /etc/services provided by IANA
 local/icu 72.1-2
     International Components for Unicode library
 local/ijs 0.35-5
     a library which implements a protocol for transmission of raster page images
-local/imagemagick 7.1.0.54-1
+local/imagemagick 7.1.0.55-2
     An image viewing/manipulation program
 local/imath 3.1.6-1
     A C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics
-local/imlib2 1.9.1-2
+local/imlib2 1.10.0-1
     Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
 local/iniparser 4.1-4
     A free stand-alone ini file parsing library written in portable ANSI C
@@ -664,7 +666,7 @@ local/iso-codes 4.12.0-1
     Lists of the country, language, and currency names
 local/itstool 1:2.0.7-1
     XML to PO and back again
-local/iwd 2.0-1
+local/iwd 2.1-1
     Internet Wireless Daemon
 local/jamesdsp 2.4-1
     An audio effect processor for PipeWire clients
@@ -750,7 +752,7 @@ local/lib32-bzip2 1.0.8-3
     A high-quality data compression program (32-bit)
 local/lib32-cairo 1.17.6-2
     2D graphics library with support for multiple output devices (32-bit)
-local/lib32-curl 7.86.0-2
+local/lib32-curl 7.87.0-1
     An URL retrieval utility and library (32-bit)
 local/lib32-dbus 1.14.4-1
     Freedesktop.org message bus system (32-bit)
@@ -772,7 +774,7 @@ local/lib32-gdk-pixbuf2 2.42.10-1
     An image loading library (32-bit)
 local/lib32-gettext 0.21.1-1
     GNU internationalization library (32-bit)
-local/lib32-glib2 2.74.3-1
+local/lib32-glib2 2.74.4-1
     Low level core library (32-bit)
 local/lib32-glibc 2.36-6
     GNU C Library (32-bit)
@@ -782,7 +784,7 @@ local/lib32-gmp 6.2.1-1
     A free library for arbitrary precision arithmetic (32-bit)
 local/lib32-gnutls 3.7.8-1
     A library which provides a secure layer over a reliable transport layer (32-bit)
-local/lib32-harfbuzz 5.3.1-3
+local/lib32-harfbuzz 6.0.0-1
     OpenType text shaping engine - 32-bit
 local/lib32-icu 72.1-2
     International Components for Unicode library (32 bit)
@@ -844,7 +846,7 @@ local/lib32-libthai 0.1.29-2
     Thai language support routines
 local/lib32-libtiff 4.4.0-4
     Library for manipulation of TIFF images (32-bit)
-local/lib32-libtirpc 1.3.3-1
+local/lib32-libtirpc 1.3.3-2
     Transport Independent RPC library (SunRPC replacement)
 local/lib32-libunistring 1.1-1
     Library for manipulating Unicode strings and C strings (32-bit)
@@ -920,11 +922,11 @@ local/lib32-pipewire 1:0.3.63-1
     Low-latency audio/video router and processor - 32-bit client library
 local/lib32-pixman 0.42.2-1
     Pixman library (32-bit)
-local/lib32-sdl2 2.24.2-1
+local/lib32-sdl2 2.26.1-1
     A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard
 local/lib32-sqlite 3.40.0-1
     A C library that implements an SQL database engine (32-bit)
-local/lib32-systemd 252.3-1
+local/lib32-systemd 252.4-1
     system and service manager (32-bit)
 local/lib32-util-linux 2.38.1-1
     Miscellaneous system utilities for Linux (32-bit)
@@ -1002,7 +1004,7 @@ local/libcolord 1.4.6-1
     System daemon for managing color devices (client library)
 local/libcups 1:2.4.2-3
     The CUPS Printing System - client libraries and headers
-local/libcurl-gnutls 7.86.0-4
+local/libcurl-gnutls 7.87.0-1
     An URL retrieval library (without versioned symbols and linked against gnutls)
 local/libdaemon 0.14-5
     Lightweight C library that eases the writing of UNIX daemons
@@ -1064,7 +1066,7 @@ local/libgtop 2.40.0+2+g31db82ef-2
     A library for collecting system monitoring data
 local/libgudev 237-2
     GObject bindings for libudev
-local/libgusb 0.4.2-1
+local/libgusb 0.4.3-1
     GObject wrapper for libusb1
 local/libgweather-4 4.2.0-1
     Location and timezone database and weather-lookup library
@@ -1082,7 +1084,7 @@ local/libidn 1.41-1
     Implementation of the Stringprep, Punycode and IDNA specifications
 local/libidn2 2.3.4-3
     Free software implementation of IDNA2008, Punycode and TR46
-local/libiec61883 1.2.0-6
+local/libiec61883 1.2.0-7
     A higher level API for streaming DV, MPEG-2 and audio over Linux IEEE 1394
 local/libimagequant 4.0.4-1
     Library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images
@@ -1130,7 +1132,7 @@ local/libmnl 1.0.5-1
     Minimalistic user-space library oriented to Netlink developers.
 local/libmodplug 0.8.9.0-3
     A MOD playing library
-local/libmpc 1.3.0-2
+local/libmpc 1.3.1-1
     Library for the arithmetic of complex numbers with arbitrarily high precision
 local/libmpdclient 2.20-2
     C library to implement a MPD client
@@ -1224,11 +1226,11 @@ local/libsecret 0.20.5-2
     Library for storing and retrieving passwords and other secrets
 local/libshout 1:2.4.6-2
     Library for accessing a shoutcast/icecast server
-local/libsigc++ 2.10.8-1
+local/libsigc++ 2.12.0-1
     Callback Framework for C++
 local/libslirp 4.7.0-1
     General purpose TCP-IP emulator
-local/libsm 1.2.3-3
+local/libsm 1.2.4-1
     X11 Session Management library
 local/libsndfile 1.1.0-3
     A C library for reading and writing files containing sampled audio data
@@ -1238,7 +1240,7 @@ local/libsoup 2.74.3-1
     HTTP client/server library for GNOME
 local/libsoup3 3.2.2-1
     HTTP client/server library for GNOME
-local/libsoxr 0.1.3-2
+local/libsoxr 0.1.3-3
     The SoX Resampler library that aims to give fast and high quality results for any constant resampling ratio
 local/libspectre 0.2.11-1
     Small library for rendering Postscript documents
@@ -1326,7 +1328,7 @@ local/libwpe 1.14.0-1
     General-purpose library for WPE WebKit
 local/libwpg 0.3.3-4
     Library for importing and converting Corel WordPerfect(tm) Graphics images.
-local/libx11 1.8.3-1
+local/libx11 1.8.3-3
     X11 client-side library
 local/libxau 1.0.11-1
     X11 authorisation library
@@ -1416,13 +1418,13 @@ local/lilv 0.24.20-1
     A C library interface to the LV2 plug-in standard
 local/linux-api-headers 5.18.15-1
     Kernel headers sanitized for use in userspace
-local/linux-firmware 20221109.60310c2-2
+local/linux-firmware 20221214.f3c283e-1
     Firmware files for Linux
-local/linux-firmware-whence 20221109.60310c2-2
+local/linux-firmware-whence 20221214.f3c283e-1
     Firmware files for Linux - contains the WHENCE license file which documents the vendor license details
-local/linux-zen 6.0.12.zen1-1
+local/linux-zen 6.1.1.zen1-1
     The Linux ZEN kernel and modules
-local/linux-zen-headers 6.0.12.zen1-1
+local/linux-zen-headers 6.1.1.zen1-1
     Headers and scripts for building modules for the Linux ZEN kernel
 local/llvm 14.0.6-4
     Compiler infrastructure
@@ -1436,7 +1438,7 @@ local/lsb-release 2.0.r48.3cf5103-1
     LSB version query program
 local/lsof 4.96.4-1
     Lists open files for running Unix processes
-local/lsp-plugins 1.2.3-1 (ladspa-plugins lv2-plugins pro-audio vst-plugins)
+local/lsp-plugins 1.2.4-1 (ladspa-plugins lv2-plugins pro-audio vst-plugins)
     Collection of free plugins compatible with LADSPA, LV2 and LinuxVST
 local/lua 5.4.4-2
     Powerful lightweight programming language designed for extending applications
@@ -1484,7 +1486,7 @@ local/mercurial 6.3.1-1
     A scalable distributed SCM tool
 local/mesa 22.3.1-1
     An open-source implementation of the OpenGL specification
-local/meson 0.64.1-1
+local/meson 1.0.0-2
     High productivity build system
 local/minizip 1:1.2.13-2
     Mini zip and unzip based on zlib
@@ -1510,7 +1512,7 @@ local/mtools 1:4.0.42-1
     A collection of utilities to access MS-DOS disks
 local/mujs 1.3.2-1
     An embeddable Javascript interpreter in C
-local/multipath-tools 0.9.3-1
+local/multipath-tools 0.9.4-1
     Multipath tools for Linux (including kpartx)
 local/nano 7.1-1
     Pico editor clone with enhancements
@@ -1532,7 +1534,7 @@ local/network-manager-applet 1.30.0-1
     Applet for managing network connections
 local/networkmanager 1.40.8-1
     Network connection manager and user applications
-local/nftables 1:1.0.5-1
+local/nftables 1:1.0.6-1
     Netfilter tables userspace tools
 local/ninja 1.11.1-2
     Small build system with a focus on speed
@@ -1574,7 +1576,7 @@ local/nwg-panel 0.7.15-1
     GTK3-based panel for sway window manager
 local/nwg-shell 0.3.9-1
     nwg-shell meta-package, installer and updater
-local/nwg-shell-config 0.4.9-1
+local/nwg-shell-config 0.4.10-1
     nwg-shell configuration utility
 local/nwg-shell-wallpapers 1.1-1
     nwg-shell wallpapers package
@@ -1598,7 +1600,7 @@ local/openpmix 4.2.2-1
     Extended version of the PMI standard
 local/openssh 9.1p1-3
     SSH protocol implementation for remote login, command execution and file transfer
-local/openssl 3.0.7-2
+local/openssl 3.0.7-4
     The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 local/opus 1.3.1-3
     Totally open, royalty-free, highly versatile audio codec
@@ -1656,7 +1658,7 @@ local/patch 2.7.6-8 (base-devel)
     A utility to apply patch files to original sources
 local/pavucontrol 1:5.0+r61+gee77d86-2
     PulseAudio Volume Control
-local/pciutils 3.9.0-1
+local/pciutils 3.9.0-2
     PCI bus configuration space access library and tools
 local/pcre 8.45-3
     A library that implements Perl 5-style regular expressions
@@ -1746,32 +1748,40 @@ local/potrace 1.16-2
     Utility for tracing a bitmap (input: PBM,PGM,PPM,BMP; output: EPS,PS,PDF,SVG,DXF,PGM,Gimppath,XFig)
 local/procps-ng 3.3.17-1
     Utilities for monitoring your system and its processes
-local/protonup-qt 2.7.6-1
+local/protobuf 21.12-1
+    Protocol Buffers - Google's data interchange format
+local/protonup-qt 2.7.7-1
     Install and manage Proton-GE and Luxtorpeda for Steam and Wine-GE for Lutris
 local/psmisc 23.6-1
     Miscellaneous procfs tools
 local/pyside6 6.4.1-2
     Enables the use of Qt6 APIs in Python applications
-local/python 3.10.8-3
+local/python 3.10.9-1
     Next generation of the python high-level scripting language
 local/python-anytree 2.8.0-5
     Powerful and Lightweight Python Tree Data Structure
 local/python-appdirs 1.4.4-7
     A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir".
-local/python-attrs 22.1.0-1
+local/python-attrs 22.2.0-1
     Attributes without boilerplate.
 local/python-autocommand 2.2.2-1
     A library to create a command-line program from a function
+local/python-build 0.9.0-1
+    A simple, correct PEP 517 build frontend
 local/python-cachetools 5.2.0-1
     Extensible memoizing collections and decorators
 local/python-cairo 1.23.0-2
     Python bindings for the cairo graphics library
+local/python-certifi 2022.09.24-1
+    Python package for providing Mozilla's CA Bundle (using system CA store)
 local/python-cffi 1.15.1-1
     Foreign Function Interface for Python calling C code
 local/python-chardet 5.1.0-1
     Python3 module for character encoding auto-detection
 local/python-configobj 5.0.6.r110.g3e2f4cc-3
     Simple config file reader and writer
+local/python-coverage 6.5.0-2
+    A tool for measuring code coverage of Python programs
 local/python-cryptography 38.0.4-1
     A package designed to expose cryptographic recipes and primitives to Python developers
 local/python-cssselect 1.2.0-1
@@ -1780,22 +1790,48 @@ local/python-dasbus 1.6-1
     DBus library in Python 3
 local/python-distro 1.8.0-1
     Linux OS platform information API
+local/python-exceptiongroup 1.1.0-1
+    Backport of PEP 654 (exception groups)
 local/python-fastbencode 0.1-2
     Implementation of bencode with optional fast C extensions
 local/python-geographiclib 2.0-2
     Python implementation of the geodesic routines in GeographicLib
 local/python-geopy 2.3.0-1
     Geocoding library for Python
+local/python-gevent 22.10.2-1
+    Python network library that uses greenlet and libev for easy and scalable concurrency
+local/python-gevent-eventemitter 2.1-3
+    EventEmitter using gevent
 local/python-gobject 3.42.2-1
     Python Bindings for GLib/GObject/GIO/GTK+
+local/python-google-api-core 2.11.0-1
+    Google API client core library
+local/python-google-api-python-client 2.70.0-1
+    Google API Client Library for Python
+local/python-google-auth 2.15.0-1
+    Google Authentication Library
+local/python-google-auth-httplib2 0.1.0-3
+    Google Authentication Library: httplib2 transport
+local/python-googleapis-common-protos 1.57.0-1
+    Python classes generated from the common protos in the googleapis repository
+local/python-greenlet 2.0.1-1
+    Lightweight in-process concurrent programming
+local/python-httplib2 0.21.0-2
+    Comprehensive HTTP client library, supporting many features
 local/python-i3ipc 2.2.1-3
     An improved Python library to control i3wm
 local/python-idna 3.4-1
     Internationalized Domain Names in Applications (IDNA)
+local/python-importlib-metadata 5.0.0-1
+    Read metadata from Python packages
 local/python-inflect 6.0.2-1
     Correctly generate plurals, singular nouns, ordinals, indefinite articles
+local/python-iniconfig 1.1.1-5
+    brain-dead simple config-ini parsing
 local/python-inputs 0.5.0-1
     Cross-platform Python support for keyboards, mice and gamepads
+local/python-installer 0.6.0-1
+    Low-level library for installing a Python package from a wheel distribution
 local/python-jaraco.context 4.2.0-1
     Context managers by jaraco
 local/python-jaraco.functools 3.5.2-1
@@ -1812,8 +1848,12 @@ local/python-markupsafe 2.1.1-1
     Implements a XML/HTML/XHTML Markup safe string for Python
 local/python-merge3 0.0.12-1
     Python implementation of 3-way merge
+local/python-mock 3.0.5-9
+    Mocking and Patching Library for Testing
 local/python-more-itertools 9.0.0-1
     More routines for operating on iterables, beyond itertools
+local/python-multidict 6.0.3-2
+    Asyncio-based multidict implementation for Python
 local/python-netifaces 0.11.0-3
     Portable module to access network interface information in Python
 local/python-numpy 1.23.5-1
@@ -1822,22 +1862,34 @@ local/python-ordered-set 4.1.0-1
     A MutableSet that remembers its order, so that every entry has an index
 local/python-packaging 21.3-1
     Core utilities for Python packages
-local/python-patiencediff 0.2.11-1
+local/python-patiencediff 0.2.12-1
     Patiencediff Python and C implementations
+local/python-pbr 5.11.0-2
+    Python Build Reasonableness
+local/python-pep517 0.13.0-1
+    Wrappers to build Python packages using PEP 517 hooks
 local/python-pexpect 4.8.0-6
     For controlling and automating applications
 local/python-pillow 9.3.0-1
     Python Imaging Library (PIL) fork
 local/python-pip 22.3.1-1
     The PyPA recommended tool for installing Python packages
+local/python-pluggy 1.0.0-1
+    Plugin and hook calling mechanisms for python
 local/python-ply 3.11-10
     Implementation of lex and yacc parsing tools
+local/python-protobuf 21.12-1
+    Python 3 bindings for Google Protocol Buffers
 local/python-psutil 5.9.4-1
     A cross-platform process and system utilities module for Python
 local/python-ptyprocess 0.7.0-4
     Run a subprocess in a pseudo terminal
 local/python-pyaml 21.10.1-1
     PyYAML-based module to produce pretty and readable YAML-serialized data
+local/python-pyasn1 0.4.8-7
+    ASN.1 library for Python 3
+local/python-pyasn1-modules 0.2.8-6
+    A collection of ASN.1-based protocols modules
 local/python-pyaudio 0.2.12-1
     Python bindings for PortAudio
 local/python-pycparser 2.21-3
@@ -1850,115 +1902,137 @@ local/python-pygments 2.13.0-1
     Python syntax highlighter
 local/python-pyparsing 3.0.9-1
     General parsing module for Python
+local/python-pytest 7.2.0-4
+    Simple powerful testing with Python
+local/python-pytest-cov 4.0.0-1
+    py.test plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses and multiprocessing
+local/python-pytz 2022.6-1
+    Cross platform time zone library for Python
 local/python-pyxdg 0.28-1
     Python library to access freedesktop.org standards
 local/python-requests 2.28.1-1
     Python HTTP for Humans
+local/python-rsa 4.9-1
+    Pure-Python RSA implementation
 local/python-send2trash 1.8.0-3
     Send file to trash natively
 local/python-setuptools 1:65.6.3-1
     Easily download, build, install, upgrade, and uninstall Python packages
 local/python-six 1.16.0-6
     Python 2 and 3 compatibility utilities
-local/python-steam 1.4.3-1
+local/python-steam 1.4.4-1
     Python package for interacting with Steam
 local/python-tomli 2.0.1-1
     A lil' TOML parser
-local/python-trove-classifiers 2022.12.1-1
+local/python-trove-classifiers 2022.12.22-1
     Canonical source for classifiers on PyPI (pypi.org)
 local/python-typing_extensions 4.4.0-1
     Backported and Experimental Type Hints for Python 3.7+
+local/python-uritemplate 4.1.1-1
+    a Python implementation of RFC6570
 local/python-urllib3 1.26.12-1
     HTTP library with thread-safe connection pooling and file post support
 local/python-validate-pyproject 0.10.1-1
     Validation library and CLI tool for checking on 'pyproject.toml' files using JSON Schema
+local/python-vcrpy 4.2.1-2
+    Automatically mock your HTTP interactions to simplify and speed up testing
 local/python-vdf 3.4-2
     Library for working with Valve's VDF text format
 local/python-wheel 0.38.4-1
     A built-package format for Python
+local/python-wrapt 1.14.1-1
+    A Python module for decorators, wrappers and monkey patching
 local/python-xlib 0.31-4
     A fully functional X client library for Python programs
 local/python-yaml 6.0-1
     Python bindings for YAML, using fast libYAML library
-local/qemu-audio-alsa 7.1.0-11
+local/python-yarl 1.8.2-1
+    Yet another URL library
+local/python-zipp 3.11.0-1
+    Pathlib-compatible object wrapper for zip files
+local/python-zope-event 4.5.0-6
+    Provides a simple event system
+local/python-zope-interface 5.5.0-1
+    Zope Interfaces for Python 3.x
+local/qemu-audio-alsa 7.2.0-1
     QEMU ALSA audio driver
-local/qemu-audio-dbus 7.1.0-11
+local/qemu-audio-dbus 7.2.0-1
     QEMU D-Bus audio driver
-local/qemu-audio-jack 7.1.0-11
+local/qemu-audio-jack 7.2.0-1
     QEMU JACK audio driver
-local/qemu-audio-oss 7.1.0-11
+local/qemu-audio-oss 7.2.0-1
     QEMU OSS audio driver
-local/qemu-audio-pa 7.1.0-11
+local/qemu-audio-pa 7.2.0-1
     QEMU PulseAudio audio driver
-local/qemu-audio-sdl 7.1.0-11
+local/qemu-audio-sdl 7.2.0-1
     QEMU SDL audio driver
-local/qemu-audio-spice 7.1.0-11
+local/qemu-audio-spice 7.2.0-1
     QEMU spice audio driver
-local/qemu-block-curl 7.1.0-11
+local/qemu-block-curl 7.2.0-1
     QEMU curl block driver
-local/qemu-block-dmg 7.1.0-11
+local/qemu-block-dmg 7.2.0-1
     QEMU DMG block driver
-local/qemu-block-nfs 7.1.0-11
+local/qemu-block-nfs 7.2.0-1
     QEMU NFS block driver
-local/qemu-block-ssh 7.1.0-11
+local/qemu-block-ssh 7.2.0-1
     QEMU SSH block driver
-local/qemu-chardev-spice 7.1.0-11
+local/qemu-chardev-spice 7.2.0-1
     QEMU spice chardev driver
-local/qemu-common 7.1.0-11
+local/qemu-common 7.2.0-1
     A generic and open source machine emulator and virtualizer
-local/qemu-desktop 7.1.0-11
+local/qemu-desktop 7.2.0-1
     A QEMU setup for desktop environments
-local/qemu-hw-display-qxl 7.1.0-11
+local/qemu-hw-display-qxl 7.2.0-1
     QEMU QXL display device
-local/qemu-hw-display-virtio-gpu 7.1.0-11
+local/qemu-hw-display-virtio-gpu 7.2.0-1
     QEMU virtio-gpu display device
-local/qemu-hw-display-virtio-gpu-gl 7.1.0-11
+local/qemu-hw-display-virtio-gpu-gl 7.2.0-1
     QEMU virtio-gpu-gl display device
-local/qemu-hw-display-virtio-gpu-pci 7.1.0-11
+local/qemu-hw-display-virtio-gpu-pci 7.2.0-1
     QEMU virtio-gpu-pci display device
-local/qemu-hw-display-virtio-gpu-pci-gl 7.1.0-11
+local/qemu-hw-display-virtio-gpu-pci-gl 7.2.0-1
     QEMU virtio-gpu-pci-gl display device
-local/qemu-hw-display-virtio-vga 7.1.0-11
+local/qemu-hw-display-virtio-vga 7.2.0-1
     QEMU virtio-vga display device
-local/qemu-hw-display-virtio-vga-gl 7.1.0-11
+local/qemu-hw-display-virtio-vga-gl 7.2.0-1
     QEMU virtio-vga-gl display device
-local/qemu-hw-s390x-virtio-gpu-ccw 7.1.0-11
+local/qemu-hw-s390x-virtio-gpu-ccw 7.2.0-1
     QEMU s390x-virtio-gpu-ccw display device
-local/qemu-hw-usb-host 7.1.0-11
+local/qemu-hw-usb-host 7.2.0-1
     QEMU USB host device
-local/qemu-hw-usb-redirect 7.1.0-11
+local/qemu-hw-usb-redirect 7.2.0-1
     QEMU usbredir device
-local/qemu-hw-usb-smartcard 7.1.0-11
+local/qemu-hw-usb-smartcard 7.2.0-1
     QEMU USB smartcard device
-local/qemu-img 7.1.0-11
+local/qemu-img 7.2.0-1
     QEMU tooling for manipulating disk images
-local/qemu-pr-helper 7.1.0-11
+local/qemu-pr-helper 7.2.0-1
     QEMU persistent reservation utility
-local/qemu-system-x86 7.1.0-11
+local/qemu-system-x86 7.2.0-1
     QEMU system emulator for x86
-local/qemu-system-x86-firmware 7.1.0-11
+local/qemu-system-x86-firmware 7.2.0-1
     Firmware for QEMU system emulator for x86
-local/qemu-tools 7.1.0-11
+local/qemu-tools 7.2.0-1
     QEMU tools
-local/qemu-ui-curses 7.1.0-11
+local/qemu-ui-curses 7.2.0-1
     QEMU curses UI driver
-local/qemu-ui-dbus 7.1.0-11
+local/qemu-ui-dbus 7.2.0-1
     QEMU D-Bus UI driver
-local/qemu-ui-egl-headless 7.1.0-11
+local/qemu-ui-egl-headless 7.2.0-1
     QEMU EGL headless UI driver
-local/qemu-ui-gtk 7.1.0-11
+local/qemu-ui-gtk 7.2.0-1
     QEMU GTK UI driver
-local/qemu-ui-opengl 7.1.0-11
+local/qemu-ui-opengl 7.2.0-1
     QEMU OpenGL UI driver
-local/qemu-ui-sdl 7.1.0-11
+local/qemu-ui-sdl 7.2.0-1
     QEMU SDL UI driver
-local/qemu-ui-spice-app 7.1.0-11
+local/qemu-ui-spice-app 7.2.0-1
     QEMU spice app UI driver
-local/qemu-ui-spice-core 7.1.0-11
+local/qemu-ui-spice-core 7.2.0-1
     QEMU spice core UI driver
-local/qemu-vhost-user-gpu 7.1.0-11
+local/qemu-vhost-user-gpu 7.2.0-1
     QEMU vhost-user-gpu display device
-local/qemu-virtiofsd 7.1.0-11
+local/qemu-virtiofsd 7.2.0-1
     QEMU virtio-fs shared filesystem daemon
 local/qgnomeplatform-qt6 0.9.0-5
     QPlatformTheme for a better Qt6 application inclusion in GNOME
@@ -2018,7 +2092,7 @@ local/reflector 2021.11-5
     A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 local/rhash 1.4.3-1
     Utility for verifying hash sums of files
-local/rsync 3.2.7-2
+local/rsync 3.2.7-3
     A fast and versatile file copying tool for remote and local files
 local/rtkit 0.13-2
     Realtime Policy and Watchdog Daemon
@@ -2056,7 +2130,7 @@ local/shadow 4.12.3-2
     Password and account management tool suite with support for shadow files and PAM
 local/shared-mime-info 2.0+155+gf4e7cbc-1
     Freedesktop.org Shared MIME Info
-local/shellcheck 0.8.0-245
+local/shellcheck 0.8.0-249
     Shell script analysis tool
 local/shiboken6 6.4.1-2
     Generates bindings for C++ libraries using CPython source code
@@ -2074,7 +2148,7 @@ local/sord 0.16.14-1
     A lightweight C library for storing RDF data in memory
 local/sound-theme-freedesktop 0.8-5
     Freedesktop sound theme
-local/sov 0.84b-1
+local/sov 0.87b-1
     An overview application for sway
 local/spdlog 1.11.0-1
     Very fast, header-only/compiled, C++ logging library
@@ -2086,7 +2160,7 @@ local/spice 0.15.1-1
     SPICE server
 local/spice-gtk 0.41-5
     GTK+ client library for SPICE
-local/spicetify-cli-git 2.14.3.r6.g2147d0b-1
+local/spicetify-cli-git 2.15.0.r4.g2b72c7a-1
     Command-line tool to customize Spotify client - Git master branch
 local/spirv-headers 1:1.3.216.0-1
     SPIR-V Headers
@@ -2108,9 +2182,9 @@ local/startup-notification 0.12-7
     Monitor and display application startup
 local/steam 1.0.0.75-1
     Valve's digital software delivery system
-local/steamtinkerlaunch-git 11.11.r169.gf819ea4-1
+local/steamtinkerlaunch-git 12.0.r0.ge7c5ada-1
     Wrapper script for Steam custom launch options
-local/subversion 1.14.2-5
+local/subversion 1.14.2-6
     A Modern Concurrent Version Control System
 local/sudo 1.9.12.p1-1 (base-devel)
     Give certain users the ability to run some commands as root
@@ -2134,11 +2208,11 @@ local/syncthing 1.22.1-1
     Open Source Continuous Replication / Cluster Synchronization Thing
 local/sysfsutils 2.1.1-1
     System Utilities Based on Sysfs
-local/systemd 252.3-1
+local/systemd 252.4-2
     system and service manager
-local/systemd-libs 252.3-1
+local/systemd-libs 252.4-2
     systemd client libraries
-local/systemd-sysvcompat 252.3-1
+local/systemd-sysvcompat 252.4-2
     sysvinit compat for systemd
 local/taglib 1.13-1
     A Library for reading and editing the meta-data of several popular audio formats
@@ -2150,7 +2224,7 @@ local/tdb 1.4.7-1
     Trivial Database similar to GDBM but allows simultaneous commits
 local/telepathy-glib 0.24.2-2
     GLib bindings for the Telepathy D-Bus protocol
-local/tesseract 5.2.0-2
+local/tesseract 5.3.0-1
     An OCR program
 local/tesseract-data-afr 2:4.1.0-3 (tesseract-data)
     Tesseract OCR data (afr)
@@ -2166,7 +2240,7 @@ local/texinfo 7.0.1-1 (base-devel)
     GNU documentation system for on-line information and printed output
 local/thin-provisioning-tools 0.9.0-1
     Suite of tools for manipulating the metadata of the dm-thin device-mapper target
-local/thunar 4.18.0-1 (xfce4)
+local/thunar 4.18.1-1 (xfce4)
     Modern, fast and easy-to-use file manager for Xfce
 local/thunar-archive-plugin 0.5.0-2 (xfce4-goodies)
     Adds archive operations to the Thunar file context menus
@@ -2318,9 +2392,9 @@ local/wayland 1.21.0-2
     A computer display server protocol
 local/wayland-protocols 1.31-1
     Specifications of extended Wayland protocols
-local/webkit2gtk 2.38.2-2
+local/webkit2gtk 2.38.3-1
     Web content engine for GTK
-local/webkit2gtk-4.1 2.38.2-2
+local/webkit2gtk-4.1 2.38.3-1
     Web content engine for GTK
 local/webp-pixbuf-loader 0.0.7-1
     WebM GDK Pixbuf Loader library
@@ -2366,7 +2440,7 @@ local/xcb-imdkit-git 1.0.4.r2.gd4e9aff-1
     Input method development support for xcb
 local/xcb-proto 1.15.2-2
     XML-XCB protocol descriptions
-local/xcb-util 0.4.0-4
+local/xcb-util 0.4.1-1
     Utility libraries for XC Binding
 local/xcb-util-cursor 0.1.4-1
     XCB cursor library
@@ -2418,7 +2492,7 @@ local/xfce4-power-manager 4.18.0-1 (xfce4)
     Power Manager for Xfce
 local/xfce4-session 4.18.0-1 (xfce4)
     Xfce's session manager
-local/xfce4-settings 4.18.0-1 (xfce4)
+local/xfce4-settings 4.18.1-1 (xfce4)
     Xfce's Configuration System
 local/xfce4-statusnotifier-plugin 0.2.2-1
     Plugin to status notifier indicators in the Xfce4 panel
@@ -2430,7 +2504,7 @@ local/xfconf 4.18.0-1 (xfce4)
     D-Bus-based configuration storage system
 local/xfdesktop 4.18.0-1 (xfce4)
     Xfce's desktop manager
-local/xfsprogs 6.0.0-1
+local/xfsprogs 6.0.0-2
     XFS filesystem utilities
 local/xfwm4 4.18.0-1 (xfce4)
     Xfce's window manager
@@ -2460,9 +2534,9 @@ local/xorg-iceauth 1.0.9-1 (xorg-apps xorg)
     ICE authority file utility
 local/xorg-mkfontscale 1.2.2-1 (xorg-apps xorg)
     Create an index of scalable font files for X
-local/xorg-server 21.1.5-1 (xorg)
+local/xorg-server 21.1.6-1 (xorg)
     Xorg X server
-local/xorg-server-common 21.1.5-1 (xorg)
+local/xorg-server-common 21.1.6-1 (xorg)
     Xorg server common files
 local/xorg-setxkbmap 1.3.3-1 (xorg-apps xorg)
     Set the keyboard using the X Keyboard Extension
@@ -2486,7 +2560,7 @@ local/xorg-xrdb 1.2.1-1 (xorg-apps xorg)
     X server resource database utility
 local/xorg-xset 1.2.5-1 (xorg-apps xorg)
     User preference utility for X
-local/xorg-xwayland 22.1.6-1 (xorg)
+local/xorg-xwayland 22.1.7-1 (xorg)
     run X clients under wayland
 local/xorg-xwininfo 1.1.5-3 (xorg-apps xorg)
     Command-line utility to print information about windows on an X server

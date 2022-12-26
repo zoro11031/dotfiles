@@ -10,7 +10,7 @@ Lutris	net.lutris.Lutris	0.5.12	stable	system
 DuckStation	org.duckstation.DuckStation	nightly	stable	system
 TAP-plugins	org.freedesktop.LinuxAudio.Plugins.TAP	1.0.1	21.08	system
 SWH	org.freedesktop.LinuxAudio.Plugins.swh	0.4.17	21.08	system
-Freedesktop Platform	org.freedesktop.Platform	21.08.16	21.08	system
+Freedesktop Platform	org.freedesktop.Platform	21.08.17.1	21.08	system
 Freedesktop Platform	org.freedesktop.Platform	22.08.4	22.08	system
 i386	org.freedesktop.Platform.Compat.i386		22.08	system
 Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	system
@@ -48,4 +48,4 @@ Wine	org.winehq.Wine	7.0.1	stable-22.08	system
 DXVK	org.winehq.Wine.DLLs.dxvk	1.10.3	stable-22.08	system
 Gecko	org.winehq.Wine.gecko		stable-22.08	system
 Mono	org.winehq.Wine.mono		stable-22.08	system
-Plex	tv.plex.PlexDesktop	1.59.1	stable	system
+Plex	tv.plex.PlexDesktop	1.60.1	stable	system
