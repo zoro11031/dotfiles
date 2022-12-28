@@ -1,4 +1,4 @@
-local/aalib 1.4rc5-14
+local/aalib 1.4rc5-15
     A portable ASCII art graphic library
 local/accountsservice 22.08.8-2
     D-Bus interface for user account query and manipulation
@@ -18,7 +18,7 @@ local/adwaita-icon-theme 43-2
     GNOME standard icons
 local/adwaita-qt6 1.4.2-1
     A style to bend Qt6 applications to look like they belong into GNOME Shell
-local/alsa-card-profiles 1:0.3.63-1
+local/alsa-card-profiles 1:0.3.63-3
     Low-latency audio/video router and processor - ALSA card profiles
 local/alsa-lib 1.2.8-1
     An alternative implementation of Linux sound support
@@ -56,7 +56,7 @@ local/archlinux-appstream-data-pamac 1:20221210-1
     Arch Linux application database for AppStream-based software centers (Fixed for pamac-aur and pamac-all packages)
 local/archlinux-keyring 20221220-1 (base-devel)
     Arch Linux PGP keyring
-local/archlinux-tweak-tool-git r909.35d90dd-1
+local/archlinux-tweak-tool-git r910.caf1f7a-1
     Arch Linux Tweak Tool or ATT
 local/argon2 20190702-4
     A password-hashing function (reference C implementation)
@@ -148,9 +148,11 @@ local/cantarell-fonts 1:0.303.1-1
     Humanist sans serif font
 local/capstone 4.0.2-6
     Lightweight multi-platform, multi-architecture disassembly framework
+local/catch2-git 3.2.1.r9.g78bb4fda-1
+    Modern, C++-native, header-only, test framework for unit-tests, TDD and BDD (developmental version)
 local/catfish 4.16.4-1
     Versatile file searching tool
-local/catppuccin-macchiato-grub-theme-git r33.a891841-1
+local/catppuccin-macchiato-grub-theme-git r34.48ac7cb-1
     Soothing pastel theme for GRUB2 -- Macchiato colorscheme
 local/cblas 3.11.0-1
     C interface to BLAS
@@ -176,7 +178,7 @@ local/corectrl 1.3.1-1
     Core control application
 local/coreutils 9.1-3
     The basic file, shell and text manipulation utilities of the GNU operating system
-local/cpio 2.13-2
+local/cpio 2.13-3
     A tool to copy files into or out of a cpio or tar archive
 local/cracklib 2.9.8-1
     Password Checking Library
@@ -208,7 +210,7 @@ local/default-cursors 2-1
     Default cursor set
 local/desktop-file-utils 0.26-2
     Command line utilities for working with desktop entries
-local/device-mapper 2.03.17-1
+local/device-mapper 2.03.18-1
     Device mapper userspace library and tools
 local/devtools 20221012-2
     Tools for Arch Linux package maintainers
@@ -240,7 +242,7 @@ local/doxygen 1.9.5-1
     Documentation system for C++, C, Java, IDL and PHP
 local/dtc 1.6.1-4
     Device Tree Compiler
-local/duktape 2.7.0-4
+local/duktape 2.7.0-5
     Embeddable Javascript engine
 local/e2fsprogs 1.46.5-4
     Ext2/3/4 filesystem utilities
@@ -358,6 +360,10 @@ local/gcr-4 4.0.0-1
     A library for bits of crypto UI and parsing
 local/gd 2.3.3-5
     Library for the dynamic creation of images by programmers
+local/gdb 12.1-2
+    The GNU Debugger
+local/gdb-common 12.1-2
+    The GNU Debugger
 local/gdbm 1.23-1
     GNU database library
 local/gdk-pixbuf2 2.42.10-1
@@ -564,6 +570,8 @@ local/haskell-dlist 1.0-196
     Differences lists
 local/haskell-erf 2.0.0.0-24
     The error function, erf, and related functions.
+local/haskell-fgl 5.8.0.0-8
+    Martin Erwig's Functional Graph Library
 local/haskell-generically 0.1-1
     Generically newtype to use with DerivingVia
 local/haskell-ghc-bignum-orphans 0.1.1-1
@@ -638,6 +646,8 @@ local/hwloc 2.8.0-1
     Portable Hardware Locality is a portable abstraction of hierarchical architectures
 local/hyphen 2.8.8-5
     library for high quality hyphenation and justification
+local/hyprland-bin 0.19.2beta-1
+    A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
 local/iana-etc 20221215-1
     /etc/protocols and /etc/services provided by IANA
 local/icu 72.1-2
@@ -918,7 +928,7 @@ local/lib32-pango 1:1.50.12-1
     A library for layout and rendering of text (32-bit)
 local/lib32-pcre2 10.40-3
     A library that implements Perl 5-style regular expressions. 2nd version (32-bit)
-local/lib32-pipewire 1:0.3.63-1
+local/lib32-pipewire 1:0.3.63-3
     Low-latency audio/video router and processor - 32-bit client library
 local/lib32-pixman 0.42.2-1
     Pixman library (32-bit)
@@ -984,7 +994,7 @@ local/libcaca 0.99.beta20-1
     Color AsCii Art library
 local/libcacard 2.7.0-2
     (Common Access Card) library thar provides emulation of smart cards to a virtual card reader running in a guest virtual machine
-local/libcamera 0.0.2-1
+local/libcamera 0.0.3-1
     A complex camera support library for Linux, Android, and ChromeOS
 local/libcanberra 1:0.30+r2+gc0620e4-2
     A small and lightweight implementation of the XDG Sound Theme Specification
@@ -1130,7 +1140,7 @@ local/libmm-glib 1.20.2-1
     ModemManager library
 local/libmnl 1.0.5-1
     Minimalistic user-space library oriented to Netlink developers.
-local/libmodplug 0.8.9.0-3
+local/libmodplug 0.8.9.0-4
     A MOD playing library
 local/libmpc 1.3.1-1
     Library for the arithmetic of complex numbers with arbitrarily high precision
@@ -1154,7 +1164,7 @@ local/libnghttp2 1.51.0-1
     Framing layer of HTTP/2 is implemented as a reusable C library
 local/libnl 3.7.0-1
     Library for applications dealing with netlink sockets
-local/libnm 1.40.8-1
+local/libnm 1.40.8-2
     NetworkManager client library
 local/libnma 1.10.4-3
     NetworkManager GUI client library (GTK3)
@@ -1166,7 +1176,7 @@ local/libnsl 2.0.0-2
     Public client interface library for NIS(YP)
 local/libogg 1.3.5-1
     Ogg bitstream and framing library
-local/libomxil-bellagio 0.9.3-3
+local/libomxil-bellagio 0.9.3-4
     An opensource implementation of the OpenMAX Integration Layer API
 local/libosinfo 1.10.0-2
     GObject based library API for managing information about operating systems, hypervisors and the (virtual) hardware devices they can support
@@ -1196,7 +1206,7 @@ local/libportal 0.6-1
     GIO-style async APIs for most Flatpak portals
 local/libportal-gtk3 0.6-1
     GIO-style async APIs for most Flatpak portals - GTK 3 backend
-local/libproxy 0.4.18-1
+local/libproxy 0.4.18-2
     Automatic proxy configuration management library
 local/libpsl 0.21.1-3
     Public Suffix List library
@@ -1440,13 +1450,13 @@ local/lsof 4.96.4-1
     Lists open files for running Unix processes
 local/lsp-plugins 1.2.4-1 (ladspa-plugins lv2-plugins pro-audio vst-plugins)
     Collection of free plugins compatible with LADSPA, LV2 and LinuxVST
-local/lua 5.4.4-2
+local/lua 5.4.4-3
     Powerful lightweight programming language designed for extending applications
 local/luajit 2.1.0.beta3.r464.g8625eee7-1
     Just-in-time compiler and drop-in replacement for Lua 5.1
 local/lv2 1.18.10-1
     Plugin standard for audio systems
-local/lvm2 2.03.17-1
+local/lvm2 2.03.18-1
     Logical Volume Manager 2 utilities
 local/lxappearance 0.6.3-4 (lxde)
     Feature-rich GTK+ theme switcher of the LXDE Desktop
@@ -1532,7 +1542,7 @@ local/nettle 3.8.1-1
     A low-level cryptographic library
 local/network-manager-applet 1.30.0-1
     Applet for managing network connections
-local/networkmanager 1.40.8-1
+local/networkmanager 1.40.8-2
     Network connection manager and user applications
 local/nftables 1:1.0.6-1
     Netfilter tables userspace tools
@@ -1668,7 +1678,7 @@ local/perl 5.36.0-3
     A highly capable, feature-rich programming language
 local/perl-clone 0.45-4
     Recursive copy of nested objects.
-local/perl-encode-locale 1.05-9
+local/perl-encode-locale 1.05-10
     Determine the locale encoding
 local/perl-error 0.17029-4
     Perl/CPAN Error module - Error/exception handling in an OO-ish way
@@ -1676,23 +1686,23 @@ local/perl-file-listing 6.15-2
     parse directory listing
 local/perl-html-parser 3.80-1
     Perl HTML parser class
-local/perl-html-tagset 3.20-12
+local/perl-html-tagset 3.20-13
     Data tables useful in parsing HTML
 local/perl-http-cookies 6.10-3
     HTTP cookie jars
 local/perl-http-daemon 6.14-2
     Simple http server class
-local/perl-http-date 6.05-5
+local/perl-http-date 6.05-6
     Date conversion routines
 local/perl-http-message 6.44-1
     HTTP style messages
-local/perl-http-negotiate 6.01-10
+local/perl-http-negotiate 6.01-11
     Choose a variant to serve
 local/perl-io-html 1.004-3
     Open an HTML file with automatic charset detection
 local/perl-libwww 6.67-1
     The World-Wide Web library for Perl
-local/perl-lwp-mediatypes 6.04-2
+local/perl-lwp-mediatypes 6.04-3
     Guess the media type of a file or a URL
 local/perl-mailtools 2.21-6
     Various e-mail related modules
@@ -1704,7 +1714,7 @@ local/perl-try-tiny 0.31-2
     Minimal try/catch with proper localization of $@
 local/perl-uri 5.17-1
     Uniform Resource Identifiers (absolute and relative)
-local/perl-www-robotrules 6.02-10
+local/perl-www-robotrules 6.02-11
     Database of robots.txt-derived permissions
 local/perl-xml-parser 2.46-4
     Expat-based XML parser module for perl
@@ -1714,15 +1724,15 @@ local/phodav 3.0-1
     WebDav server implementation using libsoup (RFC 4918)
 local/pinentry 1.2.1-1
     Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
-local/pipewire 1:0.3.63-1
+local/pipewire 1:0.3.63-3
     Low-latency audio/video router and processor
-local/pipewire-alsa 1:0.3.63-1
+local/pipewire-alsa 1:0.3.63-3
     Low-latency audio/video router and processor - ALSA configuration
-local/pipewire-audio 1:0.3.63-1
+local/pipewire-audio 1:0.3.63-3
     Low-latency audio/video router and processor - Audio support
-local/pipewire-jack 1:0.3.63-1
+local/pipewire-jack 1:0.3.63-3
     Low-latency audio/video router and processor - JACK support
-local/pipewire-pulse 1:0.3.63-1
+local/pipewire-pulse 1:0.3.63-3
     Low-latency audio/video router and processor - PulseAudio replacement
 local/pixman 0.42.2-1
     The pixel-manipulation library for X and cairo
@@ -2130,11 +2140,11 @@ local/shadow 4.12.3-2
     Password and account management tool suite with support for shadow files and PAM
 local/shared-mime-info 2.0+155+gf4e7cbc-1
     Freedesktop.org Shared MIME Info
-local/shellcheck 0.8.0-250
+local/shellcheck 0.9.0-1
     Shell script analysis tool
 local/shiboken6 6.4.1-2
     Generates bindings for C++ libraries using CPython source code
-local/slang 2.3.3-1
+local/slang 2.3.3-2
     S-Lang is a powerful interpreted language
 local/slurp 1.4.0-1
     Select a region in a Wayland compositor
@@ -2148,6 +2158,8 @@ local/sord 0.16.14-1
     A lightweight C library for storing RDF data in memory
 local/sound-theme-freedesktop 0.8-5
     Freedesktop sound theme
+local/source-highlight 3.1.9-9
+    Convert source code to syntax highlighted document
 local/sov 0.87b-1
     An overview application for sway
 local/spdlog 1.11.0-1
@@ -2160,7 +2172,7 @@ local/spice 0.15.1-1
     SPICE server
 local/spice-gtk 0.41-5
     GTK+ client library for SPICE
-local/spicetify-cli-git 2.15.0.r8.gd7fb3cc-1
+local/spicetify-cli-git 2.15.0.r9.gb6776b7-1
     Command-line tool to customize Spotify client - Git master branch
 local/spirv-headers 1:1.3.216.0-1
     SPIR-V Headers
@@ -2182,7 +2194,7 @@ local/startup-notification 0.12-7
     Monitor and display application startup
 local/steam 1.0.0.75-1
     Valve's digital software delivery system
-local/steamtinkerlaunch-git 12.0.r0.ge7c5ada-1
+local/steamtinkerlaunch-git 12.0.r1.gd64e28d-1
     Wrapper script for Steam custom launch options
 local/subversion 1.14.2-6
     A Modern Concurrent Version Control System
@@ -2384,10 +2396,12 @@ local/vulkan-icd-loader 1.3.235-1
     Vulkan Installable Client Driver (ICD) Loader
 local/vulkan-radeon 22.3.1-1
     Radeon's Vulkan mesa driver
+local/vulkan-validation-layers 1.3.231.1-1 (vulkan-devel)
+    Vulkan Validation Layers
 local/wavpack 5.6.0-1
     Audio compression format with lossless, lossy and hybrid compression modes
-local/waybar 0.9.16-2
-    Highly customizable Wayland bar for Sway and Wlroots based compositors
+local/waybar-hyprland-git 0.9.16.r55.g21abd4f9-1
+    Highly customizable Wayland bar for Sway and Wlroots based compositors, with workspaces support for Hyprland (git version)
 local/wayland 1.21.0-2
     A computer display server protocol
 local/wayland-protocols 1.31-1
@@ -2546,6 +2560,8 @@ local/xorg-xhost 1.0.9-1 (xorg-apps xorg)
     Server access control program for X
 local/xorg-xinit 1.4.2-1
     X.Org initialisation program
+local/xorg-xinput 1.6.3-3 (xorg-apps xorg)
+    Small commandline tool to configure devices
 local/xorg-xkbcomp 1.4.6-1 (xorg-apps xorg)
     X Keyboard description compiler
 local/xorg-xmessage 1.0.6-1
