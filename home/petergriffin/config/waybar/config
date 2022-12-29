@@ -1,5 +1,5 @@
 {
-    // "layer": "top", // Waybar at top layer
+    "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 35, // Waybar height (to be removed for auto height)
    //  "width": 1280, // Waybar width
@@ -12,16 +12,17 @@
     "modules-right": ["idle_inhibitor", "gamemode", "tray", "custom/spotify", "pulseaudio", "network", "cpu", "memory", "temperature", "keyboard-state", "custom/power"],
     // Modules configuration
    "wlr/workspaces": {
-        "format": "{name}",
-   		"sort-by-number": true,
-       "persistent_workspaces": {
-           "1:一": [], // Always show a workspace with name '一', on all outputs if it does not exists
-           "2:二": [], // Always show a workspace with name '二', on all outputs if it does not exists
-           "3:三": [], // Always show a workspace with name '三', on all outputs if it does not exists
-           "4:勉強": [], // Always show a workspace with name '勉強' on all outputs if it does not exists
-           "5:ゲーム": [], // Always show a workspace with name 'ゲーム', on all outputs if it does not exists
-           "6:宿題": [], // Always show a workspace with name '宿題', on all outputs if it does not exists
-           "7:桜": [], // Always show a workspace with name '桜', on all outputs if it does not exists
+        "format": "{icon}",
+ "sort-by-number": true,
+ "on-click": "activate",
+       "format-icons": {
+           "1": "一", // Always show a workspace with name '一', on all outputs if it does not exists
+           "2": "二", // Always show a workspace with name '二', on all outputs if it does not exists
+           "3": "三", // Always show a workspace with name '三', on all outputs if it does not exists
+           "4": "勉強", // Always show a workspace with name '勉強' on all outputs if it does not exists
+           "5": "ゲーム", // Always show a workspace with name 'ゲーム', on all outputs if it does not exists
+           "6": "宿題", // Always show a workspace with name '宿題', on all outputs if it does not exists
+           "7": "桜", // Always show a workspace with name '桜', on all outputs if it does not exists
            
     }   
 },   

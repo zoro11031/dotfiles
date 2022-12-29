@@ -148,11 +148,11 @@ local/cantarell-fonts 1:0.303.1-1
     Humanist sans serif font
 local/capstone 4.0.2-6
     Lightweight multi-platform, multi-architecture disassembly framework
-local/catch2-git 3.2.1.r9.g78bb4fda-1
+local/catch2-git 3.2.1.r11.g0c62167f-1
     Modern, C++-native, header-only, test framework for unit-tests, TDD and BDD (developmental version)
 local/catfish 4.16.4-1
     Versatile file searching tool
-local/catppuccin-macchiato-grub-theme-git r34.48ac7cb-1
+local/catppuccin-macchiato-grub-theme-git r35.89c697c-1
     Soothing pastel theme for GRUB2 -- Macchiato colorscheme
 local/cblas 3.11.0-1
     C interface to BLAS
@@ -542,93 +542,93 @@ local/harfbuzz 6.0.0-1
     OpenType text shaping engine
 local/harfbuzz-icu 6.0.0-1
     OpenType text shaping engine - ICU integration
-local/haskell-aeson 2.1.1.0-6
+local/haskell-aeson 2.1.1.0-7
     A JSON parsing and encoding library optimized for ease of use and high performance
-local/haskell-assoc 1.0.2-171
+local/haskell-assoc 1.0.2-172
     swap and assoc: Symmetric and Semigroupy Bifunctors
-local/haskell-attoparsec 0.14.4-44
+local/haskell-attoparsec 0.14.4-45
     Fast combinator parsing for bytestrings and text
 local/haskell-base-compat 0.12.2-1
     A compatibility layer for base
-local/haskell-base-compat-batteries 0.12.2-26
+local/haskell-base-compat-batteries 0.12.2-28
     base-compat with extra batteries
-local/haskell-base-orphans 0.8.7-33
+local/haskell-base-orphans 0.8.7-35
     Backwards-compatible orphan instances for base
-local/haskell-bifunctors 5.5.14-3
+local/haskell-bifunctors 5.5.14-4
     Bifunctors
-local/haskell-comonad 5.0.8-172
+local/haskell-comonad 5.0.8-173
     Comonads
 local/haskell-contravariant 1.5.5-3
     Contravariant functors
-local/haskell-data-fix 0.3.2-72
+local/haskell-data-fix 0.3.2-73
     Fixpoint data types
-local/haskell-diff 0.4.1-45
+local/haskell-diff 0.4.1-46
     O(ND) diff algorithm in haskell
-local/haskell-distributive 0.6.2.1-175
+local/haskell-distributive 0.6.2.1-176
     Distributive functors -- Dual to Traversable
-local/haskell-dlist 1.0-196
+local/haskell-dlist 1.0-198
     Differences lists
 local/haskell-erf 2.0.0.0-24
     The error function, erf, and related functions.
-local/haskell-fgl 5.8.0.0-8
+local/haskell-fgl 5.8.0.0-9
     Martin Erwig's Functional Graph Library
 local/haskell-generically 0.1-1
     Generically newtype to use with DerivingVia
 local/haskell-ghc-bignum-orphans 0.1.1-1
     Backwards-compatible orphan instances for ghc-bignum
-local/haskell-hashable 1.4.1.0-38
+local/haskell-hashable 1.4.1.0-40
     A class for types that can be converted to a hash value
 local/haskell-indexed-traversable 0.1.2-2
     FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
-local/haskell-indexed-traversable-instances 0.1.1.1-25
+local/haskell-indexed-traversable-instances 0.1.1.1-26
     More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
 local/haskell-integer-logarithms 1.0.3.1-6
     Integer logarithms
-local/haskell-onetuple 0.3.1-45
+local/haskell-onetuple 0.3.1-46
     Singleton Tuple
-local/haskell-primitive 0.7.4.0-51
+local/haskell-primitive 0.7.4.0-53
     Wrappers for primitive operations
-local/haskell-quickcheck 2.14.2-381
+local/haskell-quickcheck 2.14.2-384
     Automatic testing of Haskell programs
-local/haskell-random 1.2.1.1-79
+local/haskell-random 1.2.1.1-82
     Pseudo-random number generation
 local/haskell-regex-base 0.94.0.2-2
     Common "Text.Regex.*" API for Regex matching
-local/haskell-regex-tdfa 1.3.2-24
+local/haskell-regex-tdfa 1.3.2-25
     Pure Haskell Tagged DFA Backend for Text.Regex (regex-base)
-local/haskell-scientific 0.3.7.0-83
+local/haskell-scientific 0.3.7.0-84
     Numbers represented using scientific notation
-local/haskell-semialign 1.2.0.1-92
+local/haskell-semialign 1.2.0.1-93
     Align and Zip type-classes from the common Semialign ancestor.
-local/haskell-semigroupoids 5.3.7-76
+local/haskell-semigroupoids 5.3.7-77
     Semigroupoids: Category sans id
-local/haskell-splitmix 0.1.0.4-116
+local/haskell-splitmix 0.1.0.4-118
     Fast Splittable PRNG
 local/haskell-statevar 1.2.2-2
     State variables
-local/haskell-strict 0.4.0.1-145
+local/haskell-strict 0.4.0.1-146
     Strict data types and String IO
 local/haskell-tagged 0.8.6.1-5
     Haskell 98 phantom types to avoid unsafely passing dummy arguments
-local/haskell-text-short 0.1.5-49
+local/haskell-text-short 0.1.5-50
     Memory-efficient representation of Unicode text strings
 local/haskell-th-abstraction 0.4.5.0-1
     Nicer interface for reified information about data types
-local/haskell-these 1.1.1.1-172
+local/haskell-these 1.1.1.1-173
     An either-or-both data type
-local/haskell-time-compat 1.9.6.1-67
+local/haskell-time-compat 1.9.6.1-68
     Compatibility package for time
 local/haskell-transformers-compat 0.7.2-1
     A small compatibility shim exposing the new types from transformers 0.3 to older Haskell platforms.
-local/haskell-unordered-containers 0.2.19.1-48
+local/haskell-unordered-containers 0.2.19.1-49
     Efficient hashing-based container types
-local/haskell-uuid-types 1.0.5-87
+local/haskell-uuid-types 1.0.5-88
     Type definitions for Universally Unique Identifiers
-local/haskell-vector 0.13.0.0-20
+local/haskell-vector 0.13.0.0-22
     Efficient Arrays
 local/haskell-vector-stream 0.1.0.0-1
     Efficient Streams
-local/haskell-witherable 0.4.2-33
+local/haskell-witherable 0.4.2-34
     filterable traversable
 local/helvum 0.3.4-1
     GTK patchbay for PipeWire
@@ -648,6 +648,8 @@ local/hyphen 2.8.8-5
     library for high quality hyphenation and justification
 local/hyprland-bin 0.19.2beta-1
     A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
+local/hyprpaper-git r69.aefd638-1
+    A blazing fast wayland wallpaper utility with IPC controls.
 local/iana-etc 20221215-1
     /etc/protocols and /etc/services provided by IANA
 local/icu 72.1-2
@@ -678,8 +680,6 @@ local/itstool 1:2.0.7-1
     XML to PO and back again
 local/iwd 2.1-1
     Internet Wireless Daemon
-local/jamesdsp 2.4-1
-    An audio effect processor for PipeWire clients
 local/jansson 2.14-2
     C library for encoding, decoding and manipulating JSON data
 local/java-atk-wrapper-common 0.40.0-1
@@ -1448,8 +1448,6 @@ local/lsb-release 2.0.r48.3cf5103-1
     LSB version query program
 local/lsof 4.96.4-1
     Lists open files for running Unix processes
-local/lsp-plugins 1.2.4-1 (ladspa-plugins lv2-plugins pro-audio vst-plugins)
-    Collection of free plugins compatible with LADSPA, LV2 and LinuxVST
 local/lua 5.4.4-3
     Powerful lightweight programming language designed for extending applications
 local/luajit 2.1.0.beta3.r464.g8625eee7-1
@@ -1960,7 +1958,7 @@ local/python-yarl 1.8.2-1
     Yet another URL library
 local/python-zipp 3.11.0-1
     Pathlib-compatible object wrapper for zip files
-local/python-zope-event 4.5.0-6
+local/python-zope-event 4.5.1-1
     Provides a simple event system
 local/python-zope-interface 5.5.0-1
     Zope Interfaces for Python 3.x
@@ -2140,7 +2138,7 @@ local/shadow 4.12.3-2
     Password and account management tool suite with support for shadow files and PAM
 local/shared-mime-info 2.0+155+gf4e7cbc-1
     Freedesktop.org Shared MIME Info
-local/shellcheck 0.9.0-1
+local/shellcheck 0.9.0-2
     Shell script analysis tool
 local/shiboken6 6.4.1-2
     Generates bindings for C++ libraries using CPython source code

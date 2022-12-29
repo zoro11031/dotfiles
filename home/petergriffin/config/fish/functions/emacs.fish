@@ -1,3 +1,3 @@
-function emacs --wraps='emacsclient -nc' --description 'alias emacs=emacsclient -nc'
-  emacsclient -nc $argv; 
+function emacs --wraps='emacsclient -c' --description 'alias emacs=emacsclient -c'
+  emacsclient -c $argv; 
 end
