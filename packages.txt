@@ -56,7 +56,7 @@ local/archlinux-appstream-data-pamac 1:20221210-1
     Arch Linux application database for AppStream-based software centers (Fixed for pamac-aur and pamac-all packages)
 local/archlinux-keyring 20221220-1 (base-devel)
     Arch Linux PGP keyring
-local/archlinux-tweak-tool-git r910.caf1f7a-1
+local/archlinux-tweak-tool-git r912.837a898-1
     Arch Linux Tweak Tool or ATT
 local/argon2 20190702-4
     A password-hashing function (reference C implementation)
@@ -124,7 +124,7 @@ local/brotli 1.0.9-9
     Generic-purpose lossless compression algorithm
 local/btop 1.2.13-1
     A monitor of system resources, bpytop ported to C++
-local/btrfs-progs 6.1-1
+local/btrfs-progs 6.1-2
     Btrfs filesystem utilities
 local/bubblewrap 0.7.0-1
     Unprivileged sandboxing tool
@@ -148,11 +148,11 @@ local/cantarell-fonts 1:0.303.1-1
     Humanist sans serif font
 local/capstone 4.0.2-6
     Lightweight multi-platform, multi-architecture disassembly framework
-local/catch2-git 3.2.1.r11.g0c62167f-1
+local/catch2-git 3.2.1.r12.g72b60dfd-1
     Modern, C++-native, header-only, test framework for unit-tests, TDD and BDD (developmental version)
 local/catfish 4.16.4-1
     Versatile file searching tool
-local/catppuccin-macchiato-grub-theme-git r35.89c697c-1
+local/catppuccin-macchiato-grub-theme-git r40.803c5df-1
     Soothing pastel theme for GRUB2 -- Macchiato colorscheme
 local/cblas 3.11.0-1
     C interface to BLAS
@@ -300,7 +300,7 @@ local/ffmpegthumbnailer 2.2.2-4
     Lightweight video thumbnailer that can be used by file managers
 local/fftw 3.3.10-3
     A library for computing the discrete Fourier transform (DFT)
-local/file 5.43-1 (base-devel)
+local/file 5.44-1 (base-devel)
     File type identification utility
 local/file-roller 43.0-1 (gnome)
     Create and modify archives
@@ -650,6 +650,8 @@ local/hyprland-bin 0.19.2beta-1
     A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
 local/hyprpaper-git r69.aefd638-1
     A blazing fast wayland wallpaper utility with IPC controls.
+local/hyprpicker-git r36.aa3c2ac-1
+    A wlroots-compatible Wayland color picker that does not suck.
 local/iana-etc 20221215-1
     /etc/protocols and /etc/services provided by IANA
 local/icu 72.1-2
@@ -908,7 +910,7 @@ local/lib32-llvm-libs 14.0.6-3
     LLVM runtime libraries (32-bit)
 local/lib32-lm_sensors 1:3.6.0.r41.g31d1f125-2
     Collection of user space tools for general SMBus access and hardware monitoring (32-bit)
-local/lib32-mesa 22.3.1-1
+local/lib32-mesa 22.3.1-2
     An open-source implementation of the OpenGL specification (32-bit)
 local/lib32-ncurses 6.3-1
     System V Release 4.0 curses emulation library (32-bit)
@@ -942,7 +944,7 @@ local/lib32-util-linux 2.38.1-1
     Miscellaneous system utilities for Linux (32-bit)
 local/lib32-vulkan-icd-loader 1.3.235-1
     Vulkan Installable Client Driver (ICD) Loader (32-bit)
-local/lib32-vulkan-radeon 22.3.1-1
+local/lib32-vulkan-radeon 22.3.1-2
     Radeon's Vulkan mesa driver (32-bit)
 local/lib32-wayland 1.21.0-1
     A computer display server protocol
@@ -1134,7 +1136,7 @@ local/libmanette 0.2.6-3
     Simple GObject game controller library
 local/libmd 1.0.4-1
     Message Digest functions from BSD systems
-local/libmfx 22.4.4-1
+local/libmfx 22.6.4-1
     Intel Media SDK dispatcher library
 local/libmm-glib 1.20.2-1
     ModemManager library
@@ -1298,8 +1300,8 @@ local/libuv 1.44.2-1
     Multi-platform support library with a focus on asynchronous I/O
 local/libva 2.16.0-1
     Video Acceleration (VA) API for Linux
-local/libva-mesa-driver 22.3.1-1
-    VA-API implementation for gallium
+local/libva-mesa-driver 22.3.1-2
+    VA-API drivers
 local/libva-vdpau-driver 0.7.4-6
     VDPAU backend for VA API
 local/libvdpau 1.5-1
@@ -1492,7 +1494,7 @@ local/memento 1.0.0-0
     An mpv-based video player for studying Japanese.
 local/mercurial 6.3.1-1
     A scalable distributed SCM tool
-local/mesa 22.3.1-1
+local/mesa 22.3.1-2
     An open-source implementation of the OpenGL specification
 local/meson 1.0.0-2
     High productivity build system
@@ -1530,7 +1532,7 @@ local/ndctl 74-1
     Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel
 local/neofetch 7.1.0-2
     A CLI system information tool written in BASH that supports displaying images.
-local/neovim 0.8.1-2
+local/neovim 0.8.2-1
     Fork of Vim aiming to improve user experience, plugins, and GUIs
 local/net-tools 2.10-1
     Configuration tools for Linux networking
@@ -1672,6 +1674,8 @@ local/pcre 8.45-3
     A library that implements Perl 5-style regular expressions
 local/pcre2 10.40-3
     A library that implements Perl 5-style regular expressions. 2nd version
+local/pcsclite 1.9.9-2
+    PC/SC Architecture smartcard middleware library
 local/perl 5.36.0-3
     A highly capable, feature-rich programming language
 local/perl-clone 0.45-4
@@ -1904,7 +1908,7 @@ local/python-pycparser 2.21-3
     C parser and AST generator written in Python
 local/python-pycryptodomex 3.12.0-1
     A self-contained Python package of low-level cryptographic primitives
-local/python-pydantic 1.10.2-1
+local/python-pydantic 1.10.4-1
     Data parsing and validation using Python type hints
 local/python-pygments 2.13.0-1
     Python syntax highlighter
@@ -2138,7 +2142,7 @@ local/shadow 4.12.3-2
     Password and account management tool suite with support for shadow files and PAM
 local/shared-mime-info 2.0+155+gf4e7cbc-1
     Freedesktop.org Shared MIME Info
-local/shellcheck 0.9.0-2
+local/shellcheck 0.9.0-3
     Shell script analysis tool
 local/shiboken6 6.4.1-2
     Generates bindings for C++ libraries using CPython source code
@@ -2170,7 +2174,7 @@ local/spice 0.15.1-1
     SPICE server
 local/spice-gtk 0.41-5
     GTK+ client library for SPICE
-local/spicetify-cli-git 2.15.0.r9.gb6776b7-1
+local/spicetify-cli-git 2.15.0.r12.g6bcf292-1
     Command-line tool to customize Spotify client - Git master branch
 local/spirv-headers 1:1.3.216.0-1
     SPIR-V Headers
@@ -2192,7 +2196,7 @@ local/startup-notification 0.12-7
     Monitor and display application startup
 local/steam 1.0.0.75-1
     Valve's digital software delivery system
-local/steamtinkerlaunch-git 12.0.r1.gd64e28d-1
+local/steamtinkerlaunch-git 12.0.r3.g96c38aa-1
     Wrapper script for Steam custom launch options
 local/subversion 1.14.2-6
     A Modern Concurrent Version Control System
@@ -2392,13 +2396,13 @@ local/vulkan-headers 1:1.3.235-1 (vulkan-devel)
     Vulkan header files
 local/vulkan-icd-loader 1.3.235-1
     Vulkan Installable Client Driver (ICD) Loader
-local/vulkan-radeon 22.3.1-1
+local/vulkan-radeon 22.3.1-2
     Radeon's Vulkan mesa driver
 local/vulkan-validation-layers 1.3.231.1-1 (vulkan-devel)
     Vulkan Validation Layers
 local/wavpack 5.6.0-1
     Audio compression format with lossless, lossy and hybrid compression modes
-local/waybar-hyprland-git 0.9.16.r55.g21abd4f9-1
+local/waybar-hyprland-git 0.9.16.r57.gfb083f93-1
     Highly customizable Wayland bar for Sway and Wlroots based compositors, with workspaces support for Hyprland (git version)
 local/wayland 1.21.0-2
     A computer display server protocol
@@ -2434,9 +2438,9 @@ local/woff2 1.0.2-4
     Web Open Font Format 2 reference implementation
 local/wofi 1.3-2
     launcher for wlroots-based wayland compositors
-local/wolfssl 5.5.3-1
+local/wolfssl 5.5.4-1
     Lightweight, portable, C-language-based SSL/TLS library
-local/wpa_supplicant 2:2.10-7
+local/wpa_supplicant 2:2.10-8
     A utility providing key negotiation for WPA wireless networks
 local/wpebackend-fdo 1.14.0-1
     Freedesktop.org backend for WPE WebKit

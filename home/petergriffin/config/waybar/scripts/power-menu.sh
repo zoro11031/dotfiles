@@ -10,7 +10,7 @@ case $selected in
   suspend)
     exec systemctl suspend;;
   reboot)
-    exec systemctl reboot;;
+    exec /home/petergriffin/.config/waybar/scripts/reboot.sh;;
   shutdown)
-    exec systemctl poweroff -i;;
+    exec /home/petergriffin/.config/waybar/scripts/poweroff.sh;;
 esac
