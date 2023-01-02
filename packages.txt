@@ -32,8 +32,8 @@ local/alsa-utils 1.2.8-1
     Advanced Linux Sound Architecture - Utilities
 local/amd-ucode 20221214.f3c283e-1
     Microcode update image for AMD CPUs
-local/amf-amdgpu-pro-fix 22.20.3_1462318-1 (Radeon_Software_for_Linux)
-    AMDGPU Pro Advanced Multimedia Framework, patched version to enable AMF on RX 6000 series cards
+local/amf-amdgpu-pro 22.40_1518373-1 (Radeon_Software_for_Linux)
+    AMDGPU Pro Advanced Multimedia Framework
 local/amf-headers 1.4.28-1
     Header files for AMD Advanced Media Framework
 local/aom 3.5.0-1
@@ -56,7 +56,7 @@ local/archlinux-appstream-data-pamac 1:20221210-1
     Arch Linux application database for AppStream-based software centers (Fixed for pamac-aur and pamac-all packages)
 local/archlinux-keyring 20221220-1 (base-devel)
     Arch Linux PGP keyring
-local/archlinux-tweak-tool-git r912.837a898-1
+local/archlinux-tweak-tool-git r913.510a298-1
     Arch Linux Tweak Tool or ATT
 local/argon2 20190702-4
     A password-hashing function (reference C implementation)
@@ -148,7 +148,7 @@ local/cantarell-fonts 1:0.303.1-1
     Humanist sans serif font
 local/capstone 4.0.2-6
     Lightweight multi-platform, multi-architecture disassembly framework
-local/catch2-git 3.2.1.r12.g72b60dfd-1
+local/catch2-git 3.2.1.r13.gac93f194-1
     Modern, C++-native, header-only, test framework for unit-tests, TDD and BDD (developmental version)
 local/catfish 4.16.4-1
     Versatile file searching tool
@@ -502,6 +502,8 @@ local/gtest 1.12.1-1
     Google Test - C++ testing utility
 local/gtk-doc 1.33.2-1
     Documentation tool for public library API
+local/gtk-engine-murrine 0.98.2-4
+    GTK2 engine to make your desktop look like a 'murrina', an italian word meaning the art glass works done by Venicians glass blowers.
 local/gtk-layer-shell 0.8.0-1
     Library to create Wayland desktop components using the Layer Shell protocol
 local/gtk-update-icon-cache 1:4.8.3-1
@@ -646,7 +648,7 @@ local/hwloc 2.8.0-1
     Portable Hardware Locality is a portable abstraction of hierarchical architectures
 local/hyphen 2.8.8-5
     library for high quality hyphenation and justification
-local/hyprland-bin 0.19.2beta-1
+local/hyprland-git r2283.a33ecec-1
     A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
 local/hyprpaper-git r69.aefd638-1
     A blazing fast wayland wallpaper utility with IPC controls.
@@ -708,10 +710,30 @@ local/json-glib 1.6.6-2
     JSON library built on GLib
 local/jsoncpp 1.9.5-2
     C++ library for interacting with JSON
+local/karchive 5.101.0-1 (kf5)
+    Qt 5 addon providing access to numerous types of archives
+local/kauth 5.101.0-1 (kf5)
+    Abstraction to system policy and authentication features
 local/kbd 2.5.1-1
     Keytable files and keyboard utilities
+local/kcodecs 5.101.0-1 (kf5)
+    Provide a collection of methods to manipulate strings using various encodings
+local/kconfig 5.101.0-1 (kf5)
+    Configuration system
+local/kconfigwidgets 5.101.0-1 (kf5)
+    Widgets for KConfig
+local/kcoreaddons 5.101.0-1 (kf5)
+    Addons to QtCore
+local/kdbusaddons 5.101.0-1 (kf5)
+    Addons to QtDBus
 local/keyutils 1.6.3-1
     Linux Key Management Utilities
+local/kguiaddons 5.101.0-1 (kf5)
+    Addons to QtGui
+local/ki18n 5.101.0-1 (kf5)
+    Advanced internationalization framework
+local/kiconthemes 5.101.0-1 (kf5)
+    Support for icon themes
 local/kitemviews 5.101.0-1 (kf5)
     Widget addons for Qt Model/View
 local/kitty 0.26.5-1
@@ -722,12 +744,20 @@ local/kitty-terminfo 0.26.5-1
     Terminfo for kitty, an OpenGL-based terminal emulator
 local/kmod 30-3
     Linux kernel module management tools and library
+local/knotifications 5.101.0-1 (kf5)
+    Abstraction for system notifications
 local/krb5 1.20.1-1
     The Kerberos network authentication system
+local/kservice 5.101.0-1 (kf5)
+    Advanced plugin and service introspection
 local/ksuperkey 0.4-2
     Allows you to open the application launcher in KDE Plasma Desktop using the Super key
+local/kwallet 5.101.0-1 (kf5)
+    Secure and unified container for user passwords
 local/kwidgetsaddons 5.101.0-1 (kf5)
     Addons to QtWidgets
+local/kwindowsystem 5.101.0-1 (kf5)
+    Access to the windowing system
 local/l-smash 2.14.5-2
     MP4 muxer and other tools
 local/ladspa 1.17-1
@@ -736,6 +766,8 @@ local/lame 3.100-4
     A high quality MPEG Audio Layer III (MP3) encoder
 local/lapack 3.11.0-1
     Linear Algebra PACKage
+local/layer-shell-qt 5.26.4-1 (plasma)
+    Qt component to allow applications to make use of the Wayland wl-layer-shell protocol
 local/lcms2 2.14-1
     Small-footprint color management engine, version 2
 local/ldns 1.8.3-2
@@ -1026,6 +1058,8 @@ local/libdbusmenu-glib 16.04.0-5
     Library for passing menus over DBus
 local/libdbusmenu-gtk3 16.04.0-5
     Library for passing menus over DBus (GTK+ 3 library)
+local/libdbusmenu-qt5 0.9.3+16.04.20160218-6
+    A library that provides a Qt implementation of the DBusMenu spec
 local/libde265 1.0.9-1
     Open h.265 video codec implementation
 local/libdrm 2.4.114-1
@@ -1118,7 +1152,7 @@ local/libjpeg-turbo 2.1.4-2
     JPEG image codec with accelerated baseline compression and decompression
 local/libjxl 0.7.0-3
     JPEG XL image format reference implementation
-local/libksba 1.6.2-1
+local/libksba 1.6.3-1
     Library for working with X.509 certificates, CMS data and related objects
 local/libldac 2.0.2.3-1
     LDAC Bluetooth encoder library
@@ -1220,7 +1254,7 @@ local/libraqm 0.9.0-1
     A library that encapsulates the logic for complex text layout
 local/libraw1394 2.1.2-3
     Provides an API to the Linux IEEE1394 (FireWire) driver
-local/librevenge 0.0.4-5
+local/librevenge 0.0.5-1
     library for REVerses ENGineered formats filters
 local/librsvg 2:2.55.1-1
     SVG rendering library
@@ -1506,8 +1540,8 @@ local/mkinitcpio-busybox 1.35.0-1
     Base initramfs tools
 local/mlocate 0.26.git.20170220-7
     Merging locate/updatedb implementation
-local/mobile-broadband-provider-info 20221107-1
-    Network Management daemon
+local/mobile-broadband-provider-info 20221107-2
+    APN configuration presets for mobile broadband connections
 local/mpfr 4.1.1.p1-1
     Multiple-precision floating-point library
 local/mpg123 1.31.1-1
@@ -1746,6 +1780,8 @@ local/polkit 122-1
     Application development toolkit for controlling system-wide privileges
 local/polkit-gnome 0.105-9
     Legacy polkit authentication agent for GNOME
+local/polkit-qt5 0.114.0-1
+    A library that allows developers to access PolicyKit API with a nice Qt-style API
 local/poppler 22.12.0-1
     PDF rendering library based on xpdf 3.0
 local/poppler-data 0.4.11-3
@@ -1800,7 +1836,7 @@ local/python-cssselect 1.2.0-1
     A Python3 library that parses CSS3 Selectors and translates them to XPath 1.0
 local/python-dasbus 1.6-1
     DBus library in Python 3
-local/python-distro 1.8.0-1
+local/python-distro 1.8.0-2
     Linux OS platform information API
 local/python-exceptiongroup 1.1.0-1
     Backport of PEP 654 (exception groups)
@@ -1820,7 +1856,7 @@ local/python-google-api-core 2.11.0-1
     Google API client core library
 local/python-google-api-python-client 2.70.0-1
     Google API Client Library for Python
-local/python-google-auth 2.15.0-1
+local/python-google-auth 2.15.0-2
     Google Authentication Library
 local/python-google-auth-httplib2 0.1.0-3
     Google Authentication Library: httplib2 transport
@@ -1964,8 +2000,10 @@ local/python-zipp 3.11.0-1
     Pathlib-compatible object wrapper for zip files
 local/python-zope-event 4.5.1-1
     Provides a simple event system
-local/python-zope-interface 5.5.0-1
+local/python-zope-interface 5.5.1-1
     Zope Interfaces for Python 3.x
+local/qca-qt5 2.3.5-2
+    Qt Cryptographic Architecture
 local/qemu-audio-alsa 7.2.0-1
     QEMU ALSA audio driver
 local/qemu-audio-dbus 7.2.0-1
@@ -2056,8 +2094,12 @@ local/qt5-charts 5.15.7-1 (qt qt5)
     Provides a set of easy to use chart components
 local/qt5-declarative 5.15.7+kde+r25-1 (qt qt5)
     Classes for QML and JavaScript languages
+local/qt5-multimedia 5.15.7+kde+r1-1 (qt qt5)
+    Classes for audio, video, radio and camera functionality
 local/qt5-quickcontrols2 5.15.7+kde+r7-1 (qt qt5)
     Next generation user interface controls based on Qt Quick
+local/qt5-speech 5.15.7+kde+r1-1 (qt qt5)
+    Qt module to make text to speech and speech recognition easy
 local/qt5-styleplugins 5.0.0.20170311-34
     Additional style plugins for Qt5
 local/qt5-svg 5.15.7+kde+r9-1 (qt qt5)
@@ -2066,6 +2108,8 @@ local/qt5-tools 5.15.7+kde+r1-2 (qt qt5)
     A cross-platform application and UI framework (Development Tools, QtHelp)
 local/qt5-translations 5.15.7-1 (qt qt5)
     A cross-platform application and UI framework (Translations)
+local/qt5-wayland 5.15.7+kde+r58-1 (qt qt5)
+    Provides APIs for Wayland
 local/qt5-x11extras 5.15.7-1 (qt qt5)
     Provides platform-specific APIs for X11
 local/qt5-xmlpatterns 5.15.7-1 (qt qt5)
@@ -2174,15 +2218,15 @@ local/spice 0.15.1-1
     SPICE server
 local/spice-gtk 0.41-5
     GTK+ client library for SPICE
-local/spicetify-cli-git 2.15.0.r12.g6bcf292-1
+local/spicetify-cli-git 2.16.0.r0.gd8be8ec-1
     Command-line tool to customize Spotify client - Git master branch
 local/spirv-headers 1:1.3.216.0-1
     SPIR-V Headers
 local/spirv-tools 2022.1-1 (vulkan-devel)
     API and commands for processing SPIR-V modules
-local/spotify 1:1.1.84.716-2
+local/spotify 1:1.1.84.716-3
     A proprietary music streaming service
-local/sqlite 3.40.0-2
+local/sqlite 3.40.1-1
     A C library that implements an SQL database engine
 local/squashfs-tools 4.5.1-2
     Tools for squashfs, a highly compressed read-only filesystem for Linux
@@ -2196,7 +2240,7 @@ local/startup-notification 0.12-7
     Monitor and display application startup
 local/steam 1.0.0.75-1
     Valve's digital software delivery system
-local/steamtinkerlaunch-git 12.0.r3.g96c38aa-1
+local/steamtinkerlaunch-git 12.0.r5.g57e6a9d-1
     Wrapper script for Steam custom launch options
 local/subversion 1.14.2-6
     A Modern Concurrent Version Control System
@@ -2390,8 +2434,8 @@ local/vte-common 0.70.2-1
     Virtual Terminal Emulator widget (common files)
 local/vte3 0.70.2-1
     Virtual Terminal Emulator widget (GTK3)
-local/vulkan-amdgpu-pro-fix 22.20.3_1462318-1 (Radeon_Software_for_Linux)
-    AMDGPU Pro Vulkan driver, patched version to enable AMF on RX 6000 series cards
+local/vulkan-amdgpu-pro 22.40_1518373-1 (Radeon_Software_for_Linux)
+    AMDGPU Pro Vulkan driver
 local/vulkan-headers 1:1.3.235-1 (vulkan-devel)
     Vulkan header files
 local/vulkan-icd-loader 1.3.235-1
@@ -2480,8 +2524,8 @@ local/xdg-desktop-portal-gnome 43.1-1
     A backend implementation for xdg-desktop-portal for the GNOME desktop environment
 local/xdg-desktop-portal-gtk 1.14.1-1
     A backend implementation for xdg-desktop-portal using GTK
-local/xdg-desktop-portal-wlr 0.6.0-1
-    xdg-desktop-portal backend for wlroots
+local/xdg-desktop-portal-hyprland-git r249.e47f4ce-1
+    xdg-desktop-portal backend for hyprland
 local/xdg-user-dirs 0.18-1
     Manage user directories like ~/Desktop and ~/Music
 local/xdg-utils 1.1.3+25+g8ae0263-1
@@ -2520,7 +2564,7 @@ local/xfconf 4.18.0-1 (xfce4)
     D-Bus-based configuration storage system
 local/xfdesktop 4.18.0-1 (xfce4)
     Xfce's desktop manager
-local/xfsprogs 6.0.0-2
+local/xfsprogs 6.1.0-1
     XFS filesystem utilities
 local/xfwm4 4.18.0-1 (xfce4)
     Xfce's window manager

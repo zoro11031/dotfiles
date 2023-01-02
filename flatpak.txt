@@ -26,7 +26,7 @@ OpenJDK 17 SDK Extension	org.freedesktop.Sdk.Extension.openjdk17		21.08	system
 OpenJdk 8 Sdk extension	org.freedesktop.Sdk.Extension.openjdk8		20.08	system
 GNU Image Manipulation Program	org.gimp.GIMP	2.10.32	stable	system
 Calculator	org.gnome.Calculator	43.0.1	stable	system
-Cheese	org.gnome.Cheese	41.1	stable	system
+Cheese	org.gnome.Cheese	43.0	stable	system
 Document Viewer	org.gnome.Evince	43.1	stable	system
 GNOME Application Platform version 42	org.gnome.Platform		42	system
 GNOME Application Platform version 43	org.gnome.Platform		43	system
