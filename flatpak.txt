@@ -48,4 +48,3 @@ Wine	org.winehq.Wine	7.0.1	stable-22.08	system
 DXVK	org.winehq.Wine.DLLs.dxvk	1.10.3	stable-22.08	system
 Gecko	org.winehq.Wine.gecko		stable-22.08	system
 Mono	org.winehq.Wine.mono		stable-22.08	system
-Plex	tv.plex.PlexDesktop	1.60.1	stable	system
