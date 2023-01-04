@@ -10,8 +10,8 @@
 }
 
 window#waybar {
-	background: shade(alpha(@mantle, 0.9), 1.0);
-    border-bottom: shade(alpha(@base, 0.9), 1.0);
+	background: shade(alpha(@mantle, 0.7), 1.0);
+    border-bottom: shade(alpha(@base, 0.7), 1.0);
     color: @rosewater;
     transition-property: background-color;
     transition-duration: .5s;
