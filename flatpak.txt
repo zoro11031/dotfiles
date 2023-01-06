@@ -41,7 +41,7 @@ Adwaita theme	org.kde.KStyle.Adwaita		5.15-22.08	system
 Adwaita theme	org.kde.KStyle.Adwaita		6.3	system
 KDE Application Platform	org.kde.Platform		5.15-21.08	system
 KDE Application Platform	org.kde.Platform		6.3	system
-Kdenlive	org.kde.kdenlive	22.12.0	stable	system
+Kdenlive	org.kde.kdenlive	22.12.1	stable	system
 LibreOffice	org.libreoffice.LibreOffice	7.4.3.2	stable	system
 ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	7.2.1	stable	system
 Wine	org.winehq.Wine	7.0.1	stable-22.08	system
