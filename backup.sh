@@ -33,6 +33,7 @@ cp -R ~/Pictures/Screenshots/* ~/Documents/dotfiles/home/petergriffin/Pictures/S
 cp -R ~/Pictures/Wallpapers/* ~/Documents/dotfiles/home/petergriffin/Pictures/Wallpapers
 cp -R ~/Documents/PFSense/* ~/Documents/dotfiles/home/petergriffin/Documents/PFSense
 cp -R /etc/systemd/system/* ~/Documents/dotfiles/etc/systemd/system
+cp -R /etc/greetd ~/Documents/dotfiles/etc/
 cp -R /usr/local/bin/HyprlandWM /home/petergriffin/Documents/dotfiles/wrappers/
 cp -R ~/.local/share/Anki2/addons21/Beautify_Anki ~/Documents/dotfiles/beautify_anki
 cp -R ~/'.local'/share/fonts ~/Documents/dotfiles/home/petergriffin/'local'/share/

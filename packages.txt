@@ -474,7 +474,7 @@ local/groff 1.22.4-7 (base-devel)
     GNU troff text-formatting system
 local/grub 2:2.06.r403.g7259d55ff-1
     GNU GRand Unified Bootloader (2)
-local/grub-btrfs 4.11-2
+local/grub-btrfs 4.12-2
     Include btrfs snapshots in GRUB boot options
 local/gsettings-desktop-schemas 43.0-1
     Shared GSettings schemas for the desktop
