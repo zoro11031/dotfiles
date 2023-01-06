@@ -31,6 +31,8 @@ cp -R ~/.config/systemd/system/backup-git.service ~/Documents/dotfiles/etc/syste
 cp -R ~/Pictures/Screenshots/* ~/Documents/dotfiles/home/petergriffin/Pictures/Screenshots
 cp -R ~/Pictures/Wallpapers/* ~/Documents/dotfiles/home/petergriffin/Pictures/Wallpapers
 cp -R ~/Documents/PFSense/* ~/Documents/dotfiles/home/petergriffin/Documents/PFSense
+cp -R /etc/systemd/system/* ~/Documents/dotfiles/etc/systemd/system
+cp -R /usr/local/bin/HyprlandWM /home/petergriffin/Documents/dotfiles/wrappers/
 cp -R ~/.local/share/Anki2/addons21/Beautify_Anki ~/Documents/dotfiles/beautify_anki
 cp -R ~/'.local'/share/fonts ~/Documents/dotfiles/home/petergriffin/'local'/share/
 cp -R ~/.local/share/game2text ~/Documents/dotfiles/home/petergriffin/'local'/share/
