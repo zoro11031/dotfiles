@@ -25,7 +25,6 @@ cp -R ~/.config/pulse ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/spicetify ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/fcitx5 ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/wofi ~/Documents/dotfiles/home/petergriffin/config/
-cp -R ~/.emacs.d ~/Documents/dotfiles/home/petergriffin/
 cp -R ~/.doom.d ~/Documents/dotfiles/home/petergriffin/
 cp -R ~/.config/systemd/system/backup-git.timer ~/Documents/dotfiles/etc/systemd/system
 cp -R ~/.config/systemd/system/backup-git.service ~/Documents/dotfiles/etc/systemd/system
