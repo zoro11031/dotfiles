@@ -11,6 +11,7 @@ cp -R ~/.config/nemo/ ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/nwg* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/mimeapps.list ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/gnome* ~/Documents/dotfiles/home/petergriffin/config/
+cp -R ~/.config/hyp* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/gtk* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/qt* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/fish ~/Documents/dotfiles/home/petergriffin/config/
