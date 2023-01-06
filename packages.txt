@@ -458,7 +458,7 @@ local/graphicsmagick 1.3.39-2
     Image processing system
 local/graphite 1:1.3.14-2
     reimplementation of the SIL Graphite text processing engine
-local/graphviz 7.0.5-1
+local/graphviz 7.0.6-1
     Graph visualization software
 local/greetd 0.9.0-1
     Generic greeter daemon
@@ -536,7 +536,7 @@ local/gts 0.7.6.121130-2
     Provides useful functions to deal with 3D surfaces meshed with interconnected triangles
 local/guile 3.0.8-3
     Portable, embeddable Scheme implementation written in C
-local/gvfs 1.50.2-1 (gnome)
+local/gvfs 1.50.3-1 (gnome)
     Virtual filesystem implementation for GIO
 local/gzip 1.12-1 (base-devel)
     GNU compression utility
@@ -986,7 +986,7 @@ local/lib32-zlib 1.2.13-2
     Compression library implementing the deflate compression method found in gzip and PKZIP (32-bit)
 local/lib32-zstd 1.5.2-1
     Zstandard - Fast real-time compression algorithm (32-bit)
-local/libadwaita 1:1.2.0-1
+local/libadwaita 1:1.2.1-1
     Building blocks for modern adaptive GNOME applications
 local/libaio 0.3.113-1
     The Linux-native asynchronous I/O facility (aio) library
@@ -1122,7 +1122,7 @@ local/libgxps 0.3.2-3
     XPS Documents library
 local/libhandy 1.8.0-1
     Library full of GTK+ widgets for mobile phones
-local/libheif 1.14.1-1
+local/libheif 1.14.2-1
     HEIF file format decoder and encoder
 local/libical 3.0.16-4
     An open source reference implementation of the icalendar data type and serialization format
@@ -1248,7 +1248,7 @@ local/libportal-gtk3 0.6-1
     GIO-style async APIs for most Flatpak portals - GTK 3 backend
 local/libproxy 0.4.18-2
     Automatic proxy configuration management library
-local/libpsl 0.21.1-3
+local/libpsl 0.21.2-1
     Public Suffix List library
 local/libpulse 16.1-3
     A featureful, general-purpose sound server (client library)
@@ -1428,7 +1428,7 @@ local/libxmlb 0.3.10-1
     Library to help create and query binary XML blobs
 local/libxmu 1.1.4-1
     X11 miscellaneous micro-utility library
-local/libxnvctrl 525.60.11-2
+local/libxnvctrl 525.78.01-1
     NVIDIA NV-CONTROL X extension
 local/libxpm 3.5.14-1
     X11 pixmap library
@@ -2150,7 +2150,7 @@ local/quilt 0.67-1
     Manage a series of patches by keeping track of the changes each patch makes
 local/ragel 6.10-3
     Compiles finite state machines from regular languages into executable C, C++, Objective-C, or D code.
-local/ranger 1.9.3-4
+local/ranger 1.9.3-6
     Simple, vim-like file manager
 local/rate-mirrors 0.11.1-1
     Everyday-use client-side map-aware mirror ranking tool
@@ -2198,11 +2198,11 @@ local/serf 1.3.9-8
     High-performance asynchronous HTTP client library
 local/shaderc 2022.4-1
     Collection of tools, libraries and tests for shader compilation
-local/shadow 4.12.3-2
+local/shadow 4.13-1
     Password and account management tool suite with support for shadow files and PAM
 local/shared-mime-info 2.0+155+gf4e7cbc-1
     Freedesktop.org Shared MIME Info
-local/shellcheck 0.9.0-5
+local/shellcheck 0.9.0-7
     Shell script analysis tool
 local/shiboken6 6.4.1-2
     Generates bindings for C++ libraries using CPython source code
