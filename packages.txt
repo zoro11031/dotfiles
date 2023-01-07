@@ -544,93 +544,95 @@ local/harfbuzz 6.0.0-1
     OpenType text shaping engine
 local/harfbuzz-icu 6.0.0-1
     OpenType text shaping engine - ICU integration
-local/haskell-aeson 2.1.1.0-9
+local/haskell-aeson 2.1.1.0-10
     A JSON parsing and encoding library optimized for ease of use and high performance
-local/haskell-assoc 1.0.2-173
+local/haskell-assoc 1.0.2-174
     swap and assoc: Symmetric and Semigroupy Bifunctors
-local/haskell-attoparsec 0.14.4-46
+local/haskell-attoparsec 0.14.4-47
     Fast combinator parsing for bytestrings and text
 local/haskell-base-compat 0.12.2-1
     A compatibility layer for base
-local/haskell-base-compat-batteries 0.12.2-30
+local/haskell-base-compat-batteries 0.12.2-32
     base-compat with extra batteries
-local/haskell-base-orphans 0.8.7-37
+local/haskell-base-orphans 0.8.7-39
     Backwards-compatible orphan instances for base
-local/haskell-bifunctors 5.5.14-5
+local/haskell-bifunctors 5.5.14-6
     Bifunctors
-local/haskell-comonad 5.0.8-174
+local/haskell-comonad 5.0.8-175
     Comonads
 local/haskell-contravariant 1.5.5-3
     Contravariant functors
-local/haskell-data-fix 0.3.2-74
+local/haskell-data-array-byte 0.1.0.1-1
+    Compatibility layer for Data.Array.Byte
+local/haskell-data-fix 0.3.2-75
     Fixpoint data types
-local/haskell-diff 0.4.1-47
+local/haskell-diff 0.4.1-48
     O(ND) diff algorithm in haskell
-local/haskell-distributive 0.6.2.1-177
+local/haskell-distributive 0.6.2.1-178
     Distributive functors -- Dual to Traversable
-local/haskell-dlist 1.0-200
+local/haskell-dlist 1.0-201
     Differences lists
 local/haskell-erf 2.0.0.0-24
     The error function, erf, and related functions.
-local/haskell-fgl 5.8.0.0-10
+local/haskell-fgl 5.8.0.0-11
     Martin Erwig's Functional Graph Library
 local/haskell-generically 0.1-1
     Generically newtype to use with DerivingVia
 local/haskell-ghc-bignum-orphans 0.1.1-1
     Backwards-compatible orphan instances for ghc-bignum
-local/haskell-hashable 1.4.1.0-42
+local/haskell-hashable 1.4.2.0-4
     A class for types that can be converted to a hash value
 local/haskell-indexed-traversable 0.1.2-2
     FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
-local/haskell-indexed-traversable-instances 0.1.1.1-28
+local/haskell-indexed-traversable-instances 0.1.1.1-29
     More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
 local/haskell-integer-logarithms 1.0.3.1-6
     Integer logarithms
-local/haskell-onetuple 0.3.1-47
+local/haskell-onetuple 0.3.1-48
     Singleton Tuple
-local/haskell-primitive 0.7.4.0-55
+local/haskell-primitive 0.7.4.0-57
     Wrappers for primitive operations
-local/haskell-quickcheck 2.14.2-387
+local/haskell-quickcheck 2.14.2-390
     Automatic testing of Haskell programs
-local/haskell-random 1.2.1.1-85
+local/haskell-random 1.2.1.1-88
     Pseudo-random number generation
 local/haskell-regex-base 0.94.0.2-2
     Common "Text.Regex.*" API for Regex matching
-local/haskell-regex-tdfa 1.3.2-27
+local/haskell-regex-tdfa 1.3.2-28
     Pure Haskell Tagged DFA Backend for Text.Regex (regex-base)
-local/haskell-scientific 0.3.7.0-85
+local/haskell-scientific 0.3.7.0-86
     Numbers represented using scientific notation
-local/haskell-semialign 1.2.0.1-95
+local/haskell-semialign 1.2.0.1-96
     Align and Zip type-classes from the common Semialign ancestor.
-local/haskell-semigroupoids 5.3.7-79
+local/haskell-semigroupoids 5.3.7-80
     Semigroupoids: Category sans id
-local/haskell-splitmix 0.1.0.4-120
+local/haskell-splitmix 0.1.0.4-122
     Fast Splittable PRNG
 local/haskell-statevar 1.2.2-2
     State variables
-local/haskell-strict 0.4.0.1-147
+local/haskell-strict 0.4.0.1-148
     Strict data types and String IO
 local/haskell-tagged 0.8.6.1-5
     Haskell 98 phantom types to avoid unsafely passing dummy arguments
-local/haskell-text-short 0.1.5-51
+local/haskell-text-short 0.1.5-52
     Memory-efficient representation of Unicode text strings
 local/haskell-th-abstraction 0.4.5.0-1
     Nicer interface for reified information about data types
-local/haskell-these 1.1.1.1-174
+local/haskell-these 1.1.1.1-175
     An either-or-both data type
-local/haskell-time-compat 1.9.6.1-69
+local/haskell-time-compat 1.9.6.1-70
     Compatibility package for time
 local/haskell-transformers-compat 0.7.2-1
     A small compatibility shim exposing the new types from transformers 0.3 to older Haskell platforms.
-local/haskell-unordered-containers 0.2.19.1-51
+local/haskell-unordered-containers 0.2.19.1-52
     Efficient hashing-based container types
-local/haskell-uuid-types 1.0.5-89
+local/haskell-uuid-types 1.0.5-90
     Type definitions for Universally Unique Identifiers
-local/haskell-vector 0.13.0.0-25
+local/haskell-vector 0.13.0.0-27
     Efficient Arrays
 local/haskell-vector-stream 0.1.0.0-1
     Efficient Streams
-local/haskell-witherable 0.4.2-36
+local/haskell-witherable 0.4.2-37
     filterable traversable
 local/helvum 0.3.4-1
     GTK patchbay for PipeWire
@@ -1378,7 +1380,7 @@ local/libwpe 1.14.0-1
     General-purpose library for WPE WebKit
 local/libwpg 0.3.3-4
     Library for importing and converting Corel WordPerfect(tm) Graphics images.
-local/libx11 1.8.3-3
+local/libx11 1.8.3-4
     X11 client-side library
 local/libxau 1.0.11-1
     X11 authorisation library
@@ -2202,7 +2204,7 @@ local/shadow 4.13-1
     Password and account management tool suite with support for shadow files and PAM
 local/shared-mime-info 2.0+155+gf4e7cbc-1
     Freedesktop.org Shared MIME Info
-local/shellcheck 0.9.0-7
+local/shellcheck 0.9.0-8
     Shell script analysis tool
 local/shiboken6 6.4.1-2
     Generates bindings for C++ libraries using CPython source code
@@ -2252,6 +2254,8 @@ local/sratom 0.6.14-1
     An LV2 Atom RDF serialisation library
 local/srt 1.5.1-3
     Secure Reliable Transport library
+local/starship 1.12.0-3
+    The cross-shell prompt for astronauts
 local/startup-notification 0.12-7
     Monitor and display application startup
 local/steam 1.0.0.75-1
