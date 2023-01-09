@@ -9,7 +9,7 @@
     // Choose the order of the modules
     "modules-left": ["custom/separator2", "wlr/workspaces", "custom/separator", "sway/window"],
     "modules-center": ["clock"],
-    "modules-right": ["idle_inhibitor", "gamemode", "tray", "custom/spotify", "pulseaudio", "network", "cpu", "memory", "temperature", "keyboard-state", "custom/power"],
+    "modules-right": ["idle_inhibitor", "gamemode", "tray", "custom/spotify", "pulseaudio", "network", "cpu", "memory", "temperature", "custom/power"],
     // Modules configuration
    "wlr/workspaces": {
         "format": "{icon}",
@@ -65,8 +65,7 @@
     "clock": {
         // "timezone": "America/Chicago",
         "format": "{:%Y-%m-%d - %I:%M}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "on-click": "swaync-client -t -sw"
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
     "cpu": {
         "format": "{usage}% ",
@@ -163,7 +162,6 @@
         "tooltip": false,
 },
 "return-type": "json",
-"exec-if": "which swaync-client",
 "exec": "swaync-client -swb",
 "on-click": "swaync-client -t -sw",
 "on-click-right": "swaync-client -d -sw",

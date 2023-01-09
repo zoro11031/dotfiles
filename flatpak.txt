@@ -4,7 +4,7 @@ Drawing	com.github.maoschanz.drawing	1.0.1	stable	system
 Flatseal	com.github.tchx84.Flatseal	1.8.1	stable	system
 Trilium Notes	com.github.zadam.trilium	0.57.5	stable	system
 Minecraft	com.mojang.Minecraft	1.0.1221	stable	system
-OBS Studio	com.obsproject.Studio	28.1.2	stable	system
+OBS Studio	com.obsproject.Studio	29.0.0	stable	system
 Bottles	com.usebottles.bottles	2022.12.14.1	stable	system
 Lutris	net.lutris.Lutris	0.5.12	stable	system
 DuckStation	org.duckstation.DuckStation	nightly	stable	system
@@ -33,7 +33,7 @@ GNOME Application Platform version 43	org.gnome.Platform		43	system
 i386	org.gnome.Platform.Compat.i386		43	system
 Text Editor	org.gnome.TextEditor	43.1	stable	system
 Disk Usage Analyzer	org.gnome.baobab	43.0	stable	system
-Image Viewer	org.gnome.eog	43.1	stable	system
+Image Viewer	org.gnome.eog	43.2	stable	system
 Fonts	org.gnome.font-viewer	43.0	stable	system
 Adwaita dark GTK theme	org.gtk.Gtk3theme.Adwaita-dark		3.22	system
 Adwaita theme	org.kde.KStyle.Adwaita		5.15-21.08	system
@@ -41,6 +41,7 @@ Adwaita theme	org.kde.KStyle.Adwaita		5.15-22.08	system
 Adwaita theme	org.kde.KStyle.Adwaita		6.3	system
 KDE Application Platform	org.kde.Platform		5.15-21.08	system
 KDE Application Platform	org.kde.Platform		6.3	system
+KDE Application Platform	org.kde.Platform		6.4	system
 Kdenlive	org.kde.kdenlive	22.12.1	stable	system
 LibreOffice	org.libreoffice.LibreOffice	7.4.3.2	stable	system
 ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	7.2.1	stable	system

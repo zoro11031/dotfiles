@@ -56,8 +56,8 @@ local/archlinux-appstream-data-pamac 1:20221210-1
     Arch Linux application database for AppStream-based software centers (Fixed for pamac-aur and pamac-all packages)
 local/archlinux-keyring 20221220-1 (base-devel)
     Arch Linux PGP keyring
-local/archlinux-tweak-tool-git r914.f36779c-1
-    Arch Linux Tweak Tool or ATT
+local/archlinux-tweak-tool-git r919.a901681-1
+    
 local/argon2 20190702-4
     A password-hashing function (reference C implementation)
 local/asciidoc 10.2.0-2
@@ -124,7 +124,7 @@ local/brotli 1.0.9-9
     Generic-purpose lossless compression algorithm
 local/btop 1.2.13-1
     A monitor of system resources, bpytop ported to C++
-local/btrfs-progs 6.1-2
+local/btrfs-progs 6.1.2-1
     Btrfs filesystem utilities
 local/bubblewrap 0.7.0-1
     Unprivileged sandboxing tool
@@ -134,7 +134,7 @@ local/c-ares 1.18.1-1
     A C library for asynchronous DNS requests
 local/ca-certificates 20220905-1
     Common CA certificates (default providers)
-local/ca-certificates-mozilla 3.86-1
+local/ca-certificates-mozilla 3.87-1
     Mozilla's set of trusted CA certificates
 local/ca-certificates-utils 20220905-1
     Common CA certificates (utilities)
@@ -148,7 +148,7 @@ local/cantarell-fonts 1:0.303.1-1
     Humanist sans serif font
 local/capstone 4.0.2-6
     Lightweight multi-platform, multi-architecture disassembly framework
-local/catch2-git 3.2.1.r14.g04382af4-1
+local/catch2-git 3.2.1.r16.g52066dbc-1
     Modern, C++-native, header-only, test framework for unit-tests, TDD and BDD (developmental version)
 local/catfish 4.16.4-1
     Versatile file searching tool
@@ -186,7 +186,7 @@ local/cronie 1.6.1-1
     Daemon that runs specified programs at scheduled times and related tools
 local/cryptsetup-nested-cryptkey 2.4.3-4
     Userspace setup tool for transparent encryption of block devices using dm-crypt
-local/curl 7.87.0-2
+local/curl 7.87.0-3
     An URL retrieval utility and library
 local/cython 0.29.33-1
     C-Extensions for Python
@@ -486,17 +486,17 @@ local/gsm 1.0.22-1
     Shared libraries for GSM 06.10 lossy speech compression
 local/gspell 1.12.0-2
     Spell-checking library for GTK applications
-local/gst-libav 1.20.5-2
+local/gst-libav 1.20.5-5
     Multimedia graph framework - libav plugin
-local/gst-plugins-bad-libs 1.20.5-2
+local/gst-plugins-bad-libs 1.20.5-5
     Multimedia graph framework - bad
-local/gst-plugins-base 1.20.5-2
+local/gst-plugins-base 1.20.5-5
     Multimedia graph framework - base plugins
-local/gst-plugins-base-libs 1.20.5-2
+local/gst-plugins-base-libs 1.20.5-5
     Multimedia graph framework - base
-local/gst-plugins-good 1.20.5-2
+local/gst-plugins-good 1.20.5-5
     Multimedia graph framework - good plugins
-local/gstreamer 1.20.5-2
+local/gstreamer 1.20.5-5
     Multimedia graph framework - core
 local/gtest 1.12.1-1
     Google Test - C++ testing utility
@@ -638,19 +638,19 @@ local/helvum 0.3.4-1
     GTK patchbay for PipeWire
 local/hicolor-icon-theme 0.17-2
     Freedesktop.org Hicolor icon theme
-local/hidapi 0.12.0-1
+local/hidapi 0.13.0-1
     Simple library for communicating with USB and Bluetooth HID devices
 local/highway 1.0.2-1
     A C++ library for SIMD (Single Instruction, Multiple Data)
 local/http-parser 2.9.4-1
     Parser for HTTP Request/Response written in C
-local/hwdata 0.365-1
+local/hwdata 0.366-1
     hardware identification databases
 local/hwloc 2.8.0-1
     Portable Hardware Locality is a portable abstraction of hierarchical architectures
 local/hyphen 2.8.8-5
     library for high quality hyphenation and justification
-local/hyprland-bin 0.19.2beta-1
+local/hyprland-bin 0.20.1beta-1
     A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
 local/hyprpaper-git r74.50852e5-1
     A blazing fast wayland wallpaper utility with IPC controls.
@@ -952,7 +952,7 @@ local/lib32-nettle 3.8.1-1
     A low-level cryptographic library (32-bit)
 local/lib32-nspr 4.35-1
     Netscape Portable Runtime (32-bit)
-local/lib32-nss 3.86-1
+local/lib32-nss 3.87-1
     Network Security Services (32-bit)
 local/lib32-openssl 1:3.0.7-1
     The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (32-bit)
@@ -978,6 +978,8 @@ local/lib32-util-linux 2.38.1-1
     Miscellaneous system utilities for Linux (32-bit)
 local/lib32-vulkan-icd-loader 1.3.235-1
     Vulkan Installable Client Driver (ICD) Loader (32-bit)
+local/lib32-vulkan-mesa-layers 22.3.2-2
+    Mesa's Vulkan layers (32-bit)
 local/lib32-vulkan-radeon 22.3.2-2
     Radeon's Vulkan mesa driver (32-bit)
 local/lib32-wayland 1.21.0-1
@@ -1052,7 +1054,7 @@ local/libcolord 1.4.6-1
     System daemon for managing color devices (client library)
 local/libcups 1:2.4.2-3
     The CUPS Printing System - client libraries and headers
-local/libcurl-gnutls 7.87.0-2
+local/libcurl-gnutls 7.87.0-3
     An URL retrieval library (without versioned symbols and linked against gnutls)
 local/libdaemon 0.14-5
     Lightweight C library that eases the writing of UNIX daemons
@@ -1208,9 +1210,9 @@ local/libnl 3.7.0-1
     Library for applications dealing with netlink sockets
 local/libnm 1.40.8-2
     NetworkManager client library
-local/libnma 1.10.4-3
+local/libnma 1.10.6-1
     NetworkManager GUI client library (GTK3)
-local/libnma-common 1.10.4-3
+local/libnma-common 1.10.6-1
     NetworkManager GUI client library (common files)
 local/libnotify 0.8.1-1
     Library for sending desktop notifications
@@ -1260,7 +1262,7 @@ local/libraqm 0.9.0-1
     A library that encapsulates the logic for complex text layout
 local/libraw1394 2.1.2-3
     Provides an API to the Linux IEEE1394 (FireWire) driver
-local/librevenge 0.0.5-1
+local/librevenge 0.0.5-2
     library for REVerses ENGineered formats filters
 local/librsvg 2:2.55.1-1
     SVG rendering library
@@ -1294,7 +1296,7 @@ local/libsoup3 3.2.2-1
     HTTP client/server library for GNOME
 local/libsoxr 0.1.3-3
     The SoX Resampler library that aims to give fast and high quality results for any constant resampling ratio
-local/libspectre 0.2.11-1
+local/libspectre 0.2.12-1
     Small library for rendering Postscript documents
 local/libssh 0.10.4-3
     Library for accessing ssh client services through C libraries
@@ -1380,7 +1382,7 @@ local/libwpe 1.14.0-1
     General-purpose library for WPE WebKit
 local/libwpg 0.3.3-4
     Library for importing and converting Corel WordPerfect(tm) Graphics images.
-local/libx11 1.8.3-4
+local/libx11 1.8.3-5
     X11 client-side library
 local/libxau 1.0.11-1
     X11 authorisation library
@@ -1474,9 +1476,9 @@ local/linux-firmware 20221214.f3c283e-1
     Firmware files for Linux
 local/linux-firmware-whence 20221214.f3c283e-1
     Firmware files for Linux - contains the WHENCE license file which documents the vendor license details
-local/linux-zen 6.1.3.zen1-1
+local/linux-zen 6.1.4.zen2-1
     The Linux ZEN kernel and modules
-local/linux-zen-headers 6.1.3.zen1-1
+local/linux-zen-headers 6.1.4.zen2-1
     Headers and scripts for building modules for the Linux ZEN kernel
 local/llvm 14.0.6-4
     Compiler infrastructure
@@ -1488,11 +1490,11 @@ local/love 11.4-1
     An open-source 2D game engine which uses the versatile Lua scripting language to create dynamic gaming experiences
 local/lsb-release 2.0.r48.3cf5103-1
     LSB version query program
-local/lsof 4.96.4-1
+local/lsof 4.96.5-1
     Lists open files for running Unix processes
 local/lua 5.4.4-3
     Powerful lightweight programming language designed for extending applications
-local/luajit 2.1.0.beta3.r464.g8625eee7-1
+local/luajit 2.1.0.beta3.r467.gd0e88930-1
     Just-in-time compiler and drop-in replacement for Lua 5.1
 local/lv2 1.18.10-1
     Plugin standard for audio systems
@@ -1604,7 +1606,7 @@ local/npth 1.6-3
     The new GNU portable threads library
 local/nspr 4.35-1
     Netscape Portable Runtime
-local/nss 3.86-1
+local/nss 3.87-1
     Network Security Services
 local/numactl 2.0.16-1
     Simple NUMA policy support
@@ -2094,55 +2096,55 @@ local/qemu-vhost-user-gpu 7.2.0-1
     QEMU vhost-user-gpu display device
 local/qemu-virtiofsd 7.2.0-1
     QEMU virtio-fs shared filesystem daemon
-local/qgnomeplatform-qt6 0.9.0-5
+local/qgnomeplatform-qt6 0.9.0-7
     QPlatformTheme for a better Qt6 application inclusion in GNOME
 local/qpwgraph-qt5 0.3.8-1
     a pipewire graph using qt(qt5 version)
-local/qt5-base 5.15.7+kde+r177-1 (qt qt5)
+local/qt5-base 5.15.8+kde+r160-1 (qt qt5)
     A cross-platform application and UI framework
-local/qt5-charts 5.15.7-1 (qt qt5)
+local/qt5-charts 5.15.8-1 (qt qt5)
     Provides a set of easy to use chart components
-local/qt5-declarative 5.15.7+kde+r25-1 (qt qt5)
+local/qt5-declarative 5.15.8+kde+r22-2 (qt qt5)
     Classes for QML and JavaScript languages
-local/qt5-location 5.15.7+kde+r3-1 (qt qt5)
+local/qt5-location 5.15.8+kde+r3-1 (qt qt5)
     Provides access to position, satellite and area monitoring classes
-local/qt5-multimedia 5.15.7+kde+r1-1 (qt qt5)
+local/qt5-multimedia 5.15.8+kde+r1-1 (qt qt5)
     Classes for audio, video, radio and camera functionality
-local/qt5-quickcontrols 5.15.7-1 (qt qt5)
+local/qt5-quickcontrols 5.15.8-1 (qt qt5)
     Reusable Qt Quick based UI controls to create classic desktop-style user interfaces
-local/qt5-quickcontrols2 5.15.7+kde+r7-1 (qt qt5)
+local/qt5-quickcontrols2 5.15.8+kde+r7-1 (qt qt5)
     Next generation user interface controls based on Qt Quick
-local/qt5-speech 5.15.7+kde+r1-1 (qt qt5)
+local/qt5-speech 5.15.8+kde+r1-1 (qt qt5)
     Qt module to make text to speech and speech recognition easy
-local/qt5-styleplugins 5.0.0.20170311-34
+local/qt5-styleplugins 5.0.0.20170311-35
     Additional style plugins for Qt5
-local/qt5-svg 5.15.7+kde+r9-1 (qt qt5)
+local/qt5-svg 5.15.8+kde+r8-1 (qt qt5)
     Classes for displaying the contents of SVG files
 local/qt5-tools 5.15.7+kde+r1-2 (qt qt5)
     A cross-platform application and UI framework (Development Tools, QtHelp)
-local/qt5-translations 5.15.7-1 (qt qt5)
+local/qt5-translations 5.15.8-1 (qt qt5)
     A cross-platform application and UI framework (Translations)
-local/qt5-wayland 5.15.7+kde+r58-1 (qt qt5)
+local/qt5-wayland 5.15.8+kde+r57-1 (qt qt5)
     Provides APIs for Wayland
-local/qt5-webchannel 5.15.7+kde+r3-1 (qt qt5)
+local/qt5-webchannel 5.15.8+kde+r3-1 (qt qt5)
     Provides access to QObject or QML objects from HTML clients for seamless integration of Qt applications with HTML/JavaScript clients
-local/qt5-webengine 5.15.12-1 (qt qt5)
+local/qt5-webengine 5.15.12-2 (qt qt5)
     Provides support for web applications using the Chromium browser project
-local/qt5-x11extras 5.15.7-1 (qt qt5)
+local/qt5-x11extras 5.15.8-1 (qt qt5)
     Provides platform-specific APIs for X11
-local/qt5-xmlpatterns 5.15.7-1 (qt qt5)
+local/qt5-xmlpatterns 5.15.8-1 (qt qt5)
     Support for XPath, XQuery, XSLT and XML schema validation
 local/qt5pas 2.6.2.2.0-2
     Free Pascal Qt5 binding library updated by lazarus IDE
-local/qt6-base 6.4.1-1 (qt6)
+local/qt6-base 6.4.2-1 (qt6)
     A cross-platform application and UI framework
-local/qt6-declarative 6.4.1-1 (qt6)
+local/qt6-declarative 6.4.2-1 (qt6)
     Classes for QML and JavaScript languages
-local/qt6-tools 6.4.1-1 (qt6)
+local/qt6-tools 6.4.2-1 (qt6)
     A cross-platform application and UI framework (Development Tools, QtHelp)
-local/qt6-translations 6.4.1-1 (qt6)
+local/qt6-translations 6.4.2-1 (qt6)
     A cross-platform application and UI framework (Translations)
-local/qt6-wayland 6.4.1-1 (qt6)
+local/qt6-wayland 6.4.2-1 (qt6)
     Provides APIs for Wayland
 local/qt6gtk2 0.2-3 (therepoclub)
     GTK+2.0 integration plugins for Qt6
@@ -2238,7 +2240,7 @@ local/spice-gtk 0.41-5
     GTK+ client library for SPICE
 local/spicetify-cli-git 2.16.0.r2.gb0ec178-1
     Command-line tool to customize Spotify client - Git master branch
-local/spirv-headers 1:1.3.231.1-2
+local/spirv-headers 1:1.3.236.0-1
     SPIR-V Headers
 local/spirv-tools 2022.4-1 (vulkan-devel)
     API and commands for processing SPIR-V modules
@@ -2260,7 +2262,7 @@ local/startup-notification 0.12-7
     Monitor and display application startup
 local/steam 1.0.0.75-1
     Valve's digital software delivery system
-local/steamtinkerlaunch-git 12.0.r6.g6d2efba-1
+local/steamtinkerlaunch-git 12.0.r8.g7f5ffcb-1
     Wrapper script for Steam custom launch options
 local/subversion 1.14.2-6
     A Modern Concurrent Version Control System
@@ -2326,7 +2328,7 @@ local/thunar-media-tags-plugin 0.3.0-2 (xfce4-goodies)
     Adds special features for media files to the Thunar File Manager
 local/thunar-volman 4.18.0-1 (xfce4)
     Automatic management of removable drives and media for Thunar
-local/timeshift 22.11.1-1
+local/timeshift 22.11.2-1
     A system restore utility for Linux
 local/timeshift-autosnap 0.9-1
     Timeshift auto-snapshot script which runs before package upgrade using Pacman hook.
@@ -2460,6 +2462,8 @@ local/vulkan-headers 1:1.3.235-1 (vulkan-devel)
     Vulkan header files
 local/vulkan-icd-loader 1.3.235-1
     Vulkan Installable Client Driver (ICD) Loader
+local/vulkan-mesa-layers 22.3.2-3
+    Mesa's Vulkan layers
 local/vulkan-radeon 22.3.2-3
     Radeon's Vulkan mesa driver
 local/vulkan-validation-layers 1.3.231.1-1 (vulkan-devel)
@@ -2544,7 +2548,7 @@ local/xdg-desktop-portal-gnome 43.1-1
     A backend implementation for xdg-desktop-portal for the GNOME desktop environment
 local/xdg-desktop-portal-gtk 1.14.1-1
     A backend implementation for xdg-desktop-portal using GTK
-local/xdg-desktop-portal-hyprland-git r249.e47f4ce-1
+local/xdg-desktop-portal-hyprland-git r250.b03b1c2-1
     xdg-desktop-portal backend for hyprland
 local/xdg-user-dirs 0.18-1
     Manage user directories like ~/Desktop and ~/Music
@@ -2670,7 +2674,7 @@ local/zip 3.0-10
     Compressor/archiver for creating and modifying zipfiles
 local/zlib 1:1.2.13-2
     Compression library implementing the deflate compression method found in gzip and PKZIP
-local/zoxide 0.8.3-1
+local/zoxide 0.9.0-1
     A smarter cd command for your terminal
 local/zram-generator 1.1.2-1
     Systemd unit generator for zram devices
