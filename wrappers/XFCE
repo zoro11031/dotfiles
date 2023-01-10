@@ -1,0 +1,11 @@
+#!/bin/sh
+export PATH="$HOME/.emacs.d/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export MANGOHUD=0
+export XCURSOR_THEME=Catppuccin-Macchiato-Rosewater-Cursors
+export VISUAL="/usr/bin/emacsclient -c"
+xfconf-query --channel xsettings --property /Gtk/CursorThemeName --set Catppuccin-Macchiato-Rosewater-Cursors
+exec startxfce4

@@ -7,6 +7,8 @@ flatpak list >> flatpak.txt
 cp -R  ~/.config/swa* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/waybar/ ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/kitty/ ~/Documents/dotfiles/home/petergriffin/config/
+cp -R ~/.config/KDE/ ~/Documents/dotfiles/home/petergriffin/config/
+cp -R ~/.config/kd* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/nemo/ ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/nwg* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/mimeapps.list ~/Documents/dotfiles/home/petergriffin/config/
