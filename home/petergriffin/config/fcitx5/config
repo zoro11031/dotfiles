@@ -13,7 +13,7 @@ EnumerateSkipFirst=False
 EnumerateGroupForwardKeys=
 
 [Hotkey/TriggerKeys]
-0=Alt+space
+0=Shift+space
 1=Zenkaku_Hankaku
 2=Hangul
 

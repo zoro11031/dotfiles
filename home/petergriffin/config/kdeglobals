@@ -121,17 +121,44 @@ ForegroundNormal=#cad3f5
 ForegroundPositive=#a6da95
 ForegroundVisited=#c6a0f6
 
+[DirSelect Dialog]
+DirSelectDialog Size=839,598
+History Items[$e]=file:///mnt/Delta,file:///mnt/Gamma,file:///mnt/Omega
+
 [General]
+AccentColor=0,0,0,0
 BrowserApplication=firefox.desktop
 ColorSchemeHash=367978722a8042f110ea0bd0221e8c9e02aee5fd
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 
 [Icons]
-Theme=Papirus-Colors-Dark
+Theme=Papirus-Dark
 
 [KDE]
+AnimationDurationFactor=0.5
 LookAndFeelPackage=Catppuccin-Macchiato
+SingleClick=false
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=133
+View Style=DetailTree
 
 [WM]
 activeBackground=36,39,58
