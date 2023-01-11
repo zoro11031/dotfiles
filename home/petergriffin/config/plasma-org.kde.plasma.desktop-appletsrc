@@ -113,6 +113,9 @@ plugin=org.kde.plasma.showdesktop
 immutability=1
 plugin=org.kde.plasma.kickerdash
 
+[Containments][23][Applets][84][Configuration]
+PreloadWeight=100
+
 [Containments][23][Applets][84][Configuration][General]
 favoritesPortedToKAstats=true
 
@@ -146,7 +149,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][32][Applets][34][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][32][Applets][35]
 immutability=1
