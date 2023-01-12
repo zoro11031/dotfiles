@@ -10,6 +10,7 @@ cp -R ~/.config/kitty/ ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/KD*/ ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/kd* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/plasma* ~/Documents/dotfiles/home/petergriffin/config/
+cp -R ~/.config/pop* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/nemo/ ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/nwg* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/mimeapps.list ~/Documents/dotfiles/home/petergriffin/config/
