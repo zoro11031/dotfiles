@@ -1,4 +1,5 @@
 
+
 { lib
 , mpv
 , stdenv
@@ -35,12 +36,11 @@ stdenv.mkDerivation rec {
 
   nativeBuildInputs = [
     wrapQtAppsHook
-    desktop-file-utils
     meson
     ninja
     pkg-config
-    python3
-    wrapGAppsHook4
+    qmake
+    qttools
   ];
 
   buildInputs = [
@@ -52,3 +52,14 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   passthru.updateScript = nix-update-script { };
+
+  meta = with lib;
+ {
+    description = "Memento is a FOSS, mpv-based video player for studying Japanese.";
+    homepage = "https://github.com/ripose-jp/Memento";
+    license = licenses.gpl2;
+    platforms = platforms.unix;
+    broken = stdenv.isDarwin;
+    maintainers = with maintainers; [ ripose-jp ];
+  };
+}
