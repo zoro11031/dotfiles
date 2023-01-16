@@ -24,13 +24,13 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=#f0c6c6
+BackgroundAlternate=154,129,195
 BackgroundNormal=#363a4f
-DecorationFocus=#f0c6c6
-DecorationHover=#363a4f
-ForegroundActive=#f5a97f
+DecorationFocus=198,160,246
+DecorationHover=198,160,246
+ForegroundActive=198,160,246
 ForegroundInactive=#a5adcb
-ForegroundLink=#f4dbd6
+ForegroundLink=198,160,246
 ForegroundNegative=#ed8796
 ForegroundNeutral=#eed49f
 ForegroundNormal=#cad3f5
@@ -40,11 +40,11 @@ ForegroundVisited=#c6a0f6
 [Colors:Complementary]
 BackgroundAlternate=#181926
 BackgroundNormal=#1e2030
-DecorationFocus=#f0c6c6
-DecorationHover=#363a4f
-ForegroundActive=#f5a97f
+DecorationFocus=198,160,246
+DecorationHover=198,160,246
+ForegroundActive=198,160,246
 ForegroundInactive=#a5adcb
-ForegroundLink=#f4dbd6
+ForegroundLink=198,160,246
 ForegroundNegative=#ed8796
 ForegroundNeutral=#eed49f
 ForegroundNormal=#cad3f5
@@ -54,11 +54,11 @@ ForegroundVisited=#c6a0f6
 [Colors:Header]
 BackgroundAlternate=#181926
 BackgroundNormal=#1e2030
-DecorationFocus=#f0c6c6
-DecorationHover=#363a4f
-ForegroundActive=#f5a97f
+DecorationFocus=198,160,246
+DecorationHover=198,160,246
+ForegroundActive=198,160,246
 ForegroundInactive=#a5adcb
-ForegroundLink=#f4dbd6
+ForegroundLink=198,160,246
 ForegroundNegative=#ed8796
 ForegroundNeutral=#eed49f
 ForegroundNormal=#cad3f5
@@ -66,27 +66,27 @@ ForegroundPositive=#a6da95
 ForegroundVisited=#c6a0f6
 
 [Colors:Selection]
-BackgroundAlternate=#f0c6c6
-BackgroundNormal=#f0c6c6
-DecorationFocus=#f0c6c6
-DecorationHover=#363a4f
-ForegroundActive=#f5a97f
-ForegroundInactive=#1e2030
-ForegroundLink=#f4dbd6
+BackgroundAlternate=149,123,189
+BackgroundNormal=149,123,189
+DecorationFocus=198,160,246
+DecorationHover=198,160,246
+ForegroundActive=198,160,246
+ForegroundInactive=255,255,255
+ForegroundLink=198,160,246
 ForegroundNegative=#ed8796
 ForegroundNeutral=#eed49f
-ForegroundNormal=#181926
+ForegroundNormal=255,255,255
 ForegroundPositive=#a6da95
 ForegroundVisited=#c6a0f6
 
 [Colors:Tooltip]
 BackgroundAlternate=#1e2030
 BackgroundNormal=#24273a
-DecorationFocus=#f0c6c6
-DecorationHover=#363a4f
-ForegroundActive=#f5a97f
+DecorationFocus=198,160,246
+DecorationHover=198,160,246
+ForegroundActive=198,160,246
 ForegroundInactive=#a5adcb
-ForegroundLink=#f4dbd6
+ForegroundLink=198,160,246
 ForegroundNegative=#ed8796
 ForegroundNeutral=#eed49f
 ForegroundNormal=#cad3f5
@@ -96,11 +96,11 @@ ForegroundVisited=#c6a0f6
 [Colors:View]
 BackgroundAlternate=#1e2030
 BackgroundNormal=#24273a
-DecorationFocus=#f0c6c6
-DecorationHover=#363a4f
-ForegroundActive=#f5a97f
+DecorationFocus=198,160,246
+DecorationHover=198,160,246
+ForegroundActive=198,160,246
 ForegroundInactive=#a5adcb
-ForegroundLink=#f4dbd6
+ForegroundLink=198,160,246
 ForegroundNegative=#ed8796
 ForegroundNeutral=#eed49f
 ForegroundNormal=#cad3f5
@@ -110,25 +110,22 @@ ForegroundVisited=#c6a0f6
 [Colors:Window]
 BackgroundAlternate=#181926
 BackgroundNormal=#1e2030
-DecorationFocus=#f0c6c6
-DecorationHover=#363a4f
-ForegroundActive=#f5a97f
+DecorationFocus=198,160,246
+DecorationHover=198,160,246
+ForegroundActive=198,160,246
 ForegroundInactive=#a5adcb
-ForegroundLink=#f4dbd6
+ForegroundLink=198,160,246
 ForegroundNegative=#ed8796
 ForegroundNeutral=#eed49f
 ForegroundNormal=#cad3f5
 ForegroundPositive=#a6da95
 ForegroundVisited=#c6a0f6
 
-[DirSelect Dialog]
-DirSelectDialog Size=839,598
-History Items[$e]=file:///mnt/Delta,file:///mnt/Gamma,file:///mnt/Omega
-
 [General]
-AccentColor=0,0,0,0
+AccentColor=198,160,246
 BrowserApplication=firefox.desktop
 ColorSchemeHash=367978722a8042f110ea0bd0221e8c9e02aee5fd
+LastUsedCustomAccentColor=198,160,246
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 
@@ -136,7 +133,6 @@ TerminalService=kitty.desktop
 Theme=Papirus-Dark
 
 [KDE]
-AnimationDurationFactor=0.5
 LookAndFeelPackage=Catppuccin-Macchiato
 SingleClick=false
 
@@ -144,7 +140,7 @@ SingleClick=false
 Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=true
-Decoration position=2
+Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Show Bookmarks=false
@@ -158,7 +154,10 @@ Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=133
-View Style=DetailTree
+View Style=Simple
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
 
 [WM]
 activeBackground=36,39,58

@@ -1,68 +1,20 @@
+[FileDialogSize]
+DP-1 Window-Maximized 2560x1440 DP-1=true
+
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Pictures/Wallpapers/anime/55357568_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/68473409_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/68201242_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/68124087_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/67308965_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/66935942_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/66364166_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/66103386_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/65605301_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/62494474_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/61368190_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/60291161_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/59274989_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/58411817_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/55357568_p0.jpg,file:$HOME/Pictures/Wallpapers/anime/55243099_p0.png
+Recent Files[$e]=girl leaning over baloncy facing left.jpg,file:$HOME/Pictures/Wallpapers/anime/girl leaning over baloncy facing left.jpg
 Recent URLs[$e]=file:$HOME/Pictures/Wallpapers/anime/
-detailViewIconSize=16
+detailViewIconSize=48
+listViewIconSize=452
 
-[KPropertiesDialog]
-DP-1 Height 2560x1440 DP-1=458
-DP-1 Width 2560x1440 DP-1=393
-
-[PlasmaViews][Panel 2]
-alignment=132
-floating=0
-panelOpacity=2
-panelVisibility=1
+[PlasmaTransientsConfig]
+PreloadWeight=42
 
 [PlasmaViews][Panel 2][Defaults]
-maxLength=658
-minLength=434
-offset=0
 thickness=44
 
 [PlasmaViews][Panel 2][Horizontal2560]
-maxLength=658
-minLength=434
-offset=0
 thickness=44
-
-[PlasmaViews][Panel 23][Defaults]
-thickness=40
-
-[PlasmaViews][Panel 23][Horizontal2560]
-thickness=40
-
-[PlasmaViews][Panel 51]
-alignment=132
-floating=1
-
-[PlasmaViews][Panel 51][Defaults]
-maxLength=322
-minLength=322
-thickness=42
-
-[PlasmaViews][Panel 51][Horizontal2560]
-maxLength=322
-minLength=322
-thickness=42
-
-[PlasmaViews][Panel 51][Vertical1440]
-thickness=36
-
-[PlasmaViews][Panel 56]
-alignment=132
-floating=1
-panelOpacity=2
-panelVisibility=1
-
-[PlasmaViews][Panel 56][Defaults]
-maxLength=950
-minLength=192
-thickness=68
-
-[PlasmaViews][Panel 56][Horizontal2560]
-maxLength=950
-minLength=192
-thickness=68
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js

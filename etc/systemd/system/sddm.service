@@ -8,7 +8,7 @@ StartLimitBurst=2
 
 [Service]
 ExecStart=/usr/bin/sddm
-Restart=alwaysi
+Restart=always
 TimeoutStopSec=3
 
 [Install]
