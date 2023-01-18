@@ -5,15 +5,25 @@ DP-1 Window-Maximized 2560x1440 DP-1=true
 Recent Files[$e]=girl leaning over baloncy facing left.jpg,file:$HOME/Pictures/Wallpapers/anime/girl leaning over baloncy facing left.jpg
 Recent URLs[$e]=file:$HOME/Pictures/Wallpapers/anime/
 detailViewIconSize=48
-listViewIconSize=452
+listViewIconSize=332
+
+[KPropertiesDialog]
+DP-1 Height 2560x1440 DP-1=529
+DP-1 Width 2560x1440 DP-1=410
 
 [PlasmaTransientsConfig]
-PreloadWeight=42
+PreloadWeight=0
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=44
 
 [PlasmaViews][Panel 2][Horizontal2560]
+thickness=44
+
+[PlasmaViews][Panel 28][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 28][Horizontal2560]
 thickness=44
 
 [Updates]

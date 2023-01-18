@@ -133,6 +133,7 @@ TerminalService=kitty.desktop
 Theme=Papirus-Dark
 
 [KDE]
+AnimationDurationFactor=0.7071067811865475
 LookAndFeelPackage=Catppuccin-Macchiato
 SingleClick=false
 
@@ -158,6 +159,9 @@ View Style=Simple
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480
+
+[PreviewSettings]
+MaximumRemoteSize=0
 
 [WM]
 activeBackground=36,39,58

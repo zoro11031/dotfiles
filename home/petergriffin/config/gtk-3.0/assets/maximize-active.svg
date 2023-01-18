@@ -7,22 +7,16 @@
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
 
-<g fill="#38c76a" fill-opacity="1" stroke="none" transform="matrix(3.125,0,0,3.125,-340.625,-1985.51)"
+<g fill="#565b72" fill-opacity="1" stroke="none" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
 font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
 >
-<circle cx="117" cy="643.362" r="8"/>
+<circle cx="9" cy="9" r="9"/>
 </g>
 
-<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(3.125,0,0,3.125,-340.625,-1985.51)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
-opacity="0.25" >
-<circle cx="117" cy="643.362" r="8"/>
-</g>
-
-<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(3.125,0,0,3.125,-340.625,-1985.51)"
+<g fill="none" stroke="#24273a" stroke-opacity="1" stroke-width="1.01" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
 font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
 >
-<path vector-effect="none" fill-rule="nonzero" d="M115,639.362 C113.892,639.362 113,640.254 113,641.362 L113,645.362 C113,646.47 113.892,647.362 115,647.362 L119,647.362 C120.108,647.362 121,646.47 121,645.362 L121,641.362 C121,640.254 120.108,639.362 119,639.362 L115,639.362 M115,640.362 L119,640.362 C119.554,640.362 120,640.808 120,641.362 L120,645.362 C120,645.916 119.554,646.362 119,646.362 L115,646.362 C114.446,646.362 114,645.916 114,645.362 L114,641.362 C114,640.808 114.446,640.362 115,640.362 "/>
+<polyline fill="none" vector-effect="none" points="4,11 9,6 14,11 " />
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
