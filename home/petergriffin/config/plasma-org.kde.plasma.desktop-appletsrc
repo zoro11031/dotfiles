@@ -178,4 +178,4 @@ knownItems=org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.network
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/steam.desktop,0,90716df1-09c4-40f0-87b3-5efd1aa73086,desktop:/steam.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/Home.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/trash.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f
+screenMapping=desktop:/steam.desktop,0,90716df1-09c4-40f0-87b3-5efd1aa73086,desktop:/Home.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/steam.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/trash.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f
