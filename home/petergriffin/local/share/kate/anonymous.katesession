@@ -6,7 +6,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-URL=file:///home/petergriffin/Documents/dotfiles/backup.sh
+URL=file:///home/petergriffin/.bashrc
 
 [Kate Plugins]
 cmaketoolsplugin=false
@@ -58,7 +58,7 @@ Kate-MDI-Sidebar-2-Splitter=1236
 Kate-MDI-Sidebar-3-Bar-0-TvList=output,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin,kate_lspclient
 Kate-MDI-Sidebar-3-LastSize=200
 Kate-MDI-Sidebar-3-SectSizes=0
-Kate-MDI-Sidebar-3-Splitter=935
+Kate-MDI-Sidebar-3-Splitter=989
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-kate_lspclient-Position=3
@@ -108,17 +108,17 @@ Orientation=1
 Sizes=1236
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/petergriffin/Documents/dotfiles/backup.sh
+Active View=file:///home/petergriffin/.bashrc
 Count=1
-Documents=file:///home/petergriffin/Documents/dotfiles/backup.sh
-View 0=file:///home/petergriffin/Documents/dotfiles/backup.sh
+Documents=file:///home/petergriffin/.bashrc
+View 0=file:///home/petergriffin/.bashrc
 
-[MainWindow0-ViewSpace 0 file:///home/petergriffin/Documents/dotfiles/backup.sh]
-CursorColumn=17
-CursorLine=10
+[MainWindow0-ViewSpace 0 file:///home/petergriffin/.bashrc]
+CursorColumn=25
+CursorLine=16
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"0fbb4395f68529a0ceedb70556c55ab9eba69509","ranges":[]}
+TextFolding={"checksum":"2c93c9b9be5bed11bb619ee85e5f5dd81c6aa82d","ranges":[]}
 ViMarks=
 
 [Open Documents]
@@ -141,7 +141,7 @@ View Style=DetailTree
 auto sync folder=true
 filter history=
 highlight current file=true
-location=file:///home/petergriffin/Documents/dotfiles/
+location=file:///home/petergriffin/
 
 [Plugin:kateprojectplugin:]
 projects=
@@ -170,23 +170,23 @@ SearchDiskFiless=
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/Documents/dotfiles/wrappers/sway-run
-File10[$e]=$HOME/Documents/dotfiles/backup.sh
-File2[$e]=$HOME/.config/plasma-workspace/env/gtk.sh
-File3[$e]=$HOME/.config/plasma-workspace/env/wayland.sh
-File4[$e]=$HOME/.config/plasma-workspace/env/fcitx.sh
-File5[$e]=$HOME/.config/plasma-workspace/env/editors.sh
-File6[$e]=$HOME/.config/plasma-workspace/env/path.sh
-File7[$e]=$HOME/.local/share/applications/archlinux-discord.desktop
-File8[$e]=$HOME/.local/share/game2text/requirements.txt
-File9[$e]=$HOME/.bashrc
-Name1[$e]=sway-run
-Name10[$e]=backup.sh
-Name2[$e]=gtk.sh
-Name3[$e]=wayland.sh
-Name4[$e]=fcitx.sh
-Name5[$e]=editors.sh
-Name6[$e]=path.sh
-Name7[$e]=archlinux-discord.desktop
-Name8[$e]=requirements.txt
-Name9[$e]=.bashrc
+File1[$e]=$HOME/.config/plasma-workspace/env/wayland.sh
+File10[$e]=$HOME/.bashrc
+File2[$e]=$HOME/.config/plasma-workspace/env/fcitx.sh
+File3[$e]=$HOME/.config/plasma-workspace/env/path.sh
+File4[$e]=$HOME/.local/share/applications/archlinux-discord.desktop
+File5[$e]=$HOME/.local/share/game2text/requirements.txt
+File6[$e]=$HOME/Documents/dotfiles/backup.sh
+File7[$e]=$HOME/.config/mimeapps.list
+File8[$e]=$HOME/.xinitrc
+File9[$e]=$HOME/.config/plasma-workspace/env/editors.sh
+Name1[$e]=wayland.sh
+Name10[$e]=.bashrc
+Name2[$e]=fcitx.sh
+Name3[$e]=path.sh
+Name4[$e]=archlinux-discord.desktop
+Name5[$e]=requirements.txt
+Name6[$e]=backup.sh
+Name7[$e]=mimeapps.list
+Name8[$e]=.xinitrc
+Name9[$e]=editors.sh

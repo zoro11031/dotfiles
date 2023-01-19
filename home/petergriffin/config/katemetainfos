@@ -1,13 +1,13 @@
 [file:///home/petergriffin/.bashrc]
 Bookmarks=
-Checksum=b8557804208366d9044d67b54aa93bb3453fd392
+Checksum=2c93c9b9be5bed11bb619ee85e5f5dd81c6aa82d
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,18,19,51,39.305
+Time=2023,1,19,15,58,44.7
 URL=file:///home/petergriffin/.bashrc
 
 [file:///home/petergriffin/.config/gtk-3.0/settings.ini]
@@ -22,6 +22,18 @@ Mode Set By User=false
 Time=2023,1,17,17,32,30.167
 URL=file:///home/petergriffin/.config/gtk-3.0/settings.ini
 
+[file:///home/petergriffin/.config/mimeapps.list]
+Bookmarks=
+Checksum=a8085abf70652b497903e2180a3d3bdba6bba4fd
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,19,6,37,44.079
+URL=file:///home/petergriffin/.config/mimeapps.list
+
 [file:///home/petergriffin/.config/plasma-workspace/env/editors.sh]
 Bookmarks=
 Checksum=87792f29d9e35e1c11e4088b967ca3094e626bd0
@@ -31,7 +43,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,18,17,6,57.925
+Time=2023,1,19,15,58,30.276
 URL=file:///home/petergriffin/.config/plasma-workspace/env/editors.sh
 
 [file:///home/petergriffin/.config/plasma-workspace/env/fcitx.sh]
@@ -225,6 +237,18 @@ Mode=Bash
 Mode Set By User=false
 Time=2023,1,18,6,36,9.33
 URL=file:///home/petergriffin/.local/usr/bin/paru
+
+[file:///home/petergriffin/.xinitrc]
+Bookmarks=
+Checksum=bb824a41b9c626ff4fc620f89dd1aab68b05ced1
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,19,6,46,29.336
+URL=file:///home/petergriffin/.xinitrc
 
 [file:///home/petergriffin/Documents/dotfiles/backup.sh]
 Bookmarks=
