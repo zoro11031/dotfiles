@@ -1,0 +1,11 @@
+[Favorites-org.kde.plasma.kickoff.favorites.instance-29-a152edf7-5a4b-47ab-be4b-7b4d367efc7f]
+ordering=applications:libreoffice-writer.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.kate.desktop,applications:systemsettings.desktop,preferred://browser,applications:steam.desktop,applications:discord.desktop,applications:anki.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-29-global]
+ordering=applications:libreoffice-writer.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.kate.desktop,applications:systemsettings.desktop,preferred://browser,applications:steam.desktop,applications:discord.desktop,applications:anki.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-a152edf7-5a4b-47ab-be4b-7b4d367efc7f]
+ordering=preferred://browser,org.kde.kontact.desktop,writer.desktop,libreoffice-writer.desktop,org.kde.digikam.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop,systemsettings.desktop,org.kde.Help.desktop,org.kde.khelpcenter.desktop,org.kde.konsole.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-global]
+ordering=preferred://browser,org.kde.kontact.desktop,writer.desktop,libreoffice-writer.desktop,org.kde.digikam.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop,systemsettings.desktop,org.kde.Help.desktop,org.kde.khelpcenter.desktop,org.kde.konsole.desktop

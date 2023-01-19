@@ -1,0 +1,11 @@
+[PlasmaRunnerManager]
+migrated=true
+
+[Plugins]
+PIM Contacts Search RunnerEnabled=false
+appstreamEnabled=false
+bookmarksEnabled=false
+browserhistoryEnabled=false
+browsertabsEnabled=false
+helprunnerEnabled=false
+webshortcutsEnabled=false

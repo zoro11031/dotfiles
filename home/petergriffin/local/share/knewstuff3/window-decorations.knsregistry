@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="114">
+  <name>Colloid aurorae theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1738680</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>58</rating>
+  <downloads>21131</downloads>
+  <installedfile>/home/petergriffin/.local/share/aurorae/themes/Colloid-dark-round-nord/*</installedfile>
+  <installedfile>/home/petergriffin/.local/share/aurorae/themes/Colloid-light-round/*</installedfile>
+  <installedfile>/home/petergriffin/.local/share/aurorae/themes/Colloid-light-nord/*</installedfile>
+  <installedfile>/home/petergriffin/.local/share/aurorae/themes/Colloid-dark-round/*</installedfile>
+  <installedfile>/home/petergriffin/.local/share/aurorae/themes/Colloid-light-round-nord/*</installedfile>
+  <id>1738680</id>
+  <releasedate>2022-05-31</releasedate>
+  <summary>Colloid theme for KDE Plasma</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/32/24/44/1738680/screenshot-20220317-184527.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/32/24/44/1738680/screenshot-20220317-184527.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NTQwMDgyMjQiLCJvIjoiMSIsInMiOiJhODVlZThlNWJiZTYwZTI1Y2VkNWYyMjZjOGZiOTJhM2QyZGUxY2NjZWE2MzkyMmU0MmQ2NmM2YmIyNmJmOWI2OGQ0NGRhNTAwNzg2NDdlMjBkYTRjMmY4OGJmZmJlMDcyMDcyYTdhYjQ4Mzg1YTk5M2E5MzE1MjBkODAxNTlkNCIsInQiOjE2NzM5NzYwNjQsInN0ZnAiOm51bGwsInN0aXAiOiIxMzYuNTAuMTQ1Ljc5In0.a8Mw3ktVbZYQVQfgfD5_WRmlrTOyzxKsEZMQ6ofIw9k/Colloid-aurorae.tar.gz</payload>
+  <tags>linux,unix,theme,plasma,original-product,kde</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

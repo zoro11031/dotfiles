@@ -76,7 +76,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][28][Applets][33][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 SystrayContainmentId=34
 
 [Containments][28][Applets][45]
@@ -127,6 +127,9 @@ plugin=org.kde.plasma.clipboard
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][34][Applets][39][Configuration]
+PreloadWeight=55
+
 [Containments][34][Applets][40]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
@@ -175,4 +178,4 @@ knownItems=org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.network
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/steam.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/trash.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/Home.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/steam.desktop,0,90716df1-09c4-40f0-87b3-5efd1aa73086
+screenMapping=desktop:/steam.desktop,0,90716df1-09c4-40f0-87b3-5efd1aa73086,desktop:/steam.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/Home.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/trash.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f

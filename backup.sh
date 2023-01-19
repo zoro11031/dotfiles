@@ -7,8 +7,8 @@ flatpak list >> flatpak.txt
 cp -R  ~/.config/swa* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/waybar/ ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/kitty/ ~/Documents/dotfiles/home/petergriffin/config/
-cp -R ~/.config/KD*/ ~/Documents/dotfiles/home/petergriffin/config/
-cp -R ~/.config/kd* ~/Documents/dotfiles/home/petergriffin/config/
+cp -R ~/.config/K*/ ~/Documents/dotfiles/home/petergriffin/config/
+cp -R ~/.config/k* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/plasma* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/pop* ~/Documents/dotfiles/home/petergriffin/config/
 cp -R ~/.config/nemo/ ~/Documents/dotfiles/home/petergriffin/config/
@@ -44,6 +44,7 @@ cp -R ~/'.local'/share/fonts ~/Documents/dotfiles/home/petergriffin/'local'/shar
 cp -R ~/.local/share/game2text ~/Documents/dotfiles/home/petergriffin/'local'/share/
 cp -R ~/'.local'/share/applications ~/Documents/dotfiles/home/petergriffin/'local'/share/
 cp -R ~/'.local'/share/K* ~/Documents/dotfiles/home/petergriffin/'local'/share/
+cp -R ~/'.local'/share/k* ~/Documents/dotfiles/home/petergriffin/'local'/share/
 cp -R ~/'.local'/share/color* ~/Documents/dotfiles/home/petergriffin/'local'/share/
 cp -R ~/'.local'/share/plasma* ~/Documents/dotfiles/home/petergriffin/'local'/share/
 cp -R ~/'.local'/usr/bin ~/Documents/dotfiles/home/petergriffin/'local'/share/

@@ -1,0 +1,21 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[General]
+loginMode=restoreSavedSession
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=1028c1d320b210000167397065000000016410008
+clientId2=1028c1d320b210000167397761600000018630004
+count=2
+program1=firefox
+program2=/usr/bin/kalendarac
+restartCommand1=/usr/bin/firefox,--sm-client-id,1028c1d320b210000167397065000000016410008
+restartCommand2=/usr/bin/kalendarac,-session,1028c1d320b210000167397761600000018630004_1673977643_897089
+restartStyleHint1=0
+restartStyleHint2=0
+userId1=petergriffin
+userId2=petergriffin

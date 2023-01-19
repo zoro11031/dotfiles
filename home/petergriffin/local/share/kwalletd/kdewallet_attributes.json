@@ -1,0 +1,13 @@
+{
+    "$fdo_created": "1674001950",
+    "$fdo_modified": "1674002416",
+    "Secret Service/Firefox Encrypted Storage": {
+        "$fdo_created": "1674002416",
+        "$fdo_mime_type": "text/plain",
+        "$fdo_modified": "1674002416",
+        "attributes": {
+            "string": "Firefox Encrypted Storage",
+            "xdg:schema": "mozilla.firefox"
+        }
+    }
+}

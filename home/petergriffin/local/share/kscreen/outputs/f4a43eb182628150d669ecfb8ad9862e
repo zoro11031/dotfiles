@@ -1,0 +1,19 @@
+{
+    "id": "f4a43eb182628150d669ecfb8ad9862e",
+    "metadata": {
+        "fullname": "xrandr-HP Inc.-OMEN 27i IPS-6CM0140ZQ7",
+        "name": "DP-1"
+    },
+    "mode": {
+        "refresh": 164.83399963378906,
+        "size": {
+            "height": 1440,
+            "width": 2560
+        }
+    },
+    "overscan": 0,
+    "rgbrange": 0,
+    "rotation": 1,
+    "scale": 1,
+    "vrrpolicy": 2
+}
