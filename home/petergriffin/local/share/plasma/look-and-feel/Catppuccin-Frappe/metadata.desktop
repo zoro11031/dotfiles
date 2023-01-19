@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=A theme based on Catppuccin's Frappe flavour
+Name=Catppuccin Frappe
+X-KDE-PluginInfo-Author=Catppuccin
+X-KDE-PluginInfo-Category=Plasma Look And Feel
+X-KDE-PluginInfo-Email=---------
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=MIT
+X-KDE-PluginInfo-Name=Catppuccin-Frappe
+X-KDE-PluginInfo-Version=v0.2.0
+X-KDE-PluginInfo-Website=github.com/catppuccin/KDE
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KPackage-Dependencies=kns://plasma-themes.knsrc/api.kde-look.org/1879921,kns://icons.knsrc/api.kde-look.org/1651940,kns://aurorae.knsrc/api.kde-look.org/1738680

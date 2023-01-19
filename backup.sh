@@ -42,6 +42,11 @@ cp -R /usr/local/bin/HyprlandWM /home/petergriffin/Documents/dotfiles/wrappers/
 cp -R ~/.local/share/Anki2/addons21/Beautify_Anki ~/Documents/dotfiles/beautify_anki
 cp -R ~/'.local'/share/fonts ~/Documents/dotfiles/home/petergriffin/'local'/share/
 cp -R ~/.local/share/game2text ~/Documents/dotfiles/home/petergriffin/'local'/share/
+cp -R ~/'.local'/share/applications ~/Documents/dotfiles/home/petergriffin/'local'/share/
+cp -R ~/'.local'/share/K* ~/Documents/dotfiles/home/petergriffin/'local'/share/
+cp -R ~/'.local'/share/color* ~/Documents/dotfiles/home/petergriffin/'local'/share/
+cp -R ~/'.local'/share/plasma* ~/Documents/dotfiles/home/petergriffin/'local'/share/
+cp -R ~/'.local'/usr/bin ~/Documents/dotfiles/home/petergriffin/'local'/share/
 cp -R /usr/share/wayland-sessions/* ~/Documents/dotfiles/wayland-sessions
 cp -R ~/'.local'/bin/wrappedhl ~/Documents/dotfiles/wrappers 
 cp -R ~/'.local'/bin/wrappedsway ~/Documents/dotfiles/wrappers 
