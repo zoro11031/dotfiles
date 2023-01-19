@@ -252,14 +252,14 @@ URL=file:///home/petergriffin/.xinitrc
 
 [file:///home/petergriffin/Documents/dotfiles/backup.sh]
 Bookmarks=
-Checksum=0fbb4395f68529a0ceedb70556c55ab9eba69509
+Checksum=62312c6443f108183ee353bbbb80018039a352a5
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,19,2,27,12.793
+Time=2023,1,19,16,2,28.042
 URL=file:///home/petergriffin/Documents/dotfiles/backup.sh
 
 [file:///home/petergriffin/Documents/dotfiles/wrappers/HyprlandWM]
