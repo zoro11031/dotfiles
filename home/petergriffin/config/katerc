@@ -7,6 +7,11 @@ Show Status Bar=true
 Show Tab Bar=true
 Show Url Nav Bar=true
 
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/.local/usr/bin/xhost.sh,file:$HOME/.local/usr/bin/xhost.sh
+Recent URLs[$e]=file:$HOME/.local/usr/bin/
+listViewIconSize=64
+
 [KTextEditor Document]
 Allow End of Line Detection=true
 Auto Detect Indent=true
@@ -121,9 +126,14 @@ Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
+[KTextEditor::Search]
+Search History=ascii,kde,refresh
+
 [MainWindow]
-DP-1 Height 2560x1440 DP-1=1367
-DP-1 Width 2560x1440 DP-1=1280
+DP-1 Height 2560x1440 DP-1=891
+DP-1 Width 2560x1440 DP-1=884
+DP-3 Height 2560x1440 DP-3=1367
+DP-3 Width 2560x1440 DP-3=1280
 
 [filetree]
 editShade=31,81,106

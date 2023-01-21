@@ -1,12 +1,12 @@
 [Document 0]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=Bash
+Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Bash
+Mode=Normal
 Mode Set By User=false
-URL=file:///home/petergriffin/Documents/dotfiles/backup.sh
+URL=file:///home/petergriffin/.ssh/id_rsa.pub
 
 [Kate Plugins]
 cmaketoolsplugin=false
@@ -40,8 +40,8 @@ textfilterplugin=true
 
 [MainWindow0]
 Active ViewSpace=0
-DP-1 Height 2560x1440 DP-1=1367
-DP-1 Width 2560x1440 DP-1=1280
+DP-3 Height 2560x1440 DP-3=1367
+DP-3 Width 2560x1440 DP-3=1280
 Kate-MDI-H-Splitter=0,1236,0
 Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,kate_private_plugin_katefileselectorplugin,lspclient_symbol_outline
 Kate-MDI-Sidebar-0-LastSize=200
@@ -58,7 +58,7 @@ Kate-MDI-Sidebar-2-Splitter=1236
 Kate-MDI-Sidebar-3-Bar-0-TvList=output,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin,kate_lspclient
 Kate-MDI-Sidebar-3-LastSize=200
 Kate-MDI-Sidebar-3-SectSizes=0
-Kate-MDI-Sidebar-3-Splitter=996
+Kate-MDI-Sidebar-3-Splitter=988
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-kate_lspclient-Position=3
@@ -96,8 +96,8 @@ State=AAAA/wAAAAD9AAAAAAAABQAAAAULAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG
 ToolBarsMovable=Disabled
 
 [MainWindow0 Settings]
-DP-1 Height 2560x1440 DP-1=1367
-DP-1 Width 2560x1440 DP-1=1280
+DP-3 Height 2560x1440 DP-3=1367
+DP-3 Width 2560x1440 DP-3=1280
 State=AAAA/wAAAAD9AAAAAAAABQAAAAULAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAHg/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 WindowState=8
@@ -108,17 +108,17 @@ Orientation=1
 Sizes=1236
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/petergriffin/Documents/dotfiles/backup.sh
+Active View=file:///home/petergriffin/.ssh/id_rsa.pub
 Count=1
-Documents=file:///home/petergriffin/Documents/dotfiles/backup.sh
-View 0=file:///home/petergriffin/Documents/dotfiles/backup.sh
+Documents=file:///home/petergriffin/.ssh/id_rsa.pub
+View 0=file:///home/petergriffin/.ssh/id_rsa.pub
 
-[MainWindow0-ViewSpace 0 file:///home/petergriffin/Documents/dotfiles/backup.sh]
+[MainWindow0-ViewSpace 0 file:///home/petergriffin/.ssh/id_rsa.pub]
 CursorColumn=0
-CursorLine=37
+CursorLine=0
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"62312c6443f108183ee353bbbb80018039a352a5","ranges":[]}
+TextFolding={"checksum":"ef05c3f9ffa6478b64e2193417891614df3b0d01","ranges":[]}
 ViMarks=
 
 [Open Documents]
@@ -141,7 +141,7 @@ View Style=DetailTree
 auto sync folder=true
 filter history=
 highlight current file=true
-location=file:///home/petergriffin/Documents/dotfiles/
+location=file:///home/petergriffin/.ssh/
 
 [Plugin:kateprojectplugin:]
 projects=
@@ -170,23 +170,23 @@ SearchDiskFiless=
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.config/plasma-workspace/env/wayland.sh
-File10[$e]=$HOME/Documents/dotfiles/backup.sh
-File2[$e]=$HOME/.config/plasma-workspace/env/fcitx.sh
-File3[$e]=$HOME/.config/plasma-workspace/env/path.sh
-File4[$e]=$HOME/.local/share/applications/archlinux-discord.desktop
-File5[$e]=$HOME/.local/share/game2text/requirements.txt
-File6[$e]=$HOME/.config/mimeapps.list
-File7[$e]=$HOME/.xinitrc
-File8[$e]=$HOME/.config/plasma-workspace/env/editors.sh
-File9[$e]=$HOME/.bashrc
-Name1[$e]=wayland.sh
-Name10[$e]=backup.sh
-Name2[$e]=fcitx.sh
-Name3[$e]=path.sh
-Name4[$e]=archlinux-discord.desktop
-Name5[$e]=requirements.txt
-Name6[$e]=mimeapps.list
-Name7[$e]=.xinitrc
-Name8[$e]=editors.sh
-Name9[$e]=.bashrc
+File1[$e]=trash:/0-usr/bin/paru
+File10[$e]=$HOME/.ssh/id_rsa.pub
+File2[$e]=$HOME/Documents/dotfiles/HyprlandWM
+File3[$e]=$HOME/.config/hypr/hyprland.conf
+File4[$e]=$HOME/.config/waybar/config
+File5[$e]=$HOME/.config/plasma-workspace/env/fcitx.sh
+File6[$e]=$HOME/.config/plasma-workspace/env/gtk.sh
+File7[$e]=$HOME/Documents/dotfiles/home/petergriffin/config/plasma-workspace/env/wayland.sh
+File8[$e]=$HOME/.config/plasma-workspace/env/wayland.sh
+File9[$e]=$HOME/.config/fastfetch/config.conf
+Name1[$e]=paru
+Name10[$e]=id_rsa.pub
+Name2[$e]=HyprlandWM
+Name3[$e]=hyprland.conf
+Name4[$e]=config
+Name5[$e]=fcitx.sh
+Name6[$e]=gtk.sh
+Name7[$e]=wayland.sh
+Name8[$e]=wayland.sh
+Name9[$e]=config.conf

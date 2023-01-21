@@ -45,13 +45,15 @@ plugin=org.kde.plasma.kickoff
 [Containments][28][Applets][29][Configuration]
 PreloadWeight=100
 popupHeight=521
-popupWidth=655
+popupWidth=669
 
 [Containments][28][Applets][29][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][28][Applets][29][Configuration][General]
+applicationsDisplay=0
+compactMode=true
 favoritesPortedToKAstats=true
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
@@ -61,13 +63,6 @@ global=Alt+F1
 [Containments][28][Applets][30]
 immutability=1
 plugin=org.kde.plasma.pager
-
-[Containments][28][Applets][31]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][28][Applets][31][Configuration][General]
-launchers=preferred://browser,preferred://filemanager,applications:archlinux-spotify.desktop,applications:archlinux-discord.desktop
 
 [Containments][28][Applets][32]
 immutability=1
@@ -94,8 +89,28 @@ popupWidth=396
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
+[Containments][28][Applets][51]
+immutability=1
+plugin=org.kde.plasma.taskmanager
+
+[Containments][28][Applets][51][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][28][Applets][51][Configuration][General]
+groupedTaskVisualization=1
+launchers=preferred://browser,preferred://filemanager,applications:archlinux-spotify.desktop,applications:archlinux-discord.desktop
+maxStripes=1
+onlyGroupWhenFull=false
+separateLaunchers=false
+showOnlyCurrentDesktop=false
+
+[Containments][28][ConfigDialog]
+DialogHeight=84
+DialogWidth=2560
+
 [Containments][28][General]
-AppletOrder=29;30;31;32;33;45;46
+AppletOrder=29;30;51;32;33;45;46
 
 [Containments][34]
 activityId=
@@ -120,7 +135,15 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][34][Applets][36][Configuration]
-PreloadWeight=80
+PreloadWeight=100
+
+[Containments][34][Applets][36][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][34][Applets][36][Configuration][General]
+migrated=true
+raiseMaximumVolume=true
 
 [Containments][34][Applets][37]
 immutability=1
@@ -130,12 +153,15 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.plasma.clipboard
 
+[Containments][34][Applets][38][Configuration]
+PreloadWeight=55
+
 [Containments][34][Applets][39]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][34][Applets][39][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][34][Applets][40]
 immutability=1
@@ -144,6 +170,9 @@ plugin=org.kde.plasma.manage-inputmethod
 [Containments][34][Applets][41]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][34][Applets][41][Configuration]
+PreloadWeight=60
 
 [Containments][34][Applets][42]
 immutability=1
@@ -165,24 +194,27 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][34][Applets][48][Configuration]
+PreloadWeight=100
+
 [Containments][34][Applets][49]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][34][Applets][49][Configuration]
-PreloadWeight=57
+PreloadWeight=72
 
 [Containments][34][Applets][50]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][34][Applets][50][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][34][General]
-extraItems=org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout
-knownItems=org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout
+extraItems=org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.kscreen
+knownItems=org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.kscreen
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/trash.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/steam.desktop,0,90716df1-09c4-40f0-87b3-5efd1aa73086,desktop:/Home.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/steam.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f
+screenMapping=desktop:/Home.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/archlinux-discord.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/trash.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/steam.desktop,0,90716df1-09c4-40f0-87b3-5efd1aa73086,desktop:/steam.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f

@@ -1,0 +1,13 @@
+#
+
+[Unit]
+Description=Downloads artifacts for dist upgrade
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/zypper dup -y -d --auto-agree-with-licenses
+
+[Install]
+WantedBy=multi-user.target

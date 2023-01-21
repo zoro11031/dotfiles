@@ -2,7 +2,7 @@
 Name=Game2Text
 Comment=OCR application for creating Japanese flashcards
 GenericName=Flashcards  (on archlinux)
-Exec=/usr/bin/distrobox-enter  -n archlinux --   /home/petergriffin/.local/usr/bin/game2text.sh  %f
+Exec=/usr/bin/distrobox-enter  -n archlinux-game2text --   /home/petergriffin/.local/bin/game2text.sh  %f
 Icon=/home/petergriffin/.local/share/game2text/game2text.ico
 Categories=Education
 Terminal=false

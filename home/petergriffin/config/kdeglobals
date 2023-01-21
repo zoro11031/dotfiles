@@ -124,6 +124,7 @@ ForegroundVisited=#c6a0f6
 [General]
 AccentColor=198,160,246
 BrowserApplication=firefox.desktop
+ColorScheme=CatppuccinMacchiato
 ColorSchemeHash=367978722a8042f110ea0bd0221e8c9e02aee5fd
 LastUsedCustomAccentColor=198,160,246
 TerminalApplication=kitty
@@ -133,8 +134,8 @@ TerminalService=kitty.desktop
 Theme=Papirus-Dark
 
 [KDE]
-AnimationDurationFactor=0.7071067811865475
-LookAndFeelPackage=Catppuccin-Macchiato
+AnimationDurationFactor=0.5
+LookAndFeelPackage=org.kde.breezedark.desktop
 SingleClick=false
 
 [KFileDialog Settings]
@@ -149,7 +150,7 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false

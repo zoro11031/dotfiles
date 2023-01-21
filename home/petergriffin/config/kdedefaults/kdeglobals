@@ -1,8 +1,8 @@
 [General]
-ColorScheme=CatppuccinMacchiato
+ColorScheme=BreezeDark
 
 [Icons]
-Theme=Papirus-Colors-Dark
+Theme=breeze-dark
 
 [KDE]
 widgetStyle=Breeze

@@ -1,26 +1,86 @@
+[file:///etc/systemd/system.conf]
+Bookmarks=
+Checksum=868091b3582784fb82c17658dede3b41fad4d339
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,19,16,51,51.399
+URL=file:///etc/systemd/system.conf
+
 [file:///home/petergriffin/.bashrc]
 Bookmarks=
-Checksum=2c93c9b9be5bed11bb619ee85e5f5dd81c6aa82d
+Checksum=da738d58eb6ea38eec4aa62206e14aac708190e0
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,19,15,58,44.7
+Time=2023,1,20,23,3,19.028
 URL=file:///home/petergriffin/.bashrc
+
+[file:///home/petergriffin/.config/fastfetch/config.conf]
+Bookmarks=
+Checksum=caf0b6dfeb98cac2c1e450672fd89cf262f42eb3
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,21,19,53,44.428
+URL=file:///home/petergriffin/.config/fastfetch/config.conf
+
+[file:///home/petergriffin/.config/fish/config.fish]
+Bookmarks=
+Checksum=eda0b4c20171bc8a7b7647b68b1f7031cd51c812
+Encoding=UTF-8
+Highlighting=Fish
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Fish
+Mode Set By User=false
+Time=2023,1,20,19,15,23.02
+URL=file:///home/petergriffin/.config/fish/config.fish
+
+[file:///home/petergriffin/.config/fish/functions/fish_command_not_found.fish]
+Bookmarks=
+Checksum=d38d5cece0ba104582ad7cb440ef92b706c98427
+Encoding=UTF-8
+Highlighting=Fish
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Fish
+Mode Set By User=false
+Time=2023,1,21,6,7,56.446
+URL=file:///home/petergriffin/.config/fish/functions/fish_command_not_found.fish
 
 [file:///home/petergriffin/.config/gtk-3.0/settings.ini]
 Bookmarks=
-Checksum=a3531e8700727e277bde35a064877b1b3bdefe4a
+Checksum=e70139f8d827f897fa87559d5e1e20934e19d12d
 Encoding=UTF-8
 Highlighting=INI Files
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=INI Files
 Mode Set By User=false
-Time=2023,1,17,17,32,30.167
+Time=2023,1,21,6,2,29.355
 URL=file:///home/petergriffin/.config/gtk-3.0/settings.ini
+
+[file:///home/petergriffin/.config/hypr/hyprland.conf]
+Bookmarks=
+Checksum=3982b370b8cb35937282b0ba37e5ccec588ecc45
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,21,7,5,20.941
+URL=file:///home/petergriffin/.config/hypr/hyprland.conf
 
 [file:///home/petergriffin/.config/mimeapps.list]
 Bookmarks=
@@ -55,19 +115,19 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,18,17,6,57.925
+Time=2023,1,21,7,26,2.388
 URL=file:///home/petergriffin/.config/plasma-workspace/env/fcitx.sh
 
 [file:///home/petergriffin/.config/plasma-workspace/env/gtk.sh]
 Bookmarks=
-Checksum=641f5823c17534b9abc31bdebae51c076134f566
+Checksum=93d7ad2361c25f01eb71207750e405076e767c50
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,18,16,56,59.073
+Time=2023,1,21,7,26,30.318
 URL=file:///home/petergriffin/.config/plasma-workspace/env/gtk.sh
 
 [file:///home/petergriffin/.config/plasma-workspace/env/path.sh]
@@ -84,26 +144,110 @@ URL=file:///home/petergriffin/.config/plasma-workspace/env/path.sh
 
 [file:///home/petergriffin/.config/plasma-workspace/env/wayland.sh]
 Bookmarks=
-Checksum=e9f9c620e8a0a6b7bd5242c17e4a7d57ea3a4bb2
+Checksum=07ee441e21cca25a278eae0c8cf907ab0e5139df
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,18,16,56,59.073
+Time=2023,1,21,7,27,21.18
 URL=file:///home/petergriffin/.config/plasma-workspace/env/wayland.sh
+
+[file:///home/petergriffin/.config/waybar/config]
+Bookmarks=
+Checksum=44492a14c3846799baa1d58b356ccc3ae2896813
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,21,7,5,20.941
+URL=file:///home/petergriffin/.config/waybar/config
+
+[file:///home/petergriffin/.local/bin/Hyprland]
+Bookmarks=
+Checksum=fc12f21a3206d6b2297434bbf227d26db9c15a91
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,21,0,10,30.398
+URL=file:///home/petergriffin/.local/bin/Hyprland
+
+[file:///home/petergriffin/.local/bin/HyprlandWM]
+Bookmarks=
+Checksum=58beddda75e68074ac2d8d3bd6297e3faf9e1717
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,20,23,19,7.297
+URL=file:///home/petergriffin/.local/bin/HyprlandWM
+
+[file:///home/petergriffin/.local/bin/anki.sh]
+Bookmarks=
+Checksum=b0a1b7e7c07e13a06c2973179fe996571848e2dc
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,20,22,43,5.447
+URL=file:///home/petergriffin/.local/bin/anki.sh
+
+[file:///home/petergriffin/.local/bin/discord.sh]
+Bookmarks=
+Checksum=44e225eb5172b31af611ba1749d6e04e2fd33d94
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,20,22,40,16.324
+URL=file:///home/petergriffin/.local/bin/discord.sh
+
+[file:///home/petergriffin/.local/bin/game2text.sh]
+Bookmarks=
+Checksum=4f769cb6c816dc482a0c7c14d43a0dd89aee9095
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,20,22,22,42.055
+URL=file:///home/petergriffin/.local/bin/game2text.sh
+
+[file:///home/petergriffin/.local/bin/hyprland.sh]
+Bookmarks=
+Checksum=2754fe9c95f944d45b6b0c03b06bb802731f54b5
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,21,0,38,55.404
+URL=file:///home/petergriffin/.local/bin/hyprland.sh
 
 [file:///home/petergriffin/.local/share/applications/anki.desktop]
 Bookmarks=
-Checksum=3ebba9727205f8d2d52fe9f070fae2f5eba1dbf4
+Checksum=964d0a53e0c49665c3c7d5df18dc56594bea0393
 Encoding=UTF-8
 Highlighting=.desktop
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2023,1,17,19,23,37.205
+Time=2023,1,20,22,43,17.505
 URL=file:///home/petergriffin/.local/share/applications/anki.desktop
 
 [file:///home/petergriffin/.local/share/applications/archlinux-anki.desktop]
@@ -127,19 +271,19 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2023,1,18,18,57,36.139
+Time=2023,1,20,22,41,12.754
 URL=file:///home/petergriffin/.local/share/applications/archlinux-discord.desktop
 
 [file:///home/petergriffin/.local/share/applications/archlinux-game2text.desktop]
 Bookmarks=
-Checksum=96c18d837217324e1e1c038fad96d99757acaec8
+Checksum=f2216b68e41fd6071090f7cfa8ffeaaf9f007e2d
 Encoding=UTF-8
 Highlighting=.desktop
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2023,1,18,0,34,11.847
+Time=2023,1,20,22,41,30.643
 URL=file:///home/petergriffin/.local/share/applications/archlinux-game2text.desktop
 
 [file:///home/petergriffin/.local/share/applications/archlinux-memento.desktop]
@@ -151,7 +295,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2023,1,18,0,34,24.595
+Time=2023,1,20,22,41,36.133
 URL=file:///home/petergriffin/.local/share/applications/archlinux-memento.desktop
 
 [file:///home/petergriffin/.local/share/applications/archlinux-spotify.desktop]
@@ -163,7 +307,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2023,1,18,6,3,28.117
+Time=2023,1,20,22,41,39.541
 URL=file:///home/petergriffin/.local/share/applications/archlinux-spotify.desktop
 
 [file:///home/petergriffin/.local/share/applications/game2text.desktop]
@@ -214,16 +358,28 @@ Mode Set By User=false
 Time=2023,1,17,21,47,32.904
 URL=file:///home/petergriffin/.local/usr/bin/anki.sh
 
-[file:///home/petergriffin/.local/usr/bin/game2text.sh]
+[file:///home/petergriffin/.local/usr/bin/discord.sh]
 Bookmarks=
-Checksum=52cd5c32170abbb0dcf0b6d0dbd4d693a1ed73dd
+Checksum=44e225eb5172b31af611ba1749d6e04e2fd33d94
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,17,21,47,32.904
+Time=2023,1,20,22,42,20.825
+URL=file:///home/petergriffin/.local/usr/bin/discord.sh
+
+[file:///home/petergriffin/.local/usr/bin/game2text.sh]
+Bookmarks=
+Checksum=d007e8e9f215dbd49fb74bf2988caddf132bfec6
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,19,16,47,36.048
 URL=file:///home/petergriffin/.local/usr/bin/game2text.sh
 
 [file:///home/petergriffin/.local/usr/bin/paru]
@@ -238,17 +394,65 @@ Mode Set By User=false
 Time=2023,1,18,6,36,9.33
 URL=file:///home/petergriffin/.local/usr/bin/paru
 
-[file:///home/petergriffin/.xinitrc]
+[file:///home/petergriffin/.local/usr/bin/xhost.sh]
 Bookmarks=
-Checksum=bb824a41b9c626ff4fc620f89dd1aab68b05ced1
+Checksum=1109a8fbc7e787ee2ec7ea2a2d3d08722b417b63
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,20,22,42,17.073
+URL=file:///home/petergriffin/.local/usr/bin/xhost.sh
+
+[file:///home/petergriffin/.profile]
+Bookmarks=
+Checksum=71bedf31e2df5332ff13bf4f49c3895f6056b17d
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,21,1,17,5.732
+URL=file:///home/petergriffin/.profile
+
+[file:///home/petergriffin/.ssh/id_rsa.pub]
+Bookmarks=
+Checksum=ef05c3f9ffa6478b64e2193417891614df3b0d01
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,1,19,6,46,29.336
+Time=2023,1,21,21,17,26.263
+URL=file:///home/petergriffin/.ssh/id_rsa.pub
+
+[file:///home/petergriffin/.xinitrc]
+Bookmarks=
+Checksum=442afd17b8a9884db1fb583f721ee25dfb09b17d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,19,16,47,24.572
 URL=file:///home/petergriffin/.xinitrc
+
+[file:///home/petergriffin/Documents/dotfiles/HyprlandWM]
+Bookmarks=
+Checksum=0af6c93e05a691c0af875e3a2cefed4739aca1da
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,21,6,29,19.953
+URL=file:///home/petergriffin/Documents/dotfiles/HyprlandWM
 
 [file:///home/petergriffin/Documents/dotfiles/backup.sh]
 Bookmarks=
@@ -262,16 +466,52 @@ Mode Set By User=false
 Time=2023,1,19,16,2,28.042
 URL=file:///home/petergriffin/Documents/dotfiles/backup.sh
 
-[file:///home/petergriffin/Documents/dotfiles/wrappers/HyprlandWM]
+[file:///home/petergriffin/Documents/dotfiles/home/petergriffin/config/hypr/hyprland.conf]
 Bookmarks=
-Checksum=98e2568d7879dd8fb3ca91ae1689cd0d9ab130ad
+Checksum=a5bd1cd2ee57dfad87ee71aad9db2c0c599538b8
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,20,23,3,19.028
+URL=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/config/hypr/hyprland.conf
+
+[file:///home/petergriffin/Documents/dotfiles/home/petergriffin/config/plasma-workspace/env/wayland.sh]
+Bookmarks=
+Checksum=e9f9c620e8a0a6b7bd5242c17e4a7d57ea3a4bb2
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,17,17,21,2.956
+Time=2023,1,21,7,27,9.42
+URL=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/config/plasma-workspace/env/wayland.sh
+
+[file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/applications/archlinux-game2text.desktop]
+Bookmarks=
+Checksum=db706b8f88bd429639bd9b9b7b35d3dfde264e39
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2023,1,20,21,11,55.514
+URL=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/applications/archlinux-game2text.desktop
+
+[file:///home/petergriffin/Documents/dotfiles/wrappers/HyprlandWM]
+Bookmarks=
+Checksum=a0b551132f8a49db0f584537f2e2f85b19119611
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,21,6,3,0.896
 URL=file:///home/petergriffin/Documents/dotfiles/wrappers/HyprlandWM
 
 [file:///home/petergriffin/Documents/dotfiles/wrappers/sway-run]
@@ -285,6 +525,30 @@ Mode=Bash
 Mode Set By User=false
 Time=2023,1,17,17,21,2.956
 URL=file:///home/petergriffin/Documents/dotfiles/wrappers/sway-run
+
+[file:///home/petergriffin/Documents/hyprland.desktop]
+Bookmarks=
+Checksum=63560a9fd85c19ef12bdc549b63afdb649f3d7aa
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2023,1,20,23,3,19.028
+URL=file:///home/petergriffin/Documents/hyprland.desktop
+
+[file:///home/petergriffin/Downloads/KDE Unstable Frameworks.repo]
+Bookmarks=
+Checksum=7c95151838ab4a93d577faf18e8b18b86615acd6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,20,2,57,25.74
+URL=file:///home/petergriffin/Downloads/KDE Unstable Frameworks.repo
 
 [file:///home/petergriffin/Downloads/anki-2.1.35-linux-amd64/Makefile]
 Bookmarks=
@@ -333,3 +597,111 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,1,17,16,10,12.327
 URL=file:///home/petergriffin/dotfiles/home/petergriffin/config/plasmarc
+
+[file:///var/tmp/environment.p88y1feQ]
+Bookmarks=
+Checksum=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,20,17,0,2.047
+URL=file:///var/tmp/environment.p88y1feQ
+
+[file:///var/tmp/systemlACbCDEF.conf]
+Bookmarks=
+Checksum=868091b3582784fb82c17658dede3b41fad4d339
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,20,6,20,44.271
+URL=file:///var/tmp/systemlACbCDEF.conf
+
+[file:///var/tmp/timeout6Li8sTzy.conf]
+Bookmarks=
+Checksum=267d36843c0dc90b5bdb1512d5817768d23ef4fa
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,19,16,52,10.014
+URL=file:///var/tmp/timeout6Li8sTzy.conf
+
+[file:///var/tmp/timeoutPlGYcpoy.conf]
+Bookmarks=
+Checksum=8959c8d1a4307f5abf5b4004308c5e54ee5c060a
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,20,6,23,9.787
+URL=file:///var/tmp/timeoutPlGYcpoy.conf
+
+[file:///var/tmp/zypper-dup-downloadRyK3G3pZ.service]
+Bookmarks=
+Checksum=f1d6fd1098fa01d1029d9b2d9082acce20aad3f6
+Encoding=UTF-8
+Highlighting=systemd unit
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=systemd unit
+Mode Set By User=false
+Time=2023,1,19,18,24,52.898
+URL=file:///var/tmp/zypper-dup-downloadRyK3G3pZ.service
+
+[file:///var/tmp/zypper-dup-downloadqSDypOPP.service]
+Bookmarks=
+Checksum=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+Encoding=UTF-8
+Highlighting=systemd unit
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=systemd unit
+Mode Set By User=false
+Time=2023,1,19,18,24,32.824
+URL=file:///var/tmp/zypper-dup-downloadqSDypOPP.service
+
+[file:///var/tmp/zyppg0JU4cAO.conf]
+Bookmarks=
+Checksum=35723a268ffa289580108d893f105198d885beb7
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,19,23,5,21.204
+URL=file:///var/tmp/zyppg0JU4cAO.conf
+
+[file:///var/tmp/zyppuE5vQo7n.conf]
+Bookmarks=
+Checksum=2a3713d013f9c08a5faf32ef8ef3d7de98a1a737
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,19,18,19,44.321
+URL=file:///var/tmp/zyppuE5vQo7n.conf
+
+[trash:/0-usr/bin/paru]
+Bookmarks=
+Checksum=8df03f6e140c5b4cd0747f165b902d3f08a9700c
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,21,6,29,2.781
+URL=trash:/0-usr/bin/paru

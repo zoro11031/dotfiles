@@ -103,6 +103,11 @@ ctime=1673970447
 done=kleopatra-15.08-kickoff
 mtime=1672703776
 
+[konsole.upd]
+ctime=1674183844
+done=konsole_globalaccel,add-hamburgermenu-to-toolbar
+mtime=1674008563
+
 [konsole_globalaccel.upd]
 ctime=1674106449
 done=konsole_globalaccel
@@ -134,7 +139,7 @@ mtime=1672769668
 
 [kwin.upd]
 ctime=1674106448
-done=replace-scalein-with-scale,port-minimizeanimation-effect-to-js,port-scale-effect-to-js,port-dimscreen-effect-to-js,auto-bordersize,animation-speed,desktop-grid-click-behavior,no-swap-encourage,make-translucency-effect-disabled-by-default,remove-flip-switch-effect,remove-cover-switch-effect,remove-cubeslide-effect,remove-xrender-backend,enable-scale-effect-by-default,overview-group-plugin-id,animation-speed-cleanup
+done=replace-scalein-with-scale,port-minimizeanimation-effect-to-js,port-scale-effect-to-js,port-dimscreen-effect-to-js,auto-bordersize,animation-speed,desktop-grid-click-behavior,no-swap-encourage,make-translucency-effect-disabled-by-default,remove-flip-switch-effect,remove-cover-switch-effect,remove-cubeslide-effect,remove-xrender-backend,enable-scale-effect-by-default,overview-group-plugin-id,animation-speed-cleanup,replace-cascaded-zerocornered
 mtime=1672769317
 
 [kwinrules.upd]
@@ -160,6 +165,11 @@ mtime=1672634550
 ctime=1674106442
 done=annotation-toolbar,builtin-annotations
 mtime=1672701973
+
+[plasmashell-5.27-use-panel-thickness-in-default-group.upd]
+ctime=1674183846
+done=plasmashell-5.27-use-panel-thickness-in-default-group
+mtime=1674142114
 
 [spectacle_clipboard.upd]
 ctime=1674106442

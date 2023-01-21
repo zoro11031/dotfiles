@@ -1,16 +1,18 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
 
 [Compositing]
 AnimationSpeed[$d]
+GLTextureFilter=1
 
 [Desktops]
-Id_1=b96db2f1-61ad-4aad-9609-e5fb42dc42c6
-Id_2=34ecea27-ee59-49e7-9943-8495a5ec00ed
-Id_3=7777368e-fc01-42df-b367-0c3792a0bad4
-Id_4=63c27e62-735f-43ee-813e-8f7765c436a8
-Id_5=cae01211-b0b1-4e2d-8e4f-a9519e233577
-Number=5
+Id_1=34ecea27-ee59-49e7-9943-8495a5ec00ed
+Id_2=7777368e-fc01-42df-b367-0c3792a0bad4
+Id_3=63c27e62-735f-43ee-813e-8f7765c436a8
+Id_4=bf78246d-05e2-4659-a386-d48ca49a7a68
+Id_5=c4217ff6-0d3f-450e-bb43-9243ea7ec9d6
+Id_6=e366a07a-33ba-41fc-b8c2-fa4d590e3796
+Number=6
 Rows=2
 
 [Effect-blur]
@@ -28,12 +30,15 @@ LatitudeAuto=29.4553
 LongitudeAuto=-98.5677
 NightTemperature=4400
 
+[Tiling]
+padding=7
+
+[Tiling][692b57e4-f396-5681-80fd-6eb2b3db8f11]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Windows]
 ElectricBorderCornerRatio=0.2
+NextFocusPrefersMouse=true
 
 [Xwayland]
 Scale=1
-
-[org.kde.kdecoration2]
-library=org.kde.breeze
-theme=Breeze
