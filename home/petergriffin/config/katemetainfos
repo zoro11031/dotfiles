@@ -34,6 +34,18 @@ Mode Set By User=false
 Time=2023,1,21,19,53,44.428
 URL=file:///home/petergriffin/.config/fastfetch/config.conf
 
+[file:///home/petergriffin/.config/fcitx5/conf/classicui.conf]
+Bookmarks=
+Checksum=fda074d85859cd1ed1e903c938a0497d410c01d4
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,21,23,5,17.584
+URL=file:///home/petergriffin/.config/fcitx5/conf/classicui.conf
+
 [file:///home/petergriffin/.config/fish/config.fish]
 Bookmarks=
 Checksum=eda0b4c20171bc8a7b7647b68b1f7031cd51c812

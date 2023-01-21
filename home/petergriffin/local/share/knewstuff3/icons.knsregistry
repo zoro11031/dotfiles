@@ -1,27 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE khotnewstuff3>
-<hotnewstuffregistry>
- <stuff category="132">
-  <name>Papirus Colors</name>
-  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
-  <author>x-varlesh-x</author>
-  <homepage>https://store.kde.org/p/1651940</homepage>
-  <licence></licence>
-  <version>20220526</version>
-  <rating>64</rating>
-  <downloads>18204</downloads>
-  <installedfile>/home/petergriffin/.local/share/icons/Papirus-Colors/*</installedfile>
-  <installedfile>/home/petergriffin/.local/share/icons/Papirus-Colors-Dark/*</installedfile>
-  <id>1651940</id>
-  <releasedate>2022-05-26</releasedate>
-  <summary>Papirus folders with full support KDE Color Scheme.&lt;br />
-This icon theme contained only folders, please install main Papirus icon theme from Pling Store:&lt;br />
-https://www.pling.com/p/1166289/</summary>
-  <changelog></changelog>
-  <preview>https://images.pling.com/img/00/00/43/80/78/1651940/2714a6c39b1d17255b3c2de087abd04b44e06dde6b2d9ef31ed232de0abe8e8a9dff.gif</preview>
-  <previewBig>https://images.pling.com/img/00/00/43/80/78/1651940/2714a6c39b1d17255b3c2de087abd04b44e06dde6b2d9ef31ed232de0abe8e8a9dff.gif</previewBig>
-  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NTM1MzM3MTYiLCJvIjoiMSIsInMiOiJjZWIxZDE5NDhiNTlmZmI0MzRmNjY5YjYxZGMxZGJiYTJkNjVmYzA1YTQ0OTljMDgyYTQwODQ4YjdmY2JhM2Y2MzE2NjE1MTI5NWFmNjFlYmM3ZTNjMzgxODAxNzNjYzI1NTU1N2ZlM2Q5NzRkNzQ0YTBkOWVlNDA3N2VhYWNiZCIsInQiOjE2NzM5NzYwNjAsInN0ZnAiOm51bGwsInN0aXAiOiIxMzYuNTAuMTQ1Ljc5In0.WBRgR29VHeU1qYxK2fonMwgaxmXiIMubcBkcnHbevLk/papirus-colors.tar.gz</payload>
-  <tags>material,linux,papirus,original-product,scheme,unix,kde,icon-theme,color,gplv3</tags>
-  <status>installed</status>
- </stuff>
-</hotnewstuffregistry>
+<hotnewstuffregistry/>

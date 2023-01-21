@@ -1,0 +1,9 @@
+[MainWindow]
+DP-3 Height 2560x1440 DP-3=608
+DP-3 Width 2560x1440 DP-3=861
+State=AAAA/wAAAAD9AAAAAAAAA10AAAJCAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+
+[WalletEditor]
+AlwaysShowContents=false
+SplitterSize=388,446

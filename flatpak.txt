@@ -1,0 +1,9 @@
+Minecraft	com.mojang.Minecraft	1.0.1221	stable	system
+Freedesktop Platform	org.freedesktop.Platform	22.08.5	22.08	system
+Mesa	org.freedesktop.Platform.GL.default	22.3.2	22.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	22.3.2	22.08-extra	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	system
+GNU Image Manipulation Program	org.gimp.GIMP	2.10.32	stable	system
+GNOME Application Platform version 43	org.gnome.Platform		43	system
+Breeze GTK theme	org.gtk.Gtk3theme.Breeze	5.26.5	3.22	system
+ONLYOFFICE Desktop Editors	org.onlyoffice.desktopeditors	7.2.1	stable	system

@@ -3,7 +3,7 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Compositing]
 AnimationSpeed[$d]
-GLTextureFilter=1
+LatencyPolicy=Low
 
 [Desktops]
 Id_1=34ecea27-ee59-49e7-9943-8495a5ec00ed
@@ -16,10 +16,11 @@ Number=6
 Rows=2
 
 [Effect-blur]
-NoiseStrength=9
+BlurStrength=9
+NoiseStrength=13
 
 [Effect-windowview]
-BorderActivateAll=1
+BorderActivateAll=3
 
 [Input]
 TabletMode=off
@@ -30,6 +31,9 @@ LatitudeAuto=29.4553
 LongitudeAuto=-98.5677
 NightTemperature=4400
 
+[Plugins]
+kwin4_effect_translucencyEnabled=true
+
 [Tiling]
 padding=7
 
@@ -37,7 +41,7 @@ padding=7
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
-ElectricBorderCornerRatio=0.2
+ElectricBorderCornerRatio=0.15
 NextFocusPrefersMouse=true
 
 [Xwayland]

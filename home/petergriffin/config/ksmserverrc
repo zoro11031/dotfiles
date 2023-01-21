@@ -7,6 +7,9 @@ loginMode=restoreSavedSession
 [LegacySession: saved at previous logout]
 count=0
 
+[LegacySession: saved by user]
+count=0
+
 [Session: saved at previous logout]
 clientId1=1028c1d320b210000167397065000000016410008
 clientId2=1028c1d320b210000167397761600000018630004
@@ -19,3 +22,6 @@ restartStyleHint1=0
 restartStyleHint2=0
 userId1=petergriffin
 userId2=petergriffin
+
+[Session: saved by user]
+count=0

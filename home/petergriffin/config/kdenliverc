@@ -1,0 +1,91 @@
+[MainWindow]
+DP-3 Height 2560x1440 DP-3=1200
+DP-3 Width 2560x1440 DP-3=2133
+State=AAAA/wAAAAD9AAAAAgAAAAEAAAGFAAACq/wCAAAAAfwAAAHlAAACqwAAAVsBAAAd+gAAAAACAAAABPsAAAAKAG0AaQB4AGUAcgEAAAHwAAACCwAAAK4BAAAC+wAAABgAZQBmAGYAZQBjAHQAXwBzAHQAYQBjAGsBAAAAAP////8AAAB+AQAAAvsAAAASAHQAaQBtAGUAcgBlAG0AYQBwAQAAAAD/////AAAAWgEAAAL7AAAAEgBTAHUAYgB0AGkAdABsAGUAcwEAAAAA/////wAAAT0BAAACAAAAAgAACFUAAAHC/AEAAAAM+wAAABQAcwBjAHIAZQBlAG4AZwByAGEAYgAAAAAA/////wAAAGABAAAD+wAAABoAYQB1AGQAaQBvAHMAcABlAGMAdAByAHUAbQAAAAAA/////wAAAGYBAAAD/AAAAAAAAAKbAAAAiwD////6AAAAAAEAAAAF+wAAABYAcAByAG8AagBlAGMAdABfAGIAaQBuAQAAAAD/////AAAAXAEAAAP7AAAAHgB0AHIAYQBuAHMAaQB0AGkAbwBuAF8AbABpAHMAdAEAAAAA/////wAAAAQBAAAD+wAAABYAZQBmAGYAZQBjAHQAXwBsAGkAcwB0AQAAAAD/////AAAABAEAAAP7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAFcBAAAD+wAAABgAdQBuAGQAbwBfAGgAaQBzAHQAbwByAHkBAAAAAP////8AAABbAQAAA/wAAAKcAAAC2wAAAUQA////+gAAAAACAAAAAvsAAAAYAGMAbABpAHAAXwBtAG8AbgBpAHQAbwByAQAAAEQAAAHNAAAAywEAAAL7AAAADgBsAGkAYgByAGEAcgB5AQAAAAD/////AAAAlAEAAAL8AAAFeAAAAt0AAAFnAP////oAAAAAAgAAAAP7AAAAHgBwAHIAbwBqAGUAYwB0AF8AbQBvAG4AaQB0AG8AcgEAAAC/AAABLAAAAMsBAAAC+wAAABAAdABlAHgAdABlAGQAaQB0AQAAAAD/////AAABYgEAAAL7AAAAGABuAG8AdABlAHMAXwB3AGkAZABnAGUAdAEAAAAA/////wAAAI4BAAAC+wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABNgEAAAP7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAAAP////8AAACsAQAAA/sAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAACoAQAAA/sAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABTQEAAAP7AAAAEABiAGkAbgBfAGMAbABpAHAAAAAE/wAAAoEAAAI2AQAAA/sAAAAeAG8AbgBsAGkAbgBlAHIAZQBzAG8AdQByAGMAZQBzAAAAAAD/////AAABPAEAAAP7AAAADABnAHUAaQBkAGUAcwAAAAAA/////wAAANQBAAADAAAGzwAAAqsAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAYAGUAeAB0AHIAYQBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[OnlineResources]
+provider=Freesound
+zoom=7
+
+[Recent Dirs]
+KdenliveClipFolder[$e]=$HOME/Videos,$HOME/Documents
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+logScale=false
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[UiSettings]
+ColorSchemePath=CatppuccinMacchiato.colors
+
+[bin]
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAJ/gEAAAAIAAAACAAAAGQAAAAHAAAANAAAAAYAAAAnAAAABQAAAEQAAAAEAAAAKQAAAAMAAAAwAAAAAgAAAFIAAAABAAAAMAAAAxkAAAAJAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAJAAADGQAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAAA2
+
+[capture]
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+grab_extension=mov
+grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+defaultprojectfolder[$e]=$HOME/Videos
+ffmpegpath[$e]=/usr/bin/ffmpeg
+ffprobepath[$e]=/usr/bin/ffprobe
+lastCacheCheck=2023,1,21,16,52,30.91
+mediainfopath[$e]=/usr/bin/mediainfo
+mltpath[$e]=/usr/share/mlt-7/profiles
+rendererpath[$e]=/usr/bin/melt-7
+
+[project]
+vaapiEnabled=true
+vaapiScalingEnabled=true
+
+[sdl]
+preferredcomposite=qtblend
+
+[timeline]
+trackheight=67
+
+[unmanaged]
+consumerslist=avformat,multi,null,decklink,jack,xgl,blipflash,cbrts,qglsl,rtaudio,sdl2,sdl2_audio,xml
+default_profile=atsc_1080p_2997
+guidesCategories=Category 1:0:#9b59b6,Category 2:1:#3daee9,Category 3:2:#1abc9c,Category 4:3:#1cdc9a,Category 5:4:#c9ce3b,Category 6:5:#fdbc4b,Category 7:6:#f39c1f,Category 8:7:#f47750,Category 9:8:#da4453
+producerslist=avformat,avformat-novalidate,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone,decklink,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,pango,pixbuf,glaxnimate,framebuffer,blipflash,count,pgm,qimage,qtext,kdenlivetitle,vorbis,xml,xml-string,xml-nogl
+project_fps=29.97002997002997
+widgetstyle=Default
+
+[version]
+version=22.12.1
