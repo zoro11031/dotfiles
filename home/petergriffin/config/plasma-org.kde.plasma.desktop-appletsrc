@@ -99,9 +99,8 @@ DialogWidth=720
 
 [Containments][28][Applets][51][Configuration][General]
 groupedTaskVisualization=1
-launchers=preferred://browser,preferred://filemanager,applications:archlinux-spotify.desktop,applications:archlinux-discord.desktop
+launchers=preferred://browser,preferred://filemanager,applications:kitty.desktop,applications:archlinux-spotify.desktop,applications:archlinux-discord.desktop
 maxStripes=1
-onlyGroupWhenFull=false
 separateLaunchers=false
 showOnlyCurrentDesktop=false
 
@@ -142,7 +141,6 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][34][Applets][36][Configuration][General]
-currentTab=streams
 migrated=true
 raiseMaximumVolume=true
 
@@ -162,7 +160,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][34][Applets][39][Configuration]
-PreloadWeight=65
+PreloadWeight=75
 
 [Containments][34][Applets][40]
 immutability=1
@@ -203,7 +201,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][34][Applets][49][Configuration]
-PreloadWeight=72
+PreloadWeight=77
 
 [Containments][34][Applets][50]
 immutability=1
@@ -226,4 +224,4 @@ knownItems=org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.network
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/steam.desktop,0,90716df1-09c4-40f0-87b3-5efd1aa73086,desktop:/steam.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/trash.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/Home.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/archlinux-discord.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f
+screenMapping=desktop:/Home.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/steam.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/trash.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f,desktop:/steam.desktop,0,90716df1-09c4-40f0-87b3-5efd1aa73086,desktop:/archlinux-discord.desktop,0,a152edf7-5a4b-47ab-be4b-7b4d367efc7f

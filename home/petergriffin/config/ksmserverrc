@@ -24,4 +24,9 @@ userId1=petergriffin
 userId2=petergriffin
 
 [Session: saved by user]
-count=0
+clientId1=1098a992a2000167436324700000020440003
+count=1
+program1=firefox
+restartCommand1=/usr/bin/firefox,--sm-client-id,1098a992a2000167436324700000020440003
+restartStyleHint1=0
+userId1=petergriffin

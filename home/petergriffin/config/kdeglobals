@@ -121,10 +121,13 @@ ForegroundNormal=#cad3f5
 ForegroundPositive=#a6da95
 ForegroundVisited=#c6a0f6
 
+[DirSelect Dialog]
+DirSelectDialog Size=829,570
+History Items[$e]=file:$HOME/.config/Kvantum/src/Catppuccin-Macchiato-Pink,file:$HOME/.config/Kvantum
+
 [General]
 AccentColor=198,160,246
 BrowserApplication=firefox.desktop
-ColorScheme=CatppuccinMacchiato
 ColorSchemeHash=367978722a8042f110ea0bd0221e8c9e02aee5fd
 LastUsedCustomAccentColor=198,160,246
 TerminalApplication=kitty
@@ -135,8 +138,9 @@ Theme=Papirus-Dark
 
 [KDE]
 AnimationDurationFactor=0.5
-LookAndFeelPackage=org.kde.breezedark.desktop
+LookAndFeelPackage=Catppuccin-Macchiato
 SingleClick=false
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false

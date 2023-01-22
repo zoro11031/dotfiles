@@ -34,6 +34,10 @@ NightTemperature=4400
 [Plugins]
 kwin4_effect_translucencyEnabled=true
 
+[TabBox]
+DesktopMode=2
+LayoutName=thumbnail_grid
+
 [Tiling]
 padding=7
 
@@ -42,7 +46,11 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Windows]
 ElectricBorderCornerRatio=0.15
-NextFocusPrefersMouse=true
+FocusPolicy=FocusFollowsMouse
 
 [Xwayland]
 Scale=1
+
+[org.kde.kdecoration2]
+library=org.kde.breeze
+theme=Breeze

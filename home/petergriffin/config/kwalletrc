@@ -1,3 +1,6 @@
+[Auto Allow]
+kdewallet=Chromium,discord
+
 [Wallet]
 Close When Idle=false
 Close on Screensaver=false
