@@ -6,7 +6,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-URL=file:///home/petergriffin/.config/fcitx5/conf/classicui.conf
+URL=file:///home/petergriffin/.config/mpv/input.conf
 
 [Kate Plugins]
 cmaketoolsplugin=false
@@ -108,17 +108,17 @@ Orientation=1
 Sizes=1236
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/petergriffin/.config/fcitx5/conf/classicui.conf
+Active View=file:///home/petergriffin/.config/mpv/input.conf
 Count=1
-Documents=file:///home/petergriffin/.config/fcitx5/conf/classicui.conf
-View 0=file:///home/petergriffin/.config/fcitx5/conf/classicui.conf
+Documents=file:///home/petergriffin/.config/mpv/input.conf
+View 0=file:///home/petergriffin/.config/mpv/input.conf
 
-[MainWindow0-ViewSpace 0 file:///home/petergriffin/.config/fcitx5/conf/classicui.conf]
+[MainWindow0-ViewSpace 0 file:///home/petergriffin/.config/mpv/input.conf]
 CursorColumn=0
 CursorLine=0
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"fda074d85859cd1ed1e903c938a0497d410c01d4","ranges":[]}
+TextFolding={"checksum":"d915bce0d2984f8651f2de2054cded236123f063","ranges":[]}
 ViMarks=
 
 [Open Documents]
@@ -141,7 +141,7 @@ View Style=DetailTree
 auto sync folder=true
 filter history=
 highlight current file=true
-location=file:///home/petergriffin/.config/fcitx5/conf/
+location=file:///home/petergriffin/.config/mpv/
 
 [Plugin:kateprojectplugin:]
 projects=
@@ -170,23 +170,23 @@ SearchDiskFiless=
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/Documents/dotfiles/HyprlandWM
-File10[$e]=$HOME/.config/fcitx5/conf/classicui.conf
-File2[$e]=$HOME/.config/hypr/hyprland.conf
-File3[$e]=$HOME/.config/waybar/config
-File4[$e]=$HOME/.config/plasma-workspace/env/fcitx.sh
-File5[$e]=$HOME/.config/plasma-workspace/env/gtk.sh
-File6[$e]=$HOME/Documents/dotfiles/home/petergriffin/config/plasma-workspace/env/wayland.sh
-File7[$e]=$HOME/.config/plasma-workspace/env/wayland.sh
-File8[$e]=$HOME/.config/fastfetch/config.conf
-File9[$e]=$HOME/.ssh/id_rsa.pub
-Name1[$e]=HyprlandWM
-Name10[$e]=classicui.conf
-Name2[$e]=hyprland.conf
-Name3[$e]=config
-Name4[$e]=fcitx.sh
-Name5[$e]=gtk.sh
+File1[$e]=$HOME/.config/hypr/hyprland.conf
+File10[$e]=$HOME/.config/mpv/input.conf
+File2[$e]=$HOME/.config/waybar/config
+File3[$e]=$HOME/.config/plasma-workspace/env/fcitx.sh
+File4[$e]=$HOME/.config/plasma-workspace/env/gtk.sh
+File5[$e]=$HOME/Documents/dotfiles/home/petergriffin/config/plasma-workspace/env/wayland.sh
+File6[$e]=$HOME/.config/plasma-workspace/env/wayland.sh
+File7[$e]=$HOME/.config/fastfetch/config.conf
+File8[$e]=$HOME/.ssh/id_rsa.pub
+File9[$e]=$HOME/.config/fcitx5/conf/classicui.conf
+Name1[$e]=hyprland.conf
+Name10[$e]=input.conf
+Name2[$e]=config
+Name3[$e]=fcitx.sh
+Name4[$e]=gtk.sh
+Name5[$e]=wayland.sh
 Name6[$e]=wayland.sh
-Name7[$e]=wayland.sh
-Name8[$e]=config.conf
-Name9[$e]=id_rsa.pub
+Name7[$e]=config.conf
+Name8[$e]=id_rsa.pub
+Name9[$e]=classicui.conf

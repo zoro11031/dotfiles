@@ -106,6 +106,18 @@ Mode Set By User=false
 Time=2023,1,19,6,37,44.079
 URL=file:///home/petergriffin/.config/mimeapps.list
 
+[file:///home/petergriffin/.config/mpv/input.conf]
+Bookmarks=
+Checksum=d915bce0d2984f8651f2de2054cded236123f063
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,22,6,29,9.974
+URL=file:///home/petergriffin/.config/mpv/input.conf
+
 [file:///home/petergriffin/.config/plasma-workspace/env/editors.sh]
 Bookmarks=
 Checksum=87792f29d9e35e1c11e4088b967ca3094e626bd0
