@@ -48,14 +48,14 @@ URL=file:///home/petergriffin/.config/fcitx5/conf/classicui.conf
 
 [file:///home/petergriffin/.config/fish/config.fish]
 Bookmarks=
-Checksum=eda0b4c20171bc8a7b7647b68b1f7031cd51c812
+Checksum=43dcc02fe60cb880399dec50a7eeae1d745a394f
 Encoding=UTF-8
 Highlighting=Fish
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Fish
 Mode Set By User=false
-Time=2023,1,20,19,15,23.02
+Time=2023,1,23,20,33,37.134
 URL=file:///home/petergriffin/.config/fish/config.fish
 
 [file:///home/petergriffin/.config/fish/functions/fish_command_not_found.fish]
@@ -94,16 +94,52 @@ Mode Set By User=false
 Time=2023,1,21,7,5,20.941
 URL=file:///home/petergriffin/.config/hypr/hyprland.conf
 
-[file:///home/petergriffin/.config/mimeapps.list]
+[file:///home/petergriffin/.config/memento/memento.conf]
 Bookmarks=
-Checksum=a8085abf70652b497903e2180a3d3bdba6bba4fd
+Checksum=0a9d7038fb4fce0fed4e700e85907988982f0ed7
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,1,19,6,37,44.079
+Time=2023,1,23,0,41,39.992
+URL=file:///home/petergriffin/.config/memento/memento.conf
+
+[file:///home/petergriffin/.config/memento/mpv.conf]
+Bookmarks=
+Checksum=3ac40c9e855225c5e7899e03185166af0718b25b
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,22,23,44,25.132
+URL=file:///home/petergriffin/.config/memento/mpv.conf
+
+[file:///home/petergriffin/.config/memento/shaders/shaders/shaders/shaders/shaders/shaders/shaders/shaders/Anime4K_AutoDownscalePre_x2.glsl]
+Bookmarks=
+Checksum=d321b7d79a0922b4e219b30a65840646c6f5ff8d
+Encoding=UTF-8
+Highlighting=GLSL
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=GLSL
+Mode Set By User=false
+Time=2023,1,22,23,44,45.425
+URL=file:///home/petergriffin/.config/memento/shaders/shaders/shaders/shaders/shaders/shaders/shaders/shaders/Anime4K_AutoDownscalePre_x2.glsl
+
+[file:///home/petergriffin/.config/mimeapps.list]
+Bookmarks=
+Checksum=7dca3ec3848280f4758620a313557827309a389e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,23,20,42,35.406
 URL=file:///home/petergriffin/.config/mimeapps.list
 
 [file:///home/petergriffin/.config/mpv/input.conf]
@@ -117,6 +153,18 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,1,22,6,29,9.974
 URL=file:///home/petergriffin/.config/mpv/input.conf
+
+[file:///home/petergriffin/.config/mpv/mpv.conf]
+Bookmarks=
+Checksum=1979d52ee2af0b91dd0c590e9b71f3bdd0a0daef
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,22,20,33,57.614
+URL=file:///home/petergriffin/.config/mpv/mpv.conf
 
 [file:///home/petergriffin/.config/plasma-workspace/env/editors.sh]
 Bookmarks=
@@ -223,7 +271,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,20,22,43,5.447
+Time=2023,1,22,20,6,17.007
 URL=file:///home/petergriffin/.local/bin/anki.sh
 
 [file:///home/petergriffin/.local/bin/discord.sh]
@@ -247,7 +295,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,20,22,22,42.055
+Time=2023,1,23,21,8,21.516
 URL=file:///home/petergriffin/.local/bin/game2text.sh
 
 [file:///home/petergriffin/.local/bin/hyprland.sh]
@@ -262,6 +310,30 @@ Mode Set By User=false
 Time=2023,1,21,0,38,55.404
 URL=file:///home/petergriffin/.local/bin/hyprland.sh
 
+[file:///home/petergriffin/.local/bin/memento.sh]
+Bookmarks=
+Checksum=4c25301a91092516a4f1899f2c69a8b49d2bf35f
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,22,20,6,17.007
+URL=file:///home/petergriffin/.local/bin/memento.sh
+
+[file:///home/petergriffin/.local/bin/pacman]
+Bookmarks=
+Checksum=9ade6970ef14be59bbb97d2f5de0c36002f598a8
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,23,2,31,59.841
+URL=file:///home/petergriffin/.local/bin/pacman
+
 [file:///home/petergriffin/.local/share/applications/anki.desktop]
 Bookmarks=
 Checksum=964d0a53e0c49665c3c7d5df18dc56594bea0393
@@ -271,7 +343,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2023,1,20,22,43,17.505
+Time=2023,1,22,20,6,17.007
 URL=file:///home/petergriffin/.local/share/applications/anki.desktop
 
 [file:///home/petergriffin/.local/share/applications/archlinux-anki.desktop]
@@ -295,7 +367,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2023,1,20,22,41,12.754
+Time=2023,1,22,20,6,17.007
 URL=file:///home/petergriffin/.local/share/applications/archlinux-discord.desktop
 
 [file:///home/petergriffin/.local/share/applications/archlinux-game2text.desktop]
@@ -307,19 +379,19 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2023,1,20,22,41,30.643
+Time=2023,1,23,21,7,43.079
 URL=file:///home/petergriffin/.local/share/applications/archlinux-game2text.desktop
 
 [file:///home/petergriffin/.local/share/applications/archlinux-memento.desktop]
 Bookmarks=
-Checksum=3a6ed27928c3fc36136c405a5ea97a7e621a08a3
+Checksum=0bcac09c1f419b8d1bbcf1108351998bf356e09e
 Encoding=UTF-8
 Highlighting=.desktop
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2023,1,20,22,41,36.133
+Time=2023,1,22,20,6,17.007
 URL=file:///home/petergriffin/.local/share/applications/archlinux-memento.desktop
 
 [file:///home/petergriffin/.local/share/applications/archlinux-spotify.desktop]
@@ -439,7 +511,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2023,1,21,1,17,5.732
+Time=2023,1,23,20,37,9.757
 URL=file:///home/petergriffin/.profile
 
 [file:///home/petergriffin/.ssh/id_rsa.pub]
@@ -502,6 +574,18 @@ Mode Set By User=false
 Time=2023,1,20,23,3,19.028
 URL=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/config/hypr/hyprland.conf
 
+[file:///home/petergriffin/Documents/dotfiles/home/petergriffin/config/memento/memento.conf]
+Bookmarks=
+Checksum=684c3a5f26f740b4fa1054fd4501a6960dcaab11
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,22,19,9,23.837
+URL=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/config/memento/memento.conf
+
 [file:///home/petergriffin/Documents/dotfiles/home/petergriffin/config/plasma-workspace/env/wayland.sh]
 Bookmarks=
 Checksum=e9f9c620e8a0a6b7bd5242c17e4a7d57ea3a4bb2
@@ -516,15 +600,27 @@ URL=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/config/plasma
 
 [file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/applications/archlinux-game2text.desktop]
 Bookmarks=
-Checksum=db706b8f88bd429639bd9b9b7b35d3dfde264e39
+Checksum=f2216b68e41fd6071090f7cfa8ffeaaf9f007e2d
 Encoding=UTF-8
 Highlighting=.desktop
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2023,1,20,21,11,55.514
+Time=2023,1,23,21,8,21.516
 URL=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/applications/archlinux-game2text.desktop
+
+[file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/bin/game2text.sh]
+Bookmarks=
+Checksum=6554aaa7fd4c04c64d7f3cb03d9bbf236ed84144
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2023,1,23,21,8,29.507
+URL=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/bin/game2text.sh
 
 [file:///home/petergriffin/Documents/dotfiles/wrappers/HyprlandWM]
 Bookmarks=
@@ -550,6 +646,18 @@ Mode Set By User=false
 Time=2023,1,17,17,21,2.956
 URL=file:///home/petergriffin/Documents/dotfiles/wrappers/sway-run
 
+[file:///home/petergriffin/Documents/firefox.desktop]
+Bookmarks=
+Checksum=03daf7b964409eea6b31e74babb149ee1b3a225e
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2023,1,23,20,37,9.757
+URL=file:///home/petergriffin/Documents/firefox.desktop
+
 [file:///home/petergriffin/Documents/hyprland.desktop]
 Bookmarks=
 Checksum=63560a9fd85c19ef12bdc549b63afdb649f3d7aa
@@ -573,6 +681,30 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,1,20,2,57,25.74
 URL=file:///home/petergriffin/Downloads/KDE Unstable Frameworks.repo
+
+[file:///home/petergriffin/Downloads/Memento-1.0.0/CMakeLists.txt]
+Bookmarks=
+Checksum=92fd5867bbfaa69fcbf13fd273a235434bdd0fef
+Encoding=UTF-8
+Highlighting=CMake
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=CMake
+Mode Set By User=false
+Time=2023,1,22,20,9,50.707
+URL=file:///home/petergriffin/Downloads/Memento-1.0.0/CMakeLists.txt
+
+[file:///home/petergriffin/Downloads/Memento-1.0.0/Makefile]
+Bookmarks=
+Checksum=23191b420770e1884696bbe5ccbeda303e5e2c33
+Encoding=UTF-8
+Highlighting=Makefile
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Makefile
+Mode Set By User=false
+Time=2023,1,22,20,6,17.007
+URL=file:///home/petergriffin/Downloads/Memento-1.0.0/Makefile
 
 [file:///home/petergriffin/Downloads/anki-2.1.35-linux-amd64/Makefile]
 Bookmarks=
@@ -609,6 +741,18 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,1,17,17,57,8.233
 URL=file:///home/petergriffin/Downloads/games tools.repo
+
+[file:///home/petergriffin/Videos/anime/bocchi/Season 01/Bocchi the Rock! - S01E02 - 002 - \x5bHDTV-1080p\x5d\x5bAAC 2.0\x5d\x5bx264\x5d-Erai-raws.mkv]
+Bookmarks=
+Checksum=8412d3b723efd3d50107ae53c3002b6fb2a6f9ee
+Encoding=ISO-8859-15
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2023,1,22,20,26,7.18
+URL=file:///home/petergriffin/Videos/anime/bocchi/Season 01/Bocchi the Rock! - S01E02 - 002 - [HDTV-1080p][AAC 2.0][x264]-Erai-raws.mkv
 
 [file:///home/petergriffin/dotfiles/home/petergriffin/config/plasmarc]
 Bookmarks=

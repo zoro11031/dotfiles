@@ -1,2 +1,141 @@
 [$Version]
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[0e1feecb-ea36-4318-869c-8f3c62dccf7c]
+Description=Application settings for anki
+clientmachine=localhost
+desktops=e366a07a-33ba-41fc-b8c2-fa4d590e3796
+desktopsrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=anki
+wmclassmatch=1
+
+[1]
+Description=Application settings for spotify
+clientmachine=archlinux.cumputer
+desktops=63c27e62-735f-43ee-813e-8f7765c436a8
+desktopsrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+maxsize=2560,1396
+title=Justin - Anki
+wmclass=spotify
+wmclassmatch=1
+
+[1977f812-49fe-4099-be0e-6ade2b481390]
+Description=Windows rules for steam friends list
+desktops=bf78246d-05e2-4659-a386-d48ca49a7a68
+desktopsrule=3
+ignoregeometry=true
+ignoregeometryrule=3
+minimize=true
+minimizerule=3
+size=441,1021
+sizerule=3
+title=Friends List
+titlematch=1
+wmclass=steam steam
+wmclasscomplete=true
+wmclassmatch=1
+
+[1c69493c-0368-4b9f-b05f-ef3f32886ed7]
+Description=Application settings for steam
+desktops=bf78246d-05e2-4659-a386-d48ca49a7a68
+desktopsrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevertrule=3
+title=Steam
+titlematch=1
+wmclass=steam steam
+wmclasscomplete=true
+wmclassmatch=1
+
+[2]
+Description=Application settings for anki
+clientmachine=localhost
+desktops=c4217ff6-0d3f-450e-bb43-9243ea7ec9d6
+desktopsrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+maxsize=2560,1396
+title=Justin - Anki
+titlematch=1
+wmclass=anki
+wmclassmatch=1
+
+[2b2376ae-ae58-4c6b-b6ee-62535ea6f038]
+Description=Application settings for discord
+clientmachine=archlinux.CUMPUTER
+desktops=7777368e-fc01-42df-b367-0c3792a0bad4
+desktopsrule=3
+maxsize=2560,1396
+maxsizerule=2
+wmclass=discord
+wmclassmatch=1
+
+[3]
+Description=Application settings for discord
+clientmachine=archlinux.cumputer
+desktops=7777368e-fc01-42df-b367-0c3792a0bad4
+desktopsrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+maxsize=2560,1396
+maxsizerule=2
+wmclass=discord
+wmclassmatch=1
+
+[4]
+Description=Windows rules for steam friends list
+desktops=bf78246d-05e2-4659-a386-d48ca49a7a68
+desktopsrule=3
+ignoregeometry=true
+ignoregeometryrule=3
+minimize=true
+minimizerule=3
+size=441,1021
+sizerule=3
+title=Friends List
+titlematch=1
+wmclass=steam steam
+wmclasscomplete=true
+wmclassmatch=1
+
+[5]
+Description=Application settings for steam
+desktops=bf78246d-05e2-4659-a386-d48ca49a7a68
+desktopsrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevertrule=3
+title=Steam
+titlematch=1
+wmclass=steam steam
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=5
+rules=1,2,3,4,5
+
+[ab186f35-d331-4ad3-9e4c-d16af86fc0b7]
+Description=Application settings for spotify
+clientmachine=archlinux.CUMPUTER
+desktops=63c27e62-735f-43ee-813e-8f7765c436a8
+desktopsrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=spotify
+wmclassmatch=1

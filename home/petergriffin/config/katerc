@@ -127,7 +127,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Search History=ascii,kde,refresh
+Search History=mpv,dispaly,wayland,size,font,subtitles,mecab,sqlite,anki,ascii,kde,refresh
 
 [MainWindow]
 DP-1 Height 2560x1440 DP-1=891

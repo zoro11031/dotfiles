@@ -1,12 +1,12 @@
 [Document 0]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=None
+Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Normal
+Mode=Bash
 Mode Set By User=false
-URL=file:///home/petergriffin/.config/mpv/input.conf
+URL=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/bin/game2text.sh
 
 [Kate Plugins]
 cmaketoolsplugin=false
@@ -58,7 +58,7 @@ Kate-MDI-Sidebar-2-Splitter=1236
 Kate-MDI-Sidebar-3-Bar-0-TvList=output,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin,kate_lspclient
 Kate-MDI-Sidebar-3-LastSize=200
 Kate-MDI-Sidebar-3-SectSizes=0
-Kate-MDI-Sidebar-3-Splitter=934
+Kate-MDI-Sidebar-3-Splitter=942
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-kate_lspclient-Position=3
@@ -108,17 +108,17 @@ Orientation=1
 Sizes=1236
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/petergriffin/.config/mpv/input.conf
+Active View=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/bin/game2text.sh
 Count=1
-Documents=file:///home/petergriffin/.config/mpv/input.conf
-View 0=file:///home/petergriffin/.config/mpv/input.conf
+Documents=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/bin/game2text.sh
+View 0=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/bin/game2text.sh
 
-[MainWindow0-ViewSpace 0 file:///home/petergriffin/.config/mpv/input.conf]
-CursorColumn=0
-CursorLine=0
+[MainWindow0-ViewSpace 0 file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/bin/game2text.sh]
+CursorColumn=83
+CursorLine=2
 Dynamic Word Wrap=true
 JumpList=
-TextFolding={"checksum":"d915bce0d2984f8651f2de2054cded236123f063","ranges":[]}
+TextFolding={"checksum":"6554aaa7fd4c04c64d7f3cb03d9bbf236ed84144","ranges":[]}
 ViMarks=
 
 [Open Documents]
@@ -141,7 +141,7 @@ View Style=DetailTree
 auto sync folder=true
 filter history=
 highlight current file=true
-location=file:///home/petergriffin/.config/mpv/
+location=file:///home/petergriffin/Documents/dotfiles/home/petergriffin/local/share/bin/
 
 [Plugin:kateprojectplugin:]
 projects=
@@ -170,23 +170,23 @@ SearchDiskFiless=
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.config/hypr/hyprland.conf
-File10[$e]=$HOME/.config/mpv/input.conf
-File2[$e]=$HOME/.config/waybar/config
-File3[$e]=$HOME/.config/plasma-workspace/env/fcitx.sh
-File4[$e]=$HOME/.config/plasma-workspace/env/gtk.sh
-File5[$e]=$HOME/Documents/dotfiles/home/petergriffin/config/plasma-workspace/env/wayland.sh
-File6[$e]=$HOME/.config/plasma-workspace/env/wayland.sh
-File7[$e]=$HOME/.config/fastfetch/config.conf
-File8[$e]=$HOME/.ssh/id_rsa.pub
-File9[$e]=$HOME/.config/fcitx5/conf/classicui.conf
-Name1[$e]=hyprland.conf
-Name10[$e]=input.conf
-Name2[$e]=config
-Name3[$e]=fcitx.sh
-Name4[$e]=gtk.sh
-Name5[$e]=wayland.sh
-Name6[$e]=wayland.sh
-Name7[$e]=config.conf
-Name8[$e]=id_rsa.pub
-Name9[$e]=classicui.conf
+File1[$e]=$HOME/.config/memento/memento.conf
+File10[$e]=$HOME/Documents/dotfiles/home/petergriffin/local/share/bin/game2text.sh
+File2[$e]=$HOME/.local/bin/pacman
+File3[$e]=$HOME/.profile
+File4[$e]=$HOME/.config/fish/config.fish
+File5[$e]=$HOME/Documents/firefox.desktop
+File6[$e]=$HOME/.config/mimeapps.list
+File7[$e]=$HOME/.local/share/applications/archlinux-game2text.desktop
+File8[$e]=$HOME/.local/bin/game2text.sh
+File9[$e]=$HOME/Documents/dotfiles/home/petergriffin/local/share/applications/archlinux-game2text.desktop
+Name1[$e]=memento.conf
+Name10[$e]=game2text.sh
+Name2[$e]=pacman
+Name3[$e]=.profile
+Name4[$e]=config.fish
+Name5[$e]=firefox.desktop
+Name6[$e]=mimeapps.list
+Name7[$e]=archlinux-game2text.desktop
+Name8[$e]=game2text.sh
+Name9[$e]=archlinux-game2text.desktop
