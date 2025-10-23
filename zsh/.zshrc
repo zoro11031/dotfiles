@@ -123,7 +123,11 @@ zstyle ':completion:*:match:*' original only
 zstyle ':completion:*:approximate:*' max-errors 1 numeric
 
 # fzf-tab integration - only if the plugin loaded successfully
-if (( ${+functions[_fzf_tab_init]} )); then
+# We check for the existence of the internal function _fzf_tab_init as an indicator that fzf-tab is loaded.
+# Note: This function name may change between plugin versions. If so, update this check accordingly.
+# As a fallback, also check for the presence of the fzf-tab main script in $fpath.
+if (( ${+functions[_fzf_tab_init]} )) || \
+   [[ -n ${(M)fpath:#*fzf-tab*} ]]; then
   # Disable default menu for fzf-tab
   zstyle ':completion:*' menu no
   zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
