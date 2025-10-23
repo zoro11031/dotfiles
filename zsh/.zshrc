@@ -110,7 +110,7 @@ zstyle ':completion:*:approximate:*' max-errors 1 numeric
 # ========================================
 # fzf-tab - MUST load AFTER compinit but BEFORE syntax highlighting
 # This is critical for fzf-tab to work properly!
-zinit light Aloxaf/fzf-tab
+zinit light Aloxaf/fzf-tab 2>/dev/null || true
 
 # fzf-tab configuration - Enable fzf-tab menu and features
 # Disable default menu to let fzf-tab take over
