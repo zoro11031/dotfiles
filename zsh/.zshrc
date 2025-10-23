@@ -39,13 +39,23 @@ fi
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
 # Download Zinit, if it's not there yet
-if [ ! -d "$ZINIT_HOME" ]; then
+if [[ ! -d "$ZINIT_HOME" ]]; then
    mkdir -p "$(dirname $ZINIT_HOME)"
-   git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+   if command -v git &> /dev/null; then
+     git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME" 2>/dev/null
+   else
+     echo "Warning: git not found, cannot install zinit" >&2
+   fi
 fi
 
-# Source/Load zinit
-source "${ZINIT_HOME}/zinit.zsh"
+# Source/Load zinit - only if it exists
+if [[ -f "${ZINIT_HOME}/zinit.zsh" ]]; then
+  source "${ZINIT_HOME}/zinit.zsh"
+else
+  echo "Warning: zinit not found at ${ZINIT_HOME}" >&2
+  # Define dummy zinit functions so config doesn't break
+  zinit() { : }
+fi
 
 # ========================================
 # Powerlevel10k Theme
@@ -55,22 +65,26 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # ========================================
 # Zinit Plugins
 # ========================================
-# Syntax highlighting & completions
-zinit light zdharma-continuum/fast-syntax-highlighting
+# Core completions - Load first for best compatibility
 zinit light zsh-users/zsh-completions
+
+# Syntax highlighting & autosuggestions
+zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
-zinit light Aloxaf/fzf-tab
+
+# fzf-tab - Enhanced completion with fzf (optional, won't break completion if fails)
+zinit light Aloxaf/fzf-tab 2>/dev/null || true
 
 # Additional useful plugins
-zinit light hlissner/zsh-autopair
+zinit light hlissner/zsh-autopair 2>/dev/null || true
 
 # OMZ snippets for compatibility
 zinit snippet OMZL::git.zsh
 zinit snippet OMZP::git
 zinit snippet OMZP::sudo
-zinit snippet OMZP::command-not-found
+zinit snippet OMZP::command-not-found 2>/dev/null || true
 
-# History substring search (replacement for OMZ plugin)
+# History substring search
 zinit light zsh-users/zsh-history-substring-search
 
 # ========================================
@@ -85,29 +99,36 @@ else
   compinit -C
 fi
 
-# Replay cached completions
+# Replay cached completions from zinit
 zinit cdreplay -q
 
-# Completion styling
+# Basic completion settings - ALWAYS enabled for tab completion to work
+zstyle ':completion:*' completer _complete _match _approximate
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-zstyle ':completion:*' use-cache on
-zstyle ':completion:*' cache-path "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/zcompdump"
-zstyle ':completion:*' accept-exact '*(N)'
-zstyle ':completion:*' squeeze-slashes true
 zstyle ':completion:*' menu select
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' group-name ''
 zstyle ':completion:*:descriptions' format '%F{yellow}-- %d --%f'
+
+# Caching for better performance
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/zcompdump"
+
+# Additional completion tweaks
+zstyle ':completion:*' accept-exact '*(N)'
+zstyle ':completion:*' squeeze-slashes true
 zstyle ':completion:*' list-suffixes
 zstyle ':completion:*' expand prefix suffix
-zstyle ':completion:*' completer _complete _match _approximate
 zstyle ':completion:*:match:*' original only
 zstyle ':completion:*:approximate:*' max-errors 1 numeric
 
-# fzf-tab styling
-zstyle ':completion:*' menu no
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
-zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+# fzf-tab integration - only if the plugin loaded successfully
+if (( ${+functions[_fzf_tab_init]} )); then
+  # Disable default menu for fzf-tab
+  zstyle ':completion:*' menu no
+  zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
+  zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+fi
 
 # ========================================
 # History Configuration
@@ -378,20 +399,23 @@ alias zsh-rehash='rehash && compinit'
 # ========================================
 # FZF Integration
 # ========================================
-if [[ -f /usr/share/fzf/key-bindings.zsh ]]; then
-  export FZF_BASE=/usr/share/fzf
-  source /usr/share/fzf/key-bindings.zsh
-  source /usr/share/fzf/completion.zsh
-elif command -v fzf &> /dev/null; then
-  # Use fzf's built-in integration
-  eval "$(fzf --zsh)"
+if command -v fzf &> /dev/null; then
+  # Try system installation first
+  if [[ -f /usr/share/fzf/key-bindings.zsh ]]; then
+    export FZF_BASE=/usr/share/fzf
+    source /usr/share/fzf/key-bindings.zsh 2>/dev/null
+    source /usr/share/fzf/completion.zsh 2>/dev/null
+  else
+    # Use fzf's built-in integration if available
+    eval "$(fzf --zsh 2>/dev/null)" || true
+  fi
 fi
 
 # ========================================
 # Zoxide Integration (better cd)
 # ========================================
 if command -v zoxide &> /dev/null; then
-  eval "$(zoxide init --cmd cd zsh)"
+  eval "$(zoxide init --cmd cd zsh 2>/dev/null)" || true
 fi
 
 # ========================================
