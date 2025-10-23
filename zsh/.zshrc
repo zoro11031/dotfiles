@@ -81,7 +81,7 @@ autoload -Uz compinit
 # WARNING: -C bypasses security checks - use temporarily only!
 # Proper fix: run 'compaudit' and fix permissions on reported directories
 if compinit 2>/tmp/compinit.log; then
-  true
+  # compinit succeeded; nothing to do
 else
   echo "⚠️  compinit failed - running with -C (bypassing security checks)" >&2
   echo "   Check /tmp/compinit.log for details" >&2
