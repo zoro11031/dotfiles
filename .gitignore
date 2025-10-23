@@ -15,8 +15,10 @@ Thumbs.db
 .*.swo
 
 # Local customizations (user-specific files that shouldn't be shared)
-*local*
 *.local
+*local.sh
+*local.bash
+*local.zsh
 
 # vim
 .vim/plugged/
