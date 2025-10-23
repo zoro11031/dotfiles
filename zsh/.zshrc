@@ -73,12 +73,19 @@ zinit light zsh-users/zsh-completions
 # ========================================
 autoload -Uz compinit
 
-# Only rebuild completion cache once per day
-if [[ -n ${ZDOTDIR:-$HOME}/.zcompdump(#qNmh+24) ]]; then
-  compinit
+# Initialize completion system with fallback for errors
+# If compinit fails (e.g., due to insecure directories), retry with -C flag
+if compinit 2>/tmp/compinit.log; then
+  true
 else
   compinit -C
 fi
+
+# Note: If tab completion is broken, check for insecure directories:
+#   1. Run: compaudit
+#   2. Fix permissions: chmod -R go-w <reported-directories>
+#   3. Clear caches: rm -f ~/.zcompdump* ${XDG_CACHE_HOME:-$HOME/.cache}/zsh/zcompdump*
+#   4. Restart shell
 
 # Replay cached completions from zinit
 zinit cdreplay -q
