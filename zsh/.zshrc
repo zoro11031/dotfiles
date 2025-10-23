@@ -80,17 +80,17 @@ autoload -Uz compinit
 # If compinit fails (e.g., due to insecure directories), retry with -C flag
 # WARNING: -C bypasses security checks - use temporarily only!
 # Proper fix: run 'compaudit' and fix permissions on reported directories
-if compinit 2>/tmp/compinit.log; then
-  # compinit succeeded; nothing to do
+if compinit 2>"${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit.log"; then
+  true
 else
   echo "⚠️  compinit failed - running with -C (bypassing security checks)" >&2
-  echo "   Check /tmp/compinit.log for details" >&2
+  echo "   Check ${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit.log for details" >&2
   echo "   Run 'zsh-fix-completion' to properly fix permissions" >&2
   compinit -C
 fi
 
 # IMPORTANT: If tab completion is broken after restart:
-#   1. Check errors: cat /tmp/compinit.log
+#   1. Check errors: cat ${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit.log
 #   2. Check insecure dirs: compaudit
 #   3. Run the fix utility: zsh-fix-completion
 # Do NOT rely on -C flag permanently - fix the root cause!
