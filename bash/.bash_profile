@@ -1,9 +1,8 @@
-# ~/.bash_profile - Bash login configuration
+# .bash_profile
 
-# Source .bashrc if it exists
+# Get the aliases and functions
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
 # User specific environment and startup programs
-export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
