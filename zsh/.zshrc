@@ -525,12 +525,12 @@ zsh-fix-completion() {
   # Rebuild completions
   echo "Rebuilding completions..."
   autoload -Uz compinit
-  compinit 2>&1 | tee /tmp/compinit-rebuild.log
+  compinit 2>&1 | tee "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit-rebuild.log"
 
-  if [[ -s /tmp/compinit-rebuild.log ]]; then
+  if [[ -s "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit-rebuild.log" ]]; then
     echo ""
     echo "⚠️  Errors during rebuild:"
-    cat /tmp/compinit-rebuild.log
+    cat "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit-rebuild.log"
   else
     echo "  ✓ Completions rebuilt successfully"
   fi
