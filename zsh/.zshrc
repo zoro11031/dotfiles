@@ -63,29 +63,10 @@ fi
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # ========================================
-# Zinit Plugins
+# Zinit Plugins - PART 1: Before compinit
 # ========================================
-# Core completions - Load first for best compatibility
+# Core completions - Must load BEFORE compinit
 zinit light zsh-users/zsh-completions
-
-# Syntax highlighting & autosuggestions
-zinit light zdharma-continuum/fast-syntax-highlighting
-zinit light zsh-users/zsh-autosuggestions
-
-# fzf-tab - Enhanced completion with fzf (optional, won't break completion if fails)
-zinit light Aloxaf/fzf-tab 2>/dev/null || true
-
-# Additional useful plugins
-zinit light hlissner/zsh-autopair 2>/dev/null || true
-
-# OMZ snippets for compatibility
-zinit snippet OMZL::git.zsh
-zinit snippet OMZP::git
-zinit snippet OMZP::sudo
-zinit snippet OMZP::command-not-found 2>/dev/null || true
-
-# History substring search
-zinit light zsh-users/zsh-history-substring-search
 
 # ========================================
 # Completion System
@@ -102,10 +83,12 @@ fi
 # Replay cached completions from zinit
 zinit cdreplay -q
 
-# Basic completion settings - ALWAYS enabled for tab completion to work
+# ========================================
+# Completion Styling (configure BEFORE loading fzf-tab)
+# ========================================
+# Basic completion settings
 zstyle ':completion:*' completer _complete _match _approximate
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-zstyle ':completion:*' menu select
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' group-name ''
 zstyle ':completion:*:descriptions' format '%F{yellow}-- %d --%f'
@@ -122,17 +105,34 @@ zstyle ':completion:*' expand prefix suffix
 zstyle ':completion:*:match:*' original only
 zstyle ':completion:*:approximate:*' max-errors 1 numeric
 
-# fzf-tab integration - only if the plugin loaded successfully
-# We check for the existence of the internal function _fzf_tab_init as an indicator that fzf-tab is loaded.
-# Note: This function name may change between plugin versions. If so, update this check accordingly.
-# As a fallback, also check for the presence of the fzf-tab main script in $fpath.
-if (( ${+functions[_fzf_tab_init]} )) || \
-   [[ -n ${(M)fpath:#*fzf-tab*} ]]; then
-  # Disable default menu for fzf-tab
-  zstyle ':completion:*' menu no
-  zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
-  zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
-fi
+# ========================================
+# Zinit Plugins - PART 2: After compinit
+# ========================================
+# fzf-tab - MUST load AFTER compinit but BEFORE syntax highlighting
+# This is critical for fzf-tab to work properly!
+zinit light Aloxaf/fzf-tab 2>/dev/null || true
+
+# fzf-tab configuration - Enable fzf-tab menu and features
+# Disable default menu to let fzf-tab take over
+zstyle ':completion:*' menu no
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
+zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+
+# Syntax highlighting & autosuggestions - MUST load AFTER fzf-tab
+zinit light zdharma-continuum/fast-syntax-highlighting
+zinit light zsh-users/zsh-autosuggestions
+
+# Additional useful plugins
+zinit light hlissner/zsh-autopair 2>/dev/null || true
+
+# OMZ snippets for compatibility
+zinit snippet OMZL::git.zsh
+zinit snippet OMZP::git
+zinit snippet OMZP::sudo
+zinit snippet OMZP::command-not-found 2>/dev/null || true
+
+# History substring search
+zinit light zsh-users/zsh-history-substring-search
 
 # ========================================
 # History Configuration
