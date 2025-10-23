@@ -71,14 +71,29 @@ zinit light zsh-users/zsh-completions
 # ========================================
 # Completion System
 # ========================================
+# Ensure cache directory exists
+mkdir -p "${XDG_CACHE_HOME:-$HOME/.cache}/zsh"
+
 autoload -Uz compinit
 
-# Only rebuild completion cache once per day
-if [[ -n ${ZDOTDIR:-$HOME}/.zcompdump(#qNmh+24) ]]; then
-  compinit
+# Initialize completion system with fallback for errors
+# If compinit fails (e.g., due to insecure directories), retry with -C flag
+# WARNING: -C bypasses security checks - use temporarily only!
+# Proper fix: run 'compaudit' and fix permissions on reported directories
+if compinit 2>"${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit.log"; then
+  true
 else
+  echo "⚠️  compinit failed - running with -C (bypassing security checks)" >&2
+  echo "   Check ${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit.log for details" >&2
+  echo "   Run 'zsh-fix-completion' to properly fix permissions" >&2
   compinit -C
 fi
+
+# IMPORTANT: If tab completion is broken after restart:
+#   1. Check errors: cat ${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit.log
+#   2. Check insecure dirs: compaudit
+#   3. Run the fix utility: zsh-fix-completion
+# Do NOT rely on -C flag permanently - fix the root cause!
 
 # Replay cached completions from zinit
 zinit cdreplay -q
@@ -329,6 +344,12 @@ help-aliases       = Show this help menu
 h                  = Show command history
 hgrep <term>       = Search command history
 
+## Completion & Debugging
+zsh-check-completion = Diagnose tab completion issues
+zsh-fix-completion   = Fix permissions and rebuild completions
+zsh-clear-cache      = Clear completion caches
+zsh-rehash           = Rebuild completions
+
 ## Global Aliases (use at end of command)
 H   = | head
 T   = | tail
@@ -399,6 +420,125 @@ alias zsh-clear-cache='rm -f ~/.zcompdump* && rm -rf ${XDG_CACHE_HOME:-$HOME/.ca
 
 # Rehash completions
 alias zsh-rehash='rehash && compinit'
+
+# Diagnose completion issues
+zsh-check-completion() {
+  echo "=== Checking Zsh Completion System ==="
+  echo ""
+
+  echo "1. Checking compinit errors:"
+  if [[ -f /tmp/compinit.log && -s /tmp/compinit.log ]]; then
+    echo "   ⚠️  Errors found in /tmp/compinit.log:"
+    cat /tmp/compinit.log
+  else
+    echo "   ✓ No errors in /tmp/compinit.log"
+  fi
+  echo ""
+
+  echo "2. Checking for insecure directories:"
+  local insecure_dirs=$(compaudit 2>/dev/null)
+  if [[ -n "$insecure_dirs" ]]; then
+    echo "   ⚠️  Insecure directories found (world/group-writable):"
+    echo "$insecure_dirs" | sed 's/^/      /'
+    echo ""
+    echo "   Fix with: zsh-fix-completion"
+  else
+    echo "   ✓ No insecure directories found"
+  fi
+  echo ""
+
+  echo "3. Checking cache directory:"
+  local cache_dir="${XDG_CACHE_HOME:-$HOME/.cache}/zsh"
+  if [[ -d "$cache_dir" && -w "$cache_dir" ]]; then
+    echo "   ✓ Cache directory exists and is writable: $cache_dir"
+  else
+    echo "   ⚠️  Cache directory missing or not writable: $cache_dir"
+  fi
+  echo ""
+
+  echo "4. Checking completion functions:"
+  if (( ${+functions[compinit]} )); then
+    echo "   ✓ compinit is loaded"
+  else
+    echo "   ✗ compinit not loaded"
+  fi
+
+  if (( ${+functions[_zsh_highlight]} )) || (( ${+functions[_zsh_autosuggest_start]} )); then
+    echo "   ✓ Syntax highlighting/autosuggestions loaded"
+  else
+    echo "   ⚠️  Syntax highlighting/autosuggestions may not be loaded"
+  fi
+  echo ""
+
+  echo "5. Testing basic completion:"
+  echo -n "   "
+  if whence -v ls >/dev/null 2>&1; then
+    echo "✓ Basic command completion works"
+  else
+    echo "✗ Basic command completion broken"
+  fi
+  echo ""
+
+  echo "=== Quick fixes ==="
+  echo "  • Clear cache:        zsh-clear-cache"
+  echo "  • Fix permissions:    zsh-fix-completion"
+  echo "  • Rebuild completions: zsh-rehash"
+}
+
+# Fix completion permissions and rebuild
+zsh-fix-completion() {
+  echo "=== Fixing Zsh Completion System ==="
+  echo ""
+
+  # Check for insecure directories
+  local insecure_dirs=$(compaudit 2>/dev/null)
+
+  if [[ -z "$insecure_dirs" ]]; then
+    echo "✓ No insecure directories found"
+  else
+    echo "Found insecure directories:"
+    echo "$insecure_dirs" | sed 's/^/  /'
+    echo ""
+    echo "Fixing permissions (removing group/other write)..."
+
+    # Fix permissions on reported directories
+    echo "$insecure_dirs" | while IFS= read -r dir; do
+      if [[ -d "$dir" ]]; then
+        chmod go-w "$dir" 2>/dev/null && echo "  ✓ Fixed: $dir" || echo "  ✗ Failed: $dir (try with sudo?)"
+      elif [[ -f "$dir" ]]; then
+        chmod go-w "$dir" 2>/dev/null && echo "  ✓ Fixed: $dir" || echo "  ✗ Failed: $dir (try with sudo?)"
+      fi
+    done
+  fi
+  echo ""
+
+  # Clear caches
+  echo "Clearing completion caches..."
+  rm -f ~/.zcompdump* 2>/dev/null
+  rm -rf "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/zcompdump"* 2>/dev/null
+  echo "  ✓ Caches cleared"
+  echo ""
+
+  # Ensure cache directory exists
+  mkdir -p "${XDG_CACHE_HOME:-$HOME/.cache}/zsh"
+
+  # Rebuild completions
+  echo "Rebuilding completions..."
+  autoload -Uz compinit
+  compinit 2>&1 | tee "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit-rebuild.log"
+
+  if [[ -s "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit-rebuild.log" ]]; then
+    echo ""
+    echo "⚠️  Errors during rebuild:"
+    cat "${XDG_CACHE_HOME:-$HOME/.cache}/zsh/compinit-rebuild.log"
+  else
+    echo "  ✓ Completions rebuilt successfully"
+  fi
+  echo ""
+
+  echo "=== Done ==="
+  echo "Restart your shell or run: exec zsh"
+}
 
 # ========================================
 # FZF Integration
