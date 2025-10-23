@@ -504,7 +504,7 @@ zsh-fix-completion() {
     # Fix permissions on reported directories
     echo "$insecure_dirs" | while IFS= read -r dir; do
       if [[ -d "$dir" ]]; then
-        chmod -R go-w "$dir" 2>/dev/null && echo "  ✓ Fixed: $dir" || echo "  ✗ Failed: $dir (try with sudo?)"
+        chmod go-w "$dir" 2>/dev/null && echo "  ✓ Fixed: $dir" || echo "  ✗ Failed: $dir (try with sudo?)"
       elif [[ -f "$dir" ]]; then
         chmod go-w "$dir" 2>/dev/null && echo "  ✓ Fixed: $dir" || echo "  ✗ Failed: $dir (try with sudo?)"
       fi
