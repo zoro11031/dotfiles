@@ -26,12 +26,13 @@ source "${ZINIT_HOME}/zinit.zsh"
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # Add in zsh plugins
-zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-completions
-zinit light zsh-users/zsh-history-substring-search
 zinit light zsh-users/zsh-autosuggestions
 zinit light hlissner/zsh-autopair
 zinit light Aloxaf/fzf-tab
+zinit light zdharma-continuum/fast-syntax-highlighting
+zinit light zsh-users/zsh-history-substring-search
+
 
 # Add in snippets
 zinit snippet OMZL::git.zsh
