@@ -2,24 +2,6 @@
 
 My personal dotfiles managed with [GNU Stow](https://www.gnu.org/software/stow/) for easy synchronization across laptop and desktop.
 
-## System Configuration
-
-- **OS**: Fedora Linux 42 (KDE Plasma Desktop Edition)
-- **Host**: Framework Laptop 13 (AMD Ryzen 7040 Series) (A5)
-- **Kernel**: Linux 6.16.12-200.fc42.x86_64
-- **Desktop Environment**: KDE Plasma 6.4.5
-- **Window Manager**: KWin (Wayland)
-- **Shell**: zsh 5.9
-- **Terminal**: ghostty 1.2.2-1.fc42
-- **Terminal Font**: JetBrains Mono (11pt)
-- **Theme**: Breeze (Dark) [Qt], Breeze-Dark [GTK2/3/4]
-- **Icons**: breeze-dark
-- **Font**: Noto Sans (10pt)
-- **Cursor**: breeze (24px)
-- **CPU**: AMD Ryzen 5 7640U (12) @ 4.97 GHz
-- **GPU**: AMD Radeon 760M Graphics [Integrated]
-- **Memory**: 14.92 GiB
-
 ## What is GNU Stow?
 
 GNU Stow is a symlink farm manager which makes it easy to manage dotfiles. Instead of copying configuration files around, Stow creates symlinks from your home directory to the files in this repository. This approach allows you to:
