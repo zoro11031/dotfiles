@@ -14,7 +14,11 @@ export PATH
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
+# Dotfiles location
+export DOTFILES="${DOTFILES:-$HOME/.dotfiles}"
+
 # User specific aliases and functions
+alias restow='(cd "$DOTFILES" && ./install.sh -r)'
 if [ -d ~/.bashrc.d ]; then
     for rc in ~/.bashrc.d/*; do
         if [ -f "$rc" ]; then
