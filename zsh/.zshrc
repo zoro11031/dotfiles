@@ -85,7 +85,7 @@ export DOTFILES="${DOTFILES:-$HOME/.dotfiles}"
 alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
-alias restow='(cd "$DOTFILES" && ./install.sh -r && cd -)'
+alias restow='(cd "$DOTFILES" && ./install.sh -r)'
 
 # Shell integrations
 eval "$(fzf --zsh)"

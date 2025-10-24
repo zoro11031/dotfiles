@@ -18,7 +18,7 @@ export PATH
 export DOTFILES="${DOTFILES:-$HOME/.dotfiles}"
 
 # User specific aliases and functions
-alias restow='(cd "$DOTFILES" && ./install.sh -r && cd -)'
+alias restow='(cd "$DOTFILES" && ./install.sh -r)'
 if [ -d ~/.bashrc.d ]; then
     for rc in ~/.bashrc.d/*; do
         if [ -f "$rc" ]; then
