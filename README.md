@@ -50,11 +50,21 @@ Each package contains files organized as they would appear in your home director
 
 ### Clone the Repository
 
-First, clone this repository to your home directory or any preferred location:
+First, clone this repository to your home directory or any preferred location. By default the
+configuration files expect to live in `~/.dotfiles`, but you can override that by exporting a
+`DOTFILES` environment variable that points to the repository.
 
 ```bash
-git clone https://github.com/zoro11031/dotfiles.git ~/dotfiles
-cd ~/dotfiles
+git clone https://github.com/zoro11031/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+```
+
+If you would rather keep the repository elsewhere, set the environment variable accordingly before
+running the scripts. For example:
+
+```bash
+export DOTFILES="$HOME/dotfiles"
+cd "$DOTFILES"
 ```
 
 ### Install All Packages
@@ -78,7 +88,7 @@ To install only specific packages:
 You can also manually install packages using stow:
 
 ```bash
-cd ~/dotfiles
+cd "$DOTFILES"
 stow bash     # Install bash configuration
 stow git      # Install git configuration
 stow vim      # Install vim configuration
@@ -95,7 +105,7 @@ To uninstall packages, use the uninstall flag:
 Or manually with stow:
 
 ```bash
-cd ~/dotfiles
+cd "$DOTFILES"
 stow -D bash  # Remove bash configuration
 ```
 
@@ -105,7 +115,7 @@ To update your dotfiles:
 
 1. Pull the latest changes:
    ```bash
-   cd ~/dotfiles
+   cd "$DOTFILES"
    git pull
    ```
 
@@ -174,7 +184,7 @@ To sync dotfiles across multiple machines:
 
 1. **First machine (initial setup):**
    ```bash
-   cd ~/dotfiles
+   cd "$DOTFILES"
    # Make your changes
    git add .
    git commit -m "Your changes"
@@ -183,7 +193,7 @@ To sync dotfiles across multiple machines:
 
 2. **Other machines (sync):**
    ```bash
-   cd ~/dotfiles
+   cd "$DOTFILES"
    git pull
    ./install.sh --reinstall
    ```
