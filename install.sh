@@ -32,6 +32,32 @@ get_packages() {
     find "$STOW_DIR" -maxdepth 1 -type d ! -path "$STOW_DIR" ! -name ".*" -exec basename {} \;
 }
 
+# Delink any .bak files that were previously stowed
+delink_bak_files() {
+    echo -e "${YELLOW}Checking for stowed .bak files...${NC}"
+    local found=0
+
+    # Find all symlinks in target directory that point to .bak files in stow packages
+    while IFS= read -r -d '' symlink; do
+        local target
+        target=$(readlink "$symlink")
+
+        # Check if the symlink target points to a .bak file in the dotfiles directory
+        if [[ "$target" == *".bak" ]] && [[ "$target" == "$STOW_DIR"* || "$target" == "."* ]]; then
+            echo -e "${YELLOW}  Removing stowed .bak file: $symlink${NC}"
+            rm -f "$symlink"
+            found=$((found + 1))
+        fi
+    done < <(find "$TARGET_DIR" -type l -print0 2>/dev/null)
+
+    if [ $found -eq 0 ]; then
+        echo -e "${GREEN}  No stowed .bak files found${NC}"
+    else
+        echo -e "${GREEN}  Removed $found stowed .bak file(s)${NC}"
+    fi
+    echo ""
+}
+
 # Install a single package
 install_package() {
     local package=$1
@@ -125,7 +151,10 @@ main() {
     echo "Packages to $mode:"
     printf '  - %s\n' "${packages[@]}"
     echo ""
-    
+
+    # Delink any .bak files before processing packages
+    delink_bak_files
+
     # Process each package
     local failed=0
     for package in "${packages[@]}"; do

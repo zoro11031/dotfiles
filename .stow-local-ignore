@@ -20,4 +20,4 @@
 \.swp$
 \.swo$
 
-\.bak #Ignore backups
+\.bak$ # Ignore backup files
