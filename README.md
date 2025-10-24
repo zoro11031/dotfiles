@@ -63,7 +63,7 @@ If you would rather keep the repository elsewhere, set the environment variable 
 running the scripts. For example:
 
 ```bash
-export DOTFILES="$HOME/dotfiles"
+export DOTFILES="$HOME/my-dotfiles"
 cd "$DOTFILES"
 ```
 
