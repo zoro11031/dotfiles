@@ -6,7 +6,6 @@ window-padding-y = 8
 background-opacity = 0.95
 background = #31363b
 foreground = #eff0f1
-cursor-color = #3daee9
 palette = 0=#232629
 palette = 1=#ed1515
 palette = 2=#11d116
