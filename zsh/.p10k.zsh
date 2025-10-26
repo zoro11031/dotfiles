@@ -348,7 +348,30 @@
   # parameter. For example, if POWERLEVEL9K_DIR_WORK_NOT_WRITABLE_FOREGROUND is not set, it falls
   # back to POWERLEVEL9K_DIR_FOREGROUND.
   #
-  typeset -g POWERLEVEL9K_DIR_CLASSES=()
+  typeset -g POWERLEVEL9K_DIR_CLASSES=(
+    '~'                HOME        ''
+    '~/*'              HOME        ''
+    '*/Downloads(|/*)' DOWNLOADS   ''
+    '*/Documents(|/*)' DOCUMENTS   ''
+    '*/.config(|/*)'   CONFIG      ''
+    '*'                DEFAULT     ''
+  )
+
+  # Home directory styling with Nerd Font icon
+  # The following contains a Nerd Font icon character (U+F015, "home" icon).
+  # It may appear empty in some editors if the font does not support Nerd Font icons.
+  typeset -g POWERLEVEL9K_DIR_HOME_VISUAL_IDENTIFIER_EXPANSION=''
+  typeset -g POWERLEVEL9K_DIR_HOME_BACKGROUND=39
+  typeset -g POWERLEVEL9K_DIR_HOME_FOREGROUND=232
+
+  # Downloads directory styling
+  typeset -g POWERLEVEL9K_DIR_DOWNLOADS_VISUAL_IDENTIFIER_EXPANSION=''
+
+  # Documents directory styling
+  typeset -g POWERLEVEL9K_DIR_DOCUMENTS_VISUAL_IDENTIFIER_EXPANSION=''
+
+  # Config directory styling
+  typeset -g POWERLEVEL9K_DIR_CONFIG_VISUAL_IDENTIFIER_EXPANSION=''
 
   # Custom prefix.
   # typeset -g POWERLEVEL9K_DIR_PREFIX='in '
@@ -362,7 +385,7 @@
   typeset -g POWERLEVEL9K_VCS_LOADING_BACKGROUND=8
 
   # Branch icon. Set this parameter to '\UE0A0 ' for the popular Powerline branch icon.
-  typeset -g POWERLEVEL9K_VCS_BRANCH_ICON=
+  typeset -g POWERLEVEL9K_VCS_BRANCH_ICON=$'\uf418 ' # Nerd Font git branch icon
 
   # Untracked files icon. It's really a question mark, your font isn't broken.
   # Change the value of this parameter to show a different icon.
