@@ -358,6 +358,8 @@
   )
 
   # Home directory styling with Nerd Font icon
+  # The following contains a Nerd Font icon character (U+F015, "home" icon).
+  # It may appear empty in some editors if the font does not support Nerd Font icons.
   typeset -g POWERLEVEL9K_DIR_HOME_VISUAL_IDENTIFIER_EXPANSION=''
   typeset -g POWERLEVEL9K_DIR_HOME_BACKGROUND=39
   typeset -g POWERLEVEL9K_DIR_HOME_FOREGROUND=232
