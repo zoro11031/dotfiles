@@ -218,7 +218,7 @@
   typeset -g POWERLEVEL9K_DIR_BACKGROUND=39
   # Default current directory foreground color.
   typeset -g POWERLEVEL9K_DIR_FOREGROUND=232
-  # Shorten directories by showing only the first character of each segment
+  # Shorten directories by truncating each segment from the right side,
   # except the last one, which is always shown in full.
   typeset -g POWERLEVEL9K_SHORTEN_STRATEGY=truncate_from_right
   # Replace removed segment suffixes with this symbol.
