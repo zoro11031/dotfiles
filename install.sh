@@ -179,9 +179,8 @@ install_package() {
         return 1
     fi
 
-    local conflict_status=0
     resolve_conflicts "$package"
-    conflict_status=$?
+    local conflict_status=$?
     if [ $conflict_status -ne 0 ]; then
         if [ $conflict_status -eq 2 ]; then
             echo -e "${YELLOW}⚠ Skipped $package at user request${NC}"
