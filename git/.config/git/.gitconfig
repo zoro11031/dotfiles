@@ -1,1 +1,3 @@
-.dotfiles/git/.gitconfig
+[user]
+	name = Justin
+	email = justincaveda11031@gmail.com
