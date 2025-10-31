@@ -5,8 +5,6 @@
 # Usage: ./install.sh [package1] [package2] ...
 # If no packages are specified, all packages will be installed.
 
-set -e
-
 CONFLICT_MODE=""
 BACKUP_DIR=""
 
