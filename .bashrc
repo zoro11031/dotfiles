@@ -27,4 +27,8 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
-[ ! -z "$PS1" ] && exec /usr/bin/zsh
+
+# Check if running interactively and if zsh exists in PATH
+if [ ! -z "$PS1" ] && command -v zsh >/dev/null 2>&1; then
+    exec zsh
+fi
