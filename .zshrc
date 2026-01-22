@@ -201,3 +201,65 @@ extract() {
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+# ============================================================================
+# Ansible Deployment Shortcuts (Storage Server)
+# ============================================================================
+PLAYBOOK_DIR="$HOME/Documents/migration/ansible-playbook"
+alias deploy="ansible-playbook $PLAYBOOK_DIR/playbook.yml --vault-password-file ~/.vault_pass -i $PLAYBOOK_DIR/inventory.ini"
+
+# Full deployment
+alias deploy-all='deploy'
+
+# Component deployments
+alias deploy-storage='deploy --tags storage'
+alias deploy-containers='deploy --tags containers'
+alias deploy-system='deploy --tags system'
+alias deploy-update='deploy --tags update --skip-tags setup'
+alias deploy-portainer='deploy --tags portainer'
+alias deploy-new-disk='deploy --tags add-disk'
+alias deploy-fix-perms='deploy --tags fix-permissions'
+alias deploy-snapraid='deploy --tags snapraid'
+
+# Stack specific deployments
+alias deploy-download='deploy --tags download'
+alias deploy-arr='deploy --tags arr'
+alias deploy-media='deploy --tags media-management'
+alias deploy-immich='deploy --tags immich'
+alias deploy-books='deploy --tags books'
+alias deploy-utils='deploy --tags utilities'
+
+# Docker Shortcuts (Remote)
+alias dps="ssh storage-server 'docker ps --format \"table {{.Names}}\t{{.Status}}\t{{.Ports}}\"'"
+alias dlogs="ssh -t storage-server 'docker logs -f'"
+alias dc="ssh storage-server 'docker compose'"
+
+# Helper to list ALL aliases with their sections
+my-aliases() {
+    echo ""
+    echo "  🚀 \033[1;34mYour Shell Aliases\033[0m"
+    echo "  ------------------"
+    awk '
+        /^# [A-Za-z]/ { 
+            # If line is a section header (comment), capture it
+            header=$0; 
+            sub(/^# /, "", header); 
+        }
+        /^alias/ { 
+            # If we found a header recently and havent printed it, print it now
+            if (header != "") {
+                print "\n\033[1;33m" header "\033[0m"
+                header=""
+            }
+            # Print the alias
+            sub(/^alias /, ""); 
+            # Replace first = with separator
+            sub(/=/, "  →  "); 
+            # Strip quotes
+            gsub(/'\''/, "");
+            print "  " $0 
+        }
+    ' ~/.zshrc
+    echo ""
+}
+
