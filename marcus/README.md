@@ -6,6 +6,8 @@ setup, with the machine-specific deployment aliases removed.
 ## Files
 
 - `.zshrc_template`: copy or template this to `~/.zshrc`
+- `.zshrc_template_minimal`: lighter variant without Powerlevel10k, zinit, or
+  custom keybinding overrides
 
 ## Required dependencies
 
@@ -38,6 +40,8 @@ Install these if Marcus should get the same experience as your config:
   installed yet.
 - Host-specific Ansible aliases, SSH shortcuts, and hardcoded playbook paths
   were intentionally removed.
+- Use `.zshrc_template_minimal` if Marcus should keep your aliases and shell
+  helpers but avoid prompt/font assumptions and opinionated key remaps.
 
 ## Suggested Claude Code prompt
 

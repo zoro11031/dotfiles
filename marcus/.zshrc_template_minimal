@@ -1,0 +1,156 @@
+# Copy this file to ~/.zshrc when you want a lighter baseline without the
+# Powerlevel10k/zinit stack or custom keybinding overrides.
+
+# Detect if we're in a dev container (Docker or Podman).
+if [[ -f "/.dockerenv" ]] || \
+   [[ -n "$REMOTE_CONTAINERS" ]] || \
+   [[ -f "/run/.containerenv" ]]; then
+  INSIDE_CONTAINER=true
+else
+  INSIDE_CONTAINER=false
+fi
+
+# Homebrew on Apple Silicon macOS.
+if [[ -x "/opt/homebrew/bin/brew" ]]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
+
+# History
+HISTSIZE=5000
+HISTFILE="$HOME/.zsh_history"
+SAVEHIST=$HISTSIZE
+HISTDUP=erase
+setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
+
+# Additional useful options
+setopt autocd
+setopt interactive_comments
+setopt extended_glob
+setopt no_beep
+
+# Completion styling
+autoload -Uz compinit
+if [[ -n ${ZDOTDIR:-$HOME}/.zcompdump(#qN.mh+24) ]]; then
+  compinit
+else
+  compinit -C
+fi
+
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+zstyle ':completion:*' menu no
+
+# Environment variables and PATH
+typeset -U path PATH
+[[ -d "$HOME/.npm-global/bin" ]] && path=("$HOME/.npm-global/bin" $path)
+[[ -d "$HOME/.local/bin" ]] && path=("$HOME/.local/bin" $path)
+export DOTFILES="${DOTFILES:-$HOME/.dotfiles}"
+export VISUAL="${VISUAL:-nvim}"
+export EDITOR="${EDITOR:-$VISUAL}"
+
+# Aliases
+alias vim='nvim'
+alias c='clear'
+alias restow='(cd "$DOTFILES" && ./install.sh -r)'
+
+if (( $+commands[eza] )); then
+  alias ls='eza --color=auto --group-directories-first'
+else
+  alias ls='ls --color'
+fi
+
+if (( $+commands[bat] )); then
+  alias cat='bat --paging=never'
+elif (( $+commands[batcat] )); then
+  alias cat='batcat --paging=never'
+fi
+
+alias please='sudo $(fc -ln -1)'
+alias zshrc='${=EDITOR} ${ZDOTDIR:-$HOME}/.zshrc'
+
+alias grep='grep --color'
+alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS}'
+
+alias h='history'
+alias hgrep='fc -El 0 | grep'
+
+alias dud='du -d 1 -h'
+(( $+commands[duf] )) || alias duf='du -sh *'
+
+alias ...='../..'
+alias ....='../../..'
+alias .....='../../../..'
+alias d='dirs -v | head -10'
+
+# Global aliases for piping.
+alias -g H='| head'
+alias -g T='| tail'
+alias -g G='| grep'
+alias -g L='| less'
+alias -g NE='2> /dev/null'
+alias -g NUL='> /dev/null 2>&1'
+
+# Functions
+mkcd() { mkdir -p "$1" && cd "$1"; }
+
+extract() {
+  if [[ -f "$1" ]]; then
+    case "$1" in
+      *.tar.bz2) tar xjf "$1" ;;
+      *.tar.gz) tar xzf "$1" ;;
+      *.tar.xz) tar xJf "$1" ;;
+      *.bz2) bunzip2 "$1" ;;
+      *.gz) gunzip "$1" ;;
+      *.tar) tar xf "$1" ;;
+      *.tbz2) tar xjf "$1" ;;
+      *.tgz) tar xzf "$1" ;;
+      *.zip) unzip "$1" ;;
+      *.Z) uncompress "$1" ;;
+      *.7z) 7z x "$1" ;;
+      *.rar) unrar x "$1" ;;
+      *.zst) unzstd "$1" ;;
+      *) echo "extract: unknown format '$1'" ;;
+    esac
+  else
+    echo "extract: '$1' is not a valid file"
+  fi
+}
+
+# Optional shell integrations
+(( $+commands[fzf] )) && eval "$(fzf --zsh)"
+(( $+commands[zoxide] )) && eval "$(zoxide init --cmd cd zsh)"
+
+my-aliases() {
+  echo ""
+  echo "  Your Shell Aliases"
+  echo "  ------------------"
+  awk '
+    /^# [A-Za-z]/ {
+      header=$0
+      sub(/^# /, "", header)
+    }
+    /^alias/ {
+      if (header != "") {
+        print "\n" header
+        header=""
+      }
+      sub(/^alias /, "")
+      sub(/=/, "  ->  ")
+      gsub(/'\''/, "")
+      print "  " $0
+    }
+  ' ~/.zshrc
+  echo ""
+}
+
+# Project-specific aliases and paths:
+# Add hostnames, playbook paths, SSH shortcuts, or deployment helpers here.
+# Example:
+# export PLAYBOOK_DIR="$HOME/path/to/ansible-playbook"
+# alias deploy='ansible-playbook "$PLAYBOOK_DIR/playbook.yml" -i "$PLAYBOOK_DIR/inventory.ini"'
