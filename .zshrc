@@ -119,7 +119,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Environment variables
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$HOME/.local/bin:$PATH"
 export DOTFILES="${DOTFILES:-$HOME/.dotfiles}"
 export VISUAL=nvim
 export EDITOR=nvim
@@ -205,21 +205,24 @@ eval "$(zoxide init --cmd cd zsh)"
 # ============================================================================
 # Ansible Deployment Shortcuts (Storage Server)
 # ============================================================================
-PLAYBOOK_DIR="$HOME/Documents/migration/ansible-playbook"
+PLAYBOOK_DIR="$HOME/Documents/plex/fileserver/ansible-playbook"
 alias deploy="ansible-playbook $PLAYBOOK_DIR/playbook.yml --vault-password-file ~/.vault_pass -i $PLAYBOOK_DIR/inventory.ini"
 
 # Full deployment
 alias deploy-all='deploy'
 
 # Component deployments
-alias deploy-storage='deploy --tags storage'
-alias deploy-containers='deploy --tags containers'
+alias deploy-storage='deploy --tags storage-only'
+alias deploy-containers='deploy --tags docker-setup'
 alias deploy-system='deploy --tags system'
-alias deploy-update='deploy --tags update --skip-tags setup'
+alias deploy-update='deploy --tags update'
 alias deploy-portainer='deploy --tags portainer'
 alias deploy-new-disk='deploy --tags add-disk'
 alias deploy-fix-perms='deploy --tags fix-permissions'
 alias deploy-snapraid='deploy --tags snapraid'
+alias deploy-mover='deploy --tags mover'
+alias deploy-verify='deploy --tags verify'
+alias deploy-scripts='deploy --tags scripts'
 
 # Stack specific deployments
 alias deploy-download='deploy --tags download'
@@ -230,9 +233,9 @@ alias deploy-books='deploy --tags books'
 alias deploy-utils='deploy --tags utilities'
 
 # Docker Shortcuts (Remote)
-alias dps="ssh storage-server 'docker ps --format \"table {{.Names}}\t{{.Status}}\t{{.Ports}}\"'"
-alias dlogs="ssh -t storage-server 'docker logs -f'"
-alias dc="ssh storage-server 'docker compose'"
+alias dps="ssh admin@storage-server 'docker ps --format \"table {{.Names}}\t{{.Status}}\t{{.Ports}}\"'"
+alias dlogs="ssh -t admin@storage-server 'docker logs -f'"
+alias dc="ssh admin@storage-server 'docker compose'"
 
 # Helper to list ALL aliases with their sections
 my-aliases() {
@@ -240,24 +243,24 @@ my-aliases() {
     echo "  🚀 \033[1;34mYour Shell Aliases\033[0m"
     echo "  ------------------"
     awk '
-        /^# [A-Za-z]/ { 
+        /^# [A-Za-z]/ {
             # If line is a section header (comment), capture it
-            header=$0; 
-            sub(/^# /, "", header); 
+            header=$0;
+            sub(/^# /, "", header);
         }
-        /^alias/ { 
+        /^alias/ {
             # If we found a header recently and havent printed it, print it now
             if (header != "") {
                 print "\n\033[1;33m" header "\033[0m"
                 header=""
             }
             # Print the alias
-            sub(/^alias /, ""); 
+            sub(/^alias /, "");
             # Replace first = with separator
-            sub(/=/, "  →  "); 
+            sub(/=/, "  →  ");
             # Strip quotes
             gsub(/'\''/, "");
-            print "  " $0 
+            print "  " $0
         }
     ' ~/.zshrc
     echo ""
