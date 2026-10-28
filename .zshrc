@@ -119,7 +119,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Environment variables
-export PATH="$HOME/.npm-global/bin:$HOME/.local/bin:$PATH"
+export PATH="$HOME/.kimi-code/bin:$HOME/.npm-global/bin:$HOME/.local/bin:$PATH"
 export DOTFILES="${DOTFILES:-$HOME/.dotfiles}"
 export VISUAL=nvim
 export EDITOR=nvim
